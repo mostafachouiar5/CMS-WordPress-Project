@@ -1,0 +1,43 @@
+:host {
+  display: block;
+}
+
+.coupon-form {
+  position: relative;
+}
+
+.form {
+  opacity: 0;
+  visibility: hidden;
+  height: 0;
+  transition: opacity var(--sc-transition-fast) ease-in-out;
+}
+
+.coupon-form--is-open .form {
+  opacity: 1;
+  visibility: visible;
+  height: auto;
+  margin-top: var(--sc-spacing-small);
+  display: grid;
+  gap: var(--sc-spacing-small);
+}
+.coupon-form--is-open .trigger {
+  color: var(--sc-input-label-color);
+}
+.coupon-form--is-open .trigger:hover {
+  text-decoration: none;
+}
+
+.trigger {
+  cursor: pointer;
+  font-size: var(--sc-font-size-small);
+  color: var(--sc-color-gray-500);
+  user-select: none;
+}
+.trigger:hover {
+  text-decoration: underline;
+}
+
+.order-coupon-form--is-rtl .trigger, .order-coupon-form--is-rtl .trigger:hover {
+  text-align: right;
+}

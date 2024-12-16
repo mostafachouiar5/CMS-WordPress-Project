@@ -1,0 +1,69 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "surecart/product-collection-tags",
+  "title": "Collection Tags",
+  "description": "Displays collection selectors for a product.",
+  "version": "1.0.0",
+  "category": "surecart-product-page",
+  "ancestor": [
+    "surecart/product-page",
+    "surecart/product-template"
+  ],
+  "usesContext": [
+    "postId"
+  ],
+  "attributes": {
+    "count": {
+      "type": "number",
+      "default": 1
+    }
+  },
+  "supports": {
+    "interactivity": true,
+    "html": false,
+    "anchor": true,
+    "layout": {
+      "allowSwitching": false,
+      "allowInheriting": false,
+      "default": {
+        "type": "flex"
+      }
+    },
+    "color": {
+      "__experimentalDefaultControls": {
+        "background": true,
+        "text": true
+      }
+    },
+    "spacing": {
+      "blockGap": {
+        "__experimentalDefault": "3px"
+      },
+      "margin": [
+        "top",
+        "bottom"
+      ],
+      "padding": [
+        "horizontal",
+        "vertical"
+      ]
+    },
+    "__experimentalBorder": {
+      "width": true,
+      "color": true,
+      "radius": true,
+      "__experimentalDefaultControls": {
+        "radius": true,
+        "color": true,
+        "width": true
+      }
+    }
+  },
+  "textdomain": "surecart",
+  "render": "file:./view.php",
+  "editorScript": "file:./index.js",
+  "style": [
+    "file:./style-index.css"
+  ]
+}

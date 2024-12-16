@@ -1,0 +1,1 @@
+{"version":3,"file":"global.js","sourceRoot":"","sources":["../../src/global/global.ts"],"names":[],"mappings":"AAAA,OAAO,aAAa,MAAM,gCAAgC,CAAC;AAC3D,aAAa,EAAE,CAAC;AAChB,OAAO,EAAE,aAAa,EAAE,CAAC","sourcesContent":["import registerIcons from '../components/ui/icon/register';\nregisterIcons();\nexport { registerIcons };\n"]}

@@ -1,0 +1,1 @@
+import{c as createStore}from"./index3.js";import{g as getSerializedState}from"./utils.js";const{user:user}=getSerializedState(),{state:state,onChange:onChange,dispose:dispose}=createStore({loggedIn:!1,email:"",name:"",...user});export{state as s};

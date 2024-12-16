@@ -1,0 +1,24 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "surecart/collapsible-row",
+	"title": "Collapsible Row",
+	"description": "Display a collapsible row",
+	"category": "surecart",
+	"keywords": ["toggle", "collapse"],
+	"supports": {
+		"html": false,
+		"align": ["wide", "full"]
+	},
+	"attributes": {
+		"heading": {
+			"type": "string",
+			"default": "Collapsible row"
+		},
+		"icon": {
+			"type": "string",
+			"default": "plus"
+		}
+	},
+	"style": "file:./style.css"
+}

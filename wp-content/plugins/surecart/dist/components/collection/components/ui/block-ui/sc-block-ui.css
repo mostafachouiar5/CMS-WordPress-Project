@@ -1,0 +1,37 @@
+:host {
+  display: block;
+  position: var(--sc-block-ui-position, absolute);
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+:host > * {
+  z-index: 1;
+}
+:host:after {
+  content: "";
+  position: var(--sc-block-ui-position, absolute);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: var(--sc-block-ui-cursor, wait);
+  background: var(--sc-block-ui-background-color, var(--sc-color-white));
+  opacity: var(--sc-block-ui-opacity, 0.15);
+}
+:host.transparent:after {
+  background: transparent;
+}
+
+.overlay__content {
+  font-size: var(--sc-font-size-large);
+  font-weight: var(--sc-font-weight-semibold);
+  display: grid;
+  gap: 0.5em;
+  text-align: center;
+}

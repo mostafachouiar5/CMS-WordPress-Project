@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-order-status-badge",(()=>{it("renders",(async()=>{const e=await newE2EPage();await e.setContent("<sc-order-status-badge></sc-order-status-badge>");const t=await e.find("sc-order-status-badge");expect(t).toHaveClass("hydrated")}))}));

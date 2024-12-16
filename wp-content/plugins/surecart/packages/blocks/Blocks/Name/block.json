@@ -1,0 +1,29 @@
+{
+	"name": "surecart/name",
+	"title": "Full Name",
+	"description": "Display a name collection field.",
+	"category": "surecart",
+	"keywords": ["name", "customer"],
+	"textdomain": "surecart",
+	"ancestor": ["surecart/form"],
+	"supports": {
+		"reusable": false,
+		"html": false
+	},
+	"attributes": {
+		"required": {
+			"type": "boolean"
+		},
+		"label": {
+			"type": "string",
+			"default": "Name"
+		},
+		"help": {
+			"type": "string",
+			"default": ""
+		},
+		"placeholder": {
+			"type": "string"
+		}
+	}
+}

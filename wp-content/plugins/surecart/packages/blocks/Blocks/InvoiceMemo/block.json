@@ -1,0 +1,19 @@
+{
+	"name": "surecart/invoice-memo",
+	"title": "Invoice Memo",
+	"description": "Displays the invoice memo.",
+	"category": "surecart",
+	"ancestor": ["surecart/invoice-details"],
+	"keywords": ["checkout", "engine", "invoice", "memo"],
+	"textdomain": "surecart",
+	"supports": {
+		"reusable": false,
+		"html": false
+	},
+	"attributes": {
+		"text": {
+			"type": "string",
+			"default": "Memo"
+		}
+	}
+}

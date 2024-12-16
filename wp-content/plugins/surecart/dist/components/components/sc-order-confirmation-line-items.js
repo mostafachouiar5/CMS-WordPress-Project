@@ -1,0 +1,1 @@
+import{S as ScOrderConfirmationLineItems$1,d as defineCustomElement$1}from"./sc-order-confirmation-line-items2.js";const ScOrderConfirmationLineItems=ScOrderConfirmationLineItems$1,defineCustomElement=defineCustomElement$1;export{ScOrderConfirmationLineItems,defineCustomElement};

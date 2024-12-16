@@ -1,0 +1,1 @@
+import{S as ScPurchaseDownloadsList$1,d as defineCustomElement$1}from"./sc-purchase-downloads-list2.js";const ScPurchaseDownloadsList=ScPurchaseDownloadsList$1,defineCustomElement=defineCustomElement$1;export{ScPurchaseDownloadsList,defineCustomElement};

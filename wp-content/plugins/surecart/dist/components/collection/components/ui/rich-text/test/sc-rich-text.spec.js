@@ -1,0 +1,1 @@
+import{newSpecPage}from"@stencil/core/testing";import{ScRichText}from"../sc-rich-text";describe("sc-rich-text",(()=>{it("renders",(async()=>{const t=await newSpecPage({components:[ScRichText],html:"<sc-rich-text></sc-rich-text>"});expect(t.root).toMatchSnapshot()}))}));

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "surecart/product-selected-price-scratch-amount",
+  "title": "Selected Price Scratch Amount",
+  "description": "Displays the currently selected price scratch amount.",
+  "version": "1.0.0",
+  "category": "surecart-product-page",
+  "icon": "money-alt",
+  "ancestor": [
+    "surecart/product-page",
+    "surecart/product-template"
+  ],
+  "example": {
+    "attributes": {}
+  },
+  "supports": {
+    "interactivity": true,
+    "anchor": true,
+    "color": {
+      "gradients": true,
+      "text": true,
+      "background": false,
+      "__experimentalDefaultControls": {
+        "text": true,
+        "button": true
+      }
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "textAlign": true,
+      "__experimentalTextDecoration": true
+    }
+  },
+  "textdomain": "surecart",
+  "render": "file:./view.php",
+  "editorScript": "file:./index.js",
+  "style": [
+    "file:./style-index.css"
+  ]
+}

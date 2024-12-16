@@ -1,0 +1,8 @@
+:host {
+  display: block;
+}
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 1em;
+}

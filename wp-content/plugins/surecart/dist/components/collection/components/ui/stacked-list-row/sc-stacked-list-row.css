@@ -1,0 +1,72 @@
+:host {
+  display: block;
+  --column-width-min: 125px;
+  position: relative;
+}
+
+:host(:not(:last-child)) {
+  border-bottom: 1px solid var(--sc-stacked-list-border-color, var(--sc-color-gray-200));
+}
+
+:host(:focus-within) {
+  z-index: 2;
+}
+
+.list-row {
+  background: var(--sc-list-row-background-color, var(--sc-color-white));
+  color: var(--sc-list-row-color, var(--sc-color-gray-800));
+  text-decoration: none;
+  display: grid;
+  justify-content: var(--sc-stacked-list-row-justify-content, space-between);
+  align-items: var(--sc-stacked-list-row-align-items, start);
+  grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  gap: var(--sc-spacing-xx-small);
+  padding: var(--sc-spacing-medium) var(--sc-spacing-large);
+  transition: background-color var(--sc-transition-fast) ease;
+  border-radius: var(--sc-input-border-radius-medium);
+  min-width: 0px;
+  min-height: 0px;
+}
+.list-row[href]:hover {
+  background: var(--sc-stacked-list-row-hover-color, var(--sc-color-gray-50));
+}
+.list-row__prefix, .list-row__suffix {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+.list-row__prefix {
+  left: var(--sc-spacing-large);
+}
+.list-row__suffix {
+  right: var(--sc-spacing-large);
+}
+.list-row--has-prefix {
+  padding-left: 3.5em;
+}
+.list-row--has-suffix {
+  padding-right: 3.5em;
+  gap: var(--sc-spacing-xxxx-large);
+}
+
+.list-row.breakpoint-lg {
+  grid-template-columns: repeat(calc(var(--columns) - 1), 1fr) 1fr;
+  gap: var(--sc-spacing-large);
+}
+.list-row.breakpoint-lg ::slotted(:last-child:not(:first-child)) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.list-row--is-rtl.list-row__prefix, .list-row--is-rtl.list-row__suffix {
+  left: 20px;
+  width: 20px;
+  transform: rotate(180deg);
+}
+.list-row--is-rtl.list-row__suffix {
+  right: auto;
+}
+.list-row--is-rtl.list-row--has-suffix {
+  gap: var(--sc-spacing-large);
+}

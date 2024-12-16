@@ -1,0 +1,19 @@
+{
+	"name": "surecart/invoice-number",
+	"title": "Invoice Number",
+	"description": "Displays the invoice number line item.",
+	"category": "surecart",
+	"ancestor": ["surecart/invoice-details"],
+	"keywords": ["checkout", "engine", "invoice", "number"],
+	"textdomain": "surecart",
+	"supports": {
+		"reusable": false,
+		"html": false
+	},
+	"attributes": {
+		"text": {
+			"type": "string",
+			"default": "Invoice Number"
+		}
+	}
+}

@@ -1,0 +1,22 @@
+:host {
+  display: block;
+  position: relative;
+}
+
+.upcoming-invoice {
+  display: grid;
+  gap: var(--sc-spacing-large);
+}
+.upcoming-invoice > * {
+  display: grid;
+  gap: var(--sc-spacing-medium);
+}
+
+.new-plan {
+  display: grid;
+  gap: 0.25em;
+  color: var(--sc-input-label-color);
+}
+.new-plan__heading {
+  font-weight: var(--sc-font-weight-bold);
+}

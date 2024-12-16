@@ -1,0 +1,26 @@
+:host {
+  display: block;
+  --sc-secure-notice-icon-color: var(--sc-color-gray-300);
+  --sc-secure-notice-font-size: var(--sc-font-size-small);
+  --sc-secure-notice-color: var(--sc-color-gray-500);
+}
+
+.notice {
+  color: var(--sc-secure-notice-color);
+  font-size: var(--sc-secure-notice-font-size);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.notice__text {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.notice__icon {
+  color: var(--sc-secure-notice-icon-color);
+  margin-right: 5px;
+}

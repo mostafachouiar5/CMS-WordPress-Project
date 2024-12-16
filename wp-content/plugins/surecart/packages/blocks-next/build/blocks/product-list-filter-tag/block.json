@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "surecart/product-list-filter-tag",
+  "title": "Tag",
+  "description": "Display the filter tag.",
+  "version": "1.0.0",
+  "category": "surecart-product-list",
+  "example": {},
+  "usesContext": [
+    "surecart/filterTag/name"
+  ],
+  "ancestor": [
+    "surecart/product-list-filter-tags"
+  ],
+  "supports": {
+    "interactivity": true,
+    "spacing": {
+      "padding": true,
+      "margin": [
+        "top",
+        "bottom"
+      ]
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontWeight": true
+    },
+    "color": {
+      "text": true,
+      "background": true,
+      "enableContrastChecker": true
+    }
+  },
+  "textdomain": "surecart",
+  "editorScript": "file:./index.js",
+  "style": [
+    "surecart-tag"
+  ],
+  "render": "file:./view.php"
+}

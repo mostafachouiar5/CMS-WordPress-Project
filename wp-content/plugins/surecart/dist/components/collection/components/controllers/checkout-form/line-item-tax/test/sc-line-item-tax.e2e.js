@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-line-item-tax",(()=>{it("renders",(async()=>{const e=await newE2EPage();await e.setContent("<sc-line-item-tax></sc-line-item-tax>");const t=await e.find("sc-line-item-tax");expect(t).toHaveClass("hydrated")}))}));

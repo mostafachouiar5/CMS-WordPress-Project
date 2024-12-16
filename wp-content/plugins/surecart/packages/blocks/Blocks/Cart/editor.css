@@ -1,0 +1,16 @@
+.sc-cart__editor-container {
+	flex: 1 1 auto;
+	overflow: auto;
+	width: 100%;
+	margin: auto;
+	border: var(--sc-drawer-border);
+	box-shadow: 0 1px 2px #0d131e1a;
+}
+
+.sc-cart__editor-container .block-list-appender {
+	position: relative;
+}
+
+.sc-cart__editor-container > .wp-block:not(:last-child) {
+	margin: 0 !important;
+}

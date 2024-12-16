@@ -1,0 +1,7 @@
+:host {
+  display: table-header-group;
+}
+
+::slotted(*) {
+  display: table-row;
+}

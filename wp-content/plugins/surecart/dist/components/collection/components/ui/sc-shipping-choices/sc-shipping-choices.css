@@ -1,0 +1,71 @@
+:host {
+  display: block;
+}
+
+.shipping-choice {
+  width: 100%;
+  padding: var(--sc-spacing-medium);
+  margin: 0;
+  box-sizing: border-box;
+  border-bottom: var(--sc-input-border, 1px solid var(--sc-color-gray-300));
+  background-color: var(--sc-shipping-choice-background-color, var(--sc-input-background-color));
+}
+.shipping-choice__empty {
+  background: var(--sc-alert-background-color, var(--sc-color-gray-100));
+  opacity: 0.75;
+  padding: var(--sc-spacing-large);
+  border-radius: var(--sc-input-border-radius-medium);
+  line-height: var(--sc-line-height-dense);
+  font-size: var(--sc-font-size-small);
+  border: solid 1px var(--sc-input-border-color, var(--sc-input-border));
+}
+.shipping-choice:last-child {
+  border-bottom-width: 0;
+}
+.shipping-choice__text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sc-spacing-xx-small);
+}
+.shipping-choice__price {
+  color: var(--sc-input-label-color);
+  font-weight: var(--sc-price-choice-price-font-weight, var(--sc-font-weight-normal));
+  white-space: nowrap;
+  display: var(--sc-shipping-choice-price-display, inherit);
+}
+.shipping-choice__name {
+  display: inline-block;
+  color: var(--sc-price-choice-name-color, var(--sc-input-label-color));
+  font-size: var(--sc-price-choice-name-size, var(--sc-input-label-font-size-medium));
+  font-weight: var(--sc-price-choice-name-font-weight, var(--sc-font-weight-bold));
+  text-transform: var(--sc-price-choice-text-transform, var(--sc-input-label-text-transform, none));
+  line-height: var(--sc-shipping-name-line-height, 1);
+}
+.shipping-choice__description {
+  color: var(--sc-input-label-color);
+  font-weight: var(--sc-price-choice-price-font-weight, var(--sc-font-weight-normal));
+  line-height: var(--sc-shipping-description-line-height, 1.2);
+}
+
+sc-radio-group::part(items) {
+  border: var(--sc-input-border, 1px solid var(--sc-color-gray-300));
+  border-radius: var(--sc-shipping-choice-border-radius, var(--sc-input-border-radius-medium));
+  box-shadow: var(--sc-shipping-box-shadow, var(--sc-input-box-shadow));
+  overflow: hidden;
+  position: relative;
+}
+
+sc-radio::part(base) {
+  width: 100%;
+}
+
+sc-radio::part(label) {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: var(--sc-spacing-small);
+}
+
+sc-radio-group::slotted(sc-radio:not(:last-of-type)) {
+  margin-bottom: 0;
+}

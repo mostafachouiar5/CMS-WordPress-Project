@@ -1,0 +1,9 @@
+:host {
+  display: block;
+}
+
+.sc-product-variation-choice-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sc-variation-gap, 12px);
+}

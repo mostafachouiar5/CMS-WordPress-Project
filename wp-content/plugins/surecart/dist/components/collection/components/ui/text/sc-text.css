@@ -1,0 +1,26 @@
+:host {
+  display: block;
+  --font-size: var(--font-size, var(--sc-font-size-medium));
+  --font-weight: var(--font-size, var(--sc-font-weight-normal));
+  --line-height: var(--font-size, var(--sc-line-height-medium));
+  --text-align: left;
+  --color: var(--color, inherit);
+}
+
+.text {
+  margin: 0;
+  font-size: var(--font-size);
+  font-weight: var(--font-weight);
+  line-height: var(--line-height);
+  text-align: var(--text-align);
+  color: var(--sc-stacked-list-row-text-color, var(--color));
+}
+.text.is-truncated {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.text--is-rtl .text {
+  text-align: right;
+}

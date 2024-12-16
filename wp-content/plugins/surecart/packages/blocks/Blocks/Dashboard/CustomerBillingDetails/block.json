@@ -1,0 +1,20 @@
+{
+	"apiVersion": 2,
+	"name": "surecart/customer-billing-details",
+	"title": "Customer Billing Details",
+	"description": "Displays the customers billing details.",
+	"category": "surecart-customer-dashboard",
+	"keywords": ["name", "customer", "dashboard"],
+	"textdomain": "surecart",
+	"ancestor": ["surecart/dashboard-page", "surecart/dashboard-area"],
+	"supports": {
+		"reusable": false,
+		"html": false
+	},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": "Billing Details"
+		}
+	}
+}

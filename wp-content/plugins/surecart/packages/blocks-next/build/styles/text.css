@@ -1,0 +1,1 @@
+.sc-text{color:var(--sc-stacked-list-row-text-color,var(--color));font-size:var(--font-size);font-weight:var(--font-weight);line-height:var(--line-height);margin:0;text-align:var(--text-align)}.sc-text.is-truncated{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.sc-text--is-rtl .text{text-align:right}

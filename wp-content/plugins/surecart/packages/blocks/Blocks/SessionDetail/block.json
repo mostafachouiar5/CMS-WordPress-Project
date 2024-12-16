@@ -1,0 +1,25 @@
+{
+	"name": "surecart/session-detail",
+	"title": "Session Info",
+	"description": "Display information for a specific session.",
+	"category": "surecart",
+	"keywords": ["meta", "customer"],
+	"textdomain": "surecart",
+	"supports": {
+		"reusable": false,
+		"html": false,
+		"lock": {
+			"remove": true
+		}
+	},
+	"attributes": {
+		"value": {
+			"type": "string",
+			"default": "customer.name"
+		},
+		"label": {
+			"type": "string",
+			"default": "Customer Name"
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"apiVersion": 2,
+	"name": "surecart/product-collection-description",
+	"title": "Product Collection Description",
+	"description": "Display the product collection description",
+	"category": "surecart",
+	"keywords": ["description"],
+	"supports": {
+		"reusable": false,
+		"html": false,
+		"multiple": false,
+		"align": ["wide", "full"],
+		"layout": true,
+		"dimensions": {
+			"minHeight": true
+		},
+		"color": {
+			"gradients": true,
+			"link": true,
+			"__experimentalDefaultControls": {
+				"background": false,
+				"text": false
+			}
+		},
+		"typography": {
+			"fontSize": true,
+			"lineHeight": true,
+			"__experimentalFontFamily": true,
+			"__experimentalFontWeight": true,
+			"__experimentalFontStyle": true,
+			"__experimentalTextTransform": true,
+			"__experimentalTextDecoration": true,
+			"__experimentalLetterSpacing": true,
+			"__experimentalDefaultControls": {
+				"fontSize": true
+			}
+		}
+	}
+}

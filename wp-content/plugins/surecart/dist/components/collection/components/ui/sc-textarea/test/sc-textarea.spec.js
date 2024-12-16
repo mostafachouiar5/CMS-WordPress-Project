@@ -1,0 +1,1 @@
+import{newSpecPage}from"@stencil/core/testing";import{ScTextarea}from"../sc-textarea";describe("sc-textarea",(()=>{it("renders",(async()=>{const e=await newSpecPage({components:[ScTextarea],html:"<sc-textarea></sc-textarea>"});expect(e.root).toMatchSnapshot()}))}));

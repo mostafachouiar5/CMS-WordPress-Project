@@ -1,0 +1,36 @@
+.sc-product-item {
+	list-style: none !important;
+}
+.sc-spinner {
+	border-radius: 50% !important;
+	border: solid var(--stroke-width) var(--track-color) !important;
+	border-top-color: currentColor !important;
+	border-right-color: currentColor !important;
+}
+.sc-input-group {
+	border: var(--sc-input-border) !important;
+}
+
+.sc-input-group-sm > .sc-form-control,
+.sc-input-group-sm > .sc-input-group-text {
+	padding: var(--sc-spacing-xx-small) var(--sc-spacing-small) !important;
+	font-size: var(--sc-font-size-x-small) !important;
+	border-radius: var(--sc-border-radius-small) !important;
+}
+.sc-dropdown__panel {
+	box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+		0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+	color: var(--color) !important;
+	background-color: var(--sc-panel-background-color) !important;
+	border: solid 1px var(--sc-panel-border-color) !important;
+	border-radius: var(--sc-border-radius-medium) !important;
+	padding: var(--sc-spacing-x-small) 0 !important;
+	margin-top: 0.5em !important;
+}
+.sc-dropdown__menu-item {
+	padding: var(--sc-spacing-xx-small) var(--sc-spacing-x-large) !important;
+}
+.wp-block-surecart-product-image img {
+	width: 100% !important;
+	height: 100% !important;
+}

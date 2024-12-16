@@ -1,0 +1,1 @@
+import{h}from"@stencil/core";export class ScStackedList{render(){return h("slot",{key:"87cf18e72463675f38244a003cc9ae83924eab9c"})}static get is(){return"sc-stacked-list"}static get encapsulation(){return"shadow"}static get originalStyleUrls(){return{$:["sc-stacked-list.scss"]}}static get styleUrls(){return{$:["sc-stacked-list.css"]}}}

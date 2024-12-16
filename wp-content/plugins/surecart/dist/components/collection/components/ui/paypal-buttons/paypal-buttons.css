@@ -1,0 +1,19 @@
+:host {
+  display: block;
+}
+
+.paypal-buttons {
+  position: relative;
+  line-height: 0;
+  text-align: center;
+}
+.paypal-buttons:not(.paypal-buttons--busy):after {
+  content: " ";
+  border-bottom: 1px solid var(--sc-input-border-color);
+  width: 100%;
+  height: 0;
+  top: 50%;
+  left: 0;
+  right: 0;
+  position: absolute;
+}

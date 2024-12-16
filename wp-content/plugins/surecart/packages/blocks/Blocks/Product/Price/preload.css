@@ -1,0 +1,16 @@
+sc-product-price:not(.hydrated) {
+	display: block;
+	contain: strict;
+	content-visibility: hidden;
+	contain-intrinsic-height: 45px;
+  background: linear-gradient(
+		270deg,
+		rgba(75, 85, 99, 0.2),
+		rgba(75, 85, 99, 0.1),
+		rgba(75, 85, 99, 0.1),
+		rgba(75, 85, 99, 0.2)
+	);
+	background-size: 400% 100%;
+	background-size: 400% 100%;
+	animation: sheen 3s ease-in-out infinite;
+}

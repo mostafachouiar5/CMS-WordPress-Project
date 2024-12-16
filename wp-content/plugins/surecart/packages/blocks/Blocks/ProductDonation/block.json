@@ -1,0 +1,47 @@
+{
+	"apiVersion": 2,
+	"name": "surecart/product-donation",
+	"title": "Product Donation",
+	"description": "Displays a donation amount for the user to choose from.",
+	"category": "surecart",
+	"ancestor": ["surecart/form"],
+	"keywords": ["donation", "ad hoc", "custom", "amount"],
+	"textdomain": "surecart",
+	"providesContext": {
+		"surecart/product-donation/product_id": "product_id",
+		"surecart/product-donation/required": "required"
+	},
+	"supports": {
+		"reusable": false,
+		"html": false,
+		"color": {
+			"__experimentalSkipSerialization": true,
+			"gradients": true,
+			"link": false,
+			"__experimentalDefaultControls": {
+				"background": true,
+				"text": true
+			}
+		},
+		"spacing": {
+			"__experimentalSkipSerialization": true,
+			"margin": true,
+			"padding": true
+		},
+		"__experimentalBorder": {
+			"__experimentalSkipSerialization": true,
+			"color": true,
+			"radius": true
+		}
+	},
+	"attributes": {
+		"product_id": {
+			"type": "string"
+		},
+		"required": {
+			"type": "boolean",
+			"default": true
+		}
+	},
+	"style": "file:./style.css"
+}

@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-customer-email",(()=>{it("renders",(async()=>{const e=await newE2EPage();await e.setContent("<sc-customer-email></sc-customer-email>");const t=await e.find("sc-customer-email");expect(t).toHaveClass("hydrated")}))}));

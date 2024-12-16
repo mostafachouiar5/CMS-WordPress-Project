@@ -1,0 +1,14 @@
+{
+	"apiVersion": 2,
+	"name": "surecart/dashboard-pages",
+	"title": "Customer Dashboard Pages",
+	"description": "Displays the users customer dashboard pages.",
+	"category": "surecart-customer-dashboard",
+	"keywords": ["name", "customer", "dashboard"],
+	"textdomain": "surecart",
+	"parent": ["surecart/customer-dashboard"],
+	"supports": {
+		"reusable": false,
+		"html": false
+	}
+}

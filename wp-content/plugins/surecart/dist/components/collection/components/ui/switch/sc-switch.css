@@ -1,0 +1,146 @@
+/**
+ * @prop --width: The width of the switch.
+ * @prop --height: The height of the switch.
+ * @prop --thumb-size: The size of the thumb.
+ */
+:host {
+  --height: var(--sc-toggle-size);
+  --thumb-size: calc(var(--sc-toggle-size) - 2px);
+  --width: calc(var(--height) * 2);
+  display: block;
+}
+
+.switch {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 0.7em;
+  font-family: var(--sc-input-font-family);
+  font-size: var(--sc-input-font-size-medium);
+  font-weight: var(--sc-input-font-weight);
+  color: var(--sc-input-color);
+  vertical-align: middle;
+  cursor: pointer;
+}
+.switch--reversed {
+  flex-direction: row-reverse;
+}
+
+.switch--editing {
+  cursor: initial;
+}
+
+.switch__control {
+  flex: 0 0 auto;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--width);
+  height: var(--height);
+  background-color: var(--sc-switch-control-background-color, var(--sc-color-gray-300));
+  border: solid var(--sc-input-border-width) var(--sc-switch-border-color, var(--sc-color-gray-300));
+  border-radius: var(--height);
+  transition: var(--sc-input-transition, var(--sc-transition-medium)) border-color, var(--sc-input-transition, var(--sc-transition-medium)) background-color;
+}
+.switch__control .switch__thumb {
+  width: var(--thumb-size);
+  height: var(--thumb-size);
+  background-color: var(--sc-switch-thumb-background-color, var(--sc-color-white));
+  border-radius: 50%;
+  border: solid var(--sc-input-border-width) var(--sc-input-border-color);
+  transform: translateX(calc(var(--width) / -2 + var(--thumb-size) / 2 - (var(--thumb-size) - var(--height)) / 2));
+  transition: var(--sc-input-transition, var(--sc-transition-medium)) transform ease, var(--sc-input-transition, var(--sc-transition-medium)) background-color, var(--sc-input-transition, var(--sc-transition-medium)) border-color, var(--sc-input-transition, var(--sc-transition-medium)) box-shadow;
+}
+.switch__control input[type=checkbox] {
+  position: absolute;
+  opacity: 0;
+  padding: 0;
+  margin: 0;
+  pointer-events: none;
+}
+.switch__control:has(:focus-visible) {
+  outline: 2px solid var(--sc-focus-ring-color-primary);
+  outline-offset: 2px;
+}
+
+.switch:not(.switch--checked):not(.switch--disabled) .switch__control:hover {
+  background-color: var(--sc-switch-control-hover-background-color, var(--sc-color-gray-200));
+  border-color: var(--sc-switch-control-hover-border-color, var(--sc-color-gray-200));
+}
+.switch:not(.switch--checked):not(.switch--disabled) .switch__control:hover .switch__thumb {
+  background-color: var(--sc-switch-background-thumb-hover-color, var(--sc-color-white));
+  border-color: var(--sc-switch-thumb-border-color, var(--sc-input-border-color));
+}
+
+.switch.switch--focused:not(.switch--checked):not(.switch--disabled) .switch__control {
+  background-color: var(--sc-switch-control-hover-background-color, var(--sc-color-gray-200));
+  border-color: var(--sc-switch-control-hover-border-color, var(--sc-color-gray-200));
+}
+.switch.switch--focused:not(.switch--checked):not(.switch--disabled) .switch__control .switch__thumb {
+  background-color: var(--sc-color-white);
+  border-color: var(--sc-color-gray-300);
+  box-shadow: 0 0 0 1px var(--sc-color-gray-300);
+}
+
+.switch--checked .switch__control {
+  background-color: var(--sc-switch-checked-control-background-color, var(--sc-color-primary-500));
+  border-color: var(--sc-switch-checked-control-border-color, var(--sc-color-primary-500));
+}
+.switch--checked .switch__control .switch__thumb {
+  background-color: var(--sc-color-white);
+  border-color: var(--sc-color-primary-500);
+  transform: translateX(calc(var(--width) / 2 - var(--thumb-size) / 2 + (var(--thumb-size) - var(--height)) / 2));
+}
+
+.switch.switch--checked:not(.switch--disabled) .switch__control:hover {
+  opacity: 0.8;
+}
+.switch.switch--checked:not(.switch--disabled) .switch__control:hover .switch__thumb {
+  background-color: var(--sc-color-white);
+  border-color: var(--sc-color-primary-500);
+}
+
+.switch.switch--checked:not(.switch--disabled).switch--focused .switch__control .switch__thumb {
+  background-color: var(--sc-color-white);
+  border-color: var(--sc-color-primary-500);
+  box-shadow: 0 0 0 1px var(--sc-focus-ring-color-primary);
+}
+
+.switch--disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.switch__label {
+  user-select: none;
+  line-height: var(--height);
+}
+
+.switch--is-required .switch__title:after {
+  content: " *";
+  color: var(--sc-color-danger-500);
+}
+
+.switch__title {
+  color: var(--sc-swith-label-color, var(--sc-input-label-color));
+  font-weight: var(--sc-input-label-font-weight);
+  font-size: var(--sc-input-label-font-size-medium);
+}
+
+.switch__description {
+  display: none;
+  color: var(--sc-switch-description-color, var(--sc-color-gray-500));
+  line-height: var(--sc-line-height-dense);
+  margin: 0.5em 0 0;
+  font-size: var(--sc-font-size-small);
+}
+
+.switch--has-description .switch__description {
+  display: block;
+}
+
+slot[name=description]::slotted(*) {
+  margin: 0.75em 0;
+  line-height: var(--sc-line-height-dense);
+  vertical-align: center;
+}

@@ -1,0 +1,63 @@
+{
+	"name": "surecart/form",
+	"title": "Form",
+	"description": "Displays a form.",
+	"category": "surecart",
+	"parent": ["surecart/checkout-form"],
+	"keywords": ["email", "mail"],
+	"textdomain": "surecart",
+	"supports": {
+		"reusable": false,
+		"html": false
+	},
+	"script": "surecart-components",
+	"editorStyle": "surecart-themes-default",
+	"attributes": {
+		"mode": {
+			"type": "string",
+			"enum": ["test", "live"],
+			"default": "live"
+		},
+		"success_url": {
+			"type": "string"
+		},
+		"prices": {
+			"type": "array"
+		},
+		"gap": {
+			"type": "string",
+			"default": "25px"
+		},
+		"currency": {
+			"type": "string"
+		},
+		"color": {
+			"type": "string"
+		},
+		"loading_text": {
+			"type": "object",
+			"default": {
+				"finalizing": "Submitting...",
+				"paying": "Processing...",
+				"confirming": "Finalizing...",
+				"confirmed": "Success!",
+				"redirecting": "Success! Redirecting..."
+			}
+		},
+		"success_text": {
+			"type": "object",
+			"default": {
+				"title": "Thank you!",
+				"description": "Your payment was successful. A receipt is on its way to your inbox.",
+				"button": "Continue"
+			}
+		},
+		"persist_cart": {
+			"type": "string",
+			"default": "url"
+		}
+	},
+	"providesContext": {
+		"surecart/form/mode": "mode"
+	}
+}

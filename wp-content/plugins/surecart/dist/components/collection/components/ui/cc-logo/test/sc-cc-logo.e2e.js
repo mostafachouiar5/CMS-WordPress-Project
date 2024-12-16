@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-cc-logo",(()=>{it("renders",(async()=>{const c=await newE2EPage();await c.setContent("<sc-cc-logo></sc-cc-logo>");const e=await c.find("sc-cc-logo");expect(e).toHaveClass("hydrated")}))}));

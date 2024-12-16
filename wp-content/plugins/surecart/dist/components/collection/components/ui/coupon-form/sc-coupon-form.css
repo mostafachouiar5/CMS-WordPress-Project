@@ -1,0 +1,90 @@
+:host {
+  display: block;
+}
+
+sc-button {
+  color: var(--sc-color-primary-500);
+}
+
+sc-alert {
+  margin-top: var(--sc-spacing-small);
+}
+
+.coupon-form {
+  position: relative;
+  container-type: inline-size;
+}
+.coupon-form .coupon-button {
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0.9);
+  transition: all var(--sc-transition-fast) ease;
+  color: var(--sc-input-color);
+}
+.coupon-form .coupon-button-mobile {
+  margin-top: var(--sc-input-label-margin);
+  display: none;
+}
+.coupon-form--has-value .coupon-button {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+
+@container (max-width: 320px) {
+  .coupon-form .coupon-button {
+    display: none;
+  }
+  .coupon-form .coupon-button-mobile {
+    display: block;
+  }
+}
+.form {
+  opacity: 0;
+  visibility: hidden;
+  height: 0;
+  transform: translateY(5px);
+  transition: opacity var(--sc-transition-medium) ease, transform var(--sc-transition-medium) ease;
+  position: relative;
+  gap: var(--sc-spacing-small);
+}
+
+.coupon-form--is-open .form {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  height: auto;
+  margin: var(--sc-spacing-small) 0;
+}
+.coupon-form--is-open .trigger {
+  display: none;
+}
+
+.trigger {
+  cursor: pointer;
+  font-size: var(--sc-font-size-small);
+  line-height: var(--sc-line-height-dense);
+  color: var(--sc-input-label-color);
+  user-select: none;
+}
+.trigger:hover {
+  text-decoration: underline;
+}
+
+.coupon-form--is-rtl .trigger {
+  text-align: right;
+}
+
+.coupon__status {
+  font-size: var(--sc-font-size-small);
+  line-height: var(--sc-line-height-dense);
+  color: var(--sc-color-warning-700);
+  display: inline-flex;
+  gap: var(--sc-spacing-x-small);
+  align-items: flex-start;
+  text-align: left;
+}
+.coupon__status sc-icon {
+  flex: 0 0 1em;
+  margin-top: 0.25em;
+}

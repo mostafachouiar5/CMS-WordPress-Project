@@ -1,0 +1,1 @@
+import{S as ScCheckoutStockAlert$1,d as defineCustomElement$1}from"./sc-checkout-stock-alert2.js";const ScCheckoutStockAlert=ScCheckoutStockAlert$1,defineCustomElement=defineCustomElement$1;export{ScCheckoutStockAlert,defineCustomElement};

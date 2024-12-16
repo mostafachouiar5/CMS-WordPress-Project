@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-subscription-switch",(()=>{it("renders",(async()=>{const s=await newE2EPage();await s.setContent("<sc-subscription-switch></sc-subscription-switch>");const t=await s.find("sc-subscription-switch");expect(t).toHaveClass("hydrated")}))}));

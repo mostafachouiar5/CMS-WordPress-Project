@@ -1,0 +1,1 @@
+import{S as ScOrderTaxIdInput$1,d as defineCustomElement$1}from"./sc-order-tax-id-input2.js";const ScOrderTaxIdInput=ScOrderTaxIdInput$1,defineCustomElement=defineCustomElement$1;export{ScOrderTaxIdInput,defineCustomElement};

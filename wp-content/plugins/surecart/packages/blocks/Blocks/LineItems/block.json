@@ -1,0 +1,24 @@
+{
+	"name": "surecart/line-items",
+	"title": "Line Items",
+	"description": "Displays checkout line items.",
+	"category": "surecart",
+	"keywords": ["total", "line-items"],
+  "textdomain": "surecart",
+	"ancestor": ["surecart/totals"],
+	"supports": {
+		"reusable": false,
+		"html": false,
+		"order-summary": true
+	},
+	"attributes": {
+		"removable": {
+			"type": "boolean",
+			"default": true
+		},
+		"editable": {
+			"type": "boolean",
+			"default": true
+		}
+	}
+}

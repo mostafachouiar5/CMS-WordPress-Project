@@ -1,0 +1,28 @@
+{
+	"apiVersion": 2,
+	"name": "surecart/customer-invoices",
+	"title": "Customer Invoices",
+	"description": "Displays the customers invoices.",
+	"category": "surecart",
+	"keywords": ["name", "customer", "dashboard", "invoices"],
+	"textdomain": "surecart",
+	"ancestor": ["surecart/dashboard-page", "surecart/dashboard-area"],
+	"supports": {
+		"reusable": false,
+		"html": false
+	},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": "Invoices"
+		},
+		"paginate": {
+			"type": "boolean",
+			"default": true
+		},
+		"per_page": {
+			"type": "number",
+			"default": 10
+		}
+	}
+}

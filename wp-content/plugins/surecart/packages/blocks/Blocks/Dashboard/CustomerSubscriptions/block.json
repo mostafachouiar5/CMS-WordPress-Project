@@ -1,0 +1,28 @@
+{
+	"apiVersion": 2,
+	"name": "surecart/customer-subscriptions",
+	"title": "Customer Subscriptions",
+	"description": "Displays a customer's subscriptions.",
+	"category": "surecart-customer-dashboard",
+	"keywords": ["name", "customer", "dashboard"],
+	"textdomain": "surecart",
+	"ancestor": ["surecart/dashboard-page", "surecart/dashboard-area"],
+	"supports": {
+		"reusable": false,
+		"html": false
+	},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": "Plans"
+		},
+		"per_page": {
+			"type": "number",
+			"default": "10"
+		},
+		"terms": {
+			"type": "string",
+			"default": "By updating or cancelling your plan, you agree to the Terms of Service and Privacy Policy."
+		}
+	}
+}

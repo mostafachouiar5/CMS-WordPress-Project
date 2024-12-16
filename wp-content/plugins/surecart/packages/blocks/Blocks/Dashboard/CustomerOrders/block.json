@@ -1,0 +1,28 @@
+{
+	"apiVersion": 2,
+	"name": "surecart/customer-orders",
+	"title": "Customer Orders",
+	"description": "Displays the customers orders.",
+	"category": "surecart-customer-dashboard",
+	"keywords": ["name", "customer", "dashboard"],
+	"textdomain": "surecart",
+	"ancestor": ["surecart/dashboard-page", "surecart/dashboard-area"],
+	"supports": {
+		"reusable": false,
+		"html": false
+	},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": "Order History"
+		},
+		"paginate": {
+			"type": "boolean",
+			"default": true
+		},
+		"per_page": {
+			"type": "number",
+			"default": 10
+		}
+	}
+}

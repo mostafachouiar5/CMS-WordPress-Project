@@ -1,0 +1,1 @@
+import{S as ScPriceChoiceContainer$1,d as defineCustomElement$1}from"./sc-price-choice-container2.js";const ScPriceChoiceContainer=ScPriceChoiceContainer$1,defineCustomElement=defineCustomElement$1;export{ScPriceChoiceContainer,defineCustomElement};

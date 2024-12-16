@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-conditional-form",(()=>{it("renders",(async()=>{const t=await newE2EPage();await t.setContent("<sc-conditional-form></sc-conditional-form>");const n=await t.find("sc-conditional-form");expect(n).toHaveClass("hydrated")}))}));

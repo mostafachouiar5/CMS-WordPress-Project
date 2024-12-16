@@ -1,0 +1,50 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "surecart/product-item-image",
+	"title": "Product Image",
+	"description": "Displays a product item image.",
+	"category": "surecart",
+	"keywords": ["product", "image", "thumbnail"],
+	"ancestor": ["surecart/product-item"],
+	"attributes": {
+		"src": {
+			"type": "string"
+		},
+		"sizing": {
+			"type": "string"
+		},
+		"ratio": {
+			"type": "string",
+			"default": "3 / 4"
+		}
+	},
+	"supports": {
+		"reusable": false,
+		"html": false,
+		"spacing": {
+			"padding": true,
+			"margin": true,
+			"__experimentalDefaultControls": {
+				"padding": true,
+				"margin": true
+			}
+		},
+		"color": {
+			"text": false,
+			"background": false
+		},
+		"__experimentalBorder": {
+			"color": true,
+			"radius": true,
+			"width": true,
+			"__experimentalSelector": ".product-img",
+			"__experimentalSkipSerialization": true,
+			"__experimentalDefaultControls": {
+				"color": true,
+				"radius": true,
+				"width": true
+			}
+		}
+	}
+}

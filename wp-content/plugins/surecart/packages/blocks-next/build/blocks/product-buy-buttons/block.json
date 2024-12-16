@@ -1,0 +1,67 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "surecart/product-buy-buttons",
+  "title": "Buy Buttons",
+  "description": "Displays product buy and add to cart buttons",
+  "category": "surecart-product-page",
+  "keywords": [
+    "button",
+    "buy",
+    "product"
+  ],
+  "ancestor": [
+    "surecart/product-page",
+    "surecart/product-template"
+  ],
+  "supports": {
+    "interactivity": true,
+    "anchor": true,
+    "align": [
+      "wide",
+      "full"
+    ],
+    "html": false,
+    "__experimentalExposeControlsToChildren": true,
+    "spacing": {
+      "padding": true,
+      "margin": true,
+      "__experimentalDefaultControls": {
+        "padding": true,
+        "margin": true
+      }
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontFamily": true,
+      "__experimentalFontWeight": true,
+      "__experimentalFontStyle": true,
+      "__experimentalTextTransform": true,
+      "__experimentalTextDecoration": true,
+      "__experimentalLetterSpacing": true,
+      "__experimentalDefaultControls": {
+        "fontSize": true
+      }
+    },
+    "__experimentalLayout": {
+      "allowSwitching": false,
+      "allowInheriting": false,
+      "default": {
+        "type": "flex"
+      }
+    },
+    "layout": {
+      "allowSwitching": false,
+      "allowInheriting": false,
+      "default": {
+        "type": "flex"
+      }
+    }
+  },
+  "style": [
+    "surecart-wp-buttons"
+  ],
+  "render": "file:./view.php",
+  "editorScript": "file:./index.js"
+}

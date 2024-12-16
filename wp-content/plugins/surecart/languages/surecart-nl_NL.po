@@ -1,0 +1,397 @@
+# Translation of SureCart in Dutch
+# This file is distributed under the same license as the SureCart package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-09-19 08:34:56+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: nl\n"
+"Project-Id-Version: SureCart\n"
+
+#: app/src/Support/Blocks/TemplateUtilityService.php:81
+msgctxt "Template name"
+msgid "Checkout"
+msgstr "Afrekenen"
+
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:147
+#: packages/admin/affiliation-referrals/CreateAffiliationReferral.js:107
+#: packages/admin/affiliation-referrals/modules/Details.js:32
+#: packages/admin/affiliations/modules/affiliation-products/index.js:221
+msgid "Commission Amount"
+msgstr "Commissiebedrag"
+
+#: app/src/Controllers/Admin/Affiliations/AffiliationsController.php:24
+#: app/src/WordPress/Admin/Menus/AdminMenuPageService.php:200
+#: views/admin/affiliations/index.php:6
+#: views/layouts/partials/admin-settings-sidebar.php:40
+#: packages/admin/affiliations/ViewAffiliation.js:183
+msgid "Affiliates"
+msgstr "Affiliate marketing"
+
+#: packages/blocks/Blocks/Address/block.json
+#: packages/blocks/Blocks/TaxLineItem/block.json
+msgctxt "block keyword"
+msgid "tax"
+msgstr "belasting"
+
+#: packages/blocks/Blocks/Address/block.json
+#: packages/blocks/Blocks/LineItemShipping/block.json
+#: packages/blocks/Blocks/ShippingChoices/block.json
+msgctxt "block keyword"
+msgid "shipping"
+msgstr "verzending"
+
+#: packages/blocks/Blocks/Phone/block.json
+msgctxt "block title"
+msgid "Phone"
+msgstr "Telefoon"
+
+#: packages/blocks/Blocks/Phone/block.json
+msgctxt "block keyword"
+msgid "phone"
+msgstr "telefoon"
+
+#: packages/blocks/Blocks/Product/Quantity/block.json
+msgctxt "block keyword"
+msgid "quantity"
+msgstr "hoeveelheid"
+
+#: packages/blocks/Blocks/ProductCollection/block.json
+msgctxt "block keyword"
+msgid "collections"
+msgstr "collecties"
+
+#: packages/blocks/Blocks/ProductCollection/block.json
+msgctxt "block title"
+msgid "Product Collections"
+msgstr "Product Collecties"
+
+#: packages/blocks/Blocks/Product/Description/block.json
+#: packages/blocks/Blocks/ProductCollectionDescription/block.json
+#: packages/blocks/Blocks/Upsell/CountdownTimer/block.json
+msgctxt "block keyword"
+msgid "description"
+msgstr "omschrijving"
+
+#: packages/blocks/Blocks/FirstName/block.json
+msgctxt "block title"
+msgid "First Name"
+msgstr "Voornaam"
+
+#: packages/blocks/Blocks/LastName/block.json
+msgctxt "block title"
+msgid "Last Name"
+msgstr "Achternaam"
+
+#: views/admin/advanced.php:30
+#: packages/admin/settings/abandoned/AbandonedSettings.js:284
+#: packages/admin/settings/advanced/AdvancedSettings.js:106
+msgid "Advanced Settings"
+msgstr "Geavanceerde instellingen"
+
+#: views/admin/advanced.php:33 views/admin/connection-invalid.php:28
+#: views/admin/connection.php:37
+#: packages/admin/affiliation-requests/modules/Details.js:43
+#: packages/admin/affiliations/modules/affiliation-products/index.js:289
+#: packages/admin/affiliations/modules/Commission.js:119
+#: packages/admin/products/modules/Affiliation.js:118
+#: packages/admin/settings/SettingsBox.js:54
+#: packages/admin/settings/SettingsTemplate.js:77
+#: packages/admin/settings/shipping/zone/ShippingZoneForm.js:237
+#: packages/admin/settings/tax-override/TaxOverrideModal.js:272
+msgid "Save"
+msgstr "Opslaan"
+
+#: views/web/login.php:2
+msgid "Sign in to your account"
+msgstr "Log in op uw account"
+
+#: app/src/Controllers/Rest/CheckEmailController.php:22
+#: app/src/Controllers/Rest/VerificationCodeController.php:66
+msgid "There is no account with that username or email address."
+msgstr "Er is geen account met die gebruikersnaam of e-mailadres."
+
+#: packages/blocks/Controllers/UserController.php:74
+msgid "Update Account Details"
+msgstr "Account gegevens bijwerken"
+
+#: packages/blocks/Controllers/UserController.php:32
+#: packages/blocks/Controllers/UserController.php:64
+msgid "Account Details"
+msgstr "Account gegevens"
+
+#: packages/blocks/Controllers/UserController.php:95
+msgid "Update Password"
+msgstr "Wachtwoord bijwerken"
+
+#: app/src/Controllers/Admin/AffiliationPayouts/AffiliationPayoutsListTable.php:110
+#: app/src/Controllers/Admin/AffiliationReferrals/AffiliationReferralsListTable.php:117
+#: app/src/Controllers/Admin/AffiliationRequests/AffiliationRequestsListTable.php:95
+#: app/src/Controllers/Admin/Affiliations/AffiliationsListTable.php:94
+#: app/src/Controllers/Admin/Invoices/InvoicesListTable.php:65
+#: app/src/Controllers/Admin/Licenses/LicensesListTable.php:63
+#: app/src/Controllers/Admin/Orders/OrdersListTable.php:112
+#: app/src/Controllers/Admin/ProductGroups/ProductGroupsListTable.php:105
+#: app/src/Controllers/Admin/Subscriptions/SubscriptionsListTable.php:106
+#: app/src/Controllers/Admin/Upsells/UpsellsListTable.php:94
+#: packages/admin/abandoned-checkouts/modules/Coupon.js:43
+#: packages/admin/affiliation-referrals/modules/Click.js:59
+#: packages/admin/affiliation-referrals/modules/Order.js:65
+#: packages/admin/affiliation-referrals/modules/Payout.js:64
+#: packages/admin/affiliation-referrals/modules/Summary.js:10
+#: packages/admin/affiliations/modules/Payouts.js:60
+#: packages/admin/affiliations/modules/Promotions.js:64
+#: packages/admin/affiliations/modules/Referrals.js:61
+#: packages/admin/customers/modules/Charges.js:72
+#: packages/admin/customers/modules/Orders.js:61
+#: packages/admin/customers/modules/Subscriptions.js:54
+#: packages/admin/invoices/modules/Charges.js:25
+#: packages/admin/invoices/modules/Refunds.js:23
+#: packages/admin/invoices/modules/Subscriptions.js:9
+#: packages/admin/orders/modules/Charges.js:99
+#: packages/admin/orders/modules/Refunds.js:80
+#: packages/admin/orders/modules/Subscriptions.js:45
+#: packages/admin/products/components/Status/index.js:57
+#: packages/admin/settings/connection/IncomingWebhooks.js:145
+#: packages/admin/subscriptions/show/modules/Invoices.js:60
+#: packages/admin/subscriptions/show/modules/Orders.js:21
+#: packages/admin/subscriptions/show/modules/Periods.js:106
+msgid "Status"
+msgstr "Status"
+
+#: app/src/Controllers/Admin/Orders/OrdersListTable.php:113
+#: packages/admin/store/add-entities.js:116
+msgid "Fulfillment"
+msgstr "Orderafhandeling"
+
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:148
+#: packages/admin/affiliation-referrals/modules/ReferralItems.js:76
+#: packages/admin/checkouts/modules/Prices.js:135
+#: packages/admin/orders/modules/Fulfillment/CreateFulfillment.js:207
+#: packages/admin/orders/modules/ReturnRequest/CreateReturnRequest.js:180
+#: packages/admin/products/modules/Variations/Variants.js:123
+msgid "Quantity"
+msgstr "Voorraad"
+
+#: app/src/Routing/PermalinksSettingsService.php:36
+msgctxt "collection-page-slug"
+msgid "collections"
+msgstr "collecties"
+
+#: app/src/Routing/PermalinkServiceProvider.php:75
+#: app/src/WordPress/Admin/Menus/ProductCollectionsMenuService.php:36
+#: views/admin/product-collections/index.php:6
+#: packages/admin/store/add-entities.js:250
+msgid "Product Collections"
+msgstr "Product Collecties"
+
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:150
+#: app/src/WordPress/Admin/Menus/AdminMenuPageService.php:192
+#: packages/admin/product-collections/EditProductCollection.js:144
+#: packages/admin/products/modules/Collections/index.js:55
+msgid "Collections"
+msgstr "Collecties"
+
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:151
+#: packages/admin/products/components/Status/index.js:25
+#: packages/admin/products/components/Status/index.js:64
+msgid "Product Page"
+msgstr "Productpagina"
+
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:152
+#: packages/admin/products/modules/Image/ImageDisplay.js:43
+#: packages/admin/products/modules/Publishing.js:62
+msgid "Featured"
+msgstr "Uitgelicht"
+
+#: app/src/Controllers/Admin/AffiliationReferrals/AffiliationReferralsListTable.php:121
+#: app/src/Controllers/Admin/ProductCollections/ProductCollectionsListTable.php:49
+#: packages/admin/affiliation-referrals/CreateAffiliationReferral.js:120
+#: packages/admin/affiliation-referrals/modules/Details.js:46
+#: packages/admin/affiliations/modules/Referrals.js:58
+#: packages/admin/product-collections/CreateProductCollection.js:121
+#: packages/admin/product-collections/modules/Details.js:32
+#: packages/admin/products/modules/Details.js:28
+#: packages/admin/settings/processors/CreateEditPaymentMethod.js:97
+#: packages/admin/settings/shipping/method/ShippingMethodForm.js:126
+#: packages/admin/settings/shipping/rate/ShippingRateForm.js:318
+#: packages/admin/settings/subscription-preservation/PreservationSettings.js:239
+#: packages/admin/settings/subscription-preservation/PreservationSettings.js:286
+#: packages/blocks/Blocks/Form/edit.js:479
+#: packages/blocks/Blocks/Heading/edit.js:33
+#: packages/blocks/Blocks/Heading/edit.js:56
+#: packages/blocks/Blocks/PriceChoice/edit.js:71
+msgid "Description"
+msgstr "Omschrijving"
+
+#: packages/blocks/Blocks/Product/BuyButton/Block.php:124
+#: packages/blocks/Blocks/Product/BuyButton/Block.php:144
+#: packages/blocks/Blocks/Upsell/SubmitButton/Block.php:125
+#: packages/blocks/Blocks/Upsell/SubmitButton/Block.php:149
+#: packages/admin/products/components/Availability/index.js:85
+msgid "Unavailable For Purchase"
+msgstr "Niet beschikbaar om te kopen"
+
+#: app/src/Controllers/Admin/AffiliationReferrals/AffiliationReferralsListTable.php:145
+#: app/src/Controllers/Admin/Bumps/BumpsListTable.php:280
+#: app/src/Controllers/Admin/Coupons/CouponsListTable.php:262
+#: app/src/Controllers/Admin/Customers/CustomersListTable.php:150
+#: app/src/Controllers/Admin/Licenses/LicensesListTable.php:110
+#: app/src/Controllers/Admin/ProductCollections/ProductCollectionsListTable.php:124
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:489
+#: app/src/Controllers/Admin/Subscriptions/SubscriptionsListTable.php:400
+#: app/src/Controllers/Admin/Upsells/UpsellsListTable.php:270
+#: app/src/Integrations/Beaver/BeaverFormModule.php:95
+#: app/src/Integrations/Elementor/ReusableFormWidget.php:122
+#: packages/admin/checkouts/modules/Address.js:101
+#: packages/admin/checkouts/modules/Tax/index.js:114
+#: packages/admin/components/affiliates/commission/CommissionSidebarForm.js:60
+#: packages/admin/components/data-tables/affiliates/products/index.js:95
+#: packages/admin/components/Permalink.js:61
+#: packages/admin/components/Permalink.js:69
+#: packages/admin/components/ToggleHeader.js:62
+#: packages/admin/coupons/modules/Code.js:143
+#: packages/admin/customers/modules/BillingAddress/index.js:45
+#: packages/admin/customers/modules/ShippingAddress/index.js:46
+#: packages/admin/licenses/modules/Activations/Activation.js:221
+#: packages/admin/products/modules/Variations/VariantOption.js:266
+#: packages/admin/settings/customer/EmailRow.js:42
+#: packages/admin/settings/processors/ManualPaymentMethod.js:124
+#: packages/admin/settings/shipping/method/ShippingMethods.js:176
+#: packages/admin/settings/shipping/zone/ShippingZone.js:138
+#: packages/admin/settings/shipping/zone/ShippingZone.js:205
+#: packages/admin/settings/subscription-preservation/Reason.js:103
+#: packages/admin/settings/tax-override/TaxOverrideRows.js:67
+#: packages/admin/upsell-funnels/components/SelectTemplate/index.js:117
+#: packages/admin/upsell-funnels/components/SelectTemplatePart/index.js:117
+#: packages/admin/upsell-funnels/modules/Upsell/EditUpsell.js:96
+msgid "Edit"
+msgstr "Bewerken"
+
+#: app/src/Support/Errors/Translations/attributes.php:13
+#: packages/admin/coupons/modules/Types.js:70
+#: packages/admin/settings/abandoned/Coupon.js:84
+#: packages/admin/settings/subscription-preservation/Coupon.js:60
+msgid "Percent Off"
+msgstr "Procentuele korting"
+
+#: app/src/Controllers/Admin/Coupons/CouponsListTable.php:224
+#: app/src/Controllers/Admin/Subscriptions/SubscriptionsListTable.php:358
+#: packages/admin/coupons/modules/Types.js:37
+#: packages/admin/coupons/modules/Types.js:127
+#: packages/admin/coupons/Sidebar.js:30
+#: packages/admin/settings/abandoned/Coupon.js:54
+#: packages/admin/settings/abandoned/Coupon.js:144
+#: packages/admin/settings/subscription-preservation/Coupon.js:29
+#: packages/admin/settings/subscription-preservation/Coupon.js:118
+msgid "Once"
+msgstr "Eenmalig"
+
+#: app/src/Install/InstallService.php:121
+#: app/src/WordPress/Pages/PageSeeder.php:139
+msgctxt "Page title"
+msgid "Checkout"
+msgstr "Afrekenen"
+
+#: app/src/Install/InstallService.php:120
+#: app/src/WordPress/Pages/PageSeeder.php:138
+msgctxt "Page slug"
+msgid "checkout"
+msgstr "afrekenen"
+
+#: app/src/Install/InstallService.php:26
+#: app/src/WordPress/Pages/PageSeeder.php:114
+msgctxt "Form title"
+msgid "Checkout"
+msgstr "Afrekenen"
+
+#: app/src/Install/InstallService.php:25
+#: app/src/WordPress/Pages/PageSeeder.php:113
+msgctxt "Form slug"
+msgid "checkout"
+msgstr "afrekenen"
+
+#: app/src/WordPress/Admin/Menus/AdminMenuPageService.php:211
+#: packages/admin/settings/advanced/AdvancedSettings.js:363
+msgid "Customer Area"
+msgstr "Klantomgeving"
+
+#: app/src/WordPress/Admin/Menus/AdminMenuPageService.php:212
+msgid "Custom Forms"
+msgstr "Formulieren"
+
+#: views/layouts/partials/admin-settings-sidebar.php:5
+#: packages/admin/settings/account/AccountSettings.js:108
+msgid "Store Settings"
+msgstr "Winkel instellingen"
+
+#: app/src/Controllers/Admin/Settings/BaseSettings.php:46
+#: views/layouts/partials/admin-settings-sidebar.php:10
+#: packages/admin/settings/brand/BrandSettings.js:81
+msgid "Design & Branding"
+msgstr "Ontwerp & Huisstijl"
+
+#: app/src/Controllers/Admin/Settings/BaseSettings.php:47
+#: views/layouts/partials/admin-settings-sidebar.php:15
+#: packages/admin/settings/order/OrderProtocol.js:40
+msgid "Orders & Receipts"
+msgstr "Bestellingen & Facturen"
+
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutViewController.php:20
+#: views/admin/abandoned-orders/index.php:18
+#: packages/admin/store/add-entities.js:180
+msgid "Abandoned Checkouts"
+msgstr "Verlaten winkelwagens"
+
+#: app/src/Controllers/Admin/Settings/BaseSettings.php:48
+#: views/layouts/partials/admin-settings-sidebar.php:20
+#: packages/admin/abandoned-checkouts/AbandonedCheckout.js:172
+#: packages/admin/settings/abandoned/AbandonedSettings.js:72
+msgid "Abandoned Checkout"
+msgstr "Verlaten winkelwagen"
+
+#: app/src/Controllers/Admin/Orders/OrdersListTable.php:114
+#: views/layouts/partials/admin-settings-sidebar.php:48
+#: packages/admin/abandoned-checkouts/modules/LineItems/index.js:122
+#: packages/admin/checkouts/modules/Payment.js:106
+#: packages/admin/checkouts/modules/SelectShipping.js:78
+#: packages/admin/checkouts/modules/SelectShipping.js:89
+#: packages/admin/checkouts/modules/SelectShipping.js:101
+#: packages/admin/checkouts/modules/SelectShipping.js:114
+#: packages/admin/orders/modules/LineItems/index.js:286
+#: packages/admin/products/modules/Shipping.js:25
+#: packages/admin/settings/shipping/ShippingSettings.js:120
+#: packages/admin/subscriptions/edit/modules/Modals/UpdateRecentPrice.js:257
+#: packages/admin/subscriptions/show/modules/LineItems/index.js:121
+msgid "Shipping"
+msgstr "Verzending"
+
+#: app/src/Controllers/Admin/Settings/BaseSettings.php:52
+#: views/layouts/partials/admin-settings-sidebar.php:44
+#: packages/admin/settings/tax/TaxSettings.js:42
+msgid "Taxes"
+msgstr "Belasting"
+
+#: app/src/Controllers/Admin/Settings/BaseSettings.php:53
+#: views/layouts/partials/admin-settings-sidebar.php:52
+msgid "Payment Processors"
+msgstr "Betaalplatforms"
+
+#: app/src/Controllers/Admin/Settings/BaseSettings.php:51
+#: views/admin/cancellation-insights/index.php:5
+#: views/layouts/partials/admin-settings-sidebar.php:35
+msgid "Subscription Saver"
+msgstr "Abonnementenbehoud"
+
+#: packages/blocks/Blocks/Product/BuyButton/Block.php:128
+#: packages/blocks/Blocks/Upsell/SubmitButton/Block.php:131
+msgid "Sold Out"
+msgstr "Uitverkocht"
+
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:347
+#: packages/admin/checkouts/modules/SelectShipping.js:130
+msgid "Free"
+msgstr "Gratis"

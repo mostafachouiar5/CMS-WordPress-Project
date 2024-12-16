@@ -1,0 +1,63 @@
+{
+	"apiVersion": 2,
+	"name": "surecart/product-donation-prices",
+	"title": "Prices",
+	"description": "Displays a donation price and interval selector.",
+	"category": "surecart",
+	"ancestor": ["surecart/product-donation"],
+	"keywords": ["donation", "ad hoc", "custom", "amount"],
+	"textdomain": "surecart",
+	"usesContext": [
+		"surecart/product-donation/product_id",
+		"surecart/product-donation/required"
+	],
+	"supports": {
+		"reusable": false,
+		"html": false,
+		"color": {
+			"__experimentalSkipSerialization": true,
+			"gradients": true,
+			"link": false,
+			"__experimentalDefaultControls": {
+				"background": true,
+				"text": true,
+				"link": true
+			}
+		},
+		"spacing": {
+			"__experimentalSkipSerialization": true,
+			"margin": true,
+			"padding": true
+		},
+		"__experimentalBorder": {
+			"__experimentalSkipSerialization": true,
+			"color": true,
+			"radius": true
+		},
+		"typography": {
+			"fontSize": true,
+			"lineHeight": true,
+			"__experimentalFontFamily": true,
+			"__experimentalFontWeight": true,
+			"__experimentalFontStyle": true,
+			"__experimentalTextTransform": true,
+			"__experimentalTextDecoration": true,
+			"__experimentalLetterSpacing": true,
+			"__experimentalDefaultControls": {
+				"fontSize": true,
+				"fontAppearance": true,
+				"textTransform": true
+			}
+		}
+	},
+	"attributes": {
+		"label": {
+			"type": "string",
+			"default": "Make It Recurring"
+		},
+		"columns": {
+			"type": "number",
+			"default": 2
+		}
+	}
+}

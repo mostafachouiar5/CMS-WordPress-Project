@@ -1,0 +1,1 @@
+import{newSpecPage}from"@stencil/core/testing";import{ScTotal}from"../sc-total";describe("sc-total",(()=>{it("renders",(async()=>{const t=await newSpecPage({components:[ScTotal],html:"<sc-total></sc-total>"});expect(t.root).toMatchSnapshot()}))}));

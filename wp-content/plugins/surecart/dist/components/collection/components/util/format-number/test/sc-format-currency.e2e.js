@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-format-number",(()=>{it("renders",(async()=>{const e=await newE2EPage();await e.setContent("<sc-format-number></sc-format-number>");const t=await e.find("sc-format-number");expect(t).toHaveClass("hydrated")}))}));

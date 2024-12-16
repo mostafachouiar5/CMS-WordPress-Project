@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-breadcrumbs",(()=>{it("renders",(async()=>{const e=await newE2EPage();await e.setContent("<sc-breadcrumbs></sc-breadcrumbs>");const s=await e.find("sc-breadcrumbs");expect(s).toHaveClass("hydrated")}))}));

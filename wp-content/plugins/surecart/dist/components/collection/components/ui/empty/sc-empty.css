@@ -1,0 +1,17 @@
+:host {
+  display: block;
+}
+
+.empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--sc-spacing-large);
+  text-align: center;
+  gap: var(--sc-spacing-small);
+  color: var(--sc-empty-color, var(--sc-color-gray-500));
+}
+.empty sc-icon {
+  font-size: var(--sc-font-size-xx-large);
+  color: var(--sc-empty-icon-color, var(--sc-color-gray-700));
+}

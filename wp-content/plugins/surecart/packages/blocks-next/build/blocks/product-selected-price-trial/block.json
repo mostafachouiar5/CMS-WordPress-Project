@@ -1,0 +1,38 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "surecart/product-selected-price-trial",
+  "title": "Selected Price Trial",
+  "description": "Displays the currently selected price trial.",
+  "version": "1.0.0",
+  "category": "surecart-product-page",
+  "icon": "clock",
+  "ancestor": [
+    "surecart/product-page",
+    "surecart/product-template"
+  ],
+  "example": {
+    "attributes": {}
+  },
+  "supports": {
+    "interactivity": true,
+    "anchor": true,
+    "color": {
+      "gradients": true,
+      "text": true,
+      "background": false,
+      "__experimentalDefaultControls": {
+        "text": true,
+        "button": true
+      }
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "textAlign": true
+    }
+  },
+  "textdomain": "surecart",
+  "render": "file:./view.php",
+  "editorScript": "file:./index.js"
+}

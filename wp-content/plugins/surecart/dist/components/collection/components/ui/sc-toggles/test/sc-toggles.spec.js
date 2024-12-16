@@ -1,0 +1,1 @@
+import{newSpecPage}from"@stencil/core/testing";import{ScToggles}from"../sc-toggles";describe("sc-toggles",(()=>{it("renders",(async()=>{const e=await newSpecPage({components:[ScToggles],html:"<sc-toggles></sc-toggles>"});expect(e.root).toMatchSnapshot()}))}));

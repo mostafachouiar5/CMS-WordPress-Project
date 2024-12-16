@@ -1,0 +1,169 @@
+# Translation of SureCart in Chinese (Taiwan)
+# This file is distributed under the same license as the SureCart package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-02-13 22:31:52+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: zh_TW\n"
+"Project-Id-Version: SureCart\n"
+
+#: packages/blocks/Blocks/Product/BuyButtons/block.json
+msgctxt "block title"
+msgid "Product Buy Buttons"
+msgstr "產品購買按鈕"
+
+#: packages/blocks/Blocks/Product/Media/block.json
+msgctxt "block description"
+msgid "A container to display the product media"
+msgstr "顯示產品媒體的容器"
+
+#: packages/blocks/Blocks/ProductItemList/block.json
+msgctxt "block description"
+msgid "Display a list of products from your store."
+msgstr "顯示您商店中的產品列表"
+
+#: packages/blocks/Blocks/Product/Description/block.json
+msgctxt "block description"
+msgid "Display the product description"
+msgstr "顯示產品描述"
+
+#: packages/blocks/Blocks/ProductItemImage/block.json
+msgctxt "block description"
+msgid "Displays a product item image."
+msgstr "顯示產品項目圖像"
+
+#: packages/blocks/Blocks/ProductItem/block.json
+msgctxt "block description"
+msgid "Displays a single product item."
+msgstr "顯示單個產品項目"
+
+#: packages/blocks/Blocks/Product/PriceChoices/block.json
+msgctxt "block description"
+msgid "Displays possible choices for product prices."
+msgstr "顯示產品價格選擇"
+
+#: packages/blocks/Blocks/Product/BuyButtons/block.json
+msgctxt "block description"
+msgid "Displays product buy and add to cart buttons"
+msgstr "顯示產品購買和添加到購物車按鈕"
+
+#: packages/blocks/Blocks/Product/Quantity/block.json
+msgctxt "block description"
+msgid "Displays quantity selector for a product."
+msgstr "顯示產品的數量選擇"
+
+#: packages/blocks/Blocks/Product/Price/block.json
+msgctxt "block description"
+msgid "Displays the product price or price range."
+msgstr "顯示產品價格或價格範圍"
+
+#: packages/blocks/Blocks/Product/Title/block.json
+#: packages/blocks/Blocks/ProductItemTitle/block.json
+msgctxt "block description"
+msgid "Displays the product title."
+msgstr "顯示產品標題"
+
+#: packages/blocks/Blocks/Product/Description/block.json
+msgctxt "block title"
+msgid "Product Description"
+msgstr "產品描述"
+
+#: packages/blocks/Blocks/ProductItemImage/block.json
+msgctxt "block title"
+msgid "Product Image"
+msgstr "產品圖片"
+
+#: packages/blocks/Blocks/ProductItem/block.json
+msgctxt "block title"
+msgid "Product Item"
+msgstr "產品項目"
+
+#: packages/blocks/Blocks/ProductItemPrice/block.json
+msgctxt "block title"
+msgid "Product Item Price"
+msgstr "產品 項目 價格"
+
+#: packages/blocks/Blocks/ProductItemList/block.json
+msgctxt "block title"
+msgid "Product List"
+msgstr "產品列表"
+
+#: packages/blocks/Blocks/Product/Media/block.json
+msgctxt "block title"
+msgid "Product Media"
+msgstr "產品媒體"
+
+#: packages/blocks/Blocks/Product/Price/block.json
+msgctxt "block title"
+msgid "Product Price"
+msgstr "產品價格"
+
+#: packages/blocks/Blocks/Product/PriceChoices/block.json
+msgctxt "block title"
+msgid "Product Price Choices"
+msgstr "產品價格選擇"
+
+#: packages/blocks/Blocks/Product/Quantity/block.json
+msgctxt "block title"
+msgid "Product Quantity"
+msgstr "產品數量"
+
+#: packages/blocks/Blocks/Product/Title/block.json
+#: packages/blocks/Blocks/ProductItemTitle/block.json
+msgctxt "block title"
+msgid "Product Title"
+msgstr "產品名稱"
+
+#: packages/blocks/Blocks/CartMenuButton/block.json
+msgctxt "block description"
+msgid "The cart menu icon that shows your cart quantity."
+msgstr "購物車菜單圖標顯示你的購物車數量。"
+
+#: packages/blocks/Blocks/Product/Description/block.json
+#: packages/blocks/Blocks/ProductCollectionDescription/block.json
+#: packages/blocks/Blocks/Upsell/CountdownTimer/block.json
+msgctxt "block keyword"
+msgid "description"
+msgstr "描述"
+
+#: packages/blocks/Blocks/ProductItem/block.json
+msgctxt "block keyword"
+msgid "item"
+msgstr "物品"
+
+#: packages/blocks/Blocks/ProductCollection/block.json
+#: packages/blocks/Blocks/ProductItemList/block.json
+#: packages/blocks/Blocks/ProductItemTitle/block.json
+msgctxt "block keyword"
+msgid "list"
+msgstr "列表"
+
+#: packages/blocks/Blocks/ProductItem/block.json
+msgctxt "block keyword"
+msgid "lite item"
+msgstr "精簡版項目"
+
+#: packages/blocks/Blocks/Product/Media/block.json
+msgctxt "block keyword"
+msgid "media"
+msgstr "媒體"
+
+#: packages/blocks/Blocks/ProductCollection/block.json
+#: packages/blocks/Blocks/ProductItemList/block.json
+msgctxt "block keyword"
+msgid "products"
+msgstr "產品"
+
+#: packages/blocks/Blocks/Product/Quantity/block.json
+msgctxt "block keyword"
+msgid "quantity"
+msgstr "數量"
+
+#: packages/blocks/Blocks/ProductItemImage/block.json
+msgctxt "block keyword"
+msgid "thumbnail"
+msgstr "縮圖"

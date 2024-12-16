@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-order-bumps",(()=>{it("renders",(async()=>{const e=await newE2EPage();await e.setContent("<sc-order-bumps></sc-order-bumps>");const s=await e.find("sc-order-bumps");expect(s).toHaveClass("hydrated")}))}));

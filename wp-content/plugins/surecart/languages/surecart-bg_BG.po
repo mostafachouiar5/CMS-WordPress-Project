@@ -1,0 +1,85 @@
+# Translation of SureCart in Bulgarian
+# This file is distributed under the same license as the SureCart package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-02-13 22:02:48+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: bg\n"
+"Project-Id-Version: SureCart\n"
+
+#: packages/blocks/Blocks/CheckoutErrors/block.json
+msgctxt "block title"
+msgid "Checkout Errors"
+msgstr "Грешки при плащане"
+
+#: packages/blocks/Blocks/ConditionalForm/block.json
+msgctxt "block title"
+msgid "Conditional"
+msgstr "Условно"
+
+#: packages/blocks/Blocks/ConditionalForm/block.json
+msgctxt "block description"
+msgid "Display an area of the form based on conditions."
+msgstr "Показване на част от формата на база условия."
+
+#: packages/blocks/Blocks/CheckoutErrors/block.json
+msgctxt "block description"
+msgid "Display any checkout-related errors. By default the checkout form shows these at the top. Add this block to change the location."
+msgstr "Показване на всички грешки, свързани с плащането. По подразбиране формулярът за плащане ги показва в горната част. Добавете този блок, за да промените местоположението."
+
+#: packages/blocks/Blocks/StoreLogo/block.json
+msgctxt "block description"
+msgid "Display the store logo."
+msgstr "Покажи логото на магазина"
+
+#: packages/blocks/Blocks/Phone/block.json
+msgctxt "block title"
+msgid "Phone"
+msgstr "Телефон"
+
+#: packages/blocks/Blocks/StoreLogo/block.json
+msgctxt "block title"
+msgid "Store Logo"
+msgstr "Лого на магазина"
+
+#: packages/blocks/Blocks/Column/block.json
+msgctxt "block title"
+msgid "SureCart Column"
+msgstr "SureCart Колона"
+
+#: packages/blocks/Blocks/Columns/block.json
+msgctxt "block title"
+msgid "SureCart Columns"
+msgstr "SureCart Колони"
+
+#: packages/blocks/Blocks/CheckoutErrors/block.json
+msgctxt "block keyword"
+msgid "error"
+msgstr "грешка"
+
+#: packages/blocks/Blocks/Product/Media/block.json
+#: packages/blocks/Blocks/ProductCollectionImage/block.json
+#: packages/blocks/Blocks/ProductItemImage/block.json
+#: packages/blocks/Blocks/StoreLogo/block.json
+msgctxt "block keyword"
+msgid "image"
+msgstr "изображение"
+
+#: packages/blocks/Blocks/StoreLogo/block.json
+msgctxt "block keyword"
+msgid "logo"
+msgstr "лого"
+
+#: packages/blocks/Blocks/CheckoutErrors/block.json
+msgctxt "block keyword"
+msgid "notice"
+msgstr "известие"
+
+#: packages/blocks/Blocks/StoreLogo/block.json
+msgctxt "block keyword"
+msgid "store logo"
+msgstr "лого на магазина"

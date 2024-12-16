@@ -1,0 +1,35 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "surecart/product-item-price",
+	"title": "Product Item Price",
+	"description": "Displays the price of the product with the scratched price.",
+	"category": "surecart",
+	"keywords": ["product", "price", "discount"],
+	"ancestor": ["surecart/product-item"],
+	"attributes": {
+		"align": {
+			"type": "string"
+		},
+		"range": {
+			"type": "boolean",
+			"default": false
+		}
+	},
+	"supports": {
+		"spacing": {
+			"padding": true,
+			"margin": ["top", "bottom"]
+		},
+		"typography": {
+			"fontSize": true,
+			"lineHeight": true,
+			"__experimentalFontWeight": true
+		},
+		"color": {
+			"text": true,
+			"background": false,
+			"enableContrastChecker": true
+		}
+	}
+}

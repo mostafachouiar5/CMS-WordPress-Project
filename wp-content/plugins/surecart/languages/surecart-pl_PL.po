@@ -1,0 +1,25 @@
+# Translation of SureCart in Polish
+# This file is distributed under the same license as the SureCart package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-02-13 22:23:08+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: pl\n"
+"Project-Id-Version: SureCart\n"
+
+#: views/admin/advanced.php:33 views/admin/connection-invalid.php:28
+#: views/admin/connection.php:37
+#: packages/admin/affiliation-requests/modules/Details.js:43
+#: packages/admin/affiliations/modules/affiliation-products/index.js:289
+#: packages/admin/affiliations/modules/Commission.js:119
+#: packages/admin/products/modules/Affiliation.js:118
+#: packages/admin/settings/SettingsBox.js:54
+#: packages/admin/settings/SettingsTemplate.js:77
+#: packages/admin/settings/shipping/zone/ShippingZoneForm.js:237
+#: packages/admin/settings/tax-override/TaxOverrideModal.js:272
+msgid "Save"
+msgstr "Zapisz"

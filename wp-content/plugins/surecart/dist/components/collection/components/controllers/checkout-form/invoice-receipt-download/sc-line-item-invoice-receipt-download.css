@@ -1,0 +1,16 @@
+:host {
+  display: block;
+}
+
+sc-line-item {
+  text-align: left;
+  line-height: var(--sc-line-height-dense);
+  color: var(--sc-input-label-color);
+}
+
+.sc-invoice-download-link {
+  display: inline-flex;
+  gap: var(--sc-spacing-x-small);
+  text-decoration: none;
+  color: inherit;
+}

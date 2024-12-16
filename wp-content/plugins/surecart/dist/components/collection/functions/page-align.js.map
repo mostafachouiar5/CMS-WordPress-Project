@@ -1,0 +1,1 @@
+{"version":3,"file":"page-align.js","sourceRoot":"","sources":["../../src/functions/page-align.ts"],"names":[],"mappings":"AAAA,MAAM,UAAU,KAAK;IACnB,OAAO,QAAQ,CAAC,GAAG,KAAK,KAAK,CAAA;AAC/B,CAAC","sourcesContent":["export function isRtl():boolean{\n  return document.dir === 'rtl'\n}\n"]}

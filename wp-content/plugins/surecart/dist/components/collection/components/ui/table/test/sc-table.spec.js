@@ -1,0 +1,1 @@
+import{newSpecPage}from"@stencil/core/testing";import{ScTable}from"../sc-table";describe("sc-table",(()=>{it("renders",(async()=>{const e=await newSpecPage({components:[ScTable],html:"<sc-table></sc-table>"});expect(e.root).toMatchSnapshot()}))}));

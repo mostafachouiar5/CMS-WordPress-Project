@@ -1,0 +1,70 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "surecart/product-variant-pill",
+  "title": "Pill",
+  "description": "Displays a product variant choice as a pill.",
+  "version": "1.0.0",
+  "category": "surecart-product-page",
+  "ancestor": [
+    "surecart/product-variant-pills"
+  ],
+  "usesContext": [
+    "surecart/productVariantPill/name",
+    "surecart/productVariantPill/selected"
+  ],
+  "attributes": {
+    "highlight_text": {
+      "type": "string"
+    },
+    "highlight_background": {
+      "type": "string"
+    },
+    "highlight_border": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "interactivity": true,
+    "inserter": false,
+    "anchor": true,
+    "__experimentalBorder": {
+      "color": true,
+      "radius": true,
+      "width": true,
+      "__experimentalDefaultControls": {
+        "color": true,
+        "radius": true,
+        "width": true
+      }
+    },
+    "color": {
+      "gradients": true,
+      "text": true,
+      "background": true,
+      "__experimentalDefaultControls": {
+        "text": true,
+        "background": true
+      }
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true
+    },
+    "shadow": true,
+    "spacing": {
+      "padding": true,
+      "margin": [
+        "top",
+        "bottom"
+      ]
+    }
+  },
+  "textdomain": "surecart",
+  "editorScript": "file:./index.js",
+  "render": "file:./view.php",
+  "style": [
+    "surecart-pill",
+    "file:./style-index.css"
+  ]
+}

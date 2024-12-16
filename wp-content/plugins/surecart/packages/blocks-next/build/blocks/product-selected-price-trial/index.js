@@ -1,0 +1,1 @@
+!function(){"use strict";var e=window.wp.blocks,t=window.wp.i18n,r=window.wp.blockEditor,c=JSON.parse('{"UU":"surecart/product-selected-price-trial"}');(0,e.registerBlockType)(c.UU,{edit:()=>{const e=(0,r.useBlockProps)();return React.createElement("span",e,(0,t.__)("Starting in 7 days."))}})}();

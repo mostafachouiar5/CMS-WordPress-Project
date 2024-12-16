@@ -1,0 +1,10 @@
+:host {
+  display: block;
+}
+
+:slotted([slot="summary"]) {
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}

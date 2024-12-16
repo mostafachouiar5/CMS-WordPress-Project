@@ -1,0 +1,1 @@
+import{ScSkeleton}from"../sc-skeleton";import{newSpecPage}from"@stencil/core/testing";describe("sc-skeleton",(()=>{it("renders",(async()=>{const e=await newSpecPage({components:[ScSkeleton],html:"<sc-skeleton></sc-skeleton>"});expect(e.root).toMatchSnapshot()}))}));

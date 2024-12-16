@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-checkout-mollie-payment",(()=>{it("renders",(async()=>{const e=await newE2EPage();await e.setContent("<sc-checkout-mollie-payment></sc-checkout-mollie-payment>");const t=await e.find("sc-checkout-mollie-payment");expect(t).toHaveClass("hydrated")}))}));

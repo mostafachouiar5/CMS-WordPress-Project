@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-button-group",(()=>{it("renders",(async()=>{const t=await newE2EPage();await t.setContent("<sc-button-group></sc-button-group>");const e=await t.find("sc-button-group");expect(e).toHaveClass("hydrated")}))}));

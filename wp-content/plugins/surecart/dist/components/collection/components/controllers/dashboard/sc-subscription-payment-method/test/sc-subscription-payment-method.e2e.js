@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-subscription-payment-method",(()=>{it("renders",(async()=>{const t=await newE2EPage();await t.setContent("<sc-subscription-payment-method></sc-subscription-payment-method>");const e=await t.find("sc-subscription-payment-method");expect(e).toHaveClass("hydrated")}))}));

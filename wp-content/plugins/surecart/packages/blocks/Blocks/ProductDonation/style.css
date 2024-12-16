@@ -1,0 +1,3 @@
+.wp-block-surecart-product-donation > *:not(:last-child) {
+  margin-bottom: var(--sc-form-row-spacing, 0.75em);
+}

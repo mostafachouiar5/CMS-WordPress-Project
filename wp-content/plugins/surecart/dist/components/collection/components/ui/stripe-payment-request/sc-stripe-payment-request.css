@@ -1,0 +1,12 @@
+:host {
+  display: block;
+}
+
+.or {
+  display: none;
+  margin: var(--sc-form-section-spacing) 0;
+}
+
+.request--loaded .or {
+  display: block;
+}

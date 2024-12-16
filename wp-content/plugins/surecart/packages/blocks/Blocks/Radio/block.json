@@ -1,0 +1,26 @@
+{
+	"apiVersion": 2,
+	"name": "surecart/radio",
+	"title": "Radio",
+	"description": "Display a radio input",
+	"category": "surecart",
+	"keywords": ["radio", "surecart"],
+  "textdomain": "surecart",
+	"ancestor": ["surecart/radio-group"],
+	"supports": {
+		"reusable": false,
+		"html": false
+	},
+	"attributes": {
+		"label": {
+			"type": "string"
+		},
+		"value": {
+			"type": "string",
+			"default": "checked"
+		},
+		"name": {
+			"type": "string"
+		}
+	}
+}

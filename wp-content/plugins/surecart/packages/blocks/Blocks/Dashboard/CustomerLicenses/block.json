@@ -1,0 +1,20 @@
+{
+	"name": "surecart/customer-licenses",
+	"title": "Customer Licenses",
+	"description": "Displays the customer's licenses.",
+	"category": "surecart-customer-dashboard",
+	"keywords": ["license", "customer", "dashboard"],
+	"textdomain": "surecart",
+	"ancestor": ["surecart/dashboard-page", "surecart/dashboard-area"],
+	"supports": {
+		"reusable": false,
+		"html": false,
+		"align": ["wide", "full"]
+	},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": "Licenses"
+		}
+	}
+}

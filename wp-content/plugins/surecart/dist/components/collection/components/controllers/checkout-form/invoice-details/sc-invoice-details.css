@@ -1,0 +1,11 @@
+:host {
+  display: block;
+}
+
+::slotted(*) {
+  margin: 4px 0 !important;
+}
+
+::slotted(sc-divider) {
+  margin: 16px 0 !important;
+}

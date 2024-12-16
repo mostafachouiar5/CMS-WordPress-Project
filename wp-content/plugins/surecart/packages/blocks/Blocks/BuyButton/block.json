@@ -1,0 +1,51 @@
+{
+	"name": "surecart/buy-button",
+	"title": "Buy Button",
+	"apiVersion": 3,
+	"version": "1.0.0",
+	"description": "Display a button to immediately redirect to the checkout page with the product in the cart.",
+	"category": "surecart-product-page",
+	"keywords": ["name", "customer"],
+	"textdomain": "surecart",
+	"parent": null,
+	"supports": {
+		"reusable": false,
+		"html": false
+	},
+	"attributes": {
+		"price_id": {
+			"type": "string"
+		},
+		"label": {
+			"type": "string",
+			"default": "Name"
+		},
+		"backgroundColor": {
+			"type": "string"
+		},
+		"textColor": {
+			"type": "string"
+		},
+		"gradient": {
+			"type": "string"
+		},
+		"radius": {
+			"type": "number"
+		},
+		"help": {
+			"type": "string",
+			"default": "Optional"
+		},
+		"line_items": {
+			"type": "array",
+			"default": []
+		}
+	},
+	"script": "surecart-components",
+	"style": [
+		"wp-block-button",
+		"surecart-wp-button",
+		"surecart-themes-default",
+		"surecart-button"
+	]
+}

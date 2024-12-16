@@ -1,0 +1,30 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "surecart/cart-menu-icon",
+	"title": "Cart Menu Icon",
+	"description": "The cart menu icon that shows your cart quantity.",
+	"category": "surecart",
+	"textdomain": "surecart",
+	"supports": {
+		"reusable": false,
+		"html": false,
+		"color": {
+			"text": true,
+			"background": false
+		},
+		"inserter": false
+	},
+	"attributes": {
+		"cart_icon": {
+			"type": "string",
+			"default": "shopping-bag"
+		},
+		"cart_menu_always_shown": {
+			"type": "boolean",
+			"default": true
+		}
+	},
+	"script": "surecart-components",
+	"style": "surecart-themes-default"
+}

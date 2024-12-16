@@ -1,0 +1,17 @@
+{
+	"apiVersion": 2,
+	"name": "surecart/collection-page",
+	"title": "Product Collection",
+	"description": "A Product collection page for SureCart",
+	"parent": ["core/navigation"],
+	"category": "surecart",
+	"keywords": ["collection", "category", "page", "surecart"],
+	"textdomain": "surecart",
+	"supports": {
+		"reusable": false,
+		"html": false,
+		"className": false,
+		"inserter": false
+	},
+	"attributes": {}
+}

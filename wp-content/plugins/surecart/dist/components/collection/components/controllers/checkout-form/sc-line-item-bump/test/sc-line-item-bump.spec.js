@@ -1,0 +1,1 @@
+import{newSpecPage}from"@stencil/core/testing";import{ScLineItemBump}from"../sc-line-item-bump";describe("sc-line-item-bump",(()=>{it("renders",(async()=>{const e=await newSpecPage({components:[ScLineItemBump],html:"<sc-line-item-bump></sc-line-item-bump>"});expect(e.root).toMatchSnapshot()}))}));

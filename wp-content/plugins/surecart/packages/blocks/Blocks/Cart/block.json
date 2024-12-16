@@ -1,0 +1,26 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "surecart/cart",
+	"title": "Cart",
+	"description": "The cart",
+	"category": "surecart",
+	"textdomain": "surecart",
+	"supports": {
+		"reusable": false,
+		"html": false,
+		"multiple": false,
+		"inserter": false
+	},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": "Cart"
+		},
+		"width": {
+			"type": "string",
+			"default": "500px"
+		}
+	},
+	"editorStyle": "file:./editor.css"
+}

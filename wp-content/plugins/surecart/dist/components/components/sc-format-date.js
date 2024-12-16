@@ -1,0 +1,1 @@
+import{S as ScFormatDate$1,d as defineCustomElement$1}from"./sc-format-date2.js";const ScFormatDate=ScFormatDate$1,defineCustomElement=defineCustomElement$1;export{ScFormatDate,defineCustomElement};

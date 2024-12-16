@@ -1,0 +1,1 @@
+export default{title:"Components/Address"};const Template=e=>`<sc-address\n  label="${e.label}"\n  loading="${e.loading?"true":"false"}"\n  required="${e.required?"true":"false"}"\n></sc-address>`;export const Default=Template.bind({});Default.args={label:"Address",loading:!1,required:!1};

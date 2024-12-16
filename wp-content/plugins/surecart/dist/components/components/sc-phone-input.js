@@ -1,0 +1,1 @@
+import{S as ScPhoneInput$1,d as defineCustomElement$1}from"./sc-phone-input2.js";const ScPhoneInput=ScPhoneInput$1,defineCustomElement=defineCustomElement$1;export{ScPhoneInput,defineCustomElement};

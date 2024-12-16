@@ -1,0 +1,76 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "surecart/product-price-choice-template",
+  "title": "Price",
+  "description": "Displays the price of a product with a choice of options.",
+  "version": "1.0.0",
+  "category": "widgets",
+  "icon": "money",
+  "usesContext": [
+    "postId",
+    "surecart/product",
+    "surecart/price"
+  ],
+  "ancestor": [
+    "surecart/product-price-chooser"
+  ],
+  "attributes": {
+    "highlight_border": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "interactivity": true,
+    "anchor": true,
+    "spacing": {
+      "padding": true,
+      "margin": true,
+      "__experimentalDefaultControls": {
+        "padding": true,
+        "margin": true
+      }
+    },
+    "__experimentalBorder": {
+      "color": true,
+      "radius": true,
+      "width": true,
+      "__experimentalDefaultControls": {
+        "color": true,
+        "radius": true,
+        "width": true
+      }
+    },
+    "color": {
+      "gradients": true,
+      "text": true,
+      "background": true,
+      "__experimentalDefaultControls": {
+        "text": true,
+        "background": true
+      }
+    },
+    "__experimentalLayout": {
+      "allowSwitching": false,
+      "allowInheriting": false,
+      "default": {
+        "type": "flex"
+      }
+    },
+    "layout": {
+      "allowSwitching": false,
+      "allowInheriting": false,
+      "allowSizingOnChildren": true,
+      "default": {
+        "type": "flex"
+      }
+    }
+  },
+  "textdomain": "surecart",
+  "render": "file:./view.php",
+  "editorScript": "file:./index.js",
+  "style": [
+    "surecart-choice",
+    "file:./style-index.css"
+  ]
+}

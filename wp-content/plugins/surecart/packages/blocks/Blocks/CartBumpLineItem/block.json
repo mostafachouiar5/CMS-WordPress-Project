@@ -1,0 +1,40 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "surecart/cart-bump-line-item",
+	"title": "Cart Bump Line Item",
+	"description": "Display the cart bump line item",
+	"category": "surecart",
+  "textdomain": "surecart",
+	"supports": {
+		"reusable": false,
+		"html": false,
+		"multiple": false
+	},
+	"ancestor": ["surecart/cart"],
+	"attributes": {
+		"label": {
+			"type": "string",
+			"default": "Bundle Discount"
+		},
+		"border": {
+			"type": "boolean",
+			"default": true
+		},
+		"padding": {
+			"type": "object",
+			"default": {
+				"top": "1.25em",
+				"left": "1.25em",
+				"bottom": "1.25em",
+				"right": "1.25em"
+			}
+		},
+		"backgroundColor": {
+			"type": "string"
+		},
+		"textColor": {
+			"type": "string"
+		}
+	}
+}

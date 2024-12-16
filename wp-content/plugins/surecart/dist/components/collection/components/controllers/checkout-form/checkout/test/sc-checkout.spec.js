@@ -1,0 +1,1 @@
+import{newSpecPage}from"@stencil/core/testing";import{ScCheckout}from"../sc-checkout";describe("sc-checkout",(()=>{const c=window.fetch;beforeEach((()=>{window.fetch=jest.fn()})),afterAll((()=>{window.fetch=c})),it("renders",(async()=>{const c=await newSpecPage({components:[ScCheckout],html:"<sc-checkout></sc-checkout>"});expect(c.root).toMatchSnapshot()}))}));

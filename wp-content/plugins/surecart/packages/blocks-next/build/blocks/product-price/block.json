@@ -1,0 +1,58 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "surecart/product-list-price",
+  "title": "Price",
+  "description": "Display the static product price.",
+  "version": "1.0.0",
+  "category": "surecart-product-list",
+  "example": {},
+  "usesContext": [
+    "postId"
+  ],
+  "ancestor": [
+    "surecart/product-page",
+    "surecart/product-template"
+  ],
+  "attributes": {
+    "show_range": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "supports": {
+    "interactivity": true,
+    "spacing": {
+      "padding": true,
+      "margin": [
+        "top",
+        "bottom"
+      ]
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "textAlign": true,
+      "__experimentalFontFamily": true,
+      "__experimentalFontWeight": true,
+      "__experimentalFontStyle": true,
+      "__experimentalTextTransform": true,
+      "__experimentalTextDecoration": true,
+      "__experimentalLetterSpacing": true,
+      "__experimentalDefaultControls": {
+        "fontSize": true,
+        "fontAppearance": true,
+        "textTransform": true
+      }
+    },
+    "color": {
+      "text": true,
+      "background": false,
+      "enableContrastChecker": true
+    }
+  },
+  "textdomain": "surecart",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css",
+  "render": "file:./view.php"
+}

@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-dashboard-module",(()=>{it("renders",(async()=>{const e=await newE2EPage();await e.setContent("<sc-dashboard-module></sc-dashboard-module>");const a=await e.find("sc-dashboard-module");expect(a).toHaveClass("hydrated")}))}));

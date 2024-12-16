@@ -1,0 +1,1 @@
+import{S as ScFormControl$1,d as defineCustomElement$1}from"./sc-form-control2.js";const ScFormControl=ScFormControl$1,defineCustomElement=defineCustomElement$1;export{ScFormControl,defineCustomElement};

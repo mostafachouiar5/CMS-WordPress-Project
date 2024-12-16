@@ -1,0 +1,1 @@
+import{S as ScStripePaymentRequest$1,d as defineCustomElement$1}from"./sc-stripe-payment-request2.js";const ScStripePaymentRequest=ScStripePaymentRequest$1,defineCustomElement=defineCustomElement$1;export{ScStripePaymentRequest,defineCustomElement};

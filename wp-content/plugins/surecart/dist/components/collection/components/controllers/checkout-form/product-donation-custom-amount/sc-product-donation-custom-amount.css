@@ -1,0 +1,13 @@
+sc-product-donation-custom-amount sc-price-input sc-button {
+  margin-right: -10px !important;
+}
+
+.sc-product-donation-custom-amount sc-button {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity var(--sc-transition-fast) ease-in-out, visibility var(--sc-transition-fast) ease-in-out;
+}
+.sc-product-donation-custom-amount--has-value sc-button {
+  opacity: 1;
+  visibility: visible;
+}

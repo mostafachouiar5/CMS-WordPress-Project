@@ -1,0 +1,1 @@
+import{newSpecPage}from"@stencil/core/testing";import{ScDashboardModule}from"../sc-dashboard-module";describe("sc-dashboard-module",(()=>{it("renders",(async()=>{const o=await newSpecPage({components:[ScDashboardModule],html:"<sc-dashboard-module></sc-dashboard-module>"});expect(o.root).toMatchSnapshot()}))}));

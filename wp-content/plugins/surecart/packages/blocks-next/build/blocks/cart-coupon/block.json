@@ -1,0 +1,71 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "surecart/slide-out-cart-coupon",
+  "title": "Cart Coupon",
+  "description": "Display a coupon form in the cart",
+  "keywords": [
+    "coupon",
+    "promo"
+  ],
+  "version": "1.0.0",
+  "category": "surecart-cart",
+  "example": {},
+  "ancestor": [
+    "surecart/slide-out-cart"
+  ],
+  "attributes": {
+    "text": {
+      "type": "string",
+      "default": "Add Coupon Code"
+    },
+    "button_text": {
+      "type": "string",
+      "default": "Apply"
+    },
+    "placeholder": {
+      "type": "string",
+      "default": "Enter coupon code"
+    },
+    "collapsed": {
+      "type": "boolean",
+      "default": true
+    },
+    "disabled": {
+      "type": "boolean"
+    },
+    "border": {
+      "type": "boolean",
+      "default": true
+    },
+    "padding": {
+      "type": "object",
+      "default": {
+        "top": "1.25em",
+        "left": "1.25em",
+        "bottom": "1.25em",
+        "right": "1.25em"
+      }
+    },
+    "backgroundColor": {
+      "type": "string"
+    },
+    "textColor": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "interactivity": true,
+    "html": false,
+    "multiple": false
+  },
+  "render": "file:./view.php",
+  "textdomain": "surecart",
+  "editorScript": "file:./index.js",
+  "style": [
+    "surecart-line-item",
+    "surecart-coupon-form",
+    "surecart-form-control",
+    "file:./style-index.css"
+  ]
+}

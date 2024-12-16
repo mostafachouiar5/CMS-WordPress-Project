@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../src/store/selected-processor/index.ts"],"names":[],"mappings":"AAAA,OAAO,YAAY,CAAC;AACpB,cAAc,SAAS,CAAC","sourcesContent":["import './watchers';\nexport * from './store';\n"]}

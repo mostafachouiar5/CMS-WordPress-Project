@@ -1,0 +1,2 @@
+import{r,h as e}from"./p-e97fde0a.js";const s=":host{display:block}.menu-divider{border-top:solid 1px var(--sc-panel-border-color);margin:var(--sc-spacing-x-small) 0}";const a=s;const d=class{constructor(e){r(this,e)}render(){return e("div",{key:"23b5f2f85595fcabd35e15dc0692ccda0e2e92f7",part:"base",class:"menu-divider",role:"separator","aria-hidden":"true"})}};d.style=a;export{d as sc_menu_divider};
+//# sourceMappingURL=p-5b8f659f.entry.js.map

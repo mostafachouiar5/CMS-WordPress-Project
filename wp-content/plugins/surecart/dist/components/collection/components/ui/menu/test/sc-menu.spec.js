@@ -1,0 +1,1 @@
+import{ScMenu}from"../sc-menu";import{newSpecPage}from"@stencil/core/testing";describe("sc-menu",(()=>{it("renders",(async()=>{const e=await newSpecPage({components:[ScMenu],html:"<sc-menu></sc-menu>"});expect(e.root).toMatchSnapshot()}))}));

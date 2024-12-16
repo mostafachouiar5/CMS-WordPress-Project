@@ -1,0 +1,1 @@
+import{S as ScMenuLabel$1,d as defineCustomElement$1}from"./sc-menu-label2.js";const ScMenuLabel=ScMenuLabel$1,defineCustomElement=defineCustomElement$1;export{ScMenuLabel,defineCustomElement};

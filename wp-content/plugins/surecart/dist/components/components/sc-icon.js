@@ -1,0 +1,1 @@
+import{S as ScIcon$1,d as defineCustomElement$1}from"./sc-icon2.js";const ScIcon=ScIcon$1,defineCustomElement=defineCustomElement$1;export{ScIcon,defineCustomElement};

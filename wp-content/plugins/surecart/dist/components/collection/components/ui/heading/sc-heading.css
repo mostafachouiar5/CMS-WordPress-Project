@@ -1,0 +1,32 @@
+:host {
+  display: block;
+}
+
+.heading {
+  font-family: var(--sc-font-sans);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.heading--small .heading__title {
+  font-size: var(--sc-font-size-small);
+  text-transform: uppercase;
+}
+
+.heading__text {
+  width: 100%;
+}
+
+.heading__title {
+  font-size: var(--sc-font-size-x-large);
+  font-weight: var(--sc-font-weight-bold);
+  line-height: var(--sc-line-height-dense);
+  white-space: normal;
+}
+
+.heading__description {
+  font-size: var(--sc-font-size-normal);
+  line-height: var(--sc-line-height-dense);
+  color: var(--sc-color-gray-500);
+}

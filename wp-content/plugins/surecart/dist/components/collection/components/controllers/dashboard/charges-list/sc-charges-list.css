@@ -1,0 +1,9 @@
+:host {
+  display: block;
+  position: relative;
+}
+
+.charges-list {
+  display: grid;
+  gap: 1em;
+}

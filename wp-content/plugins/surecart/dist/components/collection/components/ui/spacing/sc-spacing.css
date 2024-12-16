@@ -1,0 +1,7 @@
+:host {
+  display: block;
+}
+
+::slotted(*:not(:last-child)) {
+  margin-bottom: var(--spacing);
+}

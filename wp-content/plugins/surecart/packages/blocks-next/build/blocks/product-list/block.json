@@ -1,0 +1,398 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "surecart/product-list",
+  "title": "Product List",
+  "description": "Display a list of products.",
+  "version": "1.0.0",
+  "category": "surecart-product-list",
+  "example": {
+    "innerBlocks": [
+      {
+        "name": "surecart/product-list",
+        "attributes": {
+          "metadata": {
+            "categories": [
+              "surecart_shop"
+            ],
+            "patternName": "surecart-list-standard",
+            "name": "Standard"
+          },
+          "align": "wide",
+          "style": {
+            "spacing": {
+              "blockGap": "10px",
+              "margin": {
+                "left": "0px",
+                "right": "0px"
+              }
+            }
+          }
+        },
+        "innerBlocks": [
+          {
+            "name": "core/group",
+            "attributes": {
+              "style": {
+                "spacing": {
+                  "margin": {
+                    "bottom": "10px"
+                  },
+                  "padding": {
+                    "top": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "right": "0"
+                  }
+                }
+              },
+              "layout": {
+                "type": "flex",
+                "justifyContent": "space-between"
+              }
+            },
+            "innerBlocks": [
+              {
+                "name": "core/group",
+                "attributes": {
+                  "style": {
+                    "spacing": {
+                      "padding": {
+                        "top": "0",
+                        "bottom": "0",
+                        "left": "0",
+                        "right": "0"
+                      }
+                    }
+                  },
+                  "layout": {
+                    "type": "flex",
+                    "flexWrap": "nowrap"
+                  }
+                },
+                "innerBlocks": [
+                  {
+                    "name": "surecart/product-list-sort"
+                  },
+                  {
+                    "name": "surecart/product-list-filter"
+                  }
+                ]
+              },
+              {
+                "name": "surecart/product-list-search",
+                "attributes": {
+                  "style": {
+                    "layout": {
+                      "selfStretch": "fixed",
+                      "flexSize": "250px"
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "core/group",
+            "attributes": {
+              "style": {
+                "spacing": {
+                  "margin": {
+                    "bottom": "10px"
+                  },
+                  "padding": {
+                    "top": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "right": "0"
+                  }
+                }
+              },
+              "layout": {
+                "type": "flex",
+                "flexWrap": "nowrap"
+              }
+            },
+            "innerBlocks": [
+              {
+                "name": "surecart/product-list-filter-tags",
+                "innerBlocks": [
+                  {
+                    "name": "surecart/product-list-filter-tag"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "surecart/product-template",
+            "attributes": {
+              "style": {
+                "spacing": {
+                  "blockGap": "2rem"
+                }
+              },
+              "layout": {
+                "type": "grid",
+                "columnCount": null,
+                "minimumColumnWidth": "14rem"
+              }
+            },
+            "innerBlocks": [
+              {
+                "name": "core/group",
+                "innerBlocks": [
+                  {
+                    "name": "core/group",
+                    "attributes": {
+                      "style": {
+                        "color": {
+                          "background": "#0000000d"
+                        },
+                        "border": {
+                          "radius": "10px"
+                        }
+                      },
+                      "layout": {
+                        "type": "constrained"
+                      }
+                    },
+                    "innerBlocks": [
+                      {
+                        "name": "core/cover",
+                        "attributes": {
+                          "useFeaturedImage": true,
+                          "dimRatio": 0,
+                          "isUserOverlayColor": true,
+                          "focalPoint": {
+                            "x": 0.5,
+                            "y": 0.5
+                          },
+                          "contentPosition": "top right",
+                          "isDark": false,
+                          "style": {
+                            "dimensions": {
+                              "aspectRatio": "3/4"
+                            },
+                            "layout": {
+                              "selfStretch": "fit",
+                              "flexSize": null
+                            },
+                            "spacing": {
+                              "margin": {
+                                "bottom": "15px"
+                              }
+                            },
+                            "border": {
+                              "radius": "10px"
+                            }
+                          }
+                        },
+                        "innerBlocks": [
+                          {
+                            "name": "surecart/product-sale-badge",
+                            "attributes": {
+                              "style": {
+                                "typography": {
+                                  "fontSize": "12px"
+                                },
+                                "border": {
+                                  "radius": "100px"
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "surecart/product-title",
+                    "attributes": {
+                      "level": 2,
+                      "style": {
+                        "typography": {
+                          "fontSize": "15px",
+                          "fontStyle": "normal",
+                          "fontWeight": "400"
+                        },
+                        "spacing": {
+                          "margin": {
+                            "bottom": "5px",
+                            "top": "0px"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "name": "core/group",
+                    "attributes": {
+                      "style": {
+                        "spacing": {
+                          "blockGap": "0.5em",
+                          "margin": {
+                            "top": "0px",
+                            "bottom": "0px"
+                          },
+                          "padding": {
+                            "top": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "right": "0"
+                          }
+                        },
+                        "margin": {
+                          "top": "0px",
+                          "bottom": "0px"
+                        },
+                        "typography": {
+                          "lineHeight": "1"
+                        }
+                      },
+                      "layout": {
+                        "type": "flex",
+                        "flexWrap": "nowrap"
+                      }
+                    },
+                    "innerBlocks": [
+                      {
+                        "name": "surecart/product-list-price",
+                        "attributes": {
+                          "style": {
+                            "typography": {
+                              "fontSize": "18px",
+                              "fontStyle": "normal",
+                              "fontWeight": "600"
+                            },
+                            "spacing": {
+                              "margin": {
+                                "top": "5px",
+                                "bottom": "5px"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "name": "surecart/product-scratch-price",
+                        "attributes": {
+                          "style": {
+                            "typography": {
+                              "fontSize": "18px",
+                              "fontStyle": "normal",
+                              "fontWeight": "600"
+                            },
+                            "spacing": {
+                              "margin": {
+                                "top": "5px",
+                                "bottom": "5px"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "surecart/product-pagination",
+            "attributes": {
+              "style": {
+                "elements": {
+                  "link": {
+                    "color": {
+                      "text": "#000000"
+                    }
+                  }
+                },
+                "spacing": {
+                  "padding": {
+                    "top": "15px",
+                    "bottom": "15px"
+                  }
+                }
+              },
+              "textColor": "black"
+            },
+            "innerBlocks": [
+              {
+                "name": "surecart/product-pagination-previous"
+              },
+              {
+                "name": "surecart/product-pagination-numbers"
+              },
+              {
+                "name": "surecart/product-pagination-next"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "providesContext": {
+    "query": "query",
+    "surecart/product-list/limit": "limit",
+    "surecart/product-list/offset": "offset",
+    "surecart/product-list/type": "type",
+    "surecart/product-list/ids": "ids"
+  },
+  "attributes": {
+    "ids": {
+      "type": "array",
+      "default": []
+    },
+    "type": {
+      "type": "string",
+      "default": "all"
+    },
+    "limit": {
+      "type": "number"
+    },
+    "collection_id": {
+      "type": "string",
+      "default": ""
+    },
+    "query": {
+      "type": "object",
+      "default": {
+        "perPage": 15,
+        "pages": 0,
+        "offset": 0,
+        "postType": "sc_product",
+        "order": "desc",
+        "orderBy": "date",
+        "author": "",
+        "search": "",
+        "exclude": [],
+        "include": [],
+        "sticky": "",
+        "inherit": true,
+        "taxQuery": null,
+        "parents": []
+      }
+    }
+  },
+  "supports": {
+    "interactivity": true,
+    "layout": true,
+    "align": true,
+    "spacing": {
+      "padding": true,
+      "margin": true,
+      "blockGap": true
+    }
+  },
+  "textdomain": "surecart",
+  "editorScript": "file:./index.js",
+  "style": [
+    "file:./style-index.css",
+    "surecart-block-ui",
+    "surecart-tag",
+    "surecart-theme-base"
+  ]
+}

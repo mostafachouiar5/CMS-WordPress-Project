@@ -1,0 +1,30 @@
+:host {
+  display: block;
+}
+
+sc-dialog {
+  --body-spacing: var(--sc-spacing-xx-large);
+  color: var(--sc-color-gray-600);
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.dialog__header {
+  display: flex;
+  align-items: center;
+  gap: var(--sc-spacing-medium);
+}
+.dialog__header-text {
+  line-height: var(--sc-line-height-dense);
+}
+.dialog__image img {
+  width: 60px;
+  height: 60px;
+  display: block;
+}
+.dialog__action {
+  font-weight: var(--sc-font-weight-bold);
+}
+.dialog__product-name {
+  font-size: var(--sc-font-size-small);
+}

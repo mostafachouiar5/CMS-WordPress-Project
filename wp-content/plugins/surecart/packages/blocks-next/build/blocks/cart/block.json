@@ -1,0 +1,55 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "surecart/slide-out-cart",
+  "title": "Cart",
+  "description": "Display SureCart slide out cart",
+  "version": "1.0.0",
+  "category": "surecart-cart",
+  "icon": "media-interactive",
+  "example": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Cart"
+    },
+    "width": {
+      "type": "string",
+      "default": "500px"
+    }
+  },
+  "supports": {
+    "interactivity": true,
+    "layout": true,
+    "html": false,
+    "multiple": false,
+    "typography": {
+      "fontSize": true,
+      "lineHeight": false,
+      "textAlign": false
+    }
+  },
+  "render": "file:./view.php",
+  "textdomain": "surecart",
+  "editorScript": "file:./index.js",
+  "style": [
+    "surecart-drawer",
+    "surecart-block-ui",
+    "surecart-alert",
+    "file:./style-index.css",
+    "surecart-theme-base"
+  ],
+  "editorStyle": [
+    "file:./index.css"
+  ],
+  "viewScript": [
+    "wp-url",
+    "wp-api-fetch",
+    "wp-i18n",
+    "wp-a11y"
+  ],
+  "viewScriptModule": [
+    "@surecart/checkout",
+    "@surecart/cart"
+  ]
+}

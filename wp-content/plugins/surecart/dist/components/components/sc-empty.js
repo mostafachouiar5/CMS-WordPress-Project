@@ -1,0 +1,1 @@
+import{S as ScEmpty$1,d as defineCustomElement$1}from"./sc-empty2.js";const ScEmpty=ScEmpty$1,defineCustomElement=defineCustomElement$1;export{ScEmpty,defineCustomElement};

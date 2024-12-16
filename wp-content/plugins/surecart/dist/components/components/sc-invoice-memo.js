@@ -1,0 +1,1 @@
+import{S as ScLineItemInvoiceMemo,d as defineCustomElement$1}from"./sc-invoice-memo2.js";const ScInvoiceMemo=ScLineItemInvoiceMemo,defineCustomElement=defineCustomElement$1;export{ScInvoiceMemo,defineCustomElement};

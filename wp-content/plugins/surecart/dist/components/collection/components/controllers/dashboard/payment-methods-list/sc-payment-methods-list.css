@@ -1,0 +1,23 @@
+:host {
+  display: block;
+  position: relative;
+}
+
+.payment-methods-list {
+  display: grid;
+  gap: 0.5em;
+}
+.payment-methods-list sc-heading a {
+  text-decoration: none;
+  font-weight: var(--sc-font-weight-semibold);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25em;
+  color: var(--sc-color-primary-500);
+}
+
+.payment-id {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-format-date",(()=>{it("renders",(async()=>{const t=await newE2EPage();await t.setContent("<sc-format-date></sc-format-date>");const e=await t.find("sc-format-date");expect(e).toHaveClass("hydrated")}))}));

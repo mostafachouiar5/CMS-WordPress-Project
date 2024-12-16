@@ -1,0 +1,1 @@
+import{S as ScPriceRange$1,d as defineCustomElement$1}from"./sc-price-range2.js";const ScPriceRange=ScPriceRange$1,defineCustomElement=defineCustomElement$1;export{ScPriceRange,defineCustomElement};

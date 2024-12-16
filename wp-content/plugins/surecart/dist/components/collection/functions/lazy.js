@@ -1,0 +1,1 @@
+export const onFirstVisible=(e,t)=>{new window.IntersectionObserver(((e,n)=>{e[0].intersectionRatio>0&&(t(),n.unobserve(e[0].target))})).observe(e)};

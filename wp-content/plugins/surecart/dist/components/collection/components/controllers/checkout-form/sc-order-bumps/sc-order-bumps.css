@@ -1,0 +1,8 @@
+:host {
+  display: block;
+}
+
+.bumps__list {
+  display: grid;
+  gap: 10px;
+}

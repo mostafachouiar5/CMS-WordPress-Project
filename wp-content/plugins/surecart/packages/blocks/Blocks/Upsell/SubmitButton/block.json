@@ -1,0 +1,106 @@
+{
+	"name": "surecart/upsell-submit",
+	"title": "Upsell Submit Button",
+	"description": "Display an upsell submit button.",
+	"category": "surecart-upsell-page",
+	"keywords": ["submit", "button", "order", "upsell"],
+	"ancestor": ["surecart/upsell"],
+	"textdomain": "surecart",
+	"supports": {
+		"html": false,
+		"multiple": false,
+		"anchor": true,
+		"align": false,
+		"alignWide": false,
+		"spacing": {
+			"__experimentalSkipSerialization": true,
+			"padding": ["horizontal", "vertical"],
+			"margin": ["top", "bottom"]
+		},
+		"color": {
+			"__experimentalSkipSerialization": true,
+			"gradients": true,
+			"__experimentalDefaultControls": {
+				"background": true,
+				"text": true
+			}
+		},
+		"__experimentalSelector": ".wp-block-button .wp-block-button__link",
+		"typography": {
+			"fontSize": true,
+			"__experimentalFontFamily": true,
+			"__experimentalFontWeight": true,
+			"__experimentalFontStyle": true,
+			"__experimentalTextTransform": true
+		},
+		"reusable": false,
+		"shadow": true,
+		"__experimentalBorder": {
+			"color": true,
+			"radius": true,
+			"style": true,
+			"width": true,
+			"__experimentalSkipSerialization": true,
+			"__experimentalDefaultControls": {
+				"color": true,
+				"radius": true,
+				"style": true,
+				"width": true
+			}
+		}
+	},
+	"attributes": {
+		"text": {
+			"type": "string",
+			"default": "Add To My Order"
+		},
+		"type": {
+			"type": "string",
+			"default": "primary"
+		},
+		"show_icon": {
+			"type": "boolean",
+			"default": true
+		},
+		"full": {
+			"type": "boolean",
+			"default": true
+		},
+		"size": {
+			"type": "string",
+			"default": "large"
+		},
+		"out_of_stock_text": {
+			"type": "string",
+			"default": "Sold out"
+		},
+		"unavailable_text": {
+			"type": "string",
+			"default": "Unavailable"
+		},
+		"textAlign": {
+			"type": "string"
+		},
+		"placeholder": {
+			"type": "string"
+		},
+		"backgroundColor": {
+			"type": "string"
+		},
+		"textColor": {
+			"type": "string"
+		},
+		"gradient": {
+			"type": "string"
+		},
+		"width": {
+			"type": "number",
+			"default": 100
+		}
+	},
+	"styles": [
+		{ "name": "fill", "label": "Fill", "isDefault": true },
+		{ "name": "outline", "label": "Outline" }
+	],
+	"style": ["file:./style.css", "surecart-themes-default"]
+}

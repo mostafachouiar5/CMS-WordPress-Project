@@ -1,0 +1,35 @@
+{
+	"apiVersion": 2,
+	"name": "surecart/dashboard-tab",
+	"title": "Customer Dashboard Tab",
+	"description": "Displays the users customer dashboard tab.",
+	"category": "surecart-customer-dashboard",
+	"keywords": ["name", "customer", "dashboard"],
+	"textdomain": "surecart",
+	"parent": ["surecart/dashboard-tabs"],
+	"supports": {
+		"reusable": false,
+		"html": false
+	},
+	"attributes": {
+		"id": {
+			"type": "string"
+		},
+		"title": {
+			"type": "string",
+			"default": "Tab"
+		},
+		"panel": {
+			"type": "string",
+			"default": ""
+		},
+		"icon": {
+			"type": "string",
+			"default": "home"
+		},
+		"icon_svg": {
+			"type": "string",
+			"default": ""
+		}
+	}
+}

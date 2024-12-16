@@ -1,0 +1,33 @@
+{
+	"name": "surecart/totals",
+	"title": "Totals",
+	"description": "Display the session totals.",
+	"category": "surecart",
+	"keywords": ["totals", "summary"],
+	"textdomain": "surecart",
+	"ancestor": ["surecart/form"],
+	"supports": {
+		"reusable": false,
+		"html": false
+	},
+	"attributes": {
+		"collapsible": {
+			"type": "boolean"
+		},
+		"collapsedOnDesktop": {
+			"type": "boolean"
+		},
+		"order_summary_text": {
+			"type": "string",
+			"default": "Summary"
+		},
+		"invoice_summary_text": {
+			"type": "string",
+			"default": "Invoice Summary"
+		},
+		"collapsedOnMobile": {
+			"type": "boolean",
+			"default": false
+		}
+	}
+}

@@ -1,0 +1,5 @@
+.wp-block-surecart-product-collection-image,
+.wp-block-surecart-product-collection-image img {
+	height: auto;
+	max-width: 100%;
+}

@@ -1,0 +1,1 @@
+import{S as ScCheckbox$1,d as defineCustomElement$1}from"./sc-checkbox2.js";const ScCheckbox=ScCheckbox$1,defineCustomElement=defineCustomElement$1;export{ScCheckbox,defineCustomElement};

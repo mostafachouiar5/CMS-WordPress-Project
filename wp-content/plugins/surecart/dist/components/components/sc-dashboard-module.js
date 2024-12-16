@@ -1,0 +1,1 @@
+import{S as ScDashboardModule$1,d as defineCustomElement$1}from"./sc-dashboard-module2.js";const ScDashboardModule=ScDashboardModule$1,defineCustomElement=defineCustomElement$1;export{ScDashboardModule,defineCustomElement};

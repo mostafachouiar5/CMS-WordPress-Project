@@ -1,0 +1,66 @@
+{
+	"apiVersion": 2,
+	"name": "surecart/product-price-choices",
+	"title": "Product Price Choices",
+	"description": "Displays possible choices for product prices.",
+	"category": "surecart",
+	"keywords": ["price", "product", "choice"],
+	"attributes": {
+		"label": {
+			"type": "string",
+			"default": "Pricing"
+		},
+		"columns": {
+			"type": "number",
+			"default": 2
+		},
+		"show_price": {
+			"type": "boolean",
+			"default": true
+		},
+		"id": {
+			"type": "string"
+		}
+	},
+	"supports": {
+		"reusable": false,
+		"html": false,
+		"inserter": false,
+		"color": {
+			"__experimentalSkipSerialization": true,
+			"gradients": true,
+			"link": false,
+			"__experimentalDefaultControls": {
+				"background": true,
+				"text": true,
+				"link": true
+			}
+		},
+		"spacing": {
+			"__experimentalSkipSerialization": true,
+			"margin": true,
+			"padding": true
+		},
+		"__experimentalBorder": {
+			"__experimentalSkipSerialization": true,
+			"color": true,
+			"radius": true
+		},
+		"typography": {
+			"fontSize": true,
+			"lineHeight": true,
+			"__experimentalFontFamily": true,
+			"__experimentalFontWeight": true,
+			"__experimentalFontStyle": true,
+			"__experimentalTextTransform": true,
+			"__experimentalTextDecoration": true,
+			"__experimentalLetterSpacing": true,
+			"__experimentalDefaultControls": {
+				"fontSize": true,
+				"fontAppearance": true,
+				"textTransform": true
+			}
+		}
+	},
+	"style": "file:./preload.css"
+}

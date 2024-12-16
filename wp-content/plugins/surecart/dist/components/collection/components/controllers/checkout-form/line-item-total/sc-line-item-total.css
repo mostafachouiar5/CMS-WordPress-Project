@@ -1,0 +1,26 @@
+:host {
+  display: block;
+}
+
+sc-line-item {
+  text-align: left;
+}
+
+.line-item-total__group sc-line-item {
+  margin: 4px 0px !important;
+}
+
+.scratch-price {
+  text-decoration: line-through;
+  color: var(--sc-color-gray-500);
+  font-size: var(--sc-font-size-small);
+  margin-right: var(--sc-spacing-xx-small);
+}
+
+sc-line-item::part(base) {
+  grid-template-columns: max-content auto auto;
+}
+
+.total-price {
+  white-space: nowrap;
+}

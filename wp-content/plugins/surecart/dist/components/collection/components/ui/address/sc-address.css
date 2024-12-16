@@ -1,0 +1,39 @@
+:host {
+  display: block;
+}
+
+.sc-address {
+  display: block;
+  position: relative;
+}
+.sc-address [hidden] {
+  display: none;
+}
+.sc-address--loading {
+  min-height: 230px;
+}
+.sc-address sc-skeleton {
+  display: block;
+  margin-bottom: 1em;
+}
+.sc-address__control {
+  display: block;
+}
+.sc-address__control > * {
+  margin-bottom: var(--sc-address-column-spacing, -1px);
+}
+.sc-address__columns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.sc-address__columns > * {
+  flex: 1;
+  width: 50%;
+  margin-right: var(--sc-address-column-spacing, -1px);
+}
+.sc-address__columns > *:last-child {
+  margin-right: 0;
+}

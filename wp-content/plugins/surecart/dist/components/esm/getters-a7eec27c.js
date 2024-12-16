@@ -1,0 +1,1 @@
+import{s as state}from"./mutations-ed6d0770.js";const getAdditionalErrorMessages=()=>((null==state?void 0:state.additional_errors)||[]).map((s=>s.message));export{getAdditionalErrorMessages as g};

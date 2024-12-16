@@ -1,0 +1,25 @@
+# Translation of SureCart in Marathi
+# This file is distributed under the same license as the SureCart package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-02-07 03:24:46+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: mr\n"
+"Project-Id-Version: SureCart\n"
+
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:105
+msgid "Email Status"
+msgstr "ई-मेल  स्थिती "
+
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:347
+#: packages/admin/checkouts/modules/SelectShipping.js:130
+msgid "Free"
+msgstr "फुकट"
+
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:106
+msgid "Recovery Status"
+msgstr "रिकव्हरीस्थिती "

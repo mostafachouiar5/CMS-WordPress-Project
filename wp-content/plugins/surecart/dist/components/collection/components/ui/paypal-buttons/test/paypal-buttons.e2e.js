@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-paypal-buttons",(()=>{it("renders",(async()=>{const t=await newE2EPage();await t.setContent("<sc-paypal-buttons></sc-paypal-buttons>");const a=await t.find("sc-paypal-buttons");expect(a).toHaveClass("hydrated")}))}));

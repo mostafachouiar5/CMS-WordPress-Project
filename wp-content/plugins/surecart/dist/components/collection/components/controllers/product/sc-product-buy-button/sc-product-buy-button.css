@@ -1,0 +1,55 @@
+sc-product-buy-button {
+  position: relative;
+}
+sc-product-buy-button a.wp-block-button__link {
+  position: relative;
+  text-decoration: none;
+}
+sc-product-buy-button .sc-block-button--sold-out,
+sc-product-buy-button .sc-block-button--unavailable {
+  display: none !important;
+}
+sc-product-buy-button.is-unavailable a {
+  display: none !important;
+}
+sc-product-buy-button.is-unavailable .sc-block-button--unavailable {
+  display: initial !important;
+}
+sc-product-buy-button.is-sold-out a {
+  display: none !important;
+}
+sc-product-buy-button.is-sold-out .sc-block-button--sold-out {
+  display: initial !important;
+}
+sc-product-buy-button sc-spinner::part(base) {
+  --indicator-color: currentColor;
+  --spinner-size: 12px;
+  position: absolute;
+  top: calc(50% - var(--spinner-size) + var(--spinner-size) / 4);
+  left: calc(50% - var(--spinner-size) + var(--spinner-size) / 4);
+}
+sc-product-buy-button [data-text],
+sc-product-buy-button [data-loader] {
+  transition: opacity var(--sc-transition-fast) ease-in-out, visibility var(--sc-transition-fast) ease-in-out;
+}
+sc-product-buy-button [data-loader] {
+  opacity: 0;
+  visibility: hidden;
+}
+sc-product-buy-button.is-disabled {
+  pointer-events: none;
+}
+sc-product-buy-button.is-busy [data-text] {
+  opacity: 0;
+  visibility: hidden;
+}
+sc-product-buy-button.is-busy [data-loader] {
+  opacity: 1;
+  visibility: visible;
+}
+sc-product-buy-button sc-alert {
+  margin-bottom: var(--sc-spacing-medium);
+}
+sc-product-buy-button.is-out-of-stock [data-text] {
+  opacity: 0.6;
+}

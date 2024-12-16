@@ -1,0 +1,14 @@
+{
+	"name": "surecart/upsell-totals",
+	"title": "Upsell Totals",
+	"description": "Display upsell totals.",
+	"category": "surecart-upsell-page",
+	"ancestor": ["surecart/upsell"],
+	"keywords": ["upsell", "container"],
+	"textdomain": "surecart",
+	"supports": {
+		"html": false,
+		"multiple": false,
+		"reusable": false
+	}
+}

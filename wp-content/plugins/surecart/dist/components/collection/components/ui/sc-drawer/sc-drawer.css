@@ -1,0 +1,120 @@
+:host {
+  display: contents;
+}
+.drawer {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+  font-family: var(--sc-font-sans);
+  font-weight: var(--sc-font-weight-normal);
+}
+.drawer--contained {
+  position: absolute;
+  z-index: initial;
+}
+.drawer--fixed {
+  position: fixed;
+  z-index: var(--sc-z-index-drawer);
+}
+.drawer__panel {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  max-width: 100%;
+  max-height: 100%;
+  background-color: var(--sc-panel-background-color);
+  box-shadow: var(--sc-shadow-x-large);
+  transition: var(--sc-transition-medium) transform;
+  overflow: auto;
+  pointer-events: all;
+}
+.drawer__panel:focus {
+  outline: none;
+}
+.drawer--top .drawer__panel {
+  top: 0;
+  right: auto;
+  bottom: auto;
+  left: 0;
+  width: 100%;
+  height: var(--sc-drawer-size, 400px);
+}
+.drawer--end .drawer__panel {
+  top: 0;
+  right: 0;
+  bottom: auto;
+  left: auto;
+  width: 100%;
+  max-width: var(--sc-drawer-size, 400px);
+  height: 100%;
+}
+.drawer--bottom .drawer__panel {
+  top: auto;
+  right: auto;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: var(--sc-drawer-size, 400px);
+}
+.drawer--start .drawer__panel {
+  top: 0;
+  right: auto;
+  bottom: auto;
+  left: 0;
+  width: var(--sc-drawer-size, 400px);
+  height: 100%;
+}
+.header__sticky {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #fff;
+}
+.drawer__header {
+  display: flex;
+  align-items: center;
+  padding: var(--sc-drawer-header-spacing);
+  border-bottom: var(--sc-drawer-border);
+}
+
+.drawer__title {
+  flex: 1 1 auto;
+  font: inherit;
+  font-size: var(--sc-font-size-large);
+  line-height: var(--sc-line-height-dense);
+  margin: 0;
+}
+.drawer__close {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  font-size: var(--sc-font-size-x-large);
+  color: var(--sc-color-gray-500);
+  cursor: pointer;
+}
+.drawer__body {
+  flex: 1 1 auto;
+}
+
+.drawer--has-footer .drawer__footer {
+  border-top: var(--sc-drawer-border);
+  padding: var(--sc-drawer-footer-spacing);
+}
+
+.drawer__overlay {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--sc-overlay-background-color);
+  pointer-events: all;
+}
+.drawer--contained .drawer__overlay {
+  position: absolute;
+}

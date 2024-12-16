@@ -1,0 +1,74 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "surecart/product-image",
+  "title": "Image",
+  "description": "Display the product image.",
+  "version": "1.0.0",
+  "category": "surecart-product-list",
+  "example": {},
+  "usesContext": [
+    "postId"
+  ],
+  "ancestor": [
+    "surecart/product-list"
+  ],
+  "attributes": {
+    "sizing": {
+      "type": "string",
+      "default": "cover"
+    },
+    "aspectRatio": {
+      "type": "string"
+    },
+    "width": {
+      "type": "string"
+    },
+    "height": {
+      "type": "string"
+    },
+    "isLink": {
+      "type": "boolean",
+      "default": false
+    },
+    "rel": {
+      "type": "string",
+      "attribute": "rel",
+      "default": ""
+    },
+    "linkTarget": {
+      "type": "string",
+      "default": "_self"
+    }
+  },
+  "supports": {
+    "interactivity": true,
+    "inserter": false,
+    "spacing": {
+      "padding": true,
+      "margin": true,
+      "__experimentalDefaultControls": {
+        "padding": true,
+        "margin": true
+      }
+    },
+    "color": {
+      "text": false,
+      "background": false
+    },
+    "__experimentalBorder": {
+      "width": true,
+      "color": true,
+      "radius": true,
+      "__experimentalDefaultControls": {
+        "width": true,
+        "color": true,
+        "radius": true
+      }
+    }
+  },
+  "render": "file:./view.php",
+  "textdomain": "surecart",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css"
+}

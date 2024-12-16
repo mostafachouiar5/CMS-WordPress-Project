@@ -1,0 +1,1 @@
+import{S as ScHeading$1,d as defineCustomElement$1}from"./sc-heading2.js";const ScHeading=ScHeading$1,defineCustomElement=defineCustomElement$1;export{ScHeading,defineCustomElement};

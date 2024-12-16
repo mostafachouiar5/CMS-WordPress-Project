@@ -1,0 +1,28 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wpengine-smart-search-block-search__field.input-control {
+	color: #828b96 !important;
+	padding: 0;
+
+	.components-base-control__field {
+		margin-bottom: 0;
+	}
+}
+
+.wpengine-smart-search-block-search {
+	.wpengine-smart-search-block-search__fields {
+		.block-editor-rich-text {
+			flex-grow: 1;
+		}
+	}
+}
+
+.wpengine-smart-search-block-search-actions {
+	.block-editor-warning__actions {
+		margin-top: 0;
+	}
+}

@@ -1,0 +1,41 @@
+:host {
+  border-style: none;
+}
+
+.product-img {
+  max-width: 100%;
+  aspect-ratio: var(--sc-product-image-aspect-ratio);
+  padding-top: var(--sc-product-image-padding-top, 0);
+  padding-bottom: var(--sc-product-image-padding-bottom, 0);
+  padding-left: var(--sc-product-image-padding-left, 0);
+  padding-right: var(--sc-product-image-padding-right, 0);
+  margin-top: var(--sc-product-image-margin-top, 0);
+  margin-bottom: var(--sc-product-image-margin-bottom, 0);
+  margin-left: var(--sc-product-image-margin-left, 0);
+  margin-right: var(--sc-product-image-margin-right, 0);
+  border: solid var(--sc-product-image-border-width) var(--sc-product-image-border-color);
+  border-radius: var(--sc-product-image-border-radius);
+  overflow: hidden;
+}
+.product-img > img {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  object-fit: contain;
+  display: block;
+  transition: transform var(--sc-transition-medium) ease;
+}
+.product-img.is_covered > img {
+  object-fit: cover;
+}
+.product-img.is_contained > img {
+  object-fit: contain;
+}
+.product-img_placeholder {
+  width: 100%;
+  height: 100%;
+  background-color: var(--sc-color-gray-300);
+}
+.product-img:hover img {
+  transform: scale(1.05);
+}

@@ -1,0 +1,11 @@
+sc-upsell-no-thanks-button {
+  display: block;
+}
+sc-upsell-no-thanks-button p {
+  margin-block-start: 0;
+  margin-block-end: 1em;
+}
+sc-upsell-no-thanks-button .wp-block-button__link {
+  position: relative;
+  text-decoration: none;
+}

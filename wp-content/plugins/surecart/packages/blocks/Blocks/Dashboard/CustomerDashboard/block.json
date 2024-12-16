@@ -1,0 +1,25 @@
+{
+	"name": "surecart/customer-dashboard",
+	"title": "Tabbed Customer Dashboard",
+	"description": "Displays the users customer dashboard.",
+	"category": "surecart-customer-dashboard",
+	"keywords": ["name", "customer", "dashboard"],
+	"textdomain": "surecart",
+	"parent": null,
+	"supports": {
+		"reusable": false,
+		"html": false,
+		"inserter": false,
+		"align": ["wide", "full"]
+	},
+	"attributes": {
+		"currentStep": {
+			"type": "number",
+			"default": 0
+		},
+		"align": {
+			"type": "string",
+			"default": "wide"
+		}
+	}
+}

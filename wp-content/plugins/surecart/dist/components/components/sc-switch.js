@@ -1,0 +1,1 @@
+import{S as ScSwitch$1,d as defineCustomElement$1}from"./sc-switch2.js";const ScSwitch=ScSwitch$1,defineCustomElement=defineCustomElement$1;export{ScSwitch,defineCustomElement};

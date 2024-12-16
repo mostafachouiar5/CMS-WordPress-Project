@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-rich-text",(()=>{it("renders",(async()=>{const t=await newE2EPage();await t.setContent("<sc-rich-text></sc-rich-text>");const e=await t.find("sc-rich-text");expect(e).toHaveClass("hydrated")}))}));

@@ -1,0 +1,1 @@
+import{S as ScPassword$1,d as defineCustomElement$1}from"./sc-password2.js";const ScPassword=ScPassword$1,defineCustomElement=defineCustomElement$1;export{ScPassword,defineCustomElement};

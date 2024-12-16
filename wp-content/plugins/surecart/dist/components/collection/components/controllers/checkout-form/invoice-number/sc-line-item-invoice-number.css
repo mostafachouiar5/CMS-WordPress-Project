@@ -1,0 +1,9 @@
+:host {
+  display: block;
+}
+
+sc-line-item {
+  text-align: left;
+  line-height: var(--sc-line-height-dense);
+  color: var(--sc-input-label-color);
+}

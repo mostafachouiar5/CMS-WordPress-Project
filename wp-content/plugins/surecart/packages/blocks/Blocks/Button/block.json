@@ -1,0 +1,19 @@
+{
+	"apiVersion": 2,
+	"name": "surecart/button",
+	"title": "Button",
+	"description": "Display a checkout form button.",
+	"category": "surecart",
+	"keywords": ["button", "submit", "checkout", "engine"],
+	"textdomain": "surecart",
+	"ancestor": ["surecart/form"],
+	"supports": {
+		"reusable": false,
+		"html": false
+	},
+	"editorScript": "surecart-components",
+	"script": "surecart-components",
+	"viewScript": "surecart-components",
+	"editorStyle": "surecart-themes-default",
+	"style": "surecart-themes-default"
+}

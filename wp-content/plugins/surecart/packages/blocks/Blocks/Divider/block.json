@@ -1,0 +1,21 @@
+{
+	"apiVersion": 2,
+	"name": "surecart/divider",
+	"title": "Divider",
+	"description": "Displays a divider.",
+	"category": "surecart",
+	"ancestor": ["surecart/form", "surecart/dashboard-page"],
+	"keywords": ["divider", "hr"],
+  "textdomain": "surecart",
+	"supports": {
+		"reusable": false,
+		"html": false,
+		"order-summary": true
+	},
+	"attributes": {
+		"text": {
+			"type": "string"
+		}
+	},
+	"script": "file:../../dist/divider/script.js"
+}

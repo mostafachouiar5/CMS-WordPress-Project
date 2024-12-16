@@ -1,0 +1,11 @@
+:host {
+  display: block;
+}
+
+::slotted(:not(.wp-block-spacer):not(:last-child):not(.is-empty):not(style)) {
+  margin-bottom: var(--sc-form-row-spacing, 0.75em);
+}
+
+::slotted(:not(.wp-block-spacer):not(:last-child):not(.is-empty):not(style):not(.is-layout-flex)) {
+  display: block;
+}

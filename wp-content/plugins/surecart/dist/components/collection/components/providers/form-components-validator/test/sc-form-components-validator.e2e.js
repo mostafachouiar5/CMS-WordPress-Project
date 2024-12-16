@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-form-components-validator",(()=>{it("renders",(async()=>{const t=await newE2EPage();await t.setContent("<sc-form-components-validator></sc-form-components-validator>");const o=await t.find("sc-form-components-validator");expect(o).toHaveClass("hydrated")}))}));

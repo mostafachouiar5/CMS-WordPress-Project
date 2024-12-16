@@ -1,0 +1,13 @@
+:host {
+  display: block;
+}
+
+.license__name {
+  font-weight: var(--sc-font-weight-semibold);
+}
+
+.license__details {
+  display: grid;
+  gap: 0.25em;
+  color: var(--sc-input-label-color);
+}

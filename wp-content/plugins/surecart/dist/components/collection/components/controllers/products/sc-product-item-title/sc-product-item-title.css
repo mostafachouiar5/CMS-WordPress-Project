@@ -1,0 +1,11 @@
+.product-item-title {
+  padding-top: var(--sc-product-title-padding-top, 0);
+  padding-bottom: var(--sc-product-title-padding-bottom, 0);
+  margin-top: var(--sc-product-title-margin-top, 0);
+  margin-bottom: var(--sc-product-title-margin-bottom, 0);
+  font-size: var(--sc-product-title-font-size);
+  text-align: var(--sc-product-title-align);
+  font-weight: var(--sc-product-title-font-weight);
+  color: var(--sc-product-title-text-color);
+  line-height: 1.2;
+}

@@ -1,0 +1,1 @@
+import{S as ScOrderConfirmProvider$1,d as defineCustomElement$1}from"./sc-order-confirm-provider2.js";const ScOrderConfirmProvider=ScOrderConfirmProvider$1,defineCustomElement=defineCustomElement$1;export{ScOrderConfirmProvider,defineCustomElement};

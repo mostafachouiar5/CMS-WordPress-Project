@@ -1,0 +1,44 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "surecart/product-page",
+  "title": "Product Form",
+  "description": "Display product form.",
+  "version": "1.0.0",
+  "category": "surecart-product-page",
+  "providesContext": {
+    "surecart/product_id": "product_id"
+  },
+  "attributes": {
+    "product_id": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "interactivity": true,
+    "anchor": true,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "textdomain": "surecart",
+  "render": "file:./view.php",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./editor.css",
+  "style": [
+    "file:./style-index.css",
+    "surecart-theme-base",
+    "surecart-prose"
+  ],
+  "viewScript": [
+    "wp-url",
+    "wp-api-fetch",
+    "wp-i18n",
+    "wp-a11y"
+  ],
+  "viewScriptModule": [
+    "@surecart/checkout",
+    "@surecart/product-page"
+  ]
+}

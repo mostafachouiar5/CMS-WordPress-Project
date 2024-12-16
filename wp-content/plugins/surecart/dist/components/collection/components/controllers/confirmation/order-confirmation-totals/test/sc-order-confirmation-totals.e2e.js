@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-order-confirmation-totals",(()=>{it("renders",(async()=>{const t=await newE2EPage();await t.setContent("<sc-order-confirmation-totals></sc-order-confirmation-totals>");const o=await t.find("sc-order-confirmation-totals");expect(o).toHaveClass("hydrated")}))}));

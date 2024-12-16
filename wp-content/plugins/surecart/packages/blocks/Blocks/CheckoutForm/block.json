@@ -1,0 +1,42 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "surecart/checkout-form",
+	"title": "Checkout Form",
+	"description": "Display a checkout form",
+	"category": "surecart",
+	"keywords": ["form", "checkout", "form"],
+  "textdomain": "surecart",
+	"supports": {
+		"reusable": false,
+		"html": false,
+		"multiple": false,
+		"align": ["wide", "full"]
+	},
+	"attributes": {
+		"id": {
+			"type": "number"
+		},
+		"title": {
+			"type": "string"
+		},
+		"choices": {
+			"type": "array"
+		},
+		"template": {
+			"type": "string"
+		},
+		"choice_type": {
+			"type": "string",
+			"enum": ["all", "checkbox", "radio"],
+			"default": "all"
+		},
+		"create_user_account": {
+			"type": "boolean",
+			"default": true
+		},
+		"custom_success_url": {
+			"type": "string"
+		}
+	}
+}

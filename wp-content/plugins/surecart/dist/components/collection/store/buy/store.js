@@ -1,0 +1,1 @@
+import{createStore}from"@stencil/store";const{state:state,onChange:onChange,on:on,set:set,get:get,dispose:dispose}=createStore({product:null,mode:"live",locks:[],checkout:null},((e,t)=>JSON.stringify(e)!==JSON.stringify(t)));export default state;export{state,onChange,on,set,get,dispose};

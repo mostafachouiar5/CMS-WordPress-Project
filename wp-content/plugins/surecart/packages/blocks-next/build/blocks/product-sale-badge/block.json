@@ -1,0 +1,75 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "surecart/product-sale-badge",
+  "title": "Sale Badge",
+  "description": "Display a badge if the product is currently on sale",
+  "version": "1.0.0",
+  "category": "surecart-product-page",
+  "icon": "tag",
+  "ancestor": [
+    "surecart/product-page",
+    "surecart/product-template"
+  ],
+  "usesContext": [
+    "postId"
+  ],
+  "example": {
+    "attributes": {
+      "text": "Sale"
+    }
+  },
+  "attributes": {
+    "text": {
+      "type": "string",
+      "default": "Sale"
+    }
+  },
+  "supports": {
+    "interactivity": true,
+    "anchor": true,
+    "color": {
+      "gradients": true,
+      "text": true,
+      "background": true,
+      "__experimentalDefaultControls": {
+        "text": true,
+        "background": true
+      }
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "textAlign": true,
+      "__experimentalFontFamily": true,
+      "__experimentalFontWeight": true,
+      "__experimentalFontStyle": true,
+      "__experimentalTextTransform": true,
+      "__experimentalTextDecoration": true,
+      "__experimentalLetterSpacing": true
+    },
+    "spacing": {
+      "padding": true
+    },
+    "shadow": true,
+    "__experimentalBorder": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true,
+      "__experimentalDefaultControls": {
+        "color": true,
+        "radius": true,
+        "style": true,
+        "width": true
+      }
+    }
+  },
+  "textdomain": "surecart",
+  "render": "file:./view.php",
+  "editorScript": "file:./index.js",
+  "style": [
+    "surecart-tag",
+    "file:./style-index.css"
+  ]
+}

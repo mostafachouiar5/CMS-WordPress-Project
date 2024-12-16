@@ -1,0 +1,1 @@
+import{newSpecPage}from"@stencil/core/testing";import{ScSubscriptionSwitch}from"../sc-subscription-switch";describe("sc-subscription-switch",(()=>{it("renders",(async()=>{const c=await newSpecPage({components:[ScSubscriptionSwitch],html:"<sc-subscription-switch></sc-subscription-switch>"});expect(c.root).toMatchSnapshot()}))}));

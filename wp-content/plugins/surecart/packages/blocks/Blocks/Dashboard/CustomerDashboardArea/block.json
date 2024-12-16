@@ -1,0 +1,15 @@
+{
+	"apiVersion": 2,
+	"name": "surecart/dashboard-area",
+	"title": "Customer Dashboard",
+	"description": "Displays the users customer dashboard.",
+	"category": "surecart-customer-dashboard",
+	"keywords": ["name", "customer", "dashboard"],
+	"textdomain": "surecart",
+	"supports": {
+		"reusable": false,
+		"html": false
+	},
+	"script": "surecart-components",
+	"style": "surecart-themes-default"
+}

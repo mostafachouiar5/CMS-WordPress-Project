@@ -1,0 +1,68 @@
+# Translation of SureCart in Korean
+# This file is distributed under the same license as the SureCart package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-02-13 22:18:59+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ko_KR\n"
+"Project-Id-Version: SureCart\n"
+
+#. translators: Coupon % off.
+#: app/src/Controllers/Admin/Subscriptions/SubscriptionsListTable.php:328
+#: packages/admin/util.js:49
+msgid "%1d%% off"
+msgstr "%1d%% 할인"
+
+#. translators: number of days.
+#: app/src/Controllers/Admin/Subscriptions/SubscriptionsListTable.php:266
+#: packages/admin/util/translations.js:14
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d일"
+
+#. translators: number of months
+#: app/src/Controllers/Admin/Subscriptions/SubscriptionsListTable.php:278
+#: packages/admin/util/translations.js:28
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%d개월"
+
+#. translators: number of weeks.
+#: app/src/Controllers/Admin/Subscriptions/SubscriptionsListTable.php:272
+#: packages/admin/util/translations.js:21
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] "%d주"
+
+#. translators: number of yearls
+#: app/src/Controllers/Admin/Subscriptions/SubscriptionsListTable.php:284
+#: packages/admin/util/translations.js:35
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] "%d년"
+
+#. translators: %s: human-readable time difference
+#: app/src/Support/TimeDate.php:75
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr "%s 전"
+
+#. translators: attribute.
+#: app/src/Support/Errors/Translations/types-replaceable.php:20
+msgid "%s is no longer purchasable."
+msgstr "%s는 구매할 수 없습니다."
+
+#. translators: attribute.
+#: app/src/Support/Errors/Translations/types-replaceable.php:14
+msgid "%s must be a number."
+msgstr "%s 숫자로만 기입해 주시기 바랍니다."
+
+#: app/src/Controllers/Admin/Affiliations/AffiliationsListTable.php:283
+#: packages/admin/affiliations/ViewAffiliation.js:225
+#: packages/admin/components/data-tables/subscriptions-data-table/StartPlan.js:73
+msgid "Activate"
+msgstr "활성화"

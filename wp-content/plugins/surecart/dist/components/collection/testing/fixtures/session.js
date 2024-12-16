@@ -1,0 +1,1 @@
+export default{id:"2de84382-3453-4cfa-b836-0735cac4435a",object:"order",email:null,name:null,currency:"usd",subtotal_amount:2900,discount_amount:0,total_amount:2800,status:"draft",metadata:{},customer:null,discount:null,line_items:[],processor_intent:null,created_at:1626716118,updated_at:1626716118};

@@ -1,0 +1,28 @@
+{
+	"name": "surecart/subtotal",
+	"title": "Subtotal Line Item",
+	"description": "Display a subtotal line item.",
+	"category": "surecart",
+	"ancestor": ["surecart/totals"],
+	"keywords": ["submit", "button"],
+	"textdomain": "surecart",
+	"supports": {
+		"reusable": false,
+		"html": false,
+		"order-summary": true
+	},
+	"attributes": {
+		"text": {
+			"type": "string",
+			"default": "Subtotal"
+		},
+		"total_payments_text": {
+			"type": "string",
+			"default": "Total Installment Payments"
+		},
+		"first_payment_subtotal_text": {
+			"type": "string",
+			"default": "Initial Payment"
+		}
+	}
+}

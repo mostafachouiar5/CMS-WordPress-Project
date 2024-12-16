@@ -1,0 +1,16 @@
+:host {
+  --width: 1em;
+  --height: 1em;
+  display: inline-block;
+  width: var(--width);
+  height: var(--height);
+  contain: strict;
+  box-sizing: content-box !important;
+}
+.icon,
+svg {
+  display: block;
+  height: 100%;
+  width: 100%;
+  stroke-width: var(--sc-icon-stroke-width, 2px);
+}

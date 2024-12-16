@@ -1,0 +1,23 @@
+:host {
+  display: block;
+  max-width: 800px;
+  margin: auto;
+}
+
+::slotted(*:not(:last-child)),
+sc-form form > *:not(:last-child) {
+  margin-bottom: var(--sc-form-row-spacing-large)
+}
+
+.order-confirmation__content {
+  color: var(--sc-order-confirmation-color, var(--sc-color-gray-500));
+}
+
+.order-confirmation__content.hidden {
+  display: none;
+}
+
+::part(line-items) {
+  display: grid;
+  gap: 0.5em;
+}

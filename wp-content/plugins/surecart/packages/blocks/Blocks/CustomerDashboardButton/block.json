@@ -1,0 +1,40 @@
+{
+	"apiVersion": 2,
+	"name": "surecart/customer-dashboard-button",
+	"title": "Customer Dashboard Button",
+	"description": "Display a button to link the user to their customer dashboard.",
+	"category": "surecart-customer-dashboard",
+	"keywords": ["name", "customer", "dashboard"],
+	"textdomain": "surecart",
+	"parent": null,
+	"supports": {
+		"reusable": false,
+		"html": false
+	},
+	"attributes": {
+		"label": {
+			"type": "string",
+			"default": "Customer Dashboard"
+		},
+		"type": {
+			"type": "string",
+			"default": "primary"
+		},
+		"full": {
+			"type": "boolean",
+			"default": true
+		},
+		"size": {
+			"type": "string",
+			"default": "medium"
+		},
+		"show_icon": {
+			"type": "boolean",
+			"default": true
+		},
+		"redirectToCurrent": {
+			"type": "boolean",
+			"default": true
+		}
+	}
+}

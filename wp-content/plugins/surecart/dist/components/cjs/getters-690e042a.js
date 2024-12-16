@@ -1,0 +1,1 @@
+"use strict";const store=require("./store-1fb3d249.js"),currentFormState=()=>store.state.formState.value,formLoading=()=>"loading"===store.state.formState.value,formBusy=()=>["updating","finalizing","paying","confirming","redirecting"].includes(store.state.formState.value);exports.currentFormState=currentFormState,exports.formBusy=formBusy,exports.formLoading=formLoading;

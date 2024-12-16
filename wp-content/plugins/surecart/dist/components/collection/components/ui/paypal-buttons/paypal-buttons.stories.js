@@ -1,0 +1,1 @@
+export default{title:"Components/PayPal Buttons"};const Template=({client_id:t})=>`<sc-paypal-buttons client-id="${t} "></sc-paypal-buttons>`;export const Default=Template.bind({});Default.args={client_id:"test"};

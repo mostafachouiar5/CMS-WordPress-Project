@@ -1,0 +1,24 @@
+.wp-block-columns :where(.wp-block) {
+	max-width: none;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+html :where(.wp-block-column) {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+@media screen and (min-width: 782px) {
+	.wp-block-surecart-columns:not(.is-not-stacked-on-mobile)
+		> .wp-block-surecart-column {
+		flex-basis: content;
+	}
+}
+
+.wp-block-columns
+	.editor-styles-wrapper
+	:where(body .is-layout-flow)
+	> :last-child:last-child {
+	margin-top: 0;
+}

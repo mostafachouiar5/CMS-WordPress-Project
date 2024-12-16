@@ -1,0 +1,1 @@
+import{ScOrderShippingAddress}from"../sc-order-shipping-address";import{newSpecPage}from"@stencil/core/testing";describe("sc-order-shipping-address",(()=>{it("renders",(async()=>{const e=await newSpecPage({components:[ScOrderShippingAddress],html:"<sc-order-shipping-address></sc-order-shipping-address>"});expect(e.root).toMatchSnapshot()}))}));

@@ -1,0 +1,1 @@
+import{S as ScLoginProvider$1,d as defineCustomElement$1}from"./sc-login-provider2.js";const ScLoginProvider=ScLoginProvider$1,defineCustomElement=defineCustomElement$1;export{ScLoginProvider,defineCustomElement};

@@ -1,0 +1,1 @@
+import{S as ScFormErrorProvider,d as defineCustomElement$1}from"./sc-error2.js";const ScError=ScFormErrorProvider,defineCustomElement=defineCustomElement$1;export{ScError,defineCustomElement};

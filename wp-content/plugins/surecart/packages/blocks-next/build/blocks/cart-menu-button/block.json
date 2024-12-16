@@ -1,0 +1,56 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "surecart/cart-menu-icon-button",
+  "title": "Cart Toggle Icon",
+  "description": "The cart menu icon that shows your cart quantity.",
+  "version": "1.0.0",
+  "category": "surecart-cart",
+  "example": {},
+  "attributes": {
+    "cart_icon": {
+      "type": "string",
+      "default": "shopping-bag"
+    },
+    "cart_menu_always_shown": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "supports": {
+    "interactivity": true,
+    "spacing": {
+      "padding": true,
+      "margin": true,
+      "__experimentalDefaultControls": {
+        "padding": true,
+        "margin": true
+      }
+    },
+    "color": {
+      "text": true,
+      "background": false
+    },
+    "__experimentalBorder": {
+      "width": true,
+      "color": true,
+      "__experimentalDefaultControls": {
+        "width": true,
+        "color": true
+      }
+    }
+  },
+  "render": "file:./view.php",
+  "textdomain": "surecart",
+  "editorScript": "file:./index.js",
+  "style": [
+    "file:./style-index.css"
+  ],
+  "editorStyle": [
+    "surecart-choice",
+    "file:./index.css"
+  ],
+  "viewScriptModule": [
+    "@surecart/checkout"
+  ]
+}

@@ -1,0 +1,1 @@
+import{g as t,b as n}from"./p-401e165e.js";function r(r,n){return t(r)[n]}function e(r,...e){const s=r.indexOf("?");if(-1===s)return r;const o=t(r),c=r.substr(0,s);e.forEach((t=>delete o[t]));const f=n(o);return f?c+"?"+f:c}export{r as g,e as r};

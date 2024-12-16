@@ -1,0 +1,70 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 3,
+	"name": "surecart/product-collection",
+	"title": "Product Collections",
+	"description": "Display a list of products for a collection.",
+	"category": "surecart",
+	"keywords": [
+		"products",
+		"product",
+		"archive",
+		"list",
+		"store",
+		"collections"
+	],
+	"supports": {
+		"align": true,
+		"reusable": false,
+		"html": false,
+		"multiple": false,
+		"spacing": {
+			"blockGap": true,
+			"__experimentalDefaultControls": {
+				"blockGap": true
+			}
+		}
+	},
+	"attributes": {
+		"columns": {
+			"type": "number",
+			"default": 4
+		},
+		"limit": {
+			"type": "number",
+			"default": 15
+		},
+		"pagination_enabled": {
+			"type": "boolean",
+			"default": true
+		},
+		"ajax_pagination": {
+			"type": "boolean",
+			"default": true
+		},
+		"pagination_auto_scroll": {
+			"type": "boolean",
+			"default": true
+		},
+		"search_enabled": {
+			"type": "boolean",
+			"default": true
+		},
+		"sort_enabled": {
+			"type": "boolean",
+			"default": true
+		},
+		"pagination_alignment": {
+			"type": "string",
+			"default": "center"
+		},
+		"pagination_size": {
+			"type": "string",
+			"default": "14px"
+		},
+		"collection_id": {
+			"type": "string",
+			"default": ""
+		}
+	}
+}

@@ -1,0 +1,47 @@
+{
+	"apiVersion": 2,
+	"name": "surecart/price-choice",
+	"title": "Price Choice",
+	"description": "Displays a price choice for a product",
+	"category": "surecart",
+	"parent": ["surecart/price-selector"],
+	"keywords": ["price", "product", "choice", "checkout"],
+	"textdomain": "surecart",
+	"supports": {
+		"reusable": false,
+		"html": false
+	},
+	"attributes": {
+		"price_id": {
+			"type": "string"
+		},
+		"label": {
+			"type": "string"
+		},
+		"description": {
+			"type": "string"
+		},
+		"quantity": {
+			"type": "number"
+		},
+		"type": {
+			"type": "string",
+			"default": "radio"
+		},
+		"checked": {
+			"type": "boolean"
+		},
+		"show_label": {
+			"type": "boolean",
+			"default": true
+		},
+		"show_price": {
+			"type": "boolean",
+			"default": true
+		},
+		"show_control": {
+			"type": "boolean",
+			"default": false
+		}
+	}
+}

@@ -1,0 +1,1 @@
+import{newSpecPage}from"@stencil/core/testing";import{ScChoice}from"../sc-choice";describe("sc-choice",(()=>{it("renders",(async()=>{const c=await newSpecPage({components:[ScChoice],html:"<sc-choice></sc-choice>"});expect(c.root).toMatchSnapshot()}))}));

@@ -1,0 +1,11 @@
+sc-order-submit {
+  display: block;
+  width: auto;
+  display: grid;
+  gap: var(--sc-form-row-spacing);
+}
+
+.sc-secure-notice {
+  display: flex;
+  justify-content: center;
+}

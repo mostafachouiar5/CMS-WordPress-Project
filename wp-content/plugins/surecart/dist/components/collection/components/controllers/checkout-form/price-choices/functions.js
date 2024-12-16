@@ -1,0 +1,1 @@
+export const getSiblings=e=>{let t=[];if(!e.parentNode)return t;let n=e.parentNode.firstChild;for(;n;)1===n.nodeType&&t.push(n),n=n.nextSibling;return t};

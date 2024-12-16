@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json.schemastore.org/block.json",
+  "apiVersion": 3,
+  "name": "surecart/slide-out-cart-submit",
+  "title": "Cart Submit Button",
+  "description": "The cart submit button",
+  "textdomain": "surecart",
+  "version": "1.0.0",
+  "category": "surecart-cart",
+  "example": {},
+  "ancestor": [
+    "surecart/slide-out-cart"
+  ],
+  "attributes": {
+    "text": {
+      "type": "string",
+      "default": "Checkout"
+    },
+    "border": {
+      "type": "boolean"
+    },
+    "sectionBackgroundColor": {
+      "type": "string"
+    },
+    "padding": {
+      "type": "object",
+      "default": {
+        "top": "1.25em",
+        "left": "1.25em",
+        "bottom": "1.25em",
+        "right": "1.25em"
+      }
+    }
+  },
+  "supports": {
+    "interactivity": true,
+    "anchor": true,
+    "align": false,
+    "alignWide": false,
+    "html": false,
+    "multiple": false,
+    "__experimentalSelector": ".wp-block-button .wp-block-button__link",
+    "color": {
+      "__experimentalSkipSerialization": true,
+      "background": true,
+      "text": true
+    }
+  },
+  "render": "file:./view.php",
+  "editorScript": "file:./index.js",
+  "style": [
+    "surecart-wp-buttons",
+    "surecart-wp-button",
+    "file:./style-index.css",
+    "wp-block-button"
+  ]
+}

@@ -1,0 +1,6 @@
+.cancel-survey {
+  color: var(--sc-color-gray-900);
+}
+.cancel-survey__abort-link {
+  color: var(--sc-color-gray-500);
+}

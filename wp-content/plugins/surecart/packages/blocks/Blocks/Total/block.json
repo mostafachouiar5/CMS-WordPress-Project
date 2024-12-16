@@ -1,0 +1,35 @@
+{
+	"name": "surecart/total",
+	"title": "Total",
+	"description": "Displays the total line item.",
+	"category": "surecart",
+	"ancestor": ["surecart/totals"],
+	"keywords": ["checkout", "engine", "total", "subtotal"],
+	"textdomain": "surecart",
+	"supports": {
+		"reusable": false,
+		"html": false
+	},
+	"attributes": {
+		"text": {
+			"type": "string",
+			"default": "Total"
+		},
+		"due_amount_text": {
+			"type": "string",
+			"default": "Amount Due"
+		},
+		"subscription_text": {
+			"type": "string",
+			"default": "Total Due Today"
+		},
+		"first_payment_total_text": {
+			"type": "string",
+			"default": "Subtotal"
+		},
+		"free_trial_text": {
+			"type": "string",
+			"default": "Trial"
+		}
+	}
+}

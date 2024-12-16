@@ -1,0 +1,71 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "surecart/product-pagination",
+  "title": "Pagination",
+  "description": "Display the product pagination.",
+  "version": "1.0.0",
+  "category": "surecart-product-list",
+  "example": {},
+  "usesContext": [
+    "query",
+    "surecart/product-list/limit",
+    "surecart/product-list/type",
+    "surecart/product-list/ids"
+  ],
+  "ancestor": [
+    "surecart/product-list"
+  ],
+  "allowedBlocks": [
+    "surecart/product-pagination-previous",
+    "surecart/product-pagination-numbers",
+    "surecart/product-pagination-next"
+  ],
+  "attributes": {
+    "paginationArrow": {
+      "type": "string",
+      "default": "arrow"
+    },
+    "showLabel": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "providesContext": {
+    "paginationArrow": "paginationArrow",
+    "showLabel": "showLabel"
+  },
+  "supports": {
+    "interactivity": true,
+    "spacing": {
+      "padding": true,
+      "margin": [
+        "top",
+        "bottom"
+      ],
+      "blockGap": true
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontWeight": true
+    },
+    "color": {
+      "text": true,
+      "background": false,
+      "enableContrastChecker": true
+    },
+    "layout": {
+      "allowSwitching": false,
+      "allowInheriting": false,
+      "default": {
+        "type": "flex",
+        "justifyContent": "space-between"
+      }
+    }
+  },
+  "render": "file:./view.php",
+  "textdomain": "surecart",
+  "style": "file:./style-index.css",
+  "editorScript": "file:./index.js"
+}

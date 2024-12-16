@@ -1,0 +1,1 @@
+import{S as ScTaxIdInput$1,d as defineCustomElement$1}from"./sc-tax-id-input2.js";const ScTaxIdInput=ScTaxIdInput$1,defineCustomElement=defineCustomElement$1;export{ScTaxIdInput,defineCustomElement};

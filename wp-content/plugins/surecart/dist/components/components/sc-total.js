@@ -1,0 +1,1 @@
+import{S as ScTotal$1,d as defineCustomElement$1}from"./sc-total2.js";const ScTotal=ScTotal$1,defineCustomElement=defineCustomElement$1;export{ScTotal,defineCustomElement};

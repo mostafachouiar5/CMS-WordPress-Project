@@ -1,0 +1,18 @@
+:host {
+  display: block;
+}
+
+.menu {
+  padding: var(--sc-spacing-x-small) 0;
+}
+.menu:focus {
+  outline: none;
+}
+
+::slotted(sc-input) {
+  margin-top: -var(--sc-spacing-x-small);
+}
+
+::slotted(sc-divider) {
+  --spacing: var(--sc-spacing-x-small);
+}

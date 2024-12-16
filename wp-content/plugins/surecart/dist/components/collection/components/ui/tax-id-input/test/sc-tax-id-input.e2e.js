@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-tax-id-input",(()=>{it("renders",(async()=>{const t=await newE2EPage();await t.setContent("<sc-tax-id-input></sc-tax-id-input>");const e=await t.find("sc-tax-id-input");expect(e).toHaveClass("hydrated")}))}));

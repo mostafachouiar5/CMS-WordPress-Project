@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-pagination",(()=>{it("renders",(async()=>{const a=await newE2EPage();await a.setContent("<sc-pagination></sc-pagination>");const t=await a.find("sc-pagination");expect(t).toHaveClass("hydrated")}))}));

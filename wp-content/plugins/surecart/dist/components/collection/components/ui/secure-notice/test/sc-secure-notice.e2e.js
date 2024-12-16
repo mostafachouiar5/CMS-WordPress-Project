@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-secure-notice",(()=>{it("renders",(async()=>{const e=await newE2EPage();await e.setContent("<sc-secure-notice></sc-secure-notice>");const t=await e.find("sc-secure-notice");expect(t).toHaveClass("hydrated")}))}));

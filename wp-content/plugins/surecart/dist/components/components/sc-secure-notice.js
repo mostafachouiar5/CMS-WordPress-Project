@@ -1,0 +1,1 @@
+import{S as ScSecureNotice$1,d as defineCustomElement$1}from"./sc-secure-notice2.js";const ScSecureNotice=ScSecureNotice$1,defineCustomElement=defineCustomElement$1;export{ScSecureNotice,defineCustomElement};

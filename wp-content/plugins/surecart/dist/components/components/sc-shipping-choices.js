@@ -1,0 +1,1 @@
+import{S as ScShippingChoices$1,d as defineCustomElement$1}from"./sc-shipping-choices2.js";const ScShippingChoices=ScShippingChoices$1,defineCustomElement=defineCustomElement$1;export{ScShippingChoices,defineCustomElement};

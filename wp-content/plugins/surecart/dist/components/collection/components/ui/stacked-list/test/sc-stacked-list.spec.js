@@ -1,0 +1,1 @@
+import{newSpecPage}from"@stencil/core/testing";import{ScStackedList}from"../sc-stacked-list";describe("sc-stacked-list",(()=>{it("renders",(async()=>{const t=await newSpecPage({components:[ScStackedList],html:"<sc-stacked-list></sc-stacked-list>"});expect(t.root).toMatchSnapshot()}))}));

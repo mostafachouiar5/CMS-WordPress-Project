@@ -1,0 +1,24 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "surecart/card",
+	"title": "Card",
+	"description": "Display a card block.",
+	"category": "surecart",
+	"ancestor": ["surecart/form"],
+	"keywords": ["card", "details", "confirm"],
+	"textdomain": "surecart",
+	"supports": {
+		"reusable": false,
+		"html": false
+	},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": ""
+		},
+		"borderless": {
+			"type": "boolean"
+		}
+	}
+}

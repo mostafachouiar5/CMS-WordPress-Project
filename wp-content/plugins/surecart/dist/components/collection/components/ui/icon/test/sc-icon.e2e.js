@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-icon",(()=>{it("renders",(async()=>{const e=await newE2EPage();await e.setContent("<sc-icon></sc-icon>");const t=await e.find("sc-icon");expect(t).toHaveClass("hydrated")}))}));

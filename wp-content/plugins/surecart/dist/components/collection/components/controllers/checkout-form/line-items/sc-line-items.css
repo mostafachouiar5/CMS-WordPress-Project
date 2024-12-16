@@ -1,0 +1,21 @@
+:host {
+  display: block;
+}
+
+:slotted(* ~ *) {
+  margin-top: 20px;
+}
+
+.line-items {
+  display: grid;
+  gap: var(--sc-form-row-spacing);
+}
+
+.line-item {
+  display: grid;
+  gap: var(--sc-spacing-small);
+}
+
+.fee__description {
+  opacity: 0.75;
+}

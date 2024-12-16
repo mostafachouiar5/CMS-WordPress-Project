@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-block-ui",(()=>{it("renders",(async()=>{const e=await newE2EPage();await e.setContent("<sc-block-ui></sc-block-ui>");const t=await e.find("sc-block-ui");expect(t).toHaveClass("hydrated")}))}));

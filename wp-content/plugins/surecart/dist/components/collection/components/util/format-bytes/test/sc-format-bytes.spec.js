@@ -1,0 +1,1 @@
+import{newSpecPage}from"@stencil/core/testing";import{ScFormatBytes}from"../sc-format-bytes";describe("sc-format-bytes",(()=>{it("renders",(async()=>{const t=await newSpecPage({components:[ScFormatBytes],html:"<sc-format-bytes></sc-format-bytes>"});expect(t.root).toMatchSnapshot()}))}));

@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-mollie-add-method",(()=>{it("renders",(async()=>{const e=await newE2EPage();await e.setContent("<sc-mollie-add-method></sc-mollie-add-method>");const t=await e.find("sc-mollie-add-method");expect(t).toHaveClass("hydrated")}))}));

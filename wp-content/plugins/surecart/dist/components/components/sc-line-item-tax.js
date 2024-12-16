@@ -1,0 +1,1 @@
+import{S as ScLineItemTax$1,d as defineCustomElement$1}from"./sc-line-item-tax2.js";const ScLineItemTax=ScLineItemTax$1,defineCustomElement=defineCustomElement$1;export{ScLineItemTax,defineCustomElement};

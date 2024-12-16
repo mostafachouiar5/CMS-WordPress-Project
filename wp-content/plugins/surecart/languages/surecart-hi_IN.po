@@ -1,0 +1,1119 @@
+# Translation of SureCart in Hindi
+# This file is distributed under the same license as the SureCart package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-02-13 22:12:30+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: hi_IN\n"
+"Project-Id-Version: SureCart\n"
+
+#: packages/blocks/Blocks/CheckoutErrors/block.json
+msgctxt "block title"
+msgid "Checkout Errors"
+msgstr "चेकआउट त्रुटियां"
+
+#: packages/blocks/Blocks/ConditionalForm/block.json
+msgctxt "block title"
+msgid "Conditional"
+msgstr "शर्तों के अनुसार"
+
+#: packages/blocks/Blocks/ConditionalForm/block.json
+msgctxt "block description"
+msgid "Display an area of the form based on conditions."
+msgstr "शर्तों के आधार पर प्रपत्र (फ़ॉर्म) का एक क्षेत्र प्रदर्शित करें।"
+
+#: packages/blocks/Blocks/CheckoutErrors/block.json
+msgctxt "block description"
+msgid "Display any checkout-related errors. By default the checkout form shows these at the top. Add this block to change the location."
+msgstr "चेकआउट से संबंधित किसी भी त्रुटियों को प्रदर्शित करें। डिफ़ॉल्ट रूप से चेकआउट प्रपत्र (फ़ॉर्म) इन्हें ऊपर दिखाता है। स्थान बदलने के लिए इस ब्लॉक को जोड़ें।"
+
+#: packages/blocks/Blocks/StoreLogo/block.json
+msgctxt "block description"
+msgid "Display the store logo."
+msgstr "दुकान का प्रतीक चिह्न प्रदर्शित करें।"
+
+#: packages/blocks/Blocks/Email/block.json
+msgctxt "block title"
+msgid "Email"
+msgstr "ईमेल"
+
+#: packages/blocks/Blocks/Name/block.json
+msgctxt "block title"
+msgid "Full Name"
+msgstr "पूरा नाम"
+
+#: packages/blocks/Blocks/LastName/block.json
+msgctxt "block title"
+msgid "Last Name"
+msgstr "उपनाम"
+
+#: packages/blocks/Blocks/StoreLogo/block.json
+msgctxt "block title"
+msgid "Store Logo"
+msgstr "दुकान का प्रतीक चिह्न"
+
+#: packages/blocks/Blocks/PriceChoice/block.json
+#: packages/blocks/Blocks/PriceSelector/block.json
+#: packages/blocks/Blocks/Product/PriceChoices/block.json
+#: packages/blocks/Blocks/Product/VariantChoices/block.json
+#: packages/blocks/Blocks/VariantPriceSelector/block.json
+msgctxt "block keyword"
+msgid "choice"
+msgstr "पसंद"
+
+#: packages/blocks/Blocks/Email/block.json
+#: packages/blocks/Blocks/Form/block.json
+msgctxt "block keyword"
+msgid "email"
+msgstr "ईमेल"
+
+#: packages/blocks/Blocks/CheckoutErrors/block.json
+msgctxt "block keyword"
+msgid "error"
+msgstr "त्रुटि"
+
+#: packages/blocks/Blocks/Heading/block.json
+#: packages/blocks/Blocks/Upsell/Title/block.json
+msgctxt "block keyword"
+msgid "heading"
+msgstr "शीर्षक"
+
+#: packages/blocks/Blocks/Product/Media/block.json
+#: packages/blocks/Blocks/ProductCollectionImage/block.json
+#: packages/blocks/Blocks/ProductItemImage/block.json
+#: packages/blocks/Blocks/StoreLogo/block.json
+msgctxt "block keyword"
+msgid "image"
+msgstr "छवि"
+
+#: packages/blocks/Blocks/StoreLogo/block.json
+msgctxt "block keyword"
+msgid "logo"
+msgstr "प्रतीक चिह्न"
+
+#: packages/blocks/Blocks/CheckoutErrors/block.json
+msgctxt "block keyword"
+msgid "notice"
+msgstr "सूचना"
+
+#: packages/blocks/Blocks/PriceChoice/block.json
+#: packages/blocks/Blocks/PriceSelector/block.json
+#: packages/blocks/Blocks/Product/Price/block.json
+#: packages/blocks/Blocks/Product/PriceChoices/block.json
+#: packages/blocks/Blocks/ProductItemPrice/block.json
+#: packages/blocks/Blocks/VariantPriceSelector/block.json
+msgctxt "block keyword"
+msgid "price"
+msgstr "कीमत"
+
+#: packages/blocks/Blocks/ProductCollection/block.json
+#: packages/blocks/Blocks/ProductItemList/block.json
+#: packages/blocks/Blocks/StoreLogo/block.json
+msgctxt "block keyword"
+msgid "store"
+msgstr "दुकान"
+
+#: packages/blocks/Blocks/StoreLogo/block.json
+msgctxt "block keyword"
+msgid "store logo"
+msgstr "दुकान का प्रतीक चिह्न"
+
+#: packages/blocks/Blocks/Heading/block.json
+#: packages/blocks/Blocks/Product/Title/block.json
+#: packages/blocks/Blocks/ProductCollectionTitle/block.json
+#: packages/blocks/Blocks/ProductItemTitle/block.json
+#: packages/blocks/Blocks/Upsell/Title/block.json
+msgctxt "block keyword"
+msgid "title"
+msgstr "शीर्षक"
+
+#: packages/blocks/Blocks/LineItems/block.json
+#: packages/blocks/Blocks/LineItemShipping/block.json
+#: packages/blocks/Blocks/TaxLineItem/block.json
+#: packages/blocks/Blocks/Total/block.json
+msgctxt "block keyword"
+msgid "total"
+msgstr "कुल"
+
+#: app/src/Integrations/ThriveAutomator/DataFields/ProductIDDataField.php:38
+msgid "A specific product id."
+msgstr "एक विशिष्ट उत्पाद आईडी।"
+
+#: app/src/Integrations/ThriveAutomator/DataFields/ProductNameDataField.php:38
+msgid "A specific product name."
+msgstr "एक विशिष्ट उत्पाद का नाम।"
+
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:206
+#: app/src/WordPress/Admin/Menus/AdminMenuPageService.php:190
+#: packages/admin/abandoned-checkouts/modules/Details.js:12
+msgid "Abandoned"
+msgstr "छोड़ा हुआ"
+
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutViewController.php:20
+#: views/admin/abandoned-orders/index.php:18
+#: packages/admin/store/add-entities.js:180
+msgid "Abandoned Checkouts"
+msgstr "परित्यक्त चेकआउट"
+
+#: app/src/Controllers/Admin/Affiliations/AffiliationsListTable.php:342
+#: app/src/Controllers/Admin/Bumps/BumpsListTable.php:52
+#: app/src/Controllers/Admin/Coupons/CouponsListTable.php:236
+#: app/src/Controllers/Admin/Licenses/LicensesListTable.php:123
+#: app/src/Controllers/Admin/ProductGroups/ProductGroupsListTable.php:61
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:101
+#: app/src/Controllers/Admin/Subscriptions/SubscriptionsListTable.php:61
+#: app/src/Controllers/Admin/Upsells/UpsellsListTable.php:52
+#: app/src/Models/Affiliation.php:136
+#: packages/admin/affiliations/ViewAffiliation.js:212
+#: packages/admin/licenses/modules/Details/index.js:22
+#: packages/admin/util.js:88
+#: packages/blocks/Blocks/Dashboard/CustomerLicenses/edit.js:75
+msgid "Active"
+msgstr "सक्रिय"
+
+#: app/src/Integrations/User/UserService.php:57
+msgid "Add User Role"
+msgstr "उपयोगकर्ता भूमिका जोड़ें"
+
+#: app/src/Integrations/User/UserService.php:48
+msgid "Add WordPress User Role"
+msgstr "वर्डप्रेस उपयोगकर्ता भूमिका जोड़ें"
+
+#: app/src/Integrations/User/UserService.php:66
+msgid "Add the user role of the user who purchased the product."
+msgstr "उत्पाद खरीदने वाले उपयोगकर्ता की उपयोगकर्ता भूमिका जोड़ें।"
+
+#: app/src/Integrations/ThriveAutomator/Triggers/PurchaseInvokedTrigger.php:66
+msgid "Admin unrevokes a purchase"
+msgstr "व्यवस्थापक खरीदारी रद्द करता है"
+
+#: app/src/Rest/BumpRestServiceProvider.php:78
+msgid "Amount (in the currency of the price) that will be taken off line items associated with this bump."
+msgstr "वह राशि (कीमत की मुद्रा में) जो इस बंप से जुड़े ऑफ लाइन आइटम ले ली जाएगी।"
+
+#: app/src/Controllers/Admin/AffiliationReferrals/AffiliationReferralsListTable.php:146
+#: app/src/Controllers/Admin/Coupons/CouponsListTable.php:351
+#: packages/admin/affiliation-referrals/EditAffiliationReferral.js:253
+#: packages/admin/affiliation-requests/EditAffiliationRequest.js:252
+msgid "Approve"
+msgstr "मंज़ूरी देना"
+
+#: app/src/Controllers/Admin/Coupons/CouponsListTable.php:296
+msgid "Are you sure you want to archive this coupon? This will be unavailable for purchase."
+msgstr "क्या आप वाकई इस कूपन को संग्रहित करना चाहते हैं? यह खरीद के लिए उपलब्ध नहीं होगा।"
+
+#: app/src/Controllers/Admin/Licenses/LicensesListTable.php:166
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:504
+msgid "Are you sure you want to archive this product? This will be unavailable for purchase."
+msgstr "क्या आप वाकई इस उत्पाद को संग्रहित करना चाहते हैं? यह खरीद के लिए उपलब्ध नहीं होगा।"
+
+#: app/src/Controllers/Admin/Licenses/LicensesListTable.php:166
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:504
+msgid "Are you sure you want to restore this product? This will be be available to purchase."
+msgstr "क्या आप वाकई इस उत्पाद को पुनर्स्थापित करना चाहते हैं? यह खरीदारी के लिए उपलब्ध होगा।"
+
+#: app/src/Controllers/Admin/Bumps/BumpsController.php:23
+#: views/admin/bumps/index.php:8
+msgid "Bumps"
+msgstr "बम्प्स"
+
+#. translators: Customer name.
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:239
+#: app/src/Controllers/Admin/Orders/OrdersListTable.php:327
+msgid "By %s"
+msgstr "द्वारा %s"
+
+#: app/src/Rest/SubscriptionProtocolRestServiceProvider.php:101
+msgid "Cancel behavior. Either pending or immediate."
+msgstr "व्यवहार रद्द करें। या तो लंबित या तत्काल।"
+
+#: app/src/Cart/CartService.php:206
+#: app/src/WordPress/Admin/Menus/AdminMenuPageService.php:210
+#: templates/cart.php:6 templates/shop.php:6
+#: packages/admin/settings/brand/BrandSettings.js:216
+msgid "Cart"
+msgstr "कार्ट"
+
+#: app/src/Install/InstallService.php:26
+#: app/src/WordPress/Pages/PageSeeder.php:114
+msgctxt "Form title"
+msgid "Checkout"
+msgstr "चेक आउट"
+
+#: app/src/Install/InstallService.php:121
+#: app/src/WordPress/Pages/PageSeeder.php:139
+msgctxt "Page title"
+msgid "Checkout"
+msgstr "चेक आउट"
+
+#: app/src/BlockLibrary/BlockPatternsService.php:28
+#: app/src/BlockLibrary/FormModeSwitcherService.php:46
+#: app/src/Integrations/Beaver/BeaverFormModule.php:67
+#: app/src/Integrations/Elementor/ReusableFormWidget.php:42
+#: app/src/Integrations/Elementor/ReusableFormWidget.php:101
+msgid "Checkout Form"
+msgstr "चेकआउट फॉर्म"
+
+#: app/src/Controllers/Admin/Customers/CustomersListTable.php:51
+#: app/src/Controllers/Admin/Licenses/LicensesListTable.php:64
+#: app/src/Controllers/Admin/ProductCollections/ProductCollectionsListTable.php:50
+#: app/src/Controllers/Admin/ProductGroups/ProductGroupsListTable.php:106
+#: app/src/Controllers/Admin/Subscriptions/SubscriptionsListTable.php:110
+#: packages/admin/affiliation-referrals/modules/Click.js:73
+#: packages/admin/affiliation-referrals/modules/Summary.js:37
+#: packages/admin/affiliations/modules/Details.js:98
+#: packages/admin/coupons/Sidebar.js:104
+#: packages/admin/customers/modules/Subscriptions.js:64
+#: packages/admin/invoices/modules/Subscriptions.js:19
+#: packages/admin/orders/modules/Subscriptions.js:55
+#: packages/admin/subscriptions/show/modules/Invoices.js:63
+#: packages/admin/subscriptions/show/modules/Orders.js:24
+msgid "Created"
+msgstr "बनाया था"
+
+#: app/src/Integrations/TutorLMS/TutorLMSService.php:173
+msgid "Custom amount"
+msgstr "कस्टम राशि"
+
+#: app/src/Controllers/Admin/CancellationInsights/CancellationInsightsListTable.php:48
+#: app/src/Controllers/Admin/Licenses/LicensesListTable.php:61
+#: app/src/Controllers/Admin/Subscriptions/SubscriptionsListTable.php:105
+#: views/admin/user-profile.php:5
+#: packages/admin/abandoned-checkouts/modules/Customer.js:14
+#: packages/admin/checkouts/modules/SelectCustomer/index.js:94
+#: packages/admin/coupons/modules/NewRestriction.js:91
+#: packages/admin/invoices/modules/Customer.js:17
+#: packages/admin/invoices/store/entities.js:94
+#: packages/admin/licenses/modules/Customer.js:42
+#: packages/admin/orders/modules/Customer.js:16
+#: packages/admin/store/add-entities.js:88
+#: packages/admin/subscriptions/edit/modules/Customer.js:12
+#: packages/admin/subscriptions/show/modules/Customer.js:16
+msgid "Customer"
+msgstr "ग्राहक"
+
+#: app/src/Controllers/Admin/Customers/CustomersController.php:25
+#: app/src/WordPress/Admin/Menus/AdminMenuPageService.php:206
+#: views/admin/customers/index.php:7
+#: packages/admin/bumps/modules/Conditions.js:80
+#: packages/admin/coupons/modules/Restrictions.js:66
+#: packages/admin/customers/EditCustomer.js:119
+#: packages/admin/settings/advanced/AdvancedSettings.js:417
+#: packages/admin/settings/export/ExportSettings.js:23
+#: packages/admin/upsell-funnels/modules/Conditions.js:139
+msgid "Customers"
+msgstr "ग्राहकों"
+
+#: app/src/Install/InstallService.php:133
+#: app/src/WordPress/Pages/PageSeeder.php:145
+msgctxt "Page title"
+msgid "Dashboard"
+msgstr "डैशबोर्ड"
+
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:104
+#: app/src/Controllers/Admin/AffiliationClicks/AffiliationClicksListTable.php:89
+#: app/src/Controllers/Admin/AffiliationPayouts/AffiliationPayoutsListTable.php:109
+#: app/src/Controllers/Admin/AffiliationReferrals/AffiliationReferralsListTable.php:116
+#: app/src/Controllers/Admin/AffiliationRequests/AffiliationRequestsListTable.php:96
+#: app/src/Controllers/Admin/Affiliations/AffiliationsListTable.php:99
+#: app/src/Controllers/Admin/Bumps/BumpsListTable.php:101
+#: app/src/Controllers/Admin/CancellationInsights/CancellationInsightsListTable.php:53
+#: app/src/Controllers/Admin/Coupons/CouponsListTable.php:79
+#: app/src/Controllers/Admin/Invoices/InvoicesListTable.php:64
+#: app/src/Controllers/Admin/Orders/OrdersListTable.php:119
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:153
+#: app/src/Controllers/Admin/Upsells/UpsellsListTable.php:95
+#: packages/admin/affiliations/modules/Clicks.js:63
+#: packages/admin/affiliations/modules/Payouts.js:72
+#: packages/admin/affiliations/modules/Referrals.js:70
+#: packages/admin/customers/modules/Balance/ViewTransactions.js:110
+#: packages/admin/customers/modules/Charges.js:66
+#: packages/admin/customers/modules/Orders.js:65
+#: packages/admin/invoices/modules/Charges.js:19
+#: packages/admin/invoices/modules/Refunds.js:17
+#: packages/admin/orders/modules/Charges.js:93
+#: packages/admin/orders/modules/Refunds.js:74
+#: packages/admin/settings/connection/IncomingWebhooks.js:142
+msgid "Date"
+msgstr "तारीख"
+
+#: app/src/Controllers/Admin/Coupons/CouponsListTable.php:364
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:591
+msgid "Delete permanently"
+msgstr "स्थायी रूप से मिटाएं"
+
+#: app/src/Rest/BlockPatternsRestServiceProvider.php:219
+msgid "Determines whether the pattern is visible in inserter."
+msgstr "यह निर्धारित करता है कि इन्सटर में पैटर्न दिखाई दे रहा है या नहीं।"
+
+#: app/src/Rest/SubscriptionProtocolRestServiceProvider.php:105
+msgid "Downgrade behavior. Either pending or immediate."
+msgstr "डाउनग्रेड व्यवहार। या तो लंबित या तत्काल।"
+
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:236
+#: app/src/Controllers/Admin/Invoices/InvoicesListTable.php:218
+#: app/src/Controllers/Admin/Invoices/InvoicesListTable.php:222
+#: app/src/Controllers/Admin/Orders/OrdersListTable.php:320
+#: app/src/Controllers/Admin/Orders/OrdersListTable.php:324
+#: app/src/Controllers/Admin/ProductGroups/ProductGroupsListTable.php:190
+msgid "Edit Order"
+msgstr "आदेश संपादित करें"
+
+#: app/src/Controllers/Admin/Subscriptions/SubscriptionsListTable.php:393
+#: packages/admin/subscriptions/edit/EditSubscription.js:244
+msgid "Edit Subscription"
+msgstr "सदस्यता संपादित करें"
+
+#: app/src/Controllers/Admin/AffiliationRequests/AffiliationRequestsListTable.php:93
+#: app/src/Controllers/Admin/Affiliations/AffiliationsListTable.php:93
+#: app/src/Controllers/Admin/Customers/CustomersListTable.php:50
+#: views/web/buy-template.php:83
+#: packages/admin/affiliation-payouts/ExportAffiliationPayout.js:84
+#: packages/admin/affiliation-requests/modules/Details.js:84
+#: packages/admin/checkouts/modules/SelectCustomer/CreateCustomer.js:108
+#: packages/admin/coupons/modules/CustomerSelector.js:132
+#: packages/admin/coupons/modules/SelectCustomer.js:229
+#: packages/admin/customers/modules/Details.js:61
+#: packages/admin/settings/account/AccountSettings.js:395
+msgid "Email"
+msgstr "ईमेल"
+
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:191
+msgid "Email Sent"
+msgstr "ईमेल भेजा"
+
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:105
+msgid "Email Status"
+msgstr "ईमेल स्थिति"
+
+#: app/src/Integrations/TutorLMS/TutorLMSService.php:272
+msgid "Enable access to a TutorLMS course."
+msgstr "TutorLMS पाठ्यक्रम तक पहुंच सक्षम करें।"
+
+#: app/src/Rest/CheckoutRestServiceProvider.php:208
+msgid "Form ID is invalid."
+msgstr "फॉर्म  ID अमान्य है।"
+
+#: app/src/Rest/CheckoutRestServiceProvider.php:201
+msgid "Form ID is required."
+msgstr "फॉर्म ID आवश्यक है।"
+
+#: app/src/Rest/TaxProtocolRestServiceProvider.php:95
+msgid "If set to true GST taxes will be calculated for all Canadian provinces."
+msgstr "यदि सही पर सेट किया गया है तो सभी कनाडाई प्रांतों के लिए GST करों की गणना की जाएगी।"
+
+#: app/src/Rest/TaxProtocolRestServiceProvider.php:100
+msgid "If set to true VAT taxes will be calculated using the account's home country VAT rate."
+msgstr "यदि सही पर सेट किया जाता है तो VAT करों की गणना खाते के गृह देश VAT दर का उपयोग करके की जाएगी।"
+
+#: app/src/Rest/CustomerNotificationProtocolRestServiceProvider.php:95
+msgid "If set to true abandonded order reminder emails will be sent to customers."
+msgstr "यदि सही परित्यक्त आदेश पर सेट किया गया है तो ग्राहकों को रिमाइंडर ईमेल भेजे जाएंगे।"
+
+#: app/src/Rest/CustomerNotificationProtocolRestServiceProvider.php:100
+msgid "If set to true order confirmation emails will be sent to customers."
+msgstr "अगर ट्रू ऑर्डर कन्फर्मेशन पर सेट किया जाता है तो ग्राहकों को ईमेल भेजे जाएंगे।"
+
+#: app/src/Controllers/Rest/VerificationCodeController.php:85
+msgid "Invalid verification code"
+msgstr "अवैध सत्यापन संकेत"
+
+#: app/src/Controllers/Admin/Invoices/InvoicesListTable.php:63
+#: templates/forms/invoice.php:6 packages/admin/invoices/store/entities.js:62
+#: packages/admin/store/add-entities.js:145
+msgid "Invoice"
+msgstr "इनवॉइस"
+
+#: app/src/Controllers/Admin/Invoices/InvoicesViewController.php:22
+#: views/admin/invoices/index.php:21 packages/admin/invoices/Invoice.js:74
+#: packages/admin/subscriptions/show/modules/Invoices.js:39
+msgid "Invoices"
+msgstr "चालान"
+
+#: app/src/Controllers/Admin/Licenses/LicensesController.php:23
+#: app/src/WordPress/Admin/Menus/AdminMenuPageService.php:197
+#: packages/blocks/Controllers/LicenseController.php:69
+#: packages/blocks/Controllers/LicenseController.php:79
+#: packages/blocks/Controllers/LicenseController.php:131
+#: views/admin/licenses/index.php:7
+#: packages/admin/components/data-tables/licenses-data-table/index.js:26
+#: packages/admin/licenses/License.js:85
+msgid "Licenses"
+msgstr "लाइसेंस"
+
+#: app/src/Rest/CheckEmailRestServiceProvider.php:66
+#: app/src/Rest/LoginRestServiceProvider.php:67
+msgid "Login"
+msgstr "लॉग इन"
+
+#: app/src/Controllers/Admin/Coupons/CouponsListTable.php:354
+msgctxt "comment"
+msgid "Mark as spam"
+msgstr "रद्दी ई - मेल के रूप में निशान करें"
+
+#: app/src/Rest/CheckoutRestServiceProvider.php:164
+#: app/src/Rest/DraftCheckoutRestServiceProvider.php:98
+msgid "Metadata for the order."
+msgstr "आदेश के लिए मेटाडेटा।"
+
+#: app/src/Controllers/Admin/Invoices/InvoicesListTable.php:66
+#: app/src/Controllers/Admin/Orders/OrdersListTable.php:115
+#: packages/admin/customers/modules/Charges.js:69
+#: packages/admin/customers/modules/PaymentMethods/index.js:52
+#: packages/admin/invoices/modules/Charges.js:22
+#: packages/admin/invoices/modules/Refunds.js:20
+#: packages/admin/orders/modules/Charges.js:96
+msgid "Method"
+msgstr "तरीका"
+
+#: app/src/Controllers/Admin/Coupons/CouponsListTable.php:366
+msgid "Move to Trash"
+msgstr "ट्रैश में ले जाएं"
+
+#: app/src/Controllers/Admin/AffiliationRequests/AffiliationRequestsListTable.php:92
+#: app/src/Controllers/Admin/Affiliations/AffiliationsListTable.php:92
+#: app/src/Controllers/Admin/Bumps/BumpsListTable.php:96
+#: app/src/Controllers/Admin/Coupons/CouponsListTable.php:75
+#: app/src/Controllers/Admin/Customers/CustomersListTable.php:49
+#: app/src/Controllers/Admin/ProductCollections/ProductCollectionsListTable.php:47
+#: app/src/Controllers/Admin/ProductGroups/ProductGroupsListTable.php:104
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:145
+#: app/src/Controllers/Admin/Upsells/UpsellsListTable.php:92
+#: app/src/Support/Errors/Translations/attributes.php:11
+#: views/web/buy-template.php:86 packages/admin/bumps/modules/Name.js:7
+#: packages/admin/licenses/modules/Activations/Activation.js:149
+#: packages/admin/product-collections/components/SelectTemplate/create-modal.js:75
+#: packages/admin/product-collections/modules/Details.js:21
+#: packages/admin/products/components/price/parts/PriceName.js:9
+#: packages/admin/products/modules/Details.js:18
+#: packages/admin/settings/shipping/method/ShippingMethodForm.js:115
+#: packages/admin/settings/shipping/profile/AddShippingProfile.js:78
+#: packages/admin/settings/shipping/profile/ShippingProfile.js:187
+#: packages/admin/settings/shipping/rate/ShippingRateForm.js:307
+#: packages/admin/settings/shipping/zone/ShippingZone.js:94
+#: packages/admin/upsell-funnels/CreateFunnel.js:60
+#: packages/admin/upsell-funnels/modules/Details.js:16
+#: packages/blocks/Blocks/Checkbox/components/Inspector.js:16
+#: packages/blocks/Blocks/Checkbox/edit.js:38
+#: packages/blocks/Blocks/Input/components/Inspector.js:16
+#: packages/blocks/Blocks/Input/edit.js:35
+#: packages/blocks/Blocks/Password/components/Inspector.js:16
+#: packages/blocks/Blocks/Radio/edit.js:23
+#: packages/blocks/Blocks/Switch/components/Inspector.js:16
+#: packages/blocks/Blocks/Switch/edit.js:36
+#: packages/blocks/Blocks/Textarea/edit.js:35
+msgid "Name"
+msgstr "नाम"
+
+#: app/src/Controllers/Admin/Customers/CustomersListTable.php:108
+msgid "No customers found."
+msgstr "कोई ग्राहक नहीं मिला।"
+
+#: app/src/Controllers/Admin/Licenses/LicensesListTable.php:90
+msgid "No licenses found."
+msgstr "कोई लाइसेंस नहीं मिला."
+
+#: app/src/Controllers/Admin/CancellationInsights/CancellationInsightsListTable.php:148
+#: app/src/Controllers/Admin/Subscriptions/SubscriptionsListTable.php:390
+msgid "No name provided"
+msgstr "कोई नाम नहीं दिया गया"
+
+#: app/src/Controllers/Admin/Bumps/BumpsListTable.php:174
+msgid "No order bumps found."
+msgstr "कोई ऑर्डर बंप नहीं मिला।"
+
+#: app/src/Controllers/Admin/Customers/CustomersListTable.php:119
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:337
+#: app/src/Integrations/TutorLMS/TutorLMSService.php:167
+msgid "No price"
+msgstr "कोई कीमत नहीं"
+
+#: app/src/Controllers/Rest/IntegrationProvidersController.php:35
+msgid "Not Found"
+msgstr "नहीं मिला"
+
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:45
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:189
+msgid "Not Scheduled"
+msgstr "अनुसूचित नहीं है"
+
+#: app/src/Controllers/Admin/Coupons/CouponsListTable.php:360
+msgctxt "comment"
+msgid "Not spam"
+msgstr "स्पैम नहीं"
+
+#: app/src/Controllers/Admin/Bumps/BumpsListTable.php:207
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:320
+#: app/src/Controllers/Admin/Upsells/UpsellsListTable.php:202
+msgid "One-Time"
+msgstr "वन टाइम"
+
+#: app/src/Rest/StatisticRestServiceProvider.php:80
+msgid "Only return objects that have this currency. If not set, this will fallback to the account's default currency."
+msgstr "केवल वे वस्तुएँ लौटाएँ जिनके पास यह मुद्रा है। यदि सेट नहीं किया जाता है, तो यह खाते की डिफ़ॉल्ट मुद्रा में वापस आ जाएगा।"
+
+#: app/src/Rest/SubscriptionProtocolRestServiceProvider.php:96
+msgid "Payment retry window in weeks."
+msgstr "सप्ताहों में भुगतान पुनर्प्रयास विंडो।"
+
+#: app/src/Rest/BumpRestServiceProvider.php:98
+msgid "Percent that will be taken off line items associated with this bump."
+msgstr "वह प्रतिशत जिसे इस बंप से जुड़े ऑफ लाइन आइटम हटा दिया जाएगा।"
+
+#: app/src/Integrations/ThriveAutomator/DataFields/PreviousProductIDDataField.php:26
+msgid "Previous Product ID"
+msgstr "पिछला उत्पाद आईडी"
+
+#: app/src/Controllers/Admin/Bumps/BumpsListTable.php:98
+#: app/src/Controllers/Admin/Coupons/CouponsListTable.php:77
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:146
+#: packages/admin/bumps/modules/Price.js:33
+#: packages/admin/coupons/modules/NewRestriction.js:83
+#: packages/admin/products/components/price/parts/SingleAmount.js:11
+#: packages/admin/products/modules/Variations/NewVariant.js:131
+#: packages/admin/products/modules/Variations/Variants.js:119
+#: packages/admin/settings/shipping/rate/ShippingRateForm.js:391
+#: packages/admin/settings/shipping/zone/ShippingZone.js:98
+#: packages/admin/store/add-entities.js:257
+#: packages/admin/subscriptions/edit/modules/Price.js:57
+#: packages/admin/subscriptions/show/modules/CurrentPlan.js:87
+#: packages/admin/upsell-funnels/modules/Price.js:33
+#: packages/blocks/Blocks/CheckoutForm/entities.js:19
+msgid "Price"
+msgstr "कीमत"
+
+#: app/src/Integrations/ThriveAutomator/DataFields/ProductIDDataField.php:29
+#: app/src/Integrations/ThriveAutomator/DataFields/ProductIDDataField.php:47
+#: app/src/Integrations/ThriveAutomator/DataFields/ProductIDDataField.php:83
+msgid "Product ID"
+msgstr "उत्पाद आयडी"
+
+#: app/src/Integrations/ThriveAutomator/DataFields/ProductNameDataField.php:29
+#: packages/admin/products/CreateProduct.js:65
+msgid "Product Name"
+msgstr "प्रोडक्ट का नाम"
+
+#: app/src/Controllers/Admin/Products/ProductsController.php:163
+msgid "Product archived."
+msgstr "उत्पाद संग्रहीत।"
+
+#: app/src/Integrations/ThriveAutomator/Triggers/PurchaseCreatedTrigger.php:66
+msgid "Product or subscription is purchased"
+msgstr "उत्पाद या सदस्यता खरीदी जाती है"
+
+#: app/src/Integrations/ThriveAutomator/Triggers/PurchaseRevokedTrigger.php:66
+msgid "Product purchase is revoked or subscription cancels"
+msgstr "उत्पाद की खरीद रद्द कर दी गई है या सदस्यता रद्द कर दी गई है"
+
+#: app/src/Controllers/Admin/Products/ProductsController.php:163
+msgid "Product restored."
+msgstr "उत्पाद बहाल।"
+
+#: app/src/Controllers/Admin/Licenses/LicensesListTable.php:62
+#: app/src/Integrations/TutorLMS/add-to-cart-surecart.php:21
+#: app/src/Routing/PermalinkServiceProvider.php:54
+#: views/web/buy-template.php:128 views/web/buy-template.php:130
+#: packages/admin/invoices/store/entities.js:86
+#: packages/admin/licenses/modules/Purchase.js:46
+#: packages/admin/store/add-entities.js:271
+msgid "Purchase"
+msgstr "खरीदना"
+
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:208
+#: packages/admin/abandoned-checkouts/modules/Details.js:16
+msgid "Recovered"
+msgstr "बरामद"
+
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:106
+msgid "Recovery Status"
+msgstr "वसूली की स्थिति"
+
+#: app/src/Controllers/Admin/Invoices/InvoicesListTable.php:203
+#: app/src/Controllers/Admin/Orders/OrdersListTable.php:259
+#: packages/admin/components/data-tables/charges-data-table/index.js:24
+#: packages/admin/components/data-tables/charges-data-table/index.js:119
+#: packages/admin/invoices/modules/LineItems.js:205
+#: packages/admin/orders/modules/LineItems/index.js:330
+#: packages/blocks/Blocks/Dashboard/CustomerOrders/edit.js:132
+msgid "Refunded"
+msgstr "वापसी की गई है"
+
+#: app/src/Controllers/Admin/Coupons/CouponsListTable.php:358
+#: app/src/Controllers/Admin/Restore/RestoreController.php:26
+#: app/src/WordPress/Admin/Menus/AdminMenuPageService.php:207
+#: views/admin/restore/index.php:37 views/admin/restore/index.php:42
+#: packages/admin/products/modules/Variations/VariantItem.js:281
+#: packages/admin/subscriptions/show/modules/modals/RestoreSubscriptionModal.js:100
+msgid "Restore"
+msgstr "पुनर्स्थापित करना"
+
+#: app/src/Controllers/Admin/Licenses/LicensesListTable.php:125
+#: packages/admin/components/data-tables/purchases-data-table/purchase-item.js:37
+#: packages/admin/licenses/modules/Details/index.js:25
+#: packages/admin/licenses/modules/Purchase.js:78
+msgid "Revoked"
+msgstr "निरस्त किया गया"
+
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:43
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:187
+#: packages/admin/subscriptions/show/modules/PendingUpdate.js:70
+#: packages/admin/subscriptions/show/modules/PendingUpdate.js:110
+msgid "Scheduled"
+msgstr "अनुसूचित"
+
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:88
+msgid "Search Abanonded Orders"
+msgstr "परित्यक्त आदेश खोजें"
+
+#: app/src/Controllers/Admin/Invoices/InvoicesListTable.php:48
+msgid "Search Invoices"
+msgstr "चालान खोजें"
+
+#: views/admin/licenses/index.php:12
+msgid "Search Licenses"
+msgstr "खोज लाइसेंस"
+
+#: app/src/Controllers/Admin/Bumps/BumpsListTable.php:112
+#: app/src/Controllers/Admin/Coupons/CouponsListTable.php:90
+#: app/src/Controllers/Admin/Customers/CustomersListTable.php:63
+#: app/src/Controllers/Admin/Invoices/InvoicesListTable.php:79
+#: app/src/Controllers/Admin/Orders/OrdersListTable.php:133
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:164
+#: app/src/Controllers/Admin/Subscriptions/SubscriptionsListTable.php:122
+#: app/src/Controllers/Admin/Upsells/UpsellsListTable.php:106
+msgid "Select comment"
+msgstr "टिप्पणी चुनें"
+
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:44
+msgid "Sent"
+msgstr "भेजा"
+
+#: app/src/Middleware/NonceMiddleware.php:26
+msgid "Something is wrong with the provided link."
+msgstr "प्रदान किए गए लिंक में कुछ गलत है।"
+
+#: app/src/Controllers/Admin/AffiliationPayouts/AffiliationPayoutsListTable.php:110
+#: app/src/Controllers/Admin/AffiliationReferrals/AffiliationReferralsListTable.php:117
+#: app/src/Controllers/Admin/AffiliationRequests/AffiliationRequestsListTable.php:95
+#: app/src/Controllers/Admin/Affiliations/AffiliationsListTable.php:94
+#: app/src/Controllers/Admin/Invoices/InvoicesListTable.php:65
+#: app/src/Controllers/Admin/Licenses/LicensesListTable.php:63
+#: app/src/Controllers/Admin/Orders/OrdersListTable.php:112
+#: app/src/Controllers/Admin/ProductGroups/ProductGroupsListTable.php:105
+#: app/src/Controllers/Admin/Subscriptions/SubscriptionsListTable.php:106
+#: app/src/Controllers/Admin/Upsells/UpsellsListTable.php:94
+#: packages/admin/abandoned-checkouts/modules/Coupon.js:43
+#: packages/admin/affiliation-referrals/modules/Click.js:59
+#: packages/admin/affiliation-referrals/modules/Order.js:65
+#: packages/admin/affiliation-referrals/modules/Payout.js:64
+#: packages/admin/affiliation-referrals/modules/Summary.js:10
+#: packages/admin/affiliations/modules/Payouts.js:60
+#: packages/admin/affiliations/modules/Promotions.js:64
+#: packages/admin/affiliations/modules/Referrals.js:61
+#: packages/admin/customers/modules/Charges.js:72
+#: packages/admin/customers/modules/Orders.js:61
+#: packages/admin/customers/modules/Subscriptions.js:54
+#: packages/admin/invoices/modules/Charges.js:25
+#: packages/admin/invoices/modules/Refunds.js:23
+#: packages/admin/invoices/modules/Subscriptions.js:9
+#: packages/admin/orders/modules/Charges.js:99
+#: packages/admin/orders/modules/Refunds.js:80
+#: packages/admin/orders/modules/Subscriptions.js:45
+#: packages/admin/products/components/Status/index.js:57
+#: packages/admin/settings/connection/IncomingWebhooks.js:145
+#: packages/admin/subscriptions/show/modules/Invoices.js:60
+#: packages/admin/subscriptions/show/modules/Orders.js:21
+#: packages/admin/subscriptions/show/modules/Periods.js:106
+msgid "Status"
+msgstr "स्थति"
+
+#: app/src/Controllers/Admin/Bumps/BumpsListTable.php:194
+#: app/src/Controllers/Admin/Orders/OrdersListTable.php:244
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:307
+#: app/src/Controllers/Admin/Upsells/UpsellsListTable.php:189
+#: packages/admin/invoices/store/entities.js:70
+#: packages/admin/products/modules/Prices/NewPrice/index.js:142
+#: packages/admin/products/modules/Prices/Price/Header.js:85
+#: packages/admin/store/add-entities.js:418
+#: packages/admin/store/add-entities.js:425
+#: packages/admin/subscriptions/edit/EditSubscription.js:231
+msgid "Subscription"
+msgstr "अंशदान"
+
+#: app/src/Integrations/ThriveAutomator/Triggers/PurchaseUpdatedTrigger.php:68
+msgid "Subscription plan changed"
+msgstr "सदस्यता योजना बदली गई"
+
+#: app/src/Permissions/RolesService.php:71
+msgid "SureCart Accountant"
+msgstr "श्योरकार्ट एकाउंटेंट"
+
+#: app/src/Permissions/RolesService.php:92
+msgid "SureCart Customer"
+msgstr "श्योरकार्ट ग्राहक"
+
+#: app/src/Integrations/Beaver/BeaverFormModule.php:18
+#: app/src/Integrations/Beaver/BeaverFormModule.php:19
+msgid "SureCart Form"
+msgstr "श्योरकार्ट फॉर्म"
+
+#: app/src/Permissions/RolesService.php:36
+msgid "SureCart Shop Manager"
+msgstr "श्योरकार्ट शॉप मैनेजर"
+
+#: app/src/Permissions/RolesService.php:81
+msgid "SureCart Shop Worker"
+msgstr "श्योरकार्ट शॉप वर्कर"
+
+#: app/src/Integrations/ThriveAutomator/ThriveAutomatorApp.php:34
+msgid "SureCart eCommerce Platform"
+msgstr "स्योरकार्ट ईकामर्स प्लेटफॉर्म"
+
+#: app/src/Integrations/ThriveAutomator/DataObjects/ProductDataObject.php:35
+msgid "SureCart product object"
+msgstr "श्योरकार्ट उत्पाद वस्तु"
+
+#: app/src/Install/InstallService.php:128
+msgctxt "Page title"
+msgid "Thank you!"
+msgstr "धन्यवाद!"
+
+#: app/src/Rest/BrandRestServiceProvider.php:134
+msgid "The URL of the brand logo."
+msgstr "ब्रांड लोगो का URL!"
+
+#: app/src/Rest/BumpRestServiceProvider.php:108
+#: app/src/Rest/UpsellRestServiceProvider.php:102
+msgid "The UUID of the price."
+msgstr "कीमत का UUID।"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: app/src/BlockLibrary/BlockServiceProvider.php:119
+#: app/src/Integrations/AffiliateWP/AffiliateWPService.php:39
+#: app/src/Integrations/Beaver/BeaverFormModule.php:20
+#: app/src/Integrations/Beaver/BeaverFormModule.php:21
+#: app/src/Integrations/Elementor/ElementorServiceProvider.php:131
+#: app/src/Integrations/ThriveAutomator/ThriveAutomatorApp.php:25
+#: app/src/WordPress/Admin/Menus/AdminMenuPageService.php:170
+#: app/src/WordPress/Admin/Notices/AdminNoticesService.php:104
+#: app/src/WordPress/Admin/SSLCheck/AdminSSLCheckService.php:31
+#: app/src/WordPress/CompatibilityService.php:157
+#: app/src/WordPress/HealthService.php:32
+#: app/src/WordPress/HealthService.php:73
+#: app/src/WordPress/HealthService.php:86
+#: app/src/WordPress/HealthService.php:105
+#: app/src/WordPress/HealthService.php:108
+#: app/src/WordPress/HealthService.php:133
+#: app/src/WordPress/HealthService.php:162
+#: app/src/WordPress/HealthService.php:167
+#: app/src/WordPress/HealthService.php:171
+#: app/src/WordPress/HealthService.php:181
+#: app/src/WordPress/Templates/TemplatesServiceProvider.php:22
+#: app/src/WordPress/ThemeService.php:88 views/admin/user-profile.php:1
+#: views/error.php:2
+msgid "SureCart"
+msgstr "श्योरकार्ट"
+
+#: app/src/Rest/BrandRestServiceProvider.php:139
+msgid "The associated address."
+msgstr "संबंधित पता।"
+
+#: app/src/Rest/BrandRestServiceProvider.php:114
+msgid "The brand color."
+msgstr "ब्रांड का रंग।"
+
+#: app/src/Rest/BumpRestServiceProvider.php:88
+msgid "The conditions that will filter this bump to be recommeneded. Accepted keys are price_ids, product_ids, and product_group_ids with array values."
+msgstr "अनुशंसित होने के लिए इस टक्कर को फ़िल्टर करने वाली शर्तें। स्वीकृत कुंजियाँ हैं price_id, product_id, और product_group_id सरणी मानों के साथ।"
+
+#: app/src/Rest/CheckoutRestServiceProvider.php:160
+#: app/src/Rest/DraftCheckoutRestServiceProvider.php:94
+msgid "The currency for the session."
+msgstr "सत्र के लिए मुद्रा।"
+
+#: app/src/Rest/CheckoutRestServiceProvider.php:174
+#: app/src/Rest/DraftCheckoutRestServiceProvider.php:108
+msgid "The customer for the session."
+msgstr "सत्र के लिए ग्राहक।"
+
+#: app/src/Rest/CheckoutRestServiceProvider.php:169
+#: app/src/Rest/DraftCheckoutRestServiceProvider.php:103
+msgid "The customer id for the order."
+msgstr "ऑर्डर के लिए ग्राहक आईडी।"
+
+#: app/src/Rest/BrandRestServiceProvider.php:149
+msgid "The default footer for invoices and receipts."
+msgstr "चालान और रसीदों के लिए डिफ़ॉल्ट पादलेख।"
+
+#: app/src/Rest/BrandRestServiceProvider.php:144
+msgid "The default memo for invoices and receipts."
+msgstr "चालान और रसीदों के लिए डिफ़ॉल्ट मेमो।"
+
+#: app/src/Rest/CheckoutRestServiceProvider.php:183
+#: app/src/Rest/DraftCheckoutRestServiceProvider.php:117
+msgid "The discount for the session."
+msgstr "सत्र के लिए छूट।"
+
+#: app/src/Rest/BrandRestServiceProvider.php:119
+msgid "The email address that will be shown to customers for support, on invoices, etc."
+msgstr "वह ईमेल पता जो ग्राहकों को समर्थन के लिए, इनवॉयस आदि में दिखाया जाएगा।"
+
+#: app/src/Rest/StatisticRestServiceProvider.php:85
+msgid "The end of the date range to query."
+msgstr "क्वेरी करने के लिए दिनांक सीमा का अंत।"
+
+#: app/src/Controllers/Rest/IntegrationProvidersController.php:36
+msgid "The integration has been removed or is unavailable."
+msgstr "एकीकरण हटा दिया गया है या अनुपलब्ध है।"
+
+#: app/src/Rest/StatisticRestServiceProvider.php:91
+msgid "The interval to group statistics on – one of hour, day, week, month, or year."
+msgstr "आँकड़ों को समूहीकृत करने का अंतराल - घंटे, दिन, सप्ताह, महीने या वर्ष में से एक।"
+
+#: app/src/Rest/CheckoutRestServiceProvider.php:179
+#: app/src/Rest/DraftCheckoutRestServiceProvider.php:113
+msgid "The line items for the session."
+msgstr "सत्र के लिए पंक्ति वस्तुएँ।"
+
+#: app/src/Rest/BrandRestServiceProvider.php:124
+msgid "The phone number that will be shown to customers for support, on invoices, etc."
+msgstr "फ़ोन नंबर जो ग्राहकों को समर्थन के लिए, इनवॉइस आदि पर दिखाया जाएगा।"
+
+#: app/src/Rest/BumpRestServiceProvider.php:103
+msgid "The priority of this bump in relation to other bumps. Must be in the range of 1 - 5."
+msgstr "अन्य धक्कों के संबंध में इस टक्कर की प्राथमिकता। 1 - 5 की सीमा में होना चाहिए।"
+
+#: app/src/Rest/StatisticRestServiceProvider.php:97
+msgid "The start of the date range to query."
+msgstr "क्वेरी करने के लिए तिथि सीमा की शुरुआत।"
+
+#: app/src/Controllers/Rest/VerificationCodeController.php:36
+#: app/src/Controllers/Rest/VerificationCodeController.php:93
+msgid "The user could not be found."
+msgstr "उपयोगकर्ता नहीं मिल सका।"
+
+#: app/src/Rest/BrandRestServiceProvider.php:129
+msgid "The website that will be shown to customers for support, on invoices, etc."
+msgstr "वह वेबसाइट जो ग्राहकों को समर्थन के लिए, चालान आदि पर दिखाई जाएगी।"
+
+#: app/src/Controllers/Rest/CheckEmailController.php:22
+#: app/src/Controllers/Rest/VerificationCodeController.php:66
+msgid "There is no account with that username or email address."
+msgstr "उस उपयोगकर्ता नाम या ईमेल पते वाला कोई खाता नहीं है।"
+
+#: app/src/Integrations/ThriveAutomator/Triggers/PurchaseInvokedTrigger.php:75
+msgid "This trigger will be fired when a purchase is unrevoked."
+msgstr "खरीदारी रद्द न किए जाने पर यह ट्रिगर सक्रिय हो जाएगा।"
+
+#: app/src/Integrations/ThriveAutomator/Triggers/PurchaseRevokedTrigger.php:75
+msgid "This trigger will be fired when a subscription cancels after failed payment or by customer request, or when the purchase is manually revoked by the merchant."
+msgstr "यह ट्रिगर तब सक्रिय होगा जब भुगतान विफल होने के बाद या ग्राहक के अनुरोध पर सदस्यता रद्द हो जाती है, या जब व्यापारी द्वारा मैन्युअल रूप से खरीदारी रद्द कर दी जाती है।"
+
+#: app/src/Integrations/ThriveAutomator/Triggers/PurchaseUpdatedTrigger.php:77
+msgid "This trigger will be fired when a subscription plan is changed to something else."
+msgstr "जब किसी सदस्यता योजना को किसी अन्य चीज़ में बदला जाता है तो यह ट्रिगर सक्रिय हो जाएगा।"
+
+#: app/src/Integrations/ThriveAutomator/Triggers/PurchaseCreatedTrigger.php:75
+msgid "This trigger will be fired when someone first purchases a product."
+msgstr "यह ट्रिगर तब सक्रिय होगा जब कोई व्यक्ति पहली बार कोई उत्पाद खरीदेगा।"
+
+#: app/src/Controllers/Web/DashboardController.php:200
+#: app/src/Models/User.php:257
+msgid "This user could not be found."
+msgstr "यह उपयोगकर्ता नहीं मिल सका।"
+
+#: app/src/Models/User.php:191
+msgid "This user is already linked to a customer."
+msgstr "यह उपयोगकर्ता पहले से ही एक ग्राहक से जुड़ा हुआ है।"
+
+#: app/src/Controllers/Admin/Coupons/CouponsListTable.php:303
+msgid "Toggle Coupon Archive"
+msgstr "कूपन संग्रह टॉगल करें"
+
+#: app/src/Controllers/Admin/Licenses/LicensesListTable.php:173
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:511
+msgid "Toggle Product Archive"
+msgstr "उत्पाद संग्रह टॉगल करें"
+
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:107
+#: app/src/Controllers/Admin/Invoices/InvoicesListTable.php:67
+#: app/src/Controllers/Admin/Orders/OrdersListTable.php:117
+#: packages/blocks/Blocks/CartSubtotal/Block.php:29
+#: views/web/buy-template.php:97 views/web/buy-template.php:117
+#: packages/admin/abandoned-checkouts/modules/LineItems/index.js:146
+#: packages/admin/checkouts/modules/Payment.js:153
+#: packages/admin/checkouts/modules/Prices.js:138
+#: packages/admin/customers/modules/Orders.js:58
+#: packages/admin/dashboard/components/overview/charts/ChartSummary.js:144
+#: packages/admin/orders/modules/LineItems/index.js:312
+#: packages/admin/subscriptions/edit/modules/Modals/UpdateRecentPrice.js:286
+#: packages/admin/subscriptions/edit/modules/Price.js:70
+#: packages/admin/subscriptions/show/modules/CurrentPlan.js:101
+#: packages/blocks/Blocks/ConditionalForm/translations.js:5
+#: packages/blocks/Blocks/Total/deprecated.js:129
+#: packages/blocks/Blocks/Total/edit.js:24
+#: packages/blocks/Blocks/Total/edit.js:71
+#: packages/blocks/Blocks/Total/edit.js:73
+#: packages/blocks/Blocks/Total/save.js:22
+#: packages/blocks/Blocks/Totals/edit.js:69
+#: packages/blocks/Blocks/Upsell/UpsellTotals/edit.js:7
+#: packages/blocks/Blocks/Upsell/UpsellTotals/edit.js:45
+msgid "Total"
+msgstr "कुल"
+
+#: app/src/Integrations/TutorLMS/TutorLMSService.php:254
+#: app/src/Integrations/TutorLMS/TutorLMSService.php:336
+msgid "TutorLMS Course"
+msgstr "ट्यूटर एलएमएस कोर्स"
+
+#: app/src/Rest/SettingsRestServiceProvider.php:82
+msgid "Type of object (Settings)"
+msgstr "वस्तु का प्रकार (सेटिंग्स)"
+
+#: app/src/Rest/BumpRestServiceProvider.php:60
+msgid "Type of object (bump)"
+msgstr "वस्तु का प्रकार (bump)"
+
+#: app/src/Controllers/Admin/Coupons/CouponsListTable.php:348
+msgid "Unapprove"
+msgstr "अस्वीकृत करें"
+
+#: app/src/Rest/SubscriptionProtocolRestServiceProvider.php:109
+#: app/src/Rest/TaxProtocolRestServiceProvider.php:115
+msgid "Upgrade behavior. Either pending or immediate."
+msgstr "अपग्रेड व्यवहार। या तो लंबित या तत्काल।"
+
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:243
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:244
+msgid "View Checkout"
+msgstr "चेकआउट देखें"
+
+#: app/src/Rest/AbandonedCheckoutProtocolRestServiceProvider.php:81
+#: app/src/Rest/AbandonedCheckoutRestServiceProvider.php:53
+#: app/src/Rest/AccountRestServiceProvider.php:76
+#: app/src/Rest/ActivationRestServiceProvider.php:53
+#: app/src/Rest/AffiliationProductsRestServiceProvider.php:45
+#: app/src/Rest/AffiliationProtocolRestServiceProvider.php:81
+#: app/src/Rest/AffiliationRequestsRestServiceProvider.php:80
+#: app/src/Rest/AffiliationsRestServiceProvider.php:88
+#: app/src/Rest/BalanceTransactionRestServiceProvider.php:53
+#: app/src/Rest/BrandRestServiceProvider.php:90
+#: app/src/Rest/BumpRestServiceProvider.php:54
+#: app/src/Rest/CancellationActRestServiceProvider.php:54
+#: app/src/Rest/CancellationReasonRestServiceProvider.php:46
+#: app/src/Rest/ChargesRestServiceProvider.php:74
+#: app/src/Rest/CheckoutRestServiceProvider.php:154
+#: app/src/Rest/ClicksRestServiceProvider.php:52
+#: app/src/Rest/CouponRestServiceProvider.php:46
+#: app/src/Rest/CustomerNotificationProtocolRestServiceProvider.php:81
+#: app/src/Rest/CustomerRestServiceProvider.php:47
+#: app/src/Rest/DownloadRestServiceProvider.php:54
+#: app/src/Rest/DraftCheckoutRestServiceProvider.php:88
+#: app/src/Rest/ExportsRestServiceProvider.php:52
+#: app/src/Rest/FulfillmentRestServiceProvider.php:53
+#: app/src/Rest/IncomingWebhooksRestServiceProvider.php:95
+#: app/src/Rest/IntegrationProvidersRestServiceProvider.php:106
+#: app/src/Rest/IntegrationsRestServiceProvider.php:78
+#: app/src/Rest/InvoicesRestServiceProvider.php:75
+#: app/src/Rest/LicenseRestServiceProvider.php:54
+#: app/src/Rest/LineItemsRestServiceProvider.php:76
+#: app/src/Rest/ManualPaymentMethodsRestServiceProvider.php:47
+#: app/src/Rest/MediaRestServiceProvider.php:54
+#: app/src/Rest/OrderProtocolRestServiceProvider.php:81
+#: app/src/Rest/OrderRestServiceProvider.php:54
+#: app/src/Rest/PaymentIntentsRestServiceProvider.php:76
+#: app/src/Rest/PaymentMethodsRestServiceProvider.php:76
+#: app/src/Rest/PayoutGroupsRestServiceProvider.php:52
+#: app/src/Rest/PayoutsRestServiceProvider.php:88
+#: app/src/Rest/PeriodRestServiceProvider.php:75
+#: app/src/Rest/PortalProtocolRestServiceProvider.php:83
+#: app/src/Rest/PriceRestServiceProvider.php:47
+#: app/src/Rest/ProcessorRestServiceProvider.php:68
+#: app/src/Rest/ProductCollectionsRestServiceProvider.php:46
+#: app/src/Rest/ProductGroupsRestServiceProvider.php:47
+#: app/src/Rest/ProductMediaRestServiceProvider.php:54
+#: app/src/Rest/ProductsRestServiceProvider.php:47
+#: app/src/Rest/PromotionRestServiceProvider.php:46
+#: app/src/Rest/ProvisionalAccountRestServiceProvider.php:54
+#: app/src/Rest/PurchasesRestServiceProvider.php:88
+#: app/src/Rest/ReferralItemsRestServiceProvider.php:52
+#: app/src/Rest/ReferralsRestServiceProvider.php:101
+#: app/src/Rest/RefundsRestServiceProvider.php:54
+#: app/src/Rest/RegisteredWebhookRestServiceProvider.php:74
+#: app/src/Rest/ReturnItemsRestServiceProvider.php:52
+#: app/src/Rest/ReturnReasonsRestServiceProvider.php:52
+#: app/src/Rest/ReturnRequestsRestServiceProvider.php:88
+#: app/src/Rest/SettingsRestServiceProvider.php:76
+#: app/src/Rest/ShippingMethodRestServiceProvider.php:54
+#: app/src/Rest/ShippingProfileRestServiceProvider.php:54
+#: app/src/Rest/ShippingProtocolRestServiceProvider.php:81
+#: app/src/Rest/ShippingRateRestServiceProvider.php:54
+#: app/src/Rest/ShippingZoneRestServiceProvider.php:54
+#: app/src/Rest/StatisticRestServiceProvider.php:53
+#: app/src/Rest/SubscriptionProtocolRestServiceProvider.php:82
+#: app/src/Rest/SubscriptionRestServiceProvider.php:157
+#: app/src/Rest/TaxOverrideRestServiceProvider.php:46
+#: app/src/Rest/TaxProtocolRestServiceProvider.php:81
+#: app/src/Rest/TaxRegistrationRestServiceProvider.php:46
+#: app/src/Rest/TaxZoneRestServiceProvider.php:46
+#: app/src/Rest/UploadsRestServiceProvider.php:54
+#: app/src/Rest/UpsellFunnelRestServiceProvider.php:53
+#: app/src/Rest/UpsellRestServiceProvider.php:53
+#: app/src/Rest/VariantOptionsRestServiceProvider.php:53
+#: app/src/Rest/VariantsRestServiceProvider.php:53
+#: app/src/Rest/VariantValuesRestServiceProvider.php:53
+#: app/src/Rest/WebhooksRestServiceProvider.php:46
+msgid "Unique identifier for the object."
+msgstr "वस्तु के लिए अद्वितीय पहचानकर्ता।"
+
+#: app/src/Rest/BumpRestServiceProvider.php:83
+msgid "Whether or not this bump is currently enabled and being shown to customers."
+msgstr "यह बंप वर्तमान में सक्षम है या नहीं और ग्राहकों को दिखाया जा रहा है या नहीं।"
+
+#: app/src/Middleware/ArchiveModelMiddleware.php:28
+#: app/src/Middleware/CheckoutFormModeMiddleware.php:30
+#: app/src/Middleware/EditModelMiddleware.php:28
+msgid "You do not have permission do this."
+msgstr "आपके पास ऐसा करने की अनुमति नहीं है।"
+
+#: app/src/Middleware/ArchiveModelMiddleware.php:24
+#: app/src/Middleware/CheckoutFormModeMiddleware.php:22
+#: app/src/Middleware/EditModelMiddleware.php:24
+#: app/src/Middleware/LoginMiddleware.php:13
+#: app/src/Middleware/NonceMiddleware.php:32
+#: app/src/WordPress/Admin/Notices/AdminNoticesService.php:67
+#: packages/blocks/Controllers/Middleware/SubscriptionNonceVerificationMiddleware.php:20
+msgid "Your session expired - please try again."
+msgstr "आपका सत्र समाप्त हो गया - कृपया पुनः प्रयास करें।"
+
+#: app/src/Install/InstallService.php:25
+#: app/src/WordPress/Pages/PageSeeder.php:113
+msgctxt "Form slug"
+msgid "checkout"
+msgstr "चेक आउट"
+
+#: app/src/Install/InstallService.php:120
+#: app/src/WordPress/Pages/PageSeeder.php:138
+msgctxt "Page slug"
+msgid "checkout"
+msgstr "चेक आउट"
+
+#: app/src/Install/InstallService.php:132
+#: app/src/WordPress/Pages/PageSeeder.php:144
+msgctxt "Page slug"
+msgid "customer-dashboard"
+msgstr "ग्राहक-डैशबोर्ड"
+
+#: app/src/Controllers/Admin/Subscriptions/SubscriptionsListTable.php:240
+msgid "for"
+msgstr "के लिए"
+
+#: app/src/Install/InstallService.php:127
+msgctxt "Page slug"
+msgid "order-confirmation"
+msgstr "आदेश की पुष्टि"

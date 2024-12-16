@@ -1,0 +1,7 @@
+:host {
+  display: block;
+}
+
+.download__details {
+  opacity: 0.75;
+}

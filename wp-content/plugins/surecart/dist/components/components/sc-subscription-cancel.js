@@ -1,0 +1,1 @@
+import{S as ScSubscriptionCancel$1,d as defineCustomElement$1}from"./sc-subscription-cancel2.js";const ScSubscriptionCancel=ScSubscriptionCancel$1,defineCustomElement=defineCustomElement$1;export{ScSubscriptionCancel,defineCustomElement};

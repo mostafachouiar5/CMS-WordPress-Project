@@ -1,0 +1,20 @@
+{
+	"apiVersion": 2,
+	"name": "surecart/customer-payment-methods",
+	"title": "Customer Payment Methods",
+	"description": "Lets the customer update payment methods.",
+	"category": "surecart-customer-dashboard",
+	"keywords": ["name", "customer", "dashboard"],
+	"textdomain": "surecart",
+	"ancestor": ["surecart/dashboard-page", "surecart/dashboard-area"],
+	"supports": {
+		"reusable": false,
+		"html": false
+	},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": "Payment Methods"
+		}
+	}
+}

@@ -1,0 +1,63 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "surecart/product-media",
+  "title": "Product Media",
+  "description": "A container to display the product media",
+  "category": "surecart-product-page",
+  "keywords": [
+    "image",
+    "media"
+  ],
+  "textdomain": "surecart",
+  "ancestor": [
+    "surecart/product-page",
+    "surecart/product-template",
+    "surecart/upsell"
+  ],
+  "usesContext": [
+    "postId"
+  ],
+  "supports": {
+    "interactivity": true,
+    "reusable": false,
+    "html": false,
+    "anchor": true
+  },
+  "attributes": {
+    "auto_height": {
+      "type": "boolean",
+      "default": true
+    },
+    "height": {
+      "type": "string",
+      "default": "310px"
+    },
+    "width": {
+      "type": "number"
+    },
+    "show_thumbs": {
+      "type": "boolean",
+      "default": true
+    },
+    "thumbnails_per_page": {
+      "type": "number",
+      "default": 5
+    },
+    "hide_empty": {
+      "type": "boolean",
+      "default": false
+    },
+    "id": {
+      "type": "string"
+    }
+  },
+  "render": "file:./view.php",
+  "editorScript": "file:./index.js",
+  "editorStyle": [
+    "surecart-image-slider"
+  ],
+  "style": [
+    "file:./style-index.css"
+  ]
+}

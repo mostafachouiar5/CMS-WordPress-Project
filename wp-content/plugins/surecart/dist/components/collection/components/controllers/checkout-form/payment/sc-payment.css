@@ -1,0 +1,33 @@
+:host {
+  display: flex !important;
+  flex-direction: column;
+  gap: var(--sc-input-label-margin);
+  position: relative;
+  font-family: var(--sc-font-sans);
+}
+
+.sc-payment-toggle-summary {
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  font-weight: var(--sc-font-weight-semibold);
+}
+
+.sc-payment-label {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sc-payment-instructions {
+  color: var(--sc-color-gray-600);
+  font-size: var(--sc-font-size-small);
+  line-height: var(--sc-line-height-dense);
+}
+
+.sc-payment__stripe-card-element {
+  display: flex !important;
+  flex-direction: column;
+  gap: var(--sc-input-label-margin);
+  position: relative;
+}

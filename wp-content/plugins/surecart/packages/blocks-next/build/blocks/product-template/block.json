@@ -1,0 +1,74 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "surecart/product-template",
+  "keywords": [
+    "product",
+    "list"
+  ],
+  "title": "Template",
+  "description": "Displays products list.",
+  "version": "1.0.0",
+  "category": "surecart-product-list",
+  "example": {
+    "attributes": {}
+  },
+  "ancestor": [
+    "surecart/product-list"
+  ],
+  "usesContext": [
+    "query",
+    "surecart/product-list/limit",
+    "surecart/product-list/type",
+    "surecart/product-list/ids"
+  ],
+  "supports": {
+    "interactivity": true,
+    "layout": {
+      "__experimentalDefault": "grid",
+      "__experimentalDefaultControls": {
+        "layout": true
+      }
+    },
+    "spacing": {
+      "padding": true,
+      "margin": true,
+      "blockGap": {
+        "__experimentalDefault": "1.25em"
+      },
+      "__experimentalDefaultControls": {
+        "padding": true,
+        "margin": true,
+        "blockGap": true
+      }
+    },
+    "color": {
+      "text": false,
+      "background": true
+    },
+    "__experimentalBorder": {
+      "color": true,
+      "radius": true,
+      "width": true,
+      "__experimentalDefaultControls": {
+        "color": true,
+        "radius": true,
+        "width": true
+      }
+    }
+  },
+  "textdomain": "surecart",
+  "editorScript": "file:./index.js",
+  "viewScriptModule": [
+    "@surecart/product-list",
+    "@surecart/product-page"
+  ],
+  "viewScript": [
+    "wp-url",
+    "wp-api-fetch",
+    "wp-i18n",
+    "wp-a11y"
+  ],
+  "style": "file:./style-index.css",
+  "render": "file:./view.php"
+}

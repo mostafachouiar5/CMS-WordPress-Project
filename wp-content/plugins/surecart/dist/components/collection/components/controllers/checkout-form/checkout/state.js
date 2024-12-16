@@ -1,0 +1,1 @@
+const DefaultValue={loading:!1,submitting:!1,prices:[],price_ids:[],total:0,processor:"stripe"};export default DefaultValue;

@@ -1,0 +1,21 @@
+.login-form {
+  font-size: 16px;
+  margin: var(--sc-spacing-xx-large) auto;
+  max-width: 400px;
+  position: relative;
+}
+.login-form__title {
+  margin-bottom: var(--sc-spacing-medium);
+  font-size: var(--sc-font-size-xx-large);
+  font-weight: var(--sc-font-weight-bold);
+  line-height: var(--sc-line-height-dense);
+  text-align: var(--sc-login-text-align, center);
+}
+.login-form__back {
+  text-align: center;
+  font-size: var(--sc-font-size-small);
+}
+
+sc-card {
+  --sc-card-padding: var(--sc-spacing-xx-large);
+}

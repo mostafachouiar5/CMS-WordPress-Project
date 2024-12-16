@@ -1,0 +1,100 @@
+:host {
+  display: inline-block;
+}
+
+::slotted([slot=description]) {
+  display: block;
+  color: var(--sc-radio-description-color, var(--sc-input-help-text-color, var(--sc-color-gray-500)));
+  line-height: var(--sc-line-height-dense);
+  margin: 0.5em 0 0;
+  font-size: var(--sc-font-size-small);
+}
+
+.radio {
+  display: inline-flex;
+  align-items: flex-start;
+  font-family: var(--sc-input-font-family);
+  font-size: var(--sc-input-font-size-medium);
+  font-weight: var(--sc-input-font-weight);
+  color: var(--sc-input-color);
+  vertical-align: middle;
+  gap: var(--sc-spacing-xx-small);
+}
+
+.radio:not(.radio--editing) {
+  cursor: pointer;
+}
+
+.radio__icon {
+  display: inline-flex;
+  width: var(--sc-radio-size);
+  height: var(--sc-radio-size);
+}
+.radio__icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.radio__control {
+  flex: 0 0 auto;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--sc-radio-size);
+  height: var(--sc-radio-size);
+  border: solid var(--sc-input-border-width) var(--sc-input-border-color);
+  border-radius: 50%;
+  background-color: var(--sc-input-background-color);
+  color: transparent;
+  transition: var(--sc-input-transition, var(--sc-transition-medium)) border-color, var(--sc-input-transition, var(--sc-transition-medium)) opacity, var(--sc-input-transition, var(--sc-transition-medium)) background-color, var(--sc-input-transition, var(--sc-transition-medium)) color, var(--sc-input-transition, var(--sc-transition-medium)) box-shadow;
+}
+.radio__control input[type=radio] {
+  position: absolute;
+  opacity: 0;
+  padding: 0;
+  margin: 0;
+  pointer-events: none;
+}
+
+.radio:not(.radio--checked):not(.radio--disabled) .radio__control:hover {
+  border-color: var(--sc-input-border-color-hover);
+  background-color: var(--sc-input-background-color-hover);
+}
+
+.radio.radio--focused:not(.radio--checked):not(.radio--disabled) .radio__control {
+  border-color: var(--sc-input-border-color-focus);
+  background-color: var(--sc-input-background-color-focus);
+  box-shadow: 0 0 0 var(--sc-focus-ring-width) var(--sc-focus-ring-color-primary);
+}
+
+.radio--checked .radio__control {
+  color: var(--var-sc-checked-radio-background-color, var(--sc-input-background-color));
+  border-color: var(--sc-color-primary-500);
+  background-color: var(--sc-color-primary-500);
+}
+
+.radio.radio--checked:not(.radio--disabled) .radio__control:hover {
+  opacity: 0.8;
+}
+
+.radio.radio--checked:not(.radio--disabled).radio--focused .radio__control {
+  border-color: var(--var-sc-checked-radio-border-color, var(--sc-input-background-color));
+  background-color: var(--sc-color-primary-500);
+  box-shadow: 0 0 0 var(--sc-focus-ring-width) var(--sc-focus-ring-color-primary);
+}
+
+.radio--disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.radio:not(.radio--checked) svg circle {
+  opacity: 0;
+}
+
+.radio__label {
+  line-height: var(--sc-radio-size);
+  margin-left: 0.5em;
+  user-select: none;
+}

@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-avatar",(()=>{it("renders",(async()=>{const a=await newE2EPage();await a.setContent("<sc-avatar></sc-avatar>");const t=await a.find("sc-avatar");expect(t).toHaveClass("hydrated")}))}));

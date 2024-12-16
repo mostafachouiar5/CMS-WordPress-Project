@@ -1,0 +1,48 @@
+{
+	"name": "surecart/submit",
+	"title": "Submit Button",
+	"description": "Display a submit button.",
+	"category": "surecart",
+	"keywords": ["submit", "button"],
+	"textdomain": "surecart",
+	"ancestor": ["surecart/form"],
+	"supports": {
+		"reusable": false,
+		"html": false,
+		"multiple": false
+	},
+	"attributes": {
+		"text": {
+			"type": "string",
+			"default": "Purchase"
+		},
+		"show_secure_notice": {
+			"type": "boolean",
+			"default": true
+		},
+		"secure_notice_text": {
+			"type": "string",
+			"default": "This is a secure, encrypted payment."
+		},
+		"type": {
+			"type": "string",
+			"default": "primary"
+		},
+		"show_total": {
+			"type": "boolean",
+			"default": false
+		},
+		"show_icon": {
+			"type": "boolean",
+			"default": true
+		},
+		"full": {
+			"type": "boolean",
+			"default": false
+		},
+		"size": {
+			"type": "string",
+			"default": "large"
+		}
+	}
+}

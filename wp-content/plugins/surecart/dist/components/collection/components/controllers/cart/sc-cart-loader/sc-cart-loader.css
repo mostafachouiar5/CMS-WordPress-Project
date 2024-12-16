@@ -1,0 +1,5 @@
+:host {
+  position: absolute;
+  z-index: var(--sc-cart-z-index, 999999);
+  font-family: var(--sc-font-sans);
+}

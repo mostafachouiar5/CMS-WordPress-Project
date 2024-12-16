@@ -1,0 +1,1 @@
+import{S as ScOrderConfirmationTotals$1,d as defineCustomElement$1}from"./sc-order-confirmation-totals2.js";const ScOrderConfirmationTotals=ScOrderConfirmationTotals$1,defineCustomElement=defineCustomElement$1;export{ScOrderConfirmationTotals,defineCustomElement};

@@ -1,0 +1,1 @@
+import{S as ScLineItemTotal$1,d as defineCustomElement$1}from"./sc-line-item-total2.js";const ScLineItemTotal=ScLineItemTotal$1,defineCustomElement=defineCustomElement$1;export{ScLineItemTotal,defineCustomElement};

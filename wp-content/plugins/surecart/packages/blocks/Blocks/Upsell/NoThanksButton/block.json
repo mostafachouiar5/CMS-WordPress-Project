@@ -1,0 +1,75 @@
+{
+	"name": "surecart/upsell-no-thanks",
+	"title": "Decline Upsell Button",
+	"description": "Display a upsell decline button.",
+	"category": "surecart-upsell-page",
+	"keywords": ["no", "thanks", "button", "decline", "upsell"],
+	"ancestor": ["surecart/upsell"],
+	"textdomain": "surecart",
+	"attributes": {
+		"text": {
+			"type": "string",
+			"default": "No Thanks"
+		},
+		"type": {
+			"type": "string",
+			"default": "text"
+		},
+		"size": {
+			"type": "string",
+			"default": "small"
+		},
+		"width": {
+			"type": "number",
+			"default": 100
+		}
+	},
+	"supports": {
+		"html": false,
+		"multiple": false,
+		"anchor": true,
+		"align": false,
+		"alignWide": false,
+		"spacing": {
+			"__experimentalSkipSerialization": true,
+			"padding": ["horizontal", "vertical"],
+			"margin": ["top", "bottom"]
+		},
+		"color": {
+			"__experimentalSkipSerialization": true,
+			"gradients": true,
+			"__experimentalDefaultControls": {
+				"background": true,
+				"text": true
+			}
+		},
+		"__experimentalSelector": ".wp-block-button .wp-block-button__link",
+		"typography": {
+			"fontSize": true,
+			"__experimentalFontFamily": true,
+			"__experimentalFontWeight": true,
+			"__experimentalFontStyle": true,
+			"__experimentalTextTransform": true
+		},
+		"reusable": false,
+		"shadow": true,
+		"__experimentalBorder": {
+			"color": true,
+			"radius": true,
+			"style": true,
+			"width": true,
+			"__experimentalSkipSerialization": true,
+			"__experimentalDefaultControls": {
+				"color": true,
+				"radius": true,
+				"style": true,
+				"width": true
+			}
+		}
+	},
+	"styles": [
+		{ "name": "fill", "label": "Fill" },
+		{ "name": "outline", "label": "Outline", "isDefault": true }
+	],
+	"style": ["file:./style.css", "surecart-themes-default", "wp-block-button"]
+}

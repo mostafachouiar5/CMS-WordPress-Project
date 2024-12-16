@@ -1,0 +1,55 @@
+{
+	"apiVersion": 2,
+	"name": "surecart/product-price",
+	"title": "Product Price",
+	"description": "Displays the product price or price range.",
+	"category": "surecart",
+	"keywords": ["price", "product"],
+	"ancestor": ["surecart/upsell"],
+	"attributes": {
+		"sale_text": {
+			"type": "string",
+			"default": "Sale"
+		},
+		"id": {
+			"type": "string"
+		},
+		"alignment": {
+			"type": "string",
+			"default": "left"
+		}
+	},
+	"supports": {
+		"reusable": false,
+		"html": false,
+		"color": {
+			"gradients": true,
+			"link": false,
+			"__experimentalDefaultControls": {
+				"background": true,
+				"text": true,
+				"link": true
+			}
+		},
+		"spacing": {
+			"margin": true,
+			"padding": true
+		},
+		"typography": {
+			"fontSize": true,
+			"lineHeight": true,
+			"__experimentalFontFamily": true,
+			"__experimentalFontWeight": true,
+			"__experimentalFontStyle": true,
+			"__experimentalTextTransform": true,
+			"__experimentalTextDecoration": true,
+			"__experimentalLetterSpacing": true,
+			"__experimentalDefaultControls": {
+				"fontSize": true,
+				"fontAppearance": true,
+				"textTransform": true
+			}
+		}
+	},
+	"style": "file:./preload.css"
+}

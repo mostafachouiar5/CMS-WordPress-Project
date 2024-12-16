@@ -1,0 +1,1 @@
+import{S as ScCancelSurvey$1,d as defineCustomElement$1}from"./sc-cancel-survey2.js";const ScCancelSurvey=ScCancelSurvey$1,defineCustomElement=defineCustomElement$1;export{ScCancelSurvey,defineCustomElement};

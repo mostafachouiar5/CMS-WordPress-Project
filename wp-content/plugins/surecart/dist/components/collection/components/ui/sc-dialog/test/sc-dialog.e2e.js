@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-dialog",(()=>{it("renders",(async()=>{const e=await newE2EPage();await e.setContent("<sc-dialog></sc-dialog>");const a=await e.find("sc-dialog");expect(a).toHaveClass("hydrated")}))}));

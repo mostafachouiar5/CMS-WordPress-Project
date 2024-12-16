@@ -1,0 +1,28 @@
+{
+	"apiVersion": 2,
+	"name": "surecart/product-donation-custom-amount",
+	"title": "Custom Donation Amount",
+	"description": "Displays a custom donation amount input for the donation form.",
+	"category": "surecart",
+	"ancestor": ["surecart/product-donation"],
+	"keywords": ["donation", "ad hoc", "custom", "amount"],
+	"textdomain": "surecart",
+	"supports": {
+		"reusable": false,
+		"html": false,
+		"multiple": false
+	},
+	"usesContext": ["surecart/product-donation/product_id"],
+	"attributes": {
+		"amount": {
+			"type": "number"
+		},
+		"label": {
+			"type": "string"
+		},
+		"custom_amount": {
+			"type": "boolean",
+			"default": false
+		}
+	}
+}

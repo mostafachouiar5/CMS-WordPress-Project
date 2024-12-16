@@ -1,0 +1,1 @@
+import{newSpecPage}from"@stencil/core/testing";import{ScProvisionalBanner}from"../sc-provisional-banner";describe("sc-provisional-banner",(()=>{it("renders",(async()=>{const n=await newSpecPage({components:[ScProvisionalBanner],html:"<sc-provisional-banner></sc-provisional-banner>"});expect(n.root).toMatchSnapshot()}))}));

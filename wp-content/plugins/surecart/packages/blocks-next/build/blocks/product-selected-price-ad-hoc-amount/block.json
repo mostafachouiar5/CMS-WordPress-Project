@@ -1,0 +1,71 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "surecart/product-selected-price-ad-hoc-amount",
+  "title": "Selected Price Custom Amount",
+  "description": "Displays the currently selected price custom amount.",
+  "version": "1.0.0",
+  "category": "surecart-product-page",
+  "icon": "money-alt",
+  "ancestor": [
+    "surecart/product-page",
+    "surecart/product-template"
+  ],
+  "example": {
+    "attributes": {}
+  },
+  "attributes": {
+    "label": {
+      "type": "string",
+      "default": "Enter an amount"
+    },
+    "width": {
+      "type": "string",
+      "default": "100%"
+    },
+    "lock": {
+      "type": "object",
+      "default": {
+        "move": false,
+        "remove": true
+      }
+    }
+  },
+  "usesContext": [
+    "surecart/has-ad-hoc-block"
+  ],
+  "supports": {
+    "interactivity": true,
+    "anchor": true,
+    "color": {
+      "gradients": true,
+      "text": true,
+      "background": false,
+      "__experimentalDefaultControls": {
+        "text": true,
+        "button": true
+      }
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "textAlign": true
+    },
+    "spacing": {
+      "padding": true,
+      "margin": true,
+      "__experimentalDefaultControls": {
+        "padding": true,
+        "margin": true
+      }
+    }
+  },
+  "textdomain": "surecart",
+  "render": "file:./view.php",
+  "editorScript": "file:./index.js",
+  "style": [
+    "surecart-form-control",
+    "surecart-input-group",
+    "file:./style-index.css"
+  ]
+}

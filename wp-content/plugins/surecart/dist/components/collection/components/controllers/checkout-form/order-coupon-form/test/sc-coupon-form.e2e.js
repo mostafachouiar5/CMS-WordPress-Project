@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-order-coupon-form",(()=>{it("renders",(async()=>{const o=await newE2EPage();await o.setContent("<sc-order-coupon-form></sc-order-coupon-form>");const e=await o.find("sc-order-coupon-form");expect(e).toHaveClass("hydrated")}))}));

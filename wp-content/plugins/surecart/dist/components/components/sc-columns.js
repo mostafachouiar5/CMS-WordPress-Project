@@ -1,0 +1,1 @@
+import{S as ScColumns$1,d as defineCustomElement$1}from"./sc-columns2.js";const ScColumns=ScColumns$1,defineCustomElement=defineCustomElement$1;export{ScColumns,defineCustomElement};

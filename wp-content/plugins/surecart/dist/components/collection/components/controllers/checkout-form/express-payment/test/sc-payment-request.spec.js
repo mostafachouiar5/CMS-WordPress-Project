@@ -1,0 +1,1 @@
+import{newSpecPage}from"@stencil/core/testing";import{ScExpressPayment}from"../sc-express-payment";describe("sc-express-payment",(()=>{it("renders empty",(async()=>{const e=await newSpecPage({components:[ScExpressPayment],html:"<sc-express-payment></sc-express-payment>"});expect(e.root).toMatchSnapshot()}))}));

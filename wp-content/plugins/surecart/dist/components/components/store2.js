@@ -1,0 +1,1 @@
+import{c as createStore}from"./index3.js";const store=createStore({type:"default",code:"",message:"",data:{status:0,type:"",http_status:""},additional_errors:[],dismissible:!1},((t,e)=>JSON.stringify(t)!==JSON.stringify(e))),{state:state,onChange:onChange,on:on,dispose:dispose,forceUpdate:forceUpdate}=store;export{state as s};

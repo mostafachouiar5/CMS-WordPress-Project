@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-flex",(()=>{it("renders",(async()=>{const e=await newE2EPage();await e.setContent("<sc-flex></sc-flex>");const t=await e.find("sc-flex");expect(t).toHaveClass("hydrated")}))}));

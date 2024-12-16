@@ -1,0 +1,12 @@
+:host {
+  display: block;
+  --toggle-spacing: 0;
+}
+
+::slotted(*) {
+  margin-bottom: var(--toggle-spacing);
+}
+
+::slotted(:not(:first-child):not([style*="display: none"])) {
+  border-top: 1px solid var(--sc-input-border-color);
+}

@@ -1,0 +1,39 @@
+:host {
+  display: block;
+}
+
+.sc-address {
+  display: block;
+  position: relative;
+}
+.sc-address [hidden] {
+  display: none;
+}
+.sc-address--loading {
+  min-height: 70px;
+}
+.sc-address--loading sc-skeleton {
+  display: block;
+  margin-bottom: 1em;
+}
+.sc-address__control {
+  display: block;
+}
+.sc-address__control > * {
+  margin-bottom: -1px;
+}
+.sc-address__columns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.sc-address__columns > * {
+  flex: 1;
+  width: 50%;
+  margin-left: -1px;
+}
+.sc-address__columns > *:first-child {
+  margin-left: 0;
+}

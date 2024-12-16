@@ -1,0 +1,22 @@
+sc-stripe-add-method {
+  display: block;
+}
+sc-stripe-add-method [hidden] {
+  display: none;
+}
+
+.loader {
+  display: grid;
+  height: 128px;
+  gap: 2em;
+}
+.loader__row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1em;
+}
+.loader__details {
+  display: grid;
+  gap: 0.5em;
+}

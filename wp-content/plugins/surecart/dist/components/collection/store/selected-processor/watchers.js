@@ -1,0 +1,1 @@
+import state,{onChange}from"./store";onChange("id",(()=>{state.manual=(null==state?void 0:state.id)&&!["paypal","stripe","mollie","paystack","mock"].includes(state.id)}));

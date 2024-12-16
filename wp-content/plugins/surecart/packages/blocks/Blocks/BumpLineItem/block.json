@@ -1,0 +1,19 @@
+{
+	"name": "surecart/bump-line-item",
+	"title": "Bump Discount",
+	"description": "Displays the order bump discount.",
+	"category": "surecart",
+	"ancestor": ["surecart/totals"],
+	"keywords": ["checkout", "line", "bump", "discount"],
+  "textdomain": "surecart",
+	"supports": {
+		"reusable": false,
+		"html": false
+	},
+	"attributes": {
+		"label": {
+			"type": "string",
+			"default": "Bundle Discount"
+		}
+	}
+}

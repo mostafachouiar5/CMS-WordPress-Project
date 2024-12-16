@@ -1,0 +1,50 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "surecart/slide-out-cart-header",
+  "title": "Cart Header",
+  "description": "Display a cart header",
+  "version": "1.0.0",
+  "category": "surecart-cart",
+  "example": {},
+  "ancestor": [
+    "surecart/slide-out-cart"
+  ],
+  "attributes": {
+    "text": {
+      "type": "string",
+      "default": "Cart"
+    },
+    "border": {
+      "type": "boolean",
+      "default": true
+    },
+    "padding": {
+      "type": "object",
+      "default": {
+        "top": "1.25em",
+        "left": "1.25em",
+        "bottom": "1.25em",
+        "right": "1.25em"
+      }
+    },
+    "backgroundColor": {
+      "type": "string"
+    },
+    "textColor": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "interactivity": true,
+    "html": false,
+    "multiple": false
+  },
+  "render": "file:./view.php",
+  "textdomain": "surecart",
+  "editorScript": "file:./index.js",
+  "style": [
+    "surecart-tag",
+    "file:./style-index.css"
+  ]
+}

@@ -1,0 +1,19 @@
+:host {
+  display: block;
+  position: relative;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+.subscriptions-switch {
+  display: grid;
+  gap: 0.5em;
+}
+.subscriptions-switch__switcher {
+  background: rgba(0, 0, 0, 0.035);
+  padding: 2px;
+  line-height: 1;
+  border-radius: var(--sc-border-radius-small);
+}

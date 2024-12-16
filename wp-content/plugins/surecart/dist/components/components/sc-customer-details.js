@@ -1,0 +1,1 @@
+import{S as ScCustomerDetails$1,d as defineCustomElement$1}from"./sc-customer-details2.js";const ScCustomerDetails=ScCustomerDetails$1,defineCustomElement=defineCustomElement$1;export{ScCustomerDetails,defineCustomElement};

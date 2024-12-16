@@ -1,0 +1,50 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "surecart/product-list-sort",
+  "title": "Sort",
+  "description": "Display the product sort.",
+  "version": "1.0.0",
+  "category": "surecart-product-list",
+  "icon": "media-interactive",
+  "example": {},
+  "ancestor": [
+    "surecart/product-list"
+  ],
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  },
+  "usesContext": [
+    "query"
+  ],
+  "supports": {
+    "interactivity": true,
+    "spacing": {
+      "padding": true,
+      "margin": [
+        "top",
+        "bottom"
+      ]
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontWeight": true
+    },
+    "color": {
+      "text": true,
+      "background": false,
+      "enableContrastChecker": true
+    }
+  },
+  "render": "file:./view.php",
+  "textdomain": "surecart",
+  "editorScript": "file:./index.js",
+  "style": [
+    "surecart-dropdown",
+    "surecart-button"
+  ],
+  "viewScriptModule": "@surecart/dropdown"
+}

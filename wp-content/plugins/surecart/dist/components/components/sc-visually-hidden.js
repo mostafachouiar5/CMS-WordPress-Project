@@ -1,0 +1,1 @@
+import{S as ScVisuallyHidden$1,d as defineCustomElement$1}from"./sc-visually-hidden2.js";const ScVisuallyHidden=ScVisuallyHidden$1,defineCustomElement=defineCustomElement$1;export{ScVisuallyHidden,defineCustomElement};

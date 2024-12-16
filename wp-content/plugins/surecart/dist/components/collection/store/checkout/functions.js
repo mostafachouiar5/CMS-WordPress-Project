@@ -1,0 +1,1 @@
+import{on}from"./store";export const listenTo=(i,r,n)=>on("set",((o,t,l)=>{if(o===i){if(Array.isArray(r)&&r.some((i=>JSON.stringify(null==t?void 0:t[i])!==JSON.stringify(null==l?void 0:l[i]))))return n(t,l);if("string"==typeof r){if(JSON.stringify(null==t?void 0:t[r])===JSON.stringify(null==l?void 0:l[r]))return;return n(null==t?void 0:t[r],null==l?void 0:l[r])}}}));

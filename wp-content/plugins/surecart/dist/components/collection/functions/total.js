@@ -1,0 +1,1 @@
+export function applyCoupon(o,n){return n?(null==n?void 0:n.amount_off)?o-n.amount_off:(null==n?void 0:n.percent_off)?o-o*(n.percent_off/100):o:o}

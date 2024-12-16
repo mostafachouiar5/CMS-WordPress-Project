@@ -1,0 +1,55 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wpengine-smart-search/search-facet",
+  "version": "0.1.0",
+  "title": "Search Facet",
+  "category": "wpengine-smart-search",
+  "icon": "search",
+  "description": "WP Engine Smart Search block that displays a search facet and performs a keyword search.",
+  "example": {},
+  "supports": {
+    "html": false,
+    "interactivity": {
+      "clientNavigation": true
+    },
+    "align": [
+      "wide",
+      "full"
+    ],
+    "anchor": true,
+    "className": true
+  },
+  "attributes": {
+    "hasLabel": {
+      "type": "boolean",
+      "default": true
+    },
+    "label": {
+      "type": "string",
+      "default": "Search Label"
+    },
+    "placeholder": {
+      "type": "string",
+      "default": "Search..."
+    },
+    "formId": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "keywords": [
+    "wpengine",
+    "WP Engine",
+    "smart search",
+    "smartsearch",
+    "Smart Search"
+  ],
+  "textdomain": "wpengine-smart-search",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewStyle": "file:./style-index.css",
+  "viewScriptModule": "file:./view.js",
+  "render": "file:./render.php"
+}

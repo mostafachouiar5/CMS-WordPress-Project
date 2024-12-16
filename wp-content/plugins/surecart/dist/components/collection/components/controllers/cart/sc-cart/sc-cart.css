@@ -1,0 +1,51 @@
+:host {
+  --sc-drawer-header-spacing: var(--sc-spacing-large);
+  --sc-drawer-body-spacing: var(--sc-spacing-large);
+  --sc-drawer-footer-spacing: var(--sc-spacing-large);
+}
+
+.cart {
+  font-size: 16px;
+}
+
+.cart__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 1em;
+}
+
+.cart__close {
+  opacity: 0.75;
+  transition: opacity 0.25s ease;
+  cursor: pointer;
+}
+.cart__close:hover {
+  opacity: 1;
+}
+
+::slotted(*) {
+  padding: var(--sc-drawer-header-spacing);
+  background: var(--sc-panel-background-color);
+  position: relative;
+}
+
+::slotted(sc-line-items) {
+  flex: 1 1 auto;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  min-height: 200px;
+}
+
+::slotted(:last-child) {
+  border-bottom: 0 !important;
+}
+
+sc-drawer::part(body) {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 0;
+  overflow: hidden;
+}

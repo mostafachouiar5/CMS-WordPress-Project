@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-spinner",(()=>{it("renders",(async()=>{const e=await newE2EPage();await e.setContent("<sc-spinner></sc-spinner>");const n=await e.find("sc-spinner");expect(n).toHaveClass("hydrated")}))}));

@@ -1,0 +1,71 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "surecart/product-title",
+  "title": "Product Title",
+  "description": "Display the product title.",
+  "version": "1.0.0",
+  "category": "surecart-product-page",
+  "example": {},
+  "usesContext": [
+    "postId"
+  ],
+  "ancestor": [
+    "surecart/product-page",
+    "surecart/product-template"
+  ],
+  "attributes": {
+    "level": {
+      "type": "number",
+      "default": 1
+    },
+    "isLink": {
+      "type": "boolean",
+      "default": false
+    },
+    "rel": {
+      "type": "string",
+      "attribute": "rel",
+      "default": ""
+    },
+    "linkTarget": {
+      "type": "string",
+      "default": "_self"
+    }
+  },
+  "supports": {
+    "interactivity": true,
+    "color": {
+      "gradients": true,
+      "link": false,
+      "__experimentalDefaultControls": {
+        "background": true,
+        "text": true
+      }
+    },
+    "spacing": {
+      "margin": true,
+      "padding": true
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "textAlign": true,
+      "__experimentalFontFamily": true,
+      "__experimentalFontWeight": true,
+      "__experimentalFontStyle": true,
+      "__experimentalTextTransform": true,
+      "__experimentalTextDecoration": true,
+      "__experimentalLetterSpacing": true,
+      "__experimentalDefaultControls": {
+        "fontSize": true,
+        "fontAppearance": true,
+        "textTransform": true
+      }
+    }
+  },
+  "textdomain": "surecart",
+  "render": "file:./view.php",
+  "style": "file:./style-index.css",
+  "editorScript": "file:./index.js"
+}

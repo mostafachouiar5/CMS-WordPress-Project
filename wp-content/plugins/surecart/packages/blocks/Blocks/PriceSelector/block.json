@@ -1,0 +1,32 @@
+{
+	"apiVersion": 2,
+	"name": "surecart/price-selector",
+	"title": "Price Selector",
+	"description": "Displays a selector for product prices.",
+	"category": "surecart",
+	"keywords": ["price", "product", "choice", "checkout"],
+	"textdomain": "surecart",
+	"ancestor": ["surecart/form"],
+	"supports": {
+		"reusable": false,
+		"html": false,
+		"className": true
+	},
+	"attributes": {
+		"label": {
+			"type": "string"
+		},
+		"choices": {
+			"type": "array",
+			"default": []
+		},
+		"type": {
+			"type": "string",
+			"default": "radio"
+		},
+		"columns": {
+			"type": "number",
+			"default": 1
+		}
+	}
+}

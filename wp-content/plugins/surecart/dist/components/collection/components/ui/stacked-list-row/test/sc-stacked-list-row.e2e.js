@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-stacked-list-row",(()=>{it("renders",(async()=>{const t=await newE2EPage();await t.setContent("<sc-stacked-list-row></sc-stacked-list-row>");const s=await t.find("sc-stacked-list-row");expect(s).toHaveClass("hydrated")}))}));

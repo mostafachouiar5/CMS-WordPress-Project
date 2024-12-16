@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-alert",(()=>{it("renders",(async()=>{const e=await newE2EPage();await e.setContent("<sc-alert></sc-alert>");const t=await e.find("sc-alert");expect(t).toHaveClass("hydrated")}))}));

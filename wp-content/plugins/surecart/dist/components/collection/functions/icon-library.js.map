@@ -1,0 +1,1 @@
+{"version":3,"file":"icon-library.js","sourceRoot":"","sources":["../../src/functions/icon-library.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,mBAAmB,EAAE,qBAAqB,EAAE,MAAM,+BAA+B,CAAC","sourcesContent":["export { registerIconLibrary, unregisterIconLibrary } from '../components/ui/icon/library';\n"]}

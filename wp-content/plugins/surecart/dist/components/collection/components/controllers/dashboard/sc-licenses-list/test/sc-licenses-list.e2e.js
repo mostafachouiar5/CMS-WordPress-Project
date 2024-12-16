@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-licenses-list",(()=>{it("renders",(async()=>{const s=await newE2EPage();await s.setContent("<sc-licenses-list></sc-licenses-list>");const e=await s.find("sc-licenses-list");expect(e).toHaveClass("hydrated")}))}));

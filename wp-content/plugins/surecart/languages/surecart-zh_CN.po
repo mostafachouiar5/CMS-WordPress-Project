@@ -1,0 +1,1417 @@
+# Translation of SureCart in Chinese (China)
+# This file is distributed under the same license as the SureCart package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-02-13 22:30:34+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: zh_CN\n"
+"Project-Id-Version: SureCart\n"
+
+#: packages/blocks/Blocks/Column/block.json
+msgctxt "block description"
+msgid "A single column within a columns block."
+msgstr "每一个列模块中含一个列。"
+
+#: packages/blocks/Blocks/AddToCartButton/block.json
+msgctxt "block title"
+msgid "Add To Cart Button"
+msgstr "添加到购物车按钮"
+
+#: packages/blocks/Blocks/BumpLineItem/block.json
+msgctxt "block title"
+msgid "Bump Discount"
+msgstr "升级折扣"
+
+#: packages/blocks/Blocks/Button/block.json
+msgctxt "block title"
+msgid "Button"
+msgstr "按钮"
+
+#: packages/blocks/Blocks/BuyButton/block.json
+msgctxt "block title"
+msgid "Buy Button"
+msgstr "购买按钮"
+
+#: packages/blocks/Blocks/Card/block.json
+msgctxt "block title"
+msgid "Card"
+msgstr "卡"
+
+#: packages/blocks/Blocks/Cart/block.json
+msgctxt "block title"
+msgid "Cart"
+msgstr "购物车"
+
+#: packages/blocks/Blocks/CartBumpLineItem/block.json
+msgctxt "block title"
+msgid "Cart Bump Line Item"
+msgstr "购物车升级栏项目"
+
+#: packages/blocks/Blocks/CartCoupon/block.json
+msgctxt "block title"
+msgid "Cart Coupon"
+msgstr "购物车优惠券"
+
+#: packages/blocks/Blocks/CartHeader/block.json
+msgctxt "block title"
+msgid "Cart Header"
+msgstr "购物车标题"
+
+#: packages/blocks/Blocks/CartItems/block.json
+msgctxt "block title"
+msgid "Cart Items"
+msgstr "购物车物品"
+
+#: packages/blocks/Blocks/CartMenuButton/block.json
+msgctxt "block title"
+msgid "Cart Menu Icon"
+msgstr "购物车菜单图标"
+
+#: packages/blocks/Blocks/CartMessage/block.json
+msgctxt "block title"
+msgid "Cart Message"
+msgstr "购物车消息"
+
+#: packages/blocks/Blocks/CartSubmit/block.json
+msgctxt "block title"
+msgid "Cart Submit Button"
+msgstr "购物车提交按钮"
+
+#: packages/blocks/Blocks/CartSubtotal/block.json
+msgctxt "block title"
+msgid "Cart Subtotal"
+msgstr "购物车小计"
+
+#: packages/blocks/Blocks/Checkbox/block.json
+msgctxt "block title"
+msgid "Checkbox"
+msgstr "选择框"
+
+#: packages/blocks/Blocks/CheckoutErrors/block.json
+msgctxt "block title"
+msgid "Checkout Errors"
+msgstr "结账错误"
+
+#: packages/blocks/Blocks/CheckoutForm/block.json
+msgctxt "block title"
+msgid "Checkout Form"
+msgstr "结账表单"
+
+#: packages/blocks/Blocks/ConditionalForm/block.json
+msgctxt "block title"
+msgid "Conditional"
+msgstr "条件化"
+
+#: packages/blocks/Blocks/Coupon/block.json
+msgctxt "block title"
+msgid "Coupon"
+msgstr "优惠券"
+
+#: packages/blocks/Blocks/Dashboard/CustomerBillingDetails/block.json
+msgctxt "block title"
+msgid "Customer Billing Details"
+msgstr "用户账单细节"
+
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerCharges/block.json
+msgctxt "block title"
+msgid "Customer Charges"
+msgstr "用户消费"
+
+#: packages/blocks/Blocks/Dashboard/CustomerDashboardArea/block.json
+msgctxt "block title"
+msgid "Customer Dashboard"
+msgstr "用户面板"
+
+#: packages/blocks/Blocks/CustomerDashboardButton/block.json
+msgctxt "block title"
+msgid "Customer Dashboard Button"
+msgstr "用户面板按钮"
+
+#: packages/blocks/Blocks/Dashboard/DashboardPage/block.json
+msgctxt "block title"
+msgid "Customer Dashboard Page"
+msgstr "用户面板页面"
+
+#: packages/blocks/Blocks/Dashboard/DashboardPages/block.json
+msgctxt "block title"
+msgid "Customer Dashboard Pages"
+msgstr "用户面板页面"
+
+#: packages/blocks/Blocks/Dashboard/DashboardTab/block.json
+msgctxt "block title"
+msgid "Customer Dashboard Tab"
+msgstr "客户面板标签栏"
+
+#: packages/blocks/Blocks/Dashboard/DashboardTabs/block.json
+msgctxt "block title"
+msgid "Customer Dashboard Tabs"
+msgstr "客户面板标签栏"
+
+#: packages/blocks/Blocks/Dashboard/CustomerDownloads/block.json
+#: packages/blocks/Blocks/Dashboard/OrderDownloads/block.json
+msgctxt "block title"
+msgid "Customer Downloads"
+msgstr "用户下载"
+
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerInvoices/block.json
+msgctxt "block title"
+msgid "Customer Invoices"
+msgstr "用户发票"
+
+#: packages/blocks/Blocks/Dashboard/CustomerOrders/block.json
+msgctxt "block title"
+msgid "Customer Orders"
+msgstr "用户订单"
+
+#: packages/blocks/Blocks/Dashboard/CustomerPaymentMethods/block.json
+msgctxt "block title"
+msgid "Customer Payment Methods"
+msgstr "用户支付方式"
+
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerShippingAddress/block.json
+msgctxt "block title"
+msgid "Customer Shipping and Tax Address"
+msgstr "用户邮寄和税务地址"
+
+#: packages/blocks/Blocks/Dashboard/CustomerSubscriptions/block.json
+msgctxt "block title"
+msgid "Customer Subscriptions"
+msgstr "用户订阅"
+
+#: packages/blocks/Blocks/TaxIdInput/block.json
+msgctxt "block description"
+msgid "Display a VAT/GST field for VAT collection."
+msgstr "为VAT税费收取而显示一个VAT/GST的区域。"
+
+#: packages/blocks/Blocks/AddToCartButton/block.json
+msgctxt "block description"
+msgid "Display a button to add a specific price to the cart."
+msgstr "显示一个按钮并在购物车中添加一个特殊价格。"
+
+#: packages/blocks/Blocks/BuyButton/block.json
+msgctxt "block description"
+msgid "Display a button to immediately redirect to the checkout page with the product in the cart."
+msgstr "显示一个按钮，可以将产品加入购物车并立即跳转到结账页面。"
+
+#: packages/blocks/Blocks/CustomerDashboardButton/block.json
+msgctxt "block description"
+msgid "Display a button to link the user to their customer dashboard."
+msgstr "显示一个按钮并链接到客户的用户面板。"
+
+#: packages/blocks/Blocks/Card/block.json
+msgctxt "block description"
+msgid "Display a card block."
+msgstr "显示一个卡片模块"
+
+#: packages/blocks/Blocks/CartHeader/block.json
+msgctxt "block description"
+msgid "Display a cart header"
+msgstr "显示一个购物车标题"
+
+#: packages/blocks/Blocks/Checkbox/block.json
+msgctxt "block description"
+msgid "Display a checkbox input"
+msgstr "显示一个选择框输入选项"
+
+#: packages/blocks/Blocks/CheckoutForm/block.json
+msgctxt "block description"
+msgid "Display a checkout form"
+msgstr "显示结账表单"
+
+#: packages/blocks/Blocks/Button/block.json
+msgctxt "block description"
+msgid "Display a checkout form button."
+msgstr "显示一个结账表格按钮。"
+
+#: packages/blocks/Blocks/CartCoupon/block.json
+msgctxt "block description"
+msgid "Display a coupon form in the cart."
+msgstr "在购物车中显示一个优惠券表单。"
+
+#: packages/blocks/Blocks/Coupon/block.json
+msgctxt "block description"
+msgid "Display a coupon form."
+msgstr "显示一个优惠券表格。"
+
+#: packages/blocks/Blocks/CartMessage/block.json
+msgctxt "block description"
+msgid "Display a custom message in the cart"
+msgstr "在购物车内显示一个自定义消息"
+
+#: packages/blocks/Blocks/FirstName/block.json
+msgctxt "block description"
+msgid "Display a first name collection field."
+msgstr "显示一个名字搜集栏"
+
+#: packages/blocks/Blocks/LastName/block.json
+msgctxt "block description"
+msgid "Display a last name collection field."
+msgstr "显示一个姓的收集区域。"
+
+#: packages/blocks/Blocks/LogoutButton/block.json
+msgctxt "block description"
+msgid "Display a logout button."
+msgstr "显示一个退出按钮。"
+
+#: packages/blocks/Blocks/Name/block.json
+msgctxt "block description"
+msgid "Display a name collection field."
+msgstr "显示一个获取名称的区域。"
+
+#: packages/blocks/Blocks/NameYourPrice/block.json
+msgctxt "block description"
+msgid "Display a name your own price field."
+msgstr "为你自定义的价格区域显示名称。"
+
+#: packages/blocks/Blocks/Phone/block.json
+msgctxt "block description"
+msgid "Display a phone number collection field."
+msgstr "显示一个手机号码手机区域。"
+
+#: packages/blocks/Blocks/Radio/block.json
+msgctxt "block description"
+msgid "Display a radio input"
+msgstr "显示一个输入项"
+
+#: packages/blocks/Blocks/RadioGroup/block.json
+msgctxt "block description"
+msgid "Display a radio select input. This is saved with the order as additional metadata."
+msgstr "显示一个圆圈选择输入项。这将以额外信息形式与订单一起保存。"
+
+#: packages/blocks/Blocks/Submit/block.json
+msgctxt "block description"
+msgid "Display a submit button."
+msgstr "显示提交按钮。"
+
+#: packages/blocks/Blocks/Subtotal/block.json
+msgctxt "block description"
+msgid "Display a subtotal line item."
+msgstr "显示一个小计栏项目。"
+
+#: packages/blocks/Blocks/Switch/block.json
+msgctxt "block description"
+msgid "Display a toggle switch."
+msgstr "显示一个切换选项。"
+
+#: packages/blocks/Blocks/ConditionalForm/block.json
+msgctxt "block description"
+msgid "Display an area of the form based on conditions."
+msgstr "根据条件显示部分表单内容"
+
+#: packages/blocks/Blocks/OrderConfirmationCustomer/block.json
+msgctxt "block description"
+msgid "Display an order confirmation customer section."
+msgstr "显示一个订单确认客户版块。"
+
+#: packages/blocks/Blocks/OrderConfirmationLineItems/block.json
+msgctxt "block description"
+msgid "Display an order confirmation line items summary section."
+msgstr "显示一个订单确认行的总计版块。"
+
+#: packages/blocks/Blocks/Confirmation/block.json
+msgctxt "block description"
+msgid "Display an order confirmation section."
+msgstr "显示一个订单确认区域。"
+
+#: packages/blocks/Blocks/Address/block.json
+msgctxt "block description"
+msgid "Display an shipping address form. This is used for shipping and tax calculations."
+msgstr "显示一个邮寄地址表格。这将被用作运费和税费的计算。"
+
+#: packages/blocks/Blocks/CheckoutErrors/block.json
+msgctxt "block description"
+msgid "Display any checkout-related errors. By default the checkout form shows these at the top. Add this block to change the location."
+msgstr "显示任何付款相关的错误。默认显示在结账页面上方。增加这个模块可以改变位置。"
+
+#: packages/blocks/Blocks/Columns/block.json
+msgctxt "block description"
+msgid "Display content in multiple columns, with blocks added to each column."
+msgstr "在每一列中插入模块，并在多个列中显示内容。"
+
+#: packages/blocks/Blocks/ExpressPayment/block.json
+msgctxt "block description"
+msgid "Display express payment options (Google Pay, Apple Pay, etc.)"
+msgstr "显示快速支付选项 (Google Pay, Apple Pay, 等。)"
+
+#: packages/blocks/Blocks/SessionDetail/block.json
+msgctxt "block description"
+msgid "Display information for a specific session."
+msgstr "为一个特殊的进程显示信息。"
+
+#: packages/blocks/Blocks/Payment/block.json
+msgctxt "block description"
+msgid "Display payment options"
+msgstr "显示支付选项"
+
+#: packages/blocks/Blocks/CartBumpLineItem/block.json
+msgctxt "block description"
+msgid "Display the cart bump line item"
+msgstr "显示购物车升级栏项目"
+
+#: packages/blocks/Blocks/CartSubtotal/block.json
+msgctxt "block description"
+msgid "Display the cart subtotal"
+msgstr "显示购物车小计"
+
+#: packages/blocks/Blocks/Totals/block.json
+msgctxt "block description"
+msgid "Display the session totals."
+msgstr "显示会话总额。"
+
+#: packages/blocks/Blocks/StoreLogo/block.json
+msgctxt "block description"
+msgid "Display the store logo."
+msgstr "显示店铺标识"
+
+#: packages/blocks/Blocks/OrderBumps/block.json
+msgctxt "block description"
+msgid "Display your order bumps."
+msgstr "显示订单升级。"
+
+#: packages/blocks/Blocks/Dashboard/CustomerSubscriptions/block.json
+msgctxt "block description"
+msgid "Displays a customer's subscriptions."
+msgstr "显示用户的订阅。"
+
+#: packages/blocks/Blocks/Divider/block.json
+msgctxt "block description"
+msgid "Displays a divider."
+msgstr "显示一个分割线。"
+
+#: packages/blocks/Blocks/DonationAmount/block.json
+#: packages/blocks/Blocks/ProductDonationAmount/block.json
+msgctxt "block description"
+msgid "Displays a donation amount for the donation form."
+msgstr "为捐赠表单显示一个捐赠数额。"
+
+#: packages/blocks/Blocks/Donation/block.json
+#: packages/blocks/Blocks/ProductDonation/block.json
+msgctxt "block description"
+msgid "Displays a donation amount for the user to choose from."
+msgstr "显示一个捐赠数额以便让客户选择。"
+
+#: packages/blocks/Blocks/Input/block.json
+msgctxt "block description"
+msgid "Displays a form text input field. This is saved with the order as additional metadata."
+msgstr "显示一个表格文字输入区域。这将会以额外信息形式与订单一同保存。"
+
+#: packages/blocks/Blocks/Textarea/block.json
+msgctxt "block description"
+msgid "Displays a form text textarea field. This is saved with the order as additional metadata."
+msgstr "显示一个表格文字区域。这个将以额外信息形式与订单一起保存。"
+
+#: packages/blocks/Blocks/Form/block.json
+msgctxt "block description"
+msgid "Displays a form."
+msgstr "显示一个表单。"
+
+#: packages/blocks/Blocks/Password/block.json
+msgctxt "block description"
+msgid "Displays a password field to let a new user set a password."
+msgstr "显示一个密码栏并允许新客户设置密码"
+
+#: packages/blocks/Blocks/PriceChoice/block.json
+msgctxt "block description"
+msgid "Displays a price choice for a product"
+msgstr "为产品显示一个价格选择"
+
+#: packages/blocks/Blocks/PriceSelector/block.json
+msgctxt "block description"
+msgid "Displays a selector for product prices."
+msgstr "显示一个产品价格选择项。"
+
+#: packages/blocks/Blocks/Heading/block.json
+msgctxt "block description"
+msgid "Displays a title/heading section"
+msgstr "显示一个标题/标题文字版块"
+
+#: packages/blocks/Blocks/Email/block.json
+msgctxt "block description"
+msgid "Displays an email form field."
+msgstr "显示一个电邮表单栏。"
+
+#: packages/blocks/Blocks/LineItems/block.json
+msgctxt "block description"
+msgid "Displays checkout line items."
+msgstr "显示结帐栏信息。"
+
+#: packages/blocks/Blocks/Dashboard/CustomerDownloads/block.json
+#: packages/blocks/Blocks/Dashboard/OrderDownloads/block.json
+msgctxt "block description"
+msgid "Displays the customer's downloads."
+msgstr "显示用户的下载。"
+
+#: packages/blocks/Blocks/Dashboard/CustomerBillingDetails/block.json
+msgctxt "block description"
+msgid "Displays the customers billing details."
+msgstr "显示用户账单细节。"
+
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerCharges/block.json
+msgctxt "block description"
+msgid "Displays the customers charges."
+msgstr "显示用户消费。"
+
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerInvoices/block.json
+msgctxt "block description"
+msgid "Displays the customers invoices."
+msgstr "显示用户的发票。"
+
+#: packages/blocks/Blocks/Dashboard/CustomerOrders/block.json
+msgctxt "block description"
+msgid "Displays the customers orders."
+msgstr "显示用户的订单。"
+
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerShippingAddress/block.json
+msgctxt "block description"
+msgid "Displays the customers shipping addresses and lets them update details."
+msgstr "显示用户邮寄地址并让他们更新信息。"
+
+#: packages/blocks/Blocks/BumpLineItem/block.json
+msgctxt "block description"
+msgid "Displays the order bump discount."
+msgstr "显示一个订单升级折扣。"
+
+#: packages/blocks/Blocks/TaxLineItem/block.json
+msgctxt "block description"
+msgid "Displays the order tax. (if there is tax)"
+msgstr "显示订单税额。（如果有税的话）"
+
+#: packages/blocks/Blocks/Total/block.json
+msgctxt "block description"
+msgid "Displays the total line item."
+msgstr "显示总额行项目。"
+
+#: packages/blocks/Blocks/Dashboard/DashboardPages/block.json
+msgctxt "block description"
+msgid "Displays the users customer dashboard pages."
+msgstr "显示用户面板页面。"
+
+#: packages/blocks/Blocks/Dashboard/DashboardPage/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardTab/block.json
+msgctxt "block description"
+msgid "Displays the users customer dashboard tab."
+msgstr "显示用户面板页面标签栏。"
+
+#: packages/blocks/Blocks/Dashboard/DashboardTabs/block.json
+msgctxt "block description"
+msgid "Displays the users customer dashboard tabs."
+msgstr "显示用户客户面板标签栏"
+
+#: packages/blocks/Blocks/Dashboard/CustomerDashboard/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerDashboardArea/block.json
+msgctxt "block description"
+msgid "Displays the users customer dashboard."
+msgstr "显示用户的用户面板。"
+
+#: packages/blocks/Blocks/Divider/block.json
+msgctxt "block title"
+msgid "Divider"
+msgstr "分割线"
+
+#: packages/blocks/Blocks/Donation/block.json
+msgctxt "block title"
+msgid "Donation"
+msgstr "捐赠"
+
+#: packages/blocks/Blocks/DonationAmount/block.json
+msgctxt "block title"
+msgid "Donation Amount"
+msgstr "捐赠数额"
+
+#: packages/blocks/Blocks/Email/block.json
+msgctxt "block title"
+msgid "Email"
+msgstr "电邮"
+
+#: packages/blocks/Blocks/ExpressPayment/block.json
+msgctxt "block title"
+msgid "Express Payment"
+msgstr "快速支付"
+
+#: packages/blocks/Blocks/FirstName/block.json
+msgctxt "block title"
+msgid "First Name"
+msgstr "名字"
+
+#: packages/blocks/Blocks/Form/block.json
+msgctxt "block title"
+msgid "Form"
+msgstr "表单"
+
+#: packages/blocks/Blocks/Name/block.json
+msgctxt "block title"
+msgid "Full Name"
+msgstr "全名"
+
+#: packages/blocks/Blocks/LastName/block.json
+msgctxt "block title"
+msgid "Last Name"
+msgstr "姓"
+
+#: packages/blocks/Blocks/Dashboard/CustomerPaymentMethods/block.json
+msgctxt "block description"
+msgid "Lets the customer update payment methods."
+msgstr "允许客户更新支付信息。"
+
+#: packages/blocks/Blocks/LineItems/block.json
+msgctxt "block title"
+msgid "Line Items"
+msgstr "行项目"
+
+#: packages/blocks/Blocks/LogoutButton/block.json
+msgctxt "block title"
+msgid "Logout Button"
+msgstr "退出按钮"
+
+#: packages/blocks/Blocks/NameYourPrice/block.json
+msgctxt "block title"
+msgid "Name Your Own Price"
+msgstr "为你的自定义价格命名"
+
+#: packages/blocks/Blocks/OrderBumps/block.json
+msgctxt "block title"
+msgid "Order Bumps"
+msgstr "订单升级"
+
+#: packages/blocks/Blocks/Confirmation/block.json
+msgctxt "block title"
+msgid "Order Confirmation"
+msgstr "订单确认"
+
+#: packages/blocks/Blocks/OrderConfirmationCustomer/block.json
+msgctxt "block title"
+msgid "Order Confirmation Customer Details"
+msgstr "订单确认客户信息"
+
+#: packages/blocks/Blocks/OrderConfirmationLineItems/block.json
+msgctxt "block title"
+msgid "Order Confirmation Line Items"
+msgstr "订单确认行"
+
+#: packages/blocks/Blocks/Password/block.json
+msgctxt "block title"
+msgid "Password"
+msgstr "密码"
+
+#: packages/blocks/Blocks/Payment/block.json
+msgctxt "block title"
+msgid "Payment"
+msgstr "支付"
+
+#: packages/blocks/Blocks/Phone/block.json
+msgctxt "block title"
+msgid "Phone"
+msgstr "手机"
+
+#: packages/blocks/Blocks/PriceChoice/block.json
+msgctxt "block title"
+msgid "Price Choice"
+msgstr "价格选择"
+
+#: packages/blocks/Blocks/PriceSelector/block.json
+msgctxt "block title"
+msgid "Price Selector"
+msgstr "价格选择项"
+
+#: packages/blocks/Blocks/Radio/block.json
+msgctxt "block title"
+msgid "Radio"
+msgstr "圆圈"
+
+#: packages/blocks/Blocks/RadioGroup/block.json
+msgctxt "block title"
+msgid "Radio Select"
+msgstr "圆圈选择输入项"
+
+#: packages/blocks/Blocks/SessionDetail/block.json
+msgctxt "block title"
+msgid "Session Info"
+msgstr "环节信息"
+
+#: packages/blocks/Blocks/StoreLogo/block.json
+msgctxt "block title"
+msgid "Store Logo"
+msgstr "店铺标识"
+
+#: packages/blocks/Blocks/Submit/block.json
+msgctxt "block title"
+msgid "Submit Button"
+msgstr "提交按钮"
+
+#: packages/blocks/Blocks/Subtotal/block.json
+msgctxt "block title"
+msgid "Subtotal Line Item"
+msgstr "小计行项目"
+
+#: packages/blocks/Blocks/Column/block.json
+msgctxt "block title"
+msgid "SureCart Column"
+msgstr "SureCart 栏"
+
+#: packages/blocks/Blocks/Columns/block.json
+msgctxt "block title"
+msgid "SureCart Columns"
+msgstr "SureCart 栏"
+
+#: packages/blocks/Blocks/Switch/block.json
+msgctxt "block title"
+msgid "Switch"
+msgstr "切换"
+
+#: packages/blocks/Blocks/Dashboard/CustomerDashboard/block.json
+msgctxt "block title"
+msgid "Tabbed Customer Dashboard"
+msgstr "标签栏式客户后台"
+
+#: packages/blocks/Blocks/TaxLineItem/block.json
+msgctxt "block title"
+msgid "Tax Line Item"
+msgstr "税费行数据"
+
+#: packages/blocks/Blocks/Input/block.json
+msgctxt "block title"
+msgid "Text Field"
+msgstr "文字区域"
+
+#: packages/blocks/Blocks/Textarea/block.json
+msgctxt "block title"
+msgid "Textarea"
+msgstr "文字区域"
+
+#: packages/blocks/Blocks/Cart/block.json
+#: packages/blocks/Blocks/CartItems/block.json
+msgctxt "block description"
+msgid "The cart"
+msgstr "购物车"
+
+#: packages/blocks/Blocks/CartMenuButton/block.json
+msgctxt "block description"
+msgid "The cart menu icon that shows your cart quantity."
+msgstr "购物车菜单图标显示你的购物车数量。"
+
+#: packages/blocks/Blocks/CartSubmit/block.json
+msgctxt "block description"
+msgid "The cart submit button"
+msgstr "购物车提交按钮"
+
+#: packages/blocks/Blocks/Heading/block.json
+msgctxt "block title"
+msgid "Title/Heading Section"
+msgstr "标题/标题文字版块"
+
+#: packages/blocks/Blocks/Total/block.json
+msgctxt "block title"
+msgid "Total"
+msgstr "总计"
+
+#: packages/blocks/Blocks/Totals/block.json
+msgctxt "block title"
+msgid "Totals"
+msgstr "总额"
+
+#: packages/blocks/Blocks/TaxIdInput/block.json
+msgctxt "block title"
+msgid "VAT or Tax ID Input"
+msgstr "VAT或税号填写"
+
+#: packages/blocks/Blocks/Dashboard/WordPressAccount/block.json
+msgctxt "block title"
+msgid "WordPress User Account"
+msgstr "WordPress 用户帐号"
+
+#: packages/blocks/Blocks/Dashboard/WordPressAccount/block.json
+msgctxt "block description"
+msgid "WordPress User Account Information"
+msgstr "WordPress 用户帐号信息"
+
+#: packages/blocks/Blocks/Dashboard/WordPressAccount/block.json
+msgctxt "block keyword"
+msgid "account"
+msgstr "帐号"
+
+#: packages/blocks/Blocks/Address/block.json
+msgctxt "block keyword"
+msgid "address"
+msgstr "地址"
+
+#: packages/blocks/Blocks/Donation/block.json
+#: packages/blocks/Blocks/DonationAmount/block.json
+#: packages/blocks/Blocks/ProductDonation/block.json
+#: packages/blocks/Blocks/ProductDonationAmount/block.json
+#: packages/blocks/Blocks/ProductDonationAmounts/block.json
+#: packages/blocks/Blocks/ProductDonationCustomAmount/block.json
+#: packages/blocks/Blocks/ProductDonationPrices/block.json
+#: packages/blocks/Blocks/ProductDonationRecurringPrices/block.json
+msgctxt "block keyword"
+msgid "amount"
+msgstr "数额"
+
+#: packages/blocks/Blocks/ExpressPayment/block.json
+msgctxt "block keyword"
+msgid "android"
+msgstr "安卓"
+
+#: packages/blocks/Blocks/ExpressPayment/block.json
+msgctxt "block keyword"
+msgid "apple"
+msgstr "苹果"
+
+#: packages/blocks/Blocks/BumpLineItem/block.json
+msgctxt "block keyword"
+msgid "bump"
+msgstr "升级"
+
+#: packages/blocks/Blocks/Button/block.json
+#: packages/blocks/Blocks/Product/BuyButtons/block.json
+#: packages/blocks/Blocks/Submit/block.json
+#: packages/blocks/Blocks/Subtotal/block.json
+#: packages/blocks/Blocks/Switch/block.json
+#: packages/blocks/Blocks/Upsell/NoThanksButton/block.json
+#: packages/blocks/Blocks/Upsell/SubmitButton/block.json
+msgctxt "block keyword"
+msgid "button"
+msgstr "按钮"
+
+#: packages/blocks/Blocks/Card/block.json
+#: packages/blocks/Blocks/Payment/block.json
+msgctxt "block keyword"
+msgid "card"
+msgstr "卡"
+
+#: packages/blocks/Blocks/Checkbox/block.json
+msgctxt "block keyword"
+msgid "checkbox"
+msgstr "选择框"
+
+#: packages/blocks/Blocks/BumpLineItem/block.json
+#: packages/blocks/Blocks/Button/block.json
+#: packages/blocks/Blocks/Checkbox/block.json
+#: packages/blocks/Blocks/CheckoutErrors/block.json
+#: packages/blocks/Blocks/CheckoutForm/block.json
+#: packages/blocks/Blocks/LineItemShipping/block.json
+#: packages/blocks/Blocks/PriceChoice/block.json
+#: packages/blocks/Blocks/PriceSelector/block.json
+#: packages/blocks/Blocks/ShippingChoices/block.json
+#: packages/blocks/Blocks/TaxLineItem/block.json
+#: packages/blocks/Blocks/Total/block.json
+#: packages/blocks/Blocks/VariantPriceSelector/block.json
+msgctxt "block keyword"
+msgid "checkout"
+msgstr "结账"
+
+#: packages/blocks/Blocks/PriceChoice/block.json
+#: packages/blocks/Blocks/PriceSelector/block.json
+#: packages/blocks/Blocks/Product/PriceChoices/block.json
+#: packages/blocks/Blocks/Product/VariantChoices/block.json
+#: packages/blocks/Blocks/VariantPriceSelector/block.json
+msgctxt "block keyword"
+msgid "choice"
+msgstr "选择"
+
+#: packages/blocks/Blocks/Card/block.json
+#: packages/blocks/Blocks/Confirmation/block.json
+#: packages/blocks/Blocks/OrderBumps/block.json
+#: packages/blocks/Blocks/OrderConfirmationCustomer/block.json
+#: packages/blocks/Blocks/OrderConfirmationLineItems/block.json
+msgctxt "block keyword"
+msgid "confirm"
+msgstr "确认"
+
+#: packages/blocks/Blocks/CartCoupon/block.json
+#: packages/blocks/Blocks/Coupon/block.json
+msgctxt "block keyword"
+msgid "coupon"
+msgstr "优惠券"
+
+#: packages/blocks/Blocks/Payment/block.json
+msgctxt "block keyword"
+msgid "credit"
+msgstr "信用"
+
+#: packages/blocks/Blocks/Donation/block.json
+#: packages/blocks/Blocks/DonationAmount/block.json
+#: packages/blocks/Blocks/Input/block.json
+#: packages/blocks/Blocks/ProductDonation/block.json
+#: packages/blocks/Blocks/ProductDonationAmount/block.json
+#: packages/blocks/Blocks/ProductDonationAmounts/block.json
+#: packages/blocks/Blocks/ProductDonationCustomAmount/block.json
+#: packages/blocks/Blocks/ProductDonationPrices/block.json
+#: packages/blocks/Blocks/Textarea/block.json
+msgctxt "block keyword"
+msgid "custom"
+msgstr "定制"
+
+#: packages/blocks/Blocks/AddToCartButton/block.json
+#: packages/blocks/Blocks/BuyButton/block.json
+#: packages/blocks/Blocks/CustomerDashboardButton/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerBillingDetails/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerDashboard/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerDashboardArea/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerDownloads/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerLicenses/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerOrders/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerPaymentMethods/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerSubscriptions/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardPage/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardPages/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardTab/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardTabs/block.json
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerCharges/block.json
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerInvoices/block.json
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerShippingAddress/block.json
+#: packages/blocks/Blocks/Dashboard/OrderDownloads/block.json
+#: packages/blocks/Blocks/FirstName/block.json
+#: packages/blocks/Blocks/LastName/block.json
+#: packages/blocks/Blocks/LogoutButton/block.json
+#: packages/blocks/Blocks/Name/block.json
+#: packages/blocks/Blocks/NameYourPrice/block.json
+#: packages/blocks/Blocks/OrderBumps/block.json
+#: packages/blocks/Blocks/OrderConfirmationCustomer/block.json
+#: packages/blocks/Blocks/Phone/block.json
+#: packages/blocks/Blocks/SessionDetail/block.json
+msgctxt "block keyword"
+msgid "customer"
+msgstr "客户"
+
+#: packages/blocks/Blocks/CustomerDashboardButton/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerBillingDetails/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerDashboard/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerDashboardArea/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerDownloads/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerLicenses/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerOrders/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerPaymentMethods/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerSubscriptions/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardPage/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardPages/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardTab/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardTabs/block.json
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerCharges/block.json
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerInvoices/block.json
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerShippingAddress/block.json
+#: packages/blocks/Blocks/Dashboard/OrderDownloads/block.json
+#: packages/blocks/Blocks/Dashboard/WordPressAccount/block.json
+#: packages/blocks/Blocks/LogoutButton/block.json
+msgctxt "block keyword"
+msgid "dashboard"
+msgstr "面板"
+
+#: packages/blocks/Blocks/Card/block.json
+msgctxt "block keyword"
+msgid "details"
+msgstr "细节"
+
+#: packages/blocks/Blocks/BumpLineItem/block.json
+#: packages/blocks/Blocks/ProductItemPrice/block.json
+msgctxt "block keyword"
+msgid "discount"
+msgstr "折扣"
+
+#: packages/blocks/Blocks/Divider/block.json
+msgctxt "block keyword"
+msgid "divider"
+msgstr "分割线"
+
+#: packages/blocks/Blocks/Donation/block.json
+#: packages/blocks/Blocks/DonationAmount/block.json
+#: packages/blocks/Blocks/ProductDonation/block.json
+#: packages/blocks/Blocks/ProductDonationAmount/block.json
+#: packages/blocks/Blocks/ProductDonationAmounts/block.json
+#: packages/blocks/Blocks/ProductDonationCustomAmount/block.json
+#: packages/blocks/Blocks/ProductDonationPrices/block.json
+#: packages/blocks/Blocks/ProductDonationRecurringPrices/block.json
+msgctxt "block keyword"
+msgid "donation"
+msgstr "捐赠"
+
+#: packages/blocks/Blocks/Dashboard/CustomerDownloads/block.json
+#: packages/blocks/Blocks/Dashboard/OrderDownloads/block.json
+msgctxt "block keyword"
+msgid "download"
+msgstr "下载"
+
+#: packages/blocks/Blocks/Email/block.json
+#: packages/blocks/Blocks/Form/block.json
+msgctxt "block keyword"
+msgid "email"
+msgstr "电邮"
+
+#: packages/blocks/Blocks/Button/block.json
+#: packages/blocks/Blocks/Checkbox/block.json
+#: packages/blocks/Blocks/Total/block.json
+msgctxt "block keyword"
+msgid "engine"
+msgstr "引擎"
+
+#: packages/blocks/Blocks/CheckoutErrors/block.json
+msgctxt "block keyword"
+msgid "error"
+msgstr "错误"
+
+#: packages/blocks/Blocks/Input/block.json
+#: packages/blocks/Blocks/Textarea/block.json
+msgctxt "block keyword"
+msgid "field"
+msgstr "区域"
+
+#: packages/blocks/Blocks/FirstName/block.json
+msgctxt "block keyword"
+msgid "first-name"
+msgstr "名字"
+
+#: packages/blocks/Blocks/CheckoutForm/block.json
+#: packages/blocks/Blocks/Product/CollectionBadges/block.json
+#: packages/blocks/Blocks/Product/Quantity/block.json
+#: packages/blocks/Blocks/Product/Title/block.json
+msgctxt "block keyword"
+msgid "form"
+msgstr "表单"
+
+#: packages/blocks/Blocks/ExpressPayment/block.json
+msgctxt "block keyword"
+msgid "google"
+msgstr "谷歌"
+
+#: packages/blocks/Blocks/Heading/block.json
+#: packages/blocks/Blocks/Upsell/Title/block.json
+msgctxt "block keyword"
+msgid "heading"
+msgstr "标题文字"
+
+#: packages/blocks/Blocks/Product/Media/block.json
+#: packages/blocks/Blocks/ProductCollectionImage/block.json
+#: packages/blocks/Blocks/ProductItemImage/block.json
+#: packages/blocks/Blocks/StoreLogo/block.json
+msgctxt "block keyword"
+msgid "image"
+msgstr "图片"
+
+#: packages/blocks/Blocks/Input/block.json
+#: packages/blocks/Blocks/Password/block.json
+#: packages/blocks/Blocks/Textarea/block.json
+msgctxt "block keyword"
+msgid "input"
+msgstr "输入"
+
+#: packages/blocks/Blocks/LastName/block.json
+msgctxt "block keyword"
+msgid "last-name"
+msgstr "姓"
+
+#: packages/blocks/Blocks/BumpLineItem/block.json
+msgctxt "block keyword"
+msgid "line"
+msgstr "行"
+
+#: packages/blocks/Blocks/LineItems/block.json
+msgctxt "block keyword"
+msgid "line-items"
+msgstr "行"
+
+#: packages/blocks/Blocks/StoreLogo/block.json
+msgctxt "block keyword"
+msgid "logo"
+msgstr "标识"
+
+#: packages/blocks/Blocks/Email/block.json
+#: packages/blocks/Blocks/Form/block.json
+msgctxt "block keyword"
+msgid "mail"
+msgstr "邮件"
+
+#: packages/blocks/Blocks/CheckoutErrors/block.json
+msgctxt "block keyword"
+msgid "notice"
+msgstr "通知"
+
+#: packages/blocks/Blocks/Password/block.json
+msgctxt "block keyword"
+msgid "password"
+msgstr "密码"
+
+#: packages/blocks/Blocks/Payment/block.json
+msgctxt "block keyword"
+msgid "paypal"
+msgstr "paypal"
+
+#: packages/blocks/Blocks/Phone/block.json
+msgctxt "block keyword"
+msgid "phone"
+msgstr "手机"
+
+#: packages/blocks/Blocks/PriceChoice/block.json
+#: packages/blocks/Blocks/PriceSelector/block.json
+#: packages/blocks/Blocks/Product/Price/block.json
+#: packages/blocks/Blocks/Product/PriceChoices/block.json
+#: packages/blocks/Blocks/ProductItemPrice/block.json
+#: packages/blocks/Blocks/VariantPriceSelector/block.json
+msgctxt "block keyword"
+msgid "price"
+msgstr "价格"
+
+#: packages/blocks/Blocks/CartCoupon/block.json
+#: packages/blocks/Blocks/Coupon/block.json
+msgctxt "block keyword"
+msgid "promo"
+msgstr "促销"
+
+#: packages/blocks/Blocks/Radio/block.json
+#: packages/blocks/Blocks/RadioGroup/block.json
+msgctxt "block keyword"
+msgid "radio"
+msgstr "圆圈"
+
+#: packages/blocks/Blocks/RadioGroup/block.json
+msgctxt "block keyword"
+msgid "select"
+msgstr "选择"
+
+#: packages/blocks/Blocks/Address/block.json
+#: packages/blocks/Blocks/LineItemShipping/block.json
+#: packages/blocks/Blocks/ShippingChoices/block.json
+msgctxt "block keyword"
+msgid "shipping"
+msgstr "邮寄"
+
+#: packages/blocks/Blocks/ProductCollection/block.json
+#: packages/blocks/Blocks/ProductItemList/block.json
+#: packages/blocks/Blocks/StoreLogo/block.json
+msgctxt "block keyword"
+msgid "store"
+msgstr "店铺"
+
+#: packages/blocks/Blocks/AddToCartButton/block.json
+#: packages/blocks/Blocks/BuyButton/block.json
+#: packages/blocks/Blocks/CustomerDashboardButton/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerBillingDetails/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerDashboard/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerDashboardArea/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerOrders/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerPaymentMethods/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerSubscriptions/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardPage/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardPages/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardTab/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardTabs/block.json
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerCharges/block.json
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerInvoices/block.json
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerShippingAddress/block.json
+#: packages/blocks/Blocks/FirstName/block.json
+#: packages/blocks/Blocks/LastName/block.json
+#: packages/blocks/Blocks/LogoutButton/block.json
+#: packages/blocks/Blocks/Name/block.json
+#: packages/blocks/Blocks/NameYourPrice/block.json
+msgctxt "block keyword"
+msgid "name"
+msgstr "名称"
+
+#: packages/blocks/Blocks/PriceChoice/block.json
+#: packages/blocks/Blocks/PriceSelector/block.json
+#: packages/blocks/Blocks/Product/BuyButtons/block.json
+#: packages/blocks/Blocks/Product/CollectionBadges/block.json
+#: packages/blocks/Blocks/Product/Price/block.json
+#: packages/blocks/Blocks/Product/PriceChoices/block.json
+#: packages/blocks/Blocks/Product/Quantity/block.json
+#: packages/blocks/Blocks/Product/Title/block.json
+#: packages/blocks/Blocks/Product/VariantChoices/block.json
+#: packages/blocks/Blocks/ProductCollection/block.json
+#: packages/blocks/Blocks/ProductCollectionImage/block.json
+#: packages/blocks/Blocks/ProductCollectionTitle/block.json
+#: packages/blocks/Blocks/ProductItem/block.json
+#: packages/blocks/Blocks/ProductItemImage/block.json
+#: packages/blocks/Blocks/ProductItemList/block.json
+#: packages/blocks/Blocks/ProductItemPrice/block.json
+#: packages/blocks/Blocks/ProductItemTitle/block.json
+#: packages/blocks/Blocks/VariantPriceSelector/block.json
+msgctxt "block keyword"
+msgid "product"
+msgstr "产品"
+
+#: packages/blocks/Blocks/StoreLogo/block.json
+msgctxt "block keyword"
+msgid "store logo"
+msgstr "商店标识"
+
+#: packages/blocks/Blocks/Payment/block.json
+msgctxt "block keyword"
+msgid "stripe"
+msgstr "stripe"
+
+#: packages/blocks/Blocks/Button/block.json
+#: packages/blocks/Blocks/Submit/block.json
+#: packages/blocks/Blocks/Subtotal/block.json
+#: packages/blocks/Blocks/Switch/block.json
+#: packages/blocks/Blocks/Upsell/SubmitButton/block.json
+msgctxt "block keyword"
+msgid "submit"
+msgstr "提交"
+
+#: packages/blocks/Blocks/LineItemShipping/block.json
+#: packages/blocks/Blocks/TaxLineItem/block.json
+#: packages/blocks/Blocks/Total/block.json
+msgctxt "block keyword"
+msgid "subtotal"
+msgstr "小计"
+
+#: packages/blocks/Blocks/TaxIdInput/block.json
+#: packages/blocks/Blocks/Totals/block.json
+msgctxt "block keyword"
+msgid "summary"
+msgstr "总计"
+
+#: packages/blocks/Blocks/CollectionPage/block.json
+#: packages/blocks/Blocks/Radio/block.json
+#: packages/blocks/Blocks/RadioGroup/block.json
+msgctxt "block keyword"
+msgid "surecart"
+msgstr "surecart"
+
+#: packages/blocks/Blocks/Address/block.json
+#: packages/blocks/Blocks/TaxLineItem/block.json
+msgctxt "block keyword"
+msgid "tax"
+msgstr "税"
+
+#: packages/blocks/Blocks/Phone/block.json
+msgctxt "block keyword"
+msgid "tel"
+msgstr "电话"
+
+#: packages/blocks/Blocks/Input/block.json
+msgctxt "block keyword"
+msgid "text"
+msgstr "文字"
+
+#: packages/blocks/Blocks/Textarea/block.json
+msgctxt "block keyword"
+msgid "textarea"
+msgstr "文字区域"
+
+#: packages/blocks/Blocks/Confirmation/block.json
+#: packages/blocks/Blocks/OrderConfirmationLineItems/block.json
+msgctxt "block keyword"
+msgid "thank"
+msgstr "感谢"
+
+#: packages/blocks/Blocks/Confirmation/block.json
+#: packages/blocks/Blocks/OrderBumps/block.json
+#: packages/blocks/Blocks/OrderConfirmationCustomer/block.json
+#: packages/blocks/Blocks/OrderConfirmationLineItems/block.json
+msgctxt "block keyword"
+msgid "thank you"
+msgstr "谢谢"
+
+#: packages/blocks/Blocks/Heading/block.json
+#: packages/blocks/Blocks/Product/Title/block.json
+#: packages/blocks/Blocks/ProductCollectionTitle/block.json
+#: packages/blocks/Blocks/ProductItemTitle/block.json
+#: packages/blocks/Blocks/Upsell/Title/block.json
+msgctxt "block keyword"
+msgid "title"
+msgstr "标题"
+
+#: packages/blocks/Blocks/Checkbox/block.json
+#: packages/blocks/Blocks/CollapsibleRow/block.json
+msgctxt "block keyword"
+msgid "toggle"
+msgstr "选择"
+
+#: packages/blocks/Blocks/LineItems/block.json
+#: packages/blocks/Blocks/LineItemShipping/block.json
+#: packages/blocks/Blocks/TaxLineItem/block.json
+#: packages/blocks/Blocks/Total/block.json
+msgctxt "block keyword"
+msgid "total"
+msgstr "总计"
+
+#: packages/blocks/Blocks/TaxIdInput/block.json
+#: packages/blocks/Blocks/Totals/block.json
+msgctxt "block keyword"
+msgid "totals"
+msgstr "总额"
+
+#: packages/blocks/Blocks/Dashboard/WordPressAccount/block.json
+msgctxt "block keyword"
+msgid "user"
+msgstr "用户"
+
+#: packages/blocks/Controllers/UserController.php:32
+#: packages/blocks/Controllers/UserController.php:64
+msgid "Account Details"
+msgstr "帐户细节"
+
+#: app/src/Controllers/Admin/CancellationInsights/CancellationInsightsListTable.php:86
+msgid "All Cancellation Attempts"
+msgstr "全部取消尝试"
+
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:42
+#: app/src/Controllers/Admin/AffiliationClicks/AffiliationClicksListTable.php:287
+#: app/src/Controllers/Admin/AffiliationPayouts/AffiliationPayoutsListTable.php:316
+#: app/src/Controllers/Admin/AffiliationReferrals/AffiliationReferralsListTable.php:394
+#: app/src/Controllers/Admin/AffiliationRequests/AffiliationRequestsListTable.php:221
+#: app/src/Controllers/Admin/Affiliations/AffiliationsListTable.php:341
+#: app/src/Controllers/Admin/Bumps/BumpsListTable.php:54
+#: app/src/Controllers/Admin/Orders/OrdersListTable.php:72
+#: app/src/Controllers/Admin/ProductGroups/ProductGroupsListTable.php:63
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:103
+#: app/src/Controllers/Admin/Subscriptions/SubscriptionsListTable.php:60
+#: app/src/Controllers/Admin/Upsells/UpsellsListTable.php:54
+#: packages/admin/settings/connection/IncomingWebhooks.js:29
+msgid "All"
+msgstr "全部"
+
+#: packages/blocks/Controllers/SubscriptionController.php:360
+#: packages/blocks/Controllers/SubscriptionController.php:364
+msgid "By updating or canceling your plan, you agree to the <a href=\"%1$1s\" target=\"_blank\">%2$2s</a>"
+msgstr "若更新或取消您的计划，您需同意<a href=\"%1$1s\" target=\"_blank\">%2$2s</a>"
+
+#: packages/blocks/Controllers/SubscriptionController.php:356
+msgid "By updating or canceling your plan, you agree to the <a href=\"%1$1s\" target=\"_blank\">%2$2s</a> and <a href=\"%3$3s\" target=\"_blank\">%4$4s</a>"
+msgstr "若更新或取消您的计划，您需同意<a href=\"%1$1s\" target=\"_blank\">%2$2s</a> 和 <a href=\"%3$3s\" target=\"_blank\">%4$4s</a>"
+
+#: views/admin/cancellation-insights/index.php:24
+#: packages/admin/cancellation-insights/CancellationInsights.js:119
+msgid "Cancellation Attempts"
+msgstr "取消提示"
+
+#: app/src/WordPress/Admin/Menus/AdminMenuPageService.php:199
+msgid "Cancellation Insights"
+msgstr "取消情况"
+
+#: app/src/Controllers/Admin/CancellationInsights/CancellationInsightsListTable.php:50
+#: packages/admin/store/add-entities.js:60
+msgid "Cancellation Reason"
+msgstr "取消原因"
+
+#: app/src/WordPress/Admin/Menus/AdminMenuPageService.php:199
+msgid "Cancellations"
+msgstr "取消"
+
+#: packages/blocks/Controllers/SubscriptionController.php:333
+msgid "Change Payment Method"
+msgstr "更改支付方式"
+
+#: app/src/Controllers/Admin/CancellationInsights/CancellationInsightsListTable.php:51
+msgid "Comment"
+msgstr "评论"
+
+#: app/src/Controllers/Admin/CancellationInsights/CancellationInsightsListTable.php:190
+msgid "Coupon Applied"
+msgstr "优惠券已应用"
+
+#: packages/blocks/Controllers/SubscriptionController.php:403
+msgid "Enter Amount"
+msgstr "输入金额"
+
+#: packages/blocks/Controllers/SubscriptionController.php:414
+msgid "Enter An Amount"
+msgstr "输入一个金额"
+
+#: views/web/buy-template.php:94
+#: packages/blocks/Blocks/CartCoupon/deprecated.js:48
+#: packages/blocks/Blocks/Coupon/deprecated.js:25
+msgid "Enter coupon code"
+msgstr "输入优惠券代码"
+
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:347
+#: packages/admin/checkouts/modules/SelectShipping.js:130
+msgid "Free"
+msgstr "免费"
+
+#: views/admin/cancellation-insights/cta-banner.php:106
+msgid "Get Subscription Saver"
+msgstr "获得订阅挽回"
+
+#: packages/blocks/Controllers/SubscriptionController.php:563
+msgid "New Plan"
+msgstr "新计划"
+
+#: app/src/Controllers/Admin/CancellationInsights/CancellationInsightsListTable.php:123
+msgid "No cancellation acts."
+msgstr "无取消行为"
+
+#: app/src/Support/Errors/Translations/codes.php:16
+#: app/src/Support/Errors/Translations/codes.php:44
+msgid "One of these products is no longer purchaseable."
+msgstr "这些产品中，有些已经不可被购买。"
+
+#: app/src/Controllers/Admin/Subscriptions/SubscriptionsListTable.php:63
+msgid "Past Due"
+msgstr "逾期"
+
+#: app/src/Controllers/Admin/CancellationInsights/CancellationInsightsListTable.php:52
+msgid "Plan Status"
+msgstr "套餐状态"
+
+#: views/web/buy-template.php:91 packages/blocks/Blocks/OrderBumps/edit.js:16
+msgid "Recommended"
+msgstr "推荐"
+
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:210
+#: packages/admin/abandoned-checkouts/modules/Details.js:21
+msgid "Recovered Before Email Was Sent"
+msgstr "在邮件发送前挽回"
+
+#. translators: Subscription saver feature. This is displayed if the
+#. subscription has been "Saved" from cancellation.
+#: app/src/Controllers/Admin/CancellationInsights/CancellationInsightsListTable.php:188
+msgid "Saved"
+msgstr "以保存"
+
+#: app/src/Controllers/Admin/Settings/BaseSettings.php:51
+#: views/admin/cancellation-insights/index.php:5
+#: views/layouts/partials/admin-settings-sidebar.php:35
+msgid "Subscription Saver"
+msgstr "订阅挽回"
+
+#: app/src/Controllers/Admin/CancellationInsights/CancellationInsightsController.php:23
+msgid "Subscription Saver & Insights"
+msgstr "订阅挽回&情况"
+
+#: packages/blocks/Controllers/SubscriptionController.php:356
+#: packages/blocks/Controllers/SubscriptionController.php:364
+msgid "Terms"
+msgstr "条款"
+
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:223
+#: app/src/Controllers/Admin/Tables/ListTable.php:110
+#: app/src/WordPress/PostTypes/FormPostTypeService.php:339
+#: views/admin/user-profile.php:10 views/admin/user-profile.php:18
+#: packages/admin/dashboard/components/RecentOrders.js:184
+#: packages/blocks/Blocks/Form/components/Mode.js:12
+#: packages/blocks/Blocks/Form/components/Mode.js:32
+msgid "Test"
+msgstr "测试"
+
+#: views/admin/cancellation-insights/cta-banner.php:100
+msgid "The easiest thing you can do to increase subscription revenue."
+msgstr "这是你最容易做到的能增加你订阅收入的事情了。"
+
+#: app/src/Support/Errors/Translations/codes.php:22
+#: app/src/Support/Errors/Translations/codes.php:51
+msgid "This payment method cannot be used for subscriptions."
+msgstr "该支付方式不能用于订阅。"
+
+#: views/web/buy-template.php:118
+#: packages/blocks/Blocks/Total/deprecated.js:133
+#: packages/blocks/Blocks/Total/edit.js:64
+#: packages/blocks/Blocks/Total/save.js:24
+#: packages/blocks/Blocks/Totals/edit.js:70
+msgid "Total Due Today"
+msgstr "今日应付"
+
+#: app/src/Controllers/Admin/Subscriptions/SubscriptionsListTable.php:62
+msgid "Trialing"
+msgstr "试用中"
+
+#: packages/blocks/Controllers/UserController.php:74
+msgid "Update Account Details"
+msgstr "更新帐户细节"
+
+#: packages/blocks/Controllers/UserController.php:95
+msgid "Update Password"
+msgstr "更新密码"

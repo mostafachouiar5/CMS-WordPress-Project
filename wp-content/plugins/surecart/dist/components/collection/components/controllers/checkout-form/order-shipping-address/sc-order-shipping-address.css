@@ -1,0 +1,9 @@
+:host {
+  display: block;
+}
+
+.sc-order-shipping__loading {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}

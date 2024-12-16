@@ -1,0 +1,47 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+
+.wpengine-smart-search-facet  {
+	.wpengine-smart-search-facet__fields {
+		display: flex;
+		flex: auto;
+		flex-wrap: nowrap;
+		max-width: 100%;	
+	}
+	.wpengine-smart-search-facet__field {
+		appearance: none;
+		border: 1px solid #949494;
+		flex-grow: 1;
+		margin-left: 0;
+		margin-right: 0;
+		min-width: 3rem;
+		padding: 8px;
+		text-decoration: unset !important;
+		border-radius: 0.33em;
+	}
+	.wpengine-smart-search-facet__button {
+		display: flex;
+		align-items: center;
+		margin: 0 0 0 6px;
+		cursor: pointer;
+		padding: 0 0.5em;
+		position: relative;
+		&:active {
+			color: currentColor;
+		}
+		&:disabled,
+		&[aria-disabled="true"] {
+			cursor: default;
+			opacity: 0.3;
+		}
+		&[aria-disabled="true"]:focus,
+		&:disabled:focus {
+			box-shadow: none;
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"name": "surecart/shipping-choices",
+	"title": "Shipping Choices",
+	"description": "Display the list of shipping choices",
+	"category": "surecart",
+	"keywords": ["shipping", "checkout"],
+	"textdomain": "surecart",
+	"ancestor": ["surecart/form"],
+	"supports": {
+		"reusable": false,
+		"html": false
+	},
+	"attributes": {
+		"label": {
+			"type": "string",
+			"default": "Shipping"
+		},
+		"showControl": {
+			"type": "boolean",
+			"default": true
+		},
+		"showDescription": {
+			"type": "boolean",
+			"default": true
+		}
+	}
+}

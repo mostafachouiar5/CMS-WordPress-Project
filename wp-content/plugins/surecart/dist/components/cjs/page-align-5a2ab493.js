@@ -1,0 +1,1 @@
+"use strict";function isRtl(){return"rtl"===document.dir}exports.isRtl=isRtl;

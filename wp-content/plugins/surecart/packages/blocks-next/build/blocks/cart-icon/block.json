@@ -1,0 +1,44 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "surecart/cart-icon",
+  "title": "Floating Cart Icon",
+  "description": "The cart icon that shows your cart quantity.",
+  "version": "1.0.0",
+  "category": "surecart-cart",
+  "example": {},
+  "attributes": {},
+  "supports": {
+    "interactivity": true,
+    "inserter": false,
+    "spacing": {
+      "padding": true,
+      "margin": true,
+      "__experimentalDefaultControls": {
+        "padding": true,
+        "margin": true
+      }
+    },
+    "color": {
+      "text": true,
+      "background": true
+    },
+    "__experimentalBorder": {
+      "width": true,
+      "color": true,
+      "__experimentalDefaultControls": {
+        "width": true,
+        "color": true
+      }
+    }
+  },
+  "render": "file:./view.php",
+  "textdomain": "surecart",
+  "editorScript": "file:./index.js",
+  "style": [
+    "file:./style-index.css"
+  ],
+  "viewScriptModule": [
+    "@surecart/checkout"
+  ]
+}

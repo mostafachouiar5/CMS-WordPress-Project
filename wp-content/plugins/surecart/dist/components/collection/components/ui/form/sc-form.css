@@ -1,0 +1,16 @@
+:host {
+  display: block;
+}
+
+::slotted(*:not(:last-child)) {
+  margin-bottom: var(--sc-form-row-spacing, 0.75em);
+}
+::slotted(*:not(:last-child)).wp-block-spacer {
+  margin-bottom: 0;
+}
+
+::slotted(*:focus-within),
+::slotted(*:active) {
+  position: relative;
+  z-index: var(--sc-form-focus-within-z-index, auto); /* Handle sc-drawer opening: Give default z-index, but allow it to be overridden */
+}

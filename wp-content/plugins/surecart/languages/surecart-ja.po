@@ -1,0 +1,1795 @@
+# Translation of SureCart in Japanese
+# This file is distributed under the same license as the SureCart package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-02-13 22:17:32+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ja_JP\n"
+"Project-Id-Version: SureCart\n"
+
+#: packages/blocks/Blocks/Column/block.json
+msgctxt "block description"
+msgid "A single column within a columns block."
+msgstr "カラムブロック内に1カラム"
+
+#: packages/blocks/Blocks/AddToCartButton/block.json
+msgctxt "block title"
+msgid "Add To Cart Button"
+msgstr "カートに追加ボタン"
+
+#: packages/blocks/Blocks/BumpLineItem/block.json
+msgctxt "block title"
+msgid "Bump Discount"
+msgstr "セット商品割引"
+
+#: packages/blocks/Blocks/Button/block.json
+msgctxt "block title"
+msgid "Button"
+msgstr "ボタン"
+
+#: packages/blocks/Blocks/BuyButton/block.json
+msgctxt "block title"
+msgid "Buy Button"
+msgstr "購入ボタン"
+
+#: packages/blocks/Blocks/Card/block.json
+msgctxt "block title"
+msgid "Card"
+msgstr "カード"
+
+#: packages/blocks/Blocks/Cart/block.json
+msgctxt "block title"
+msgid "Cart"
+msgstr "カート"
+
+#: packages/blocks/Blocks/CartBumpLineItem/block.json
+msgctxt "block title"
+msgid "Cart Bump Line Item"
+msgstr "セット販売の商品項目"
+
+#: packages/blocks/Blocks/CartCoupon/block.json
+msgctxt "block title"
+msgid "Cart Coupon"
+msgstr "カートクーポン"
+
+#: packages/blocks/Blocks/CartHeader/block.json
+msgctxt "block title"
+msgid "Cart Header"
+msgstr "カートヘッダー"
+
+#: packages/blocks/Blocks/CartItems/block.json
+msgctxt "block title"
+msgid "Cart Items"
+msgstr "カートアイテム"
+
+#: packages/blocks/Blocks/CartMessage/block.json
+msgctxt "block title"
+msgid "Cart Message"
+msgstr "カートメッセージ"
+
+#: packages/blocks/Blocks/CartSubmit/block.json
+msgctxt "block title"
+msgid "Cart Submit Button"
+msgstr "カートボタン"
+
+#: packages/blocks/Blocks/CartSubtotal/block.json
+msgctxt "block title"
+msgid "Cart Subtotal"
+msgstr "カートの小計"
+
+#: packages/blocks/Blocks/Checkbox/block.json
+msgctxt "block title"
+msgid "Checkbox"
+msgstr "チェックボックス"
+
+#: packages/blocks/Blocks/CheckoutErrors/block.json
+msgctxt "block title"
+msgid "Checkout Errors"
+msgstr "決済エラー"
+
+#: packages/blocks/Blocks/CheckoutForm/block.json
+msgctxt "block title"
+msgid "Checkout Form"
+msgstr "決済フォーム"
+
+#: packages/blocks/Blocks/ConditionalForm/block.json
+msgctxt "block title"
+msgid "Conditional"
+msgstr "条件"
+
+#: packages/blocks/Blocks/Coupon/block.json
+msgctxt "block title"
+msgid "Coupon"
+msgstr "クーポン"
+
+#: packages/blocks/Blocks/Dashboard/CustomerBillingDetails/block.json
+msgctxt "block title"
+msgid "Customer Billing Details"
+msgstr "顧客の支払い情報情報"
+
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerCharges/block.json
+msgctxt "block title"
+msgid "Customer Charges"
+msgstr "顧客の請求情報"
+
+#: packages/blocks/Blocks/Dashboard/CustomerDashboardArea/block.json
+msgctxt "block title"
+msgid "Customer Dashboard"
+msgstr "顧客ダッシュボード"
+
+#: packages/blocks/Blocks/CustomerDashboardButton/block.json
+msgctxt "block title"
+msgid "Customer Dashboard Button"
+msgstr "顧客ダッシュボードボタン"
+
+#: packages/blocks/Blocks/Dashboard/DashboardPage/block.json
+msgctxt "block title"
+msgid "Customer Dashboard Page"
+msgstr "顧客ダッシュボードページ"
+
+#: packages/blocks/Blocks/Dashboard/DashboardPages/block.json
+msgctxt "block title"
+msgid "Customer Dashboard Pages"
+msgstr "顧客ダッシュボードページ"
+
+#: packages/blocks/Blocks/Dashboard/DashboardTab/block.json
+msgctxt "block title"
+msgid "Customer Dashboard Tab"
+msgstr "顧客ダッシュボードタブ"
+
+#: packages/blocks/Blocks/Dashboard/DashboardTabs/block.json
+msgctxt "block title"
+msgid "Customer Dashboard Tabs"
+msgstr "顧客ダッシュボードタブ"
+
+#: packages/blocks/Blocks/Dashboard/CustomerDownloads/block.json
+#: packages/blocks/Blocks/Dashboard/OrderDownloads/block.json
+msgctxt "block title"
+msgid "Customer Downloads"
+msgstr "ダウンロード"
+
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerInvoices/block.json
+msgctxt "block title"
+msgid "Customer Invoices"
+msgstr "請求書"
+
+#: packages/blocks/Blocks/Dashboard/CustomerOrders/block.json
+msgctxt "block title"
+msgid "Customer Orders"
+msgstr "顧客の注文"
+
+#: packages/blocks/Blocks/Dashboard/CustomerPaymentMethods/block.json
+msgctxt "block title"
+msgid "Customer Payment Methods"
+msgstr "顧客のお支払い方法"
+
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerShippingAddress/block.json
+msgctxt "block title"
+msgid "Customer Shipping and Tax Address"
+msgstr "顧客の配送先住所"
+
+#: packages/blocks/Blocks/Dashboard/CustomerSubscriptions/block.json
+msgctxt "block title"
+msgid "Customer Subscriptions"
+msgstr "顧客の定期購読"
+
+#: packages/blocks/Blocks/TaxIdInput/block.json
+msgctxt "block description"
+msgid "Display a VAT/GST field for VAT collection."
+msgstr "VATの収集のためにVAT/GSTフィールドを表示する。"
+
+#: packages/blocks/Blocks/AddToCartButton/block.json
+msgctxt "block description"
+msgid "Display a button to add a specific price to the cart."
+msgstr "カートに特定の料金を追加するためのボタンを表示します。"
+
+#: packages/blocks/Blocks/BuyButton/block.json
+msgctxt "block description"
+msgid "Display a button to immediately redirect to the checkout page with the product in the cart."
+msgstr "カートに商品が追加された状態の決済ページに、すぐにリダイレクトするボタンを表示する。"
+
+#: packages/blocks/Blocks/CustomerDashboardButton/block.json
+msgctxt "block description"
+msgid "Display a button to link the user to their customer dashboard."
+msgstr "顧客ダッシュボードのリンクを埋め込んだボタンを表示する。"
+
+#: packages/blocks/Blocks/CartHeader/block.json
+msgctxt "block description"
+msgid "Display a cart header"
+msgstr "カートヘッダーを表示する"
+
+#: packages/blocks/Blocks/Checkbox/block.json
+msgctxt "block description"
+msgid "Display a checkbox input"
+msgstr "チェックボックスを表示する。"
+
+#: packages/blocks/Blocks/CheckoutForm/block.json
+msgctxt "block description"
+msgid "Display a checkout form"
+msgstr "決済フォームを表示する"
+
+#: packages/blocks/Blocks/Button/block.json
+msgctxt "block description"
+msgid "Display a checkout form button."
+msgstr "決済フォームボタンを表示する。"
+
+#: packages/blocks/Blocks/CartCoupon/block.json
+msgctxt "block description"
+msgid "Display a coupon form in the cart."
+msgstr "カートでクーポンフォームを表示する。"
+
+#: packages/blocks/Blocks/Coupon/block.json
+msgctxt "block description"
+msgid "Display a coupon form."
+msgstr "クーポンフォームを表示する。"
+
+#: packages/blocks/Blocks/CartMessage/block.json
+msgctxt "block description"
+msgid "Display a custom message in the cart"
+msgstr "カートでカスタムメッセージを表示する"
+
+#: packages/blocks/Blocks/FirstName/block.json
+msgctxt "block description"
+msgid "Display a first name collection field."
+msgstr "名前を記入するフィールドを表示する。"
+
+#: packages/blocks/Blocks/LastName/block.json
+msgctxt "block description"
+msgid "Display a last name collection field."
+msgstr "姓の入力フィールドを表示する。"
+
+#: packages/blocks/Blocks/LogoutButton/block.json
+msgctxt "block description"
+msgid "Display a logout button."
+msgstr "ログアウトボタンを表示"
+
+#: packages/blocks/Blocks/Name/block.json
+msgctxt "block description"
+msgid "Display a name collection field."
+msgstr "お名前の記入フィールドを表示"
+
+#: packages/blocks/Blocks/Radio/block.json
+msgctxt "block description"
+msgid "Display a radio input"
+msgstr "ラジオボタンを表示する。"
+
+#: packages/blocks/Blocks/RadioGroup/block.json
+msgctxt "block description"
+msgid "Display a radio select input. This is saved with the order as additional metadata."
+msgstr "ラジオボタンを表示します。これは、追加のメタデータとして、注文内容に保存されます。"
+
+#: packages/blocks/Blocks/Submit/block.json
+msgctxt "block description"
+msgid "Display a submit button."
+msgstr "申し込みボタンを表示する。"
+
+#: packages/blocks/Blocks/Subtotal/block.json
+msgctxt "block description"
+msgid "Display a subtotal line item."
+msgstr "小計項目を表示する。"
+
+#: packages/blocks/Blocks/Switch/block.json
+msgctxt "block description"
+msgid "Display a toggle switch."
+msgstr "トグルの切り替えを表示する。"
+
+#: packages/blocks/Blocks/ConditionalForm/block.json
+msgctxt "block description"
+msgid "Display an area of the form based on conditions."
+msgstr "条件に応じてフォームを表示"
+
+#: packages/blocks/Blocks/Confirmation/block.json
+msgctxt "block description"
+msgid "Display an order confirmation section."
+msgstr "注文確認セクションを表示する。"
+
+#: packages/blocks/Blocks/Address/block.json
+msgctxt "block description"
+msgid "Display an shipping address form. This is used for shipping and tax calculations."
+msgstr "発送先住所のフォームを表示します。これは、発送と税金の計算に使用されます。"
+
+#: packages/blocks/Blocks/CheckoutErrors/block.json
+msgctxt "block description"
+msgid "Display any checkout-related errors. By default the checkout form shows these at the top. Add this block to change the location."
+msgstr "決済関連のエラーが表示されます。デフォルトの状態で、これらがトップに表示されます。場所を変更するには、このブロックを追加してください。"
+
+#: packages/blocks/Blocks/Columns/block.json
+msgctxt "block description"
+msgid "Display content in multiple columns, with blocks added to each column."
+msgstr "コンテンツを複数カラムで表示し各カラムにブロックを追加する。"
+
+#: packages/blocks/Blocks/ExpressPayment/block.json
+msgctxt "block description"
+msgid "Display express payment options (Google Pay, Apple Pay, etc.)"
+msgstr "エクスプレスペイメントのオプションを表示（Googleペイ、Appleペイなど。）"
+
+#: packages/blocks/Blocks/Payment/block.json
+msgctxt "block description"
+msgid "Display payment options"
+msgstr "お支払い方法を表示"
+
+#: packages/blocks/Blocks/CartBumpLineItem/block.json
+msgctxt "block description"
+msgid "Display the cart bump line item"
+msgstr "セット販売の商品項目を表示"
+
+#: packages/blocks/Blocks/CartSubtotal/block.json
+msgctxt "block description"
+msgid "Display the cart subtotal"
+msgstr "カートの小計を表示する"
+
+#: packages/blocks/Blocks/Totals/block.json
+msgctxt "block description"
+msgid "Display the session totals."
+msgstr "セッションの合計を表示する。"
+
+#: packages/blocks/Blocks/StoreLogo/block.json
+msgctxt "block description"
+msgid "Display the store logo."
+msgstr "ストアロゴを表示する"
+
+#: packages/blocks/Blocks/OrderBumps/block.json
+msgctxt "block description"
+msgid "Display your order bumps."
+msgstr "セット商品を表示"
+
+#: packages/blocks/Blocks/Dashboard/CustomerSubscriptions/block.json
+msgctxt "block description"
+msgid "Displays a customer's subscriptions."
+msgstr "顧客の定期購読を表示する。"
+
+#: packages/blocks/Blocks/Divider/block.json
+msgctxt "block description"
+msgid "Displays a divider."
+msgstr "区切り線を表示する。"
+
+#: packages/blocks/Blocks/Textarea/block.json
+msgctxt "block description"
+msgid "Displays a form text textarea field. This is saved with the order as additional metadata."
+msgstr "フォームテキストエリアを表示する。これは、追加のメタデータとして注文内容に保存されます。"
+
+#: packages/blocks/Blocks/Form/block.json
+msgctxt "block description"
+msgid "Displays a form."
+msgstr "フォームを表示する。"
+
+#: packages/blocks/Blocks/Password/block.json
+msgctxt "block description"
+msgid "Displays a password field to let a new user set a password."
+msgstr "新しいユーザーがパスワードを設定できるようにパスワードフィールドを表示"
+
+#: packages/blocks/Blocks/PriceSelector/block.json
+msgctxt "block description"
+msgid "Displays a selector for product prices."
+msgstr "商品価格をセレクターを表示する。"
+
+#: packages/blocks/Blocks/Heading/block.json
+msgctxt "block description"
+msgid "Displays a title/heading section"
+msgstr "タイトル/見出しセクションを表示"
+
+#: packages/blocks/Blocks/Email/block.json
+msgctxt "block description"
+msgid "Displays an email form field."
+msgstr "メールフィールドを表示する。"
+
+#: packages/blocks/Blocks/LineItems/block.json
+msgctxt "block description"
+msgid "Displays checkout line items."
+msgstr "購入商品項目を表示する。"
+
+#: packages/blocks/Blocks/Dashboard/CustomerDownloads/block.json
+#: packages/blocks/Blocks/Dashboard/OrderDownloads/block.json
+msgctxt "block description"
+msgid "Displays the customer's downloads."
+msgstr "ダウンロードコンテンツを表示する。"
+
+#: packages/blocks/Blocks/Dashboard/CustomerBillingDetails/block.json
+msgctxt "block description"
+msgid "Displays the customers billing details."
+msgstr "顧客の支払い情報を表示する。"
+
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerCharges/block.json
+msgctxt "block description"
+msgid "Displays the customers charges."
+msgstr "顧客の請求情報を表示する。"
+
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerInvoices/block.json
+msgctxt "block description"
+msgid "Displays the customers invoices."
+msgstr "請求書を表示する。"
+
+#: packages/blocks/Blocks/Dashboard/CustomerOrders/block.json
+msgctxt "block description"
+msgid "Displays the customers orders."
+msgstr "顧客の注文を表示する。"
+
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerShippingAddress/block.json
+msgctxt "block description"
+msgid "Displays the customers shipping addresses and lets them update details."
+msgstr "顧客に発送顧客の配送先住所を表示し、内容を更新できるようにします。"
+
+#: packages/blocks/Blocks/BumpLineItem/block.json
+msgctxt "block description"
+msgid "Displays the order bump discount."
+msgstr "セット商品の割引を表示"
+
+#: packages/blocks/Blocks/TaxLineItem/block.json
+msgctxt "block description"
+msgid "Displays the order tax. (if there is tax)"
+msgstr "税金を表示（税金がある場合）"
+
+#: packages/blocks/Blocks/Total/block.json
+msgctxt "block description"
+msgid "Displays the total line item."
+msgstr "合計商品数を表示する。"
+
+#: packages/blocks/Blocks/Dashboard/DashboardPages/block.json
+msgctxt "block description"
+msgid "Displays the users customer dashboard pages."
+msgstr "ユーザーに顧客ダッシュボードページを表示する。"
+
+#: packages/blocks/Blocks/Dashboard/DashboardPage/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardTab/block.json
+msgctxt "block description"
+msgid "Displays the users customer dashboard tab."
+msgstr "ユーザーに顧客ダッシュボードタブを表示する。"
+
+#: packages/blocks/Blocks/Dashboard/DashboardTabs/block.json
+msgctxt "block description"
+msgid "Displays the users customer dashboard tabs."
+msgstr "ユーザーに顧客ダッシュボードタブを表示する。"
+
+#: packages/blocks/Blocks/Dashboard/CustomerDashboard/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerDashboardArea/block.json
+msgctxt "block description"
+msgid "Displays the users customer dashboard."
+msgstr "顧客ダッシュボードを表示する。"
+
+#: packages/blocks/Blocks/Divider/block.json
+msgctxt "block title"
+msgid "Divider"
+msgstr "区切り線"
+
+#: packages/blocks/Blocks/Donation/block.json
+msgctxt "block title"
+msgid "Donation"
+msgstr "寄付"
+
+#: packages/blocks/Blocks/Email/block.json
+msgctxt "block title"
+msgid "Email"
+msgstr "メールアドレス"
+
+#: packages/blocks/Blocks/ExpressPayment/block.json
+msgctxt "block title"
+msgid "Express Payment"
+msgstr "エクスプレスペイメント"
+
+#: packages/blocks/Blocks/FirstName/block.json
+msgctxt "block title"
+msgid "First Name"
+msgstr "名"
+
+#: packages/blocks/Blocks/Form/block.json
+msgctxt "block title"
+msgid "Form"
+msgstr "フォーム"
+
+#: packages/blocks/Blocks/Name/block.json
+msgctxt "block title"
+msgid "Full Name"
+msgstr "フルネーム"
+
+#: packages/blocks/Blocks/LastName/block.json
+msgctxt "block title"
+msgid "Last Name"
+msgstr "姓"
+
+#: packages/blocks/Blocks/Dashboard/CustomerPaymentMethods/block.json
+msgctxt "block description"
+msgid "Lets the customer update payment methods."
+msgstr "顧客がお支払い方法を更新できるようにする。"
+
+#: packages/blocks/Blocks/LineItems/block.json
+msgctxt "block title"
+msgid "Line Items"
+msgstr "商品項目"
+
+#: packages/blocks/Blocks/LogoutButton/block.json
+msgctxt "block title"
+msgid "Logout Button"
+msgstr "ログアウトボタン"
+
+#: packages/blocks/Blocks/OrderBumps/block.json
+msgctxt "block title"
+msgid "Order Bumps"
+msgstr "セット商品"
+
+#: packages/blocks/Blocks/Confirmation/block.json
+msgctxt "block title"
+msgid "Order Confirmation"
+msgstr "注文確認"
+
+#: packages/blocks/Blocks/Password/block.json
+msgctxt "block title"
+msgid "Password"
+msgstr "パスワード"
+
+#: packages/blocks/Blocks/Payment/block.json
+msgctxt "block title"
+msgid "Payment"
+msgstr "お支払い"
+
+#: packages/blocks/Blocks/PriceSelector/block.json
+msgctxt "block title"
+msgid "Price Selector"
+msgstr "価格セレクター"
+
+#: packages/blocks/Blocks/Radio/block.json
+msgctxt "block title"
+msgid "Radio"
+msgstr "ラジオ"
+
+#: packages/blocks/Blocks/RadioGroup/block.json
+msgctxt "block title"
+msgid "Radio Select"
+msgstr "ラジオボタン"
+
+#: packages/blocks/Blocks/StoreLogo/block.json
+msgctxt "block title"
+msgid "Store Logo"
+msgstr "ストアロゴ"
+
+#: packages/blocks/Blocks/Submit/block.json
+msgctxt "block title"
+msgid "Submit Button"
+msgstr "提出ボタン"
+
+#: packages/blocks/Blocks/Subtotal/block.json
+msgctxt "block title"
+msgid "Subtotal Line Item"
+msgstr "小計項目"
+
+#: packages/blocks/Blocks/Column/block.json
+msgctxt "block title"
+msgid "SureCart Column"
+msgstr "SureCartカラム"
+
+#: packages/blocks/Blocks/Columns/block.json
+msgctxt "block title"
+msgid "SureCart Columns"
+msgstr "SureCartカラム"
+
+#: packages/blocks/Blocks/Switch/block.json
+msgctxt "block title"
+msgid "Switch"
+msgstr "切り替え"
+
+#: packages/blocks/Blocks/TaxLineItem/block.json
+msgctxt "block title"
+msgid "Tax Line Item"
+msgstr "税金項目"
+
+#: packages/blocks/Blocks/Input/block.json
+msgctxt "block title"
+msgid "Text Field"
+msgstr "テキストフィールド"
+
+#: packages/blocks/Blocks/Textarea/block.json
+msgctxt "block title"
+msgid "Textarea"
+msgstr "テキストエリア"
+
+#: packages/blocks/Blocks/Cart/block.json
+#: packages/blocks/Blocks/CartItems/block.json
+msgctxt "block description"
+msgid "The cart"
+msgstr "カート"
+
+#: packages/blocks/Blocks/CartSubmit/block.json
+msgctxt "block description"
+msgid "The cart submit button"
+msgstr "カートボタン"
+
+#: packages/blocks/Blocks/Heading/block.json
+msgctxt "block title"
+msgid "Title/Heading Section"
+msgstr "タイトル/見出しセクション"
+
+#: packages/blocks/Blocks/Total/block.json
+msgctxt "block title"
+msgid "Total"
+msgstr "合計"
+
+#: packages/blocks/Blocks/Totals/block.json
+msgctxt "block title"
+msgid "Totals"
+msgstr "合計"
+
+#: packages/blocks/Blocks/TaxIdInput/block.json
+msgctxt "block title"
+msgid "VAT or Tax ID Input"
+msgstr "VATもしくは納税者番号の入力"
+
+#: packages/blocks/Blocks/Dashboard/WordPressAccount/block.json
+msgctxt "block title"
+msgid "WordPress User Account"
+msgstr "WordPressユーザーアカウント"
+
+#: packages/blocks/Blocks/Dashboard/WordPressAccount/block.json
+msgctxt "block description"
+msgid "WordPress User Account Information"
+msgstr "WordPressユーザーのアカウント情報"
+
+#: packages/blocks/Blocks/Dashboard/WordPressAccount/block.json
+msgctxt "block keyword"
+msgid "account"
+msgstr "アカウント"
+
+#: packages/blocks/Blocks/Address/block.json
+msgctxt "block keyword"
+msgid "address"
+msgstr "住所"
+
+#: packages/blocks/Blocks/ExpressPayment/block.json
+msgctxt "block keyword"
+msgid "android"
+msgstr "アンドロイド"
+
+#: packages/blocks/Blocks/ExpressPayment/block.json
+msgctxt "block keyword"
+msgid "apple"
+msgstr "Apple"
+
+#: packages/blocks/Blocks/BumpLineItem/block.json
+msgctxt "block keyword"
+msgid "bump"
+msgstr "セット商品"
+
+#: packages/blocks/Blocks/Button/block.json
+#: packages/blocks/Blocks/Product/BuyButtons/block.json
+#: packages/blocks/Blocks/Submit/block.json
+#: packages/blocks/Blocks/Subtotal/block.json
+#: packages/blocks/Blocks/Switch/block.json
+#: packages/blocks/Blocks/Upsell/NoThanksButton/block.json
+#: packages/blocks/Blocks/Upsell/SubmitButton/block.json
+msgctxt "block keyword"
+msgid "button"
+msgstr "ボタン"
+
+#: packages/blocks/Blocks/Card/block.json
+#: packages/blocks/Blocks/Payment/block.json
+msgctxt "block keyword"
+msgid "card"
+msgstr "カード"
+
+#: packages/blocks/Blocks/Checkbox/block.json
+msgctxt "block keyword"
+msgid "checkbox"
+msgstr "チェックボックス"
+
+#: packages/blocks/Blocks/BumpLineItem/block.json
+#: packages/blocks/Blocks/Button/block.json
+#: packages/blocks/Blocks/Checkbox/block.json
+#: packages/blocks/Blocks/CheckoutErrors/block.json
+#: packages/blocks/Blocks/CheckoutForm/block.json
+#: packages/blocks/Blocks/LineItemShipping/block.json
+#: packages/blocks/Blocks/PriceChoice/block.json
+#: packages/blocks/Blocks/PriceSelector/block.json
+#: packages/blocks/Blocks/ShippingChoices/block.json
+#: packages/blocks/Blocks/TaxLineItem/block.json
+#: packages/blocks/Blocks/Total/block.json
+#: packages/blocks/Blocks/VariantPriceSelector/block.json
+msgctxt "block keyword"
+msgid "checkout"
+msgstr "決済"
+
+#: packages/blocks/Blocks/PriceChoice/block.json
+#: packages/blocks/Blocks/PriceSelector/block.json
+#: packages/blocks/Blocks/Product/PriceChoices/block.json
+#: packages/blocks/Blocks/Product/VariantChoices/block.json
+#: packages/blocks/Blocks/VariantPriceSelector/block.json
+msgctxt "block keyword"
+msgid "choice"
+msgstr "選択"
+
+#: packages/blocks/Blocks/Card/block.json
+#: packages/blocks/Blocks/Confirmation/block.json
+#: packages/blocks/Blocks/OrderBumps/block.json
+#: packages/blocks/Blocks/OrderConfirmationCustomer/block.json
+#: packages/blocks/Blocks/OrderConfirmationLineItems/block.json
+msgctxt "block keyword"
+msgid "confirm"
+msgstr "確認"
+
+#: packages/blocks/Blocks/CartCoupon/block.json
+#: packages/blocks/Blocks/Coupon/block.json
+msgctxt "block keyword"
+msgid "coupon"
+msgstr "クーポン"
+
+#: packages/blocks/Blocks/Donation/block.json
+#: packages/blocks/Blocks/DonationAmount/block.json
+#: packages/blocks/Blocks/Input/block.json
+#: packages/blocks/Blocks/ProductDonation/block.json
+#: packages/blocks/Blocks/ProductDonationAmount/block.json
+#: packages/blocks/Blocks/ProductDonationAmounts/block.json
+#: packages/blocks/Blocks/ProductDonationCustomAmount/block.json
+#: packages/blocks/Blocks/ProductDonationPrices/block.json
+#: packages/blocks/Blocks/Textarea/block.json
+msgctxt "block keyword"
+msgid "custom"
+msgstr "カスタム"
+
+#: packages/blocks/Blocks/Card/block.json
+msgctxt "block keyword"
+msgid "details"
+msgstr "詳細"
+
+#: packages/blocks/Blocks/BumpLineItem/block.json
+#: packages/blocks/Blocks/ProductItemPrice/block.json
+msgctxt "block keyword"
+msgid "discount"
+msgstr "割引"
+
+#: packages/blocks/Blocks/Divider/block.json
+msgctxt "block keyword"
+msgid "divider"
+msgstr "区切り線"
+
+#: packages/blocks/Blocks/Donation/block.json
+#: packages/blocks/Blocks/DonationAmount/block.json
+#: packages/blocks/Blocks/ProductDonation/block.json
+#: packages/blocks/Blocks/ProductDonationAmount/block.json
+#: packages/blocks/Blocks/ProductDonationAmounts/block.json
+#: packages/blocks/Blocks/ProductDonationCustomAmount/block.json
+#: packages/blocks/Blocks/ProductDonationPrices/block.json
+#: packages/blocks/Blocks/ProductDonationRecurringPrices/block.json
+msgctxt "block keyword"
+msgid "donation"
+msgstr "寄付"
+
+#: packages/blocks/Blocks/Dashboard/CustomerDownloads/block.json
+#: packages/blocks/Blocks/Dashboard/OrderDownloads/block.json
+msgctxt "block keyword"
+msgid "download"
+msgstr "ダウンロード"
+
+#: packages/blocks/Blocks/Email/block.json
+#: packages/blocks/Blocks/Form/block.json
+msgctxt "block keyword"
+msgid "email"
+msgstr "メール"
+
+#: packages/blocks/Blocks/AddToCartButton/block.json
+#: packages/blocks/Blocks/BuyButton/block.json
+#: packages/blocks/Blocks/CustomerDashboardButton/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerBillingDetails/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerDashboard/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerDashboardArea/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerDownloads/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerLicenses/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerOrders/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerPaymentMethods/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerSubscriptions/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardPage/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardPages/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardTab/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardTabs/block.json
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerCharges/block.json
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerInvoices/block.json
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerShippingAddress/block.json
+#: packages/blocks/Blocks/Dashboard/OrderDownloads/block.json
+#: packages/blocks/Blocks/FirstName/block.json
+#: packages/blocks/Blocks/LastName/block.json
+#: packages/blocks/Blocks/LogoutButton/block.json
+#: packages/blocks/Blocks/Name/block.json
+#: packages/blocks/Blocks/NameYourPrice/block.json
+#: packages/blocks/Blocks/OrderBumps/block.json
+#: packages/blocks/Blocks/OrderConfirmationCustomer/block.json
+#: packages/blocks/Blocks/Phone/block.json
+#: packages/blocks/Blocks/SessionDetail/block.json
+msgctxt "block keyword"
+msgid "customer"
+msgstr "顧客"
+
+#: packages/blocks/Blocks/CustomerDashboardButton/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerBillingDetails/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerDashboard/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerDashboardArea/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerDownloads/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerLicenses/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerOrders/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerPaymentMethods/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerSubscriptions/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardPage/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardPages/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardTab/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardTabs/block.json
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerCharges/block.json
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerInvoices/block.json
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerShippingAddress/block.json
+#: packages/blocks/Blocks/Dashboard/OrderDownloads/block.json
+#: packages/blocks/Blocks/Dashboard/WordPressAccount/block.json
+#: packages/blocks/Blocks/LogoutButton/block.json
+msgctxt "block keyword"
+msgid "dashboard"
+msgstr "ダッシュボード"
+
+#: packages/blocks/Blocks/Button/block.json
+#: packages/blocks/Blocks/Checkbox/block.json
+#: packages/blocks/Blocks/Total/block.json
+msgctxt "block keyword"
+msgid "engine"
+msgstr "エンジン"
+
+#: packages/blocks/Blocks/CheckoutErrors/block.json
+msgctxt "block keyword"
+msgid "error"
+msgstr "エラー"
+
+#: packages/blocks/Blocks/Input/block.json
+#: packages/blocks/Blocks/Textarea/block.json
+msgctxt "block keyword"
+msgid "field"
+msgstr "フィールド"
+
+#: packages/blocks/Blocks/FirstName/block.json
+msgctxt "block keyword"
+msgid "first-name"
+msgstr "名"
+
+#: packages/blocks/Blocks/CheckoutForm/block.json
+#: packages/blocks/Blocks/Product/CollectionBadges/block.json
+#: packages/blocks/Blocks/Product/Quantity/block.json
+#: packages/blocks/Blocks/Product/Title/block.json
+msgctxt "block keyword"
+msgid "form"
+msgstr "フォーム"
+
+#: packages/blocks/Blocks/ExpressPayment/block.json
+msgctxt "block keyword"
+msgid "google"
+msgstr "Google"
+
+#: packages/blocks/Blocks/Heading/block.json
+#: packages/blocks/Blocks/Upsell/Title/block.json
+msgctxt "block keyword"
+msgid "heading"
+msgstr "見出し"
+
+#: packages/blocks/Blocks/Divider/block.json
+msgctxt "block keyword"
+msgid "hr"
+msgstr "時間"
+
+#: packages/blocks/Blocks/Product/Media/block.json
+#: packages/blocks/Blocks/ProductCollectionImage/block.json
+#: packages/blocks/Blocks/ProductItemImage/block.json
+#: packages/blocks/Blocks/StoreLogo/block.json
+msgctxt "block keyword"
+msgid "image"
+msgstr "画像"
+
+#: packages/blocks/Blocks/Input/block.json
+#: packages/blocks/Blocks/Password/block.json
+#: packages/blocks/Blocks/Textarea/block.json
+msgctxt "block keyword"
+msgid "input"
+msgstr "インプット"
+
+#: packages/blocks/Blocks/LastName/block.json
+msgctxt "block keyword"
+msgid "last-name"
+msgstr "姓"
+
+#: packages/blocks/Blocks/BumpLineItem/block.json
+msgctxt "block keyword"
+msgid "line"
+msgstr "項目"
+
+#: packages/blocks/Blocks/LineItems/block.json
+msgctxt "block keyword"
+msgid "line-items"
+msgstr "line-items"
+
+#: packages/blocks/Blocks/StoreLogo/block.json
+msgctxt "block keyword"
+msgid "logo"
+msgstr "ロゴ"
+
+#: packages/blocks/Blocks/Email/block.json
+#: packages/blocks/Blocks/Form/block.json
+msgctxt "block keyword"
+msgid "mail"
+msgstr "メール"
+
+#: packages/blocks/Blocks/SessionDetail/block.json
+msgctxt "block keyword"
+msgid "meta"
+msgstr "メタ"
+
+#: packages/blocks/Blocks/AddToCartButton/block.json
+#: packages/blocks/Blocks/BuyButton/block.json
+#: packages/blocks/Blocks/CustomerDashboardButton/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerBillingDetails/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerDashboard/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerDashboardArea/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerOrders/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerPaymentMethods/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerSubscriptions/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardPage/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardPages/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardTab/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardTabs/block.json
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerCharges/block.json
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerInvoices/block.json
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerShippingAddress/block.json
+#: packages/blocks/Blocks/FirstName/block.json
+#: packages/blocks/Blocks/LastName/block.json
+#: packages/blocks/Blocks/LogoutButton/block.json
+#: packages/blocks/Blocks/Name/block.json
+#: packages/blocks/Blocks/NameYourPrice/block.json
+msgctxt "block keyword"
+msgid "name"
+msgstr "名前"
+
+#: packages/blocks/Blocks/CheckoutErrors/block.json
+msgctxt "block keyword"
+msgid "notice"
+msgstr "通知"
+
+#: packages/blocks/Blocks/Password/block.json
+msgctxt "block keyword"
+msgid "password"
+msgstr "パスワード"
+
+#: packages/blocks/Blocks/Payment/block.json
+msgctxt "block keyword"
+msgid "paypal"
+msgstr "paypal"
+
+#: packages/blocks/Blocks/PriceChoice/block.json
+#: packages/blocks/Blocks/PriceSelector/block.json
+#: packages/blocks/Blocks/Product/Price/block.json
+#: packages/blocks/Blocks/Product/PriceChoices/block.json
+#: packages/blocks/Blocks/ProductItemPrice/block.json
+#: packages/blocks/Blocks/VariantPriceSelector/block.json
+msgctxt "block keyword"
+msgid "price"
+msgstr "価格"
+
+#: packages/blocks/Blocks/CartCoupon/block.json
+#: packages/blocks/Blocks/Coupon/block.json
+msgctxt "block keyword"
+msgid "promo"
+msgstr "プロモ"
+
+#: packages/blocks/Blocks/Radio/block.json
+#: packages/blocks/Blocks/RadioGroup/block.json
+msgctxt "block keyword"
+msgid "radio"
+msgstr "ラジオ"
+
+#: packages/blocks/Blocks/RadioGroup/block.json
+msgctxt "block keyword"
+msgid "select"
+msgstr "選択"
+
+#: packages/blocks/Blocks/Address/block.json
+#: packages/blocks/Blocks/LineItemShipping/block.json
+#: packages/blocks/Blocks/ShippingChoices/block.json
+msgctxt "block keyword"
+msgid "shipping"
+msgstr "配送"
+
+#: packages/blocks/Blocks/PriceChoice/block.json
+#: packages/blocks/Blocks/PriceSelector/block.json
+#: packages/blocks/Blocks/Product/BuyButtons/block.json
+#: packages/blocks/Blocks/Product/CollectionBadges/block.json
+#: packages/blocks/Blocks/Product/Price/block.json
+#: packages/blocks/Blocks/Product/PriceChoices/block.json
+#: packages/blocks/Blocks/Product/Quantity/block.json
+#: packages/blocks/Blocks/Product/Title/block.json
+#: packages/blocks/Blocks/Product/VariantChoices/block.json
+#: packages/blocks/Blocks/ProductCollection/block.json
+#: packages/blocks/Blocks/ProductCollectionImage/block.json
+#: packages/blocks/Blocks/ProductCollectionTitle/block.json
+#: packages/blocks/Blocks/ProductItem/block.json
+#: packages/blocks/Blocks/ProductItemImage/block.json
+#: packages/blocks/Blocks/ProductItemList/block.json
+#: packages/blocks/Blocks/ProductItemPrice/block.json
+#: packages/blocks/Blocks/ProductItemTitle/block.json
+#: packages/blocks/Blocks/VariantPriceSelector/block.json
+msgctxt "block keyword"
+msgid "product"
+msgstr "商品"
+
+#: packages/blocks/Blocks/ProductCollection/block.json
+#: packages/blocks/Blocks/ProductItemList/block.json
+#: packages/blocks/Blocks/StoreLogo/block.json
+msgctxt "block keyword"
+msgid "store"
+msgstr "ストア"
+
+#: packages/blocks/Blocks/StoreLogo/block.json
+msgctxt "block keyword"
+msgid "store logo"
+msgstr "ストアロゴ"
+
+#: packages/blocks/Blocks/Payment/block.json
+msgctxt "block keyword"
+msgid "stripe"
+msgstr "stripe"
+
+#: packages/blocks/Blocks/Button/block.json
+#: packages/blocks/Blocks/Submit/block.json
+#: packages/blocks/Blocks/Subtotal/block.json
+#: packages/blocks/Blocks/Switch/block.json
+#: packages/blocks/Blocks/Upsell/SubmitButton/block.json
+msgctxt "block keyword"
+msgid "submit"
+msgstr "提出"
+
+#: packages/blocks/Blocks/LineItemShipping/block.json
+#: packages/blocks/Blocks/TaxLineItem/block.json
+#: packages/blocks/Blocks/Total/block.json
+msgctxt "block keyword"
+msgid "subtotal"
+msgstr "小計"
+
+#: packages/blocks/Blocks/TaxIdInput/block.json
+#: packages/blocks/Blocks/Totals/block.json
+msgctxt "block keyword"
+msgid "summary"
+msgstr "概要"
+
+#: packages/blocks/Blocks/CollectionPage/block.json
+#: packages/blocks/Blocks/Radio/block.json
+#: packages/blocks/Blocks/RadioGroup/block.json
+msgctxt "block keyword"
+msgid "surecart"
+msgstr "surecart"
+
+#: packages/blocks/Blocks/Address/block.json
+#: packages/blocks/Blocks/TaxLineItem/block.json
+msgctxt "block keyword"
+msgid "tax"
+msgstr "税金"
+
+#: packages/blocks/Blocks/Input/block.json
+msgctxt "block keyword"
+msgid "text"
+msgstr "テキスト"
+
+#: packages/blocks/Blocks/Textarea/block.json
+msgctxt "block keyword"
+msgid "textarea"
+msgstr "テキストエリア"
+
+#: packages/blocks/Blocks/Confirmation/block.json
+#: packages/blocks/Blocks/OrderConfirmationLineItems/block.json
+msgctxt "block keyword"
+msgid "thank"
+msgstr "サンキュー"
+
+#: packages/blocks/Blocks/Confirmation/block.json
+#: packages/blocks/Blocks/OrderBumps/block.json
+#: packages/blocks/Blocks/OrderConfirmationCustomer/block.json
+#: packages/blocks/Blocks/OrderConfirmationLineItems/block.json
+msgctxt "block keyword"
+msgid "thank you"
+msgstr "サンキュー"
+
+#: packages/blocks/Blocks/Heading/block.json
+#: packages/blocks/Blocks/Product/Title/block.json
+#: packages/blocks/Blocks/ProductCollectionTitle/block.json
+#: packages/blocks/Blocks/ProductItemTitle/block.json
+#: packages/blocks/Blocks/Upsell/Title/block.json
+msgctxt "block keyword"
+msgid "title"
+msgstr "タイトル"
+
+#: packages/blocks/Blocks/Checkbox/block.json
+#: packages/blocks/Blocks/CollapsibleRow/block.json
+msgctxt "block keyword"
+msgid "toggle"
+msgstr "トグル"
+
+#: packages/blocks/Blocks/LineItems/block.json
+#: packages/blocks/Blocks/LineItemShipping/block.json
+#: packages/blocks/Blocks/TaxLineItem/block.json
+#: packages/blocks/Blocks/Total/block.json
+msgctxt "block keyword"
+msgid "total"
+msgstr "合計"
+
+#: packages/blocks/Blocks/TaxIdInput/block.json
+#: packages/blocks/Blocks/Totals/block.json
+msgctxt "block keyword"
+msgid "totals"
+msgstr "合計"
+
+#: packages/blocks/Blocks/Dashboard/WordPressAccount/block.json
+msgctxt "block keyword"
+msgid "user"
+msgstr "ユーザー"
+
+#. translators: attribute.
+#: app/src/Support/Errors/Translations/types-replaceable.php:16
+msgid "%s is not available with subscriptions."
+msgstr "%sは定期購読では利用できません。"
+
+#: app/src/Integrations/ThriveAutomator/DataFields/ProductIDDataField.php:38
+msgid "A specific product id."
+msgstr "特定の商品ID。"
+
+#: app/src/Integrations/ThriveAutomator/DataFields/ProductNameDataField.php:38
+msgid "A specific product name."
+msgstr "特定の商品名。"
+
+#: packages/blocks/Controllers/UserController.php:32
+#: packages/blocks/Controllers/UserController.php:64
+msgid "Account Details"
+msgstr "アカウント詳細"
+
+#: packages/blocks/Controllers/PaymentMethodController.php:176
+#: packages/blocks/Controllers/PaymentMethodController.php:181
+#: packages/admin/checkouts/modules/Payment.js:270
+#: packages/admin/checkouts/modules/PaymentMethods.js:138
+msgid "Add Payment Method"
+msgstr "お支払い方法を追加"
+
+#: app/src/WordPress/Shortcodes/ShortcodesServiceProvider.php:207
+#: packages/blocks/Blocks/AddToCartButton/Block.php:97
+#: packages/blocks/Blocks/Product/BuyButtons/edit.js:46
+msgid "Add To Cart"
+msgstr "カートに追加"
+
+#: app/src/Integrations/User/UserService.php:66
+msgid "Add the user role of the user who purchased the product."
+msgstr "商品を購入したユーザーのユーザー ロールを追加します。"
+
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:42
+#: app/src/Controllers/Admin/AffiliationClicks/AffiliationClicksListTable.php:287
+#: app/src/Controllers/Admin/AffiliationPayouts/AffiliationPayoutsListTable.php:316
+#: app/src/Controllers/Admin/AffiliationReferrals/AffiliationReferralsListTable.php:394
+#: app/src/Controllers/Admin/AffiliationRequests/AffiliationRequestsListTable.php:221
+#: app/src/Controllers/Admin/Affiliations/AffiliationsListTable.php:341
+#: app/src/Controllers/Admin/Bumps/BumpsListTable.php:54
+#: app/src/Controllers/Admin/Orders/OrdersListTable.php:72
+#: app/src/Controllers/Admin/ProductGroups/ProductGroupsListTable.php:63
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:103
+#: app/src/Controllers/Admin/Subscriptions/SubscriptionsListTable.php:60
+#: app/src/Controllers/Admin/Upsells/UpsellsListTable.php:54
+#: packages/admin/settings/connection/IncomingWebhooks.js:29
+msgid "All"
+msgstr "全て"
+
+#: packages/blocks/Controllers/CustomerController.php:61
+#: packages/blocks/Controllers/CustomerController.php:109
+#: packages/pages/admin/Panel.js:162
+msgid "Billing Details"
+msgstr "請求の詳細"
+
+#: app/src/Integrations/BuddyBoss/BuddyBossService.php:46
+#: app/src/Integrations/BuddyBoss/BuddyBossService.php:122
+msgid "BuddyBoss Group"
+msgstr "BuddyBossグループ"
+
+#: packages/blocks/Blocks/AddToCartButton/Block.php:64
+#: packages/blocks/Blocks/BuyButton/Block.php:35
+#: packages/blocks/Blocks/Product/BuyButtons/edit.js:55
+msgid "Buy Now"
+msgstr "今すぐ購入する"
+
+#. translators: Customer name.
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:239
+#: app/src/Controllers/Admin/Orders/OrdersListTable.php:327
+msgid "By %s"
+msgstr "By %s"
+
+#: packages/blocks/Controllers/SubscriptionController.php:360
+#: packages/blocks/Controllers/SubscriptionController.php:364
+msgid "By updating or canceling your plan, you agree to the <a href=\"%1$1s\" target=\"_blank\">%2$2s</a>"
+msgstr "プランをアップデートもしくはキャンセルした場合、<a href=\"%1$1s\" target=\"_blank\">%2$2s</a>に同意したこととなります。"
+
+#: packages/blocks/Controllers/SubscriptionController.php:356
+msgid "By updating or canceling your plan, you agree to the <a href=\"%1$1s\" target=\"_blank\">%2$2s</a> and <a href=\"%3$3s\" target=\"_blank\">%4$4s</a>"
+msgstr "プランをアップデートもしくはキャンセルした場合、<a href=\"%1$1s\" target=\"_blank\">%2$2s</a>と<a href=\"%3$3s\" target=\"_blank\">%4$4s</a>に同意したこととなります。"
+
+#: views/admin/cancellation-insights/index.php:24
+#: packages/admin/cancellation-insights/CancellationInsights.js:119
+msgid "Cancellation Attempts"
+msgstr "キャンセルの試行"
+
+#: app/src/Controllers/Admin/CancellationInsights/CancellationInsightsListTable.php:50
+#: packages/admin/store/add-entities.js:60
+msgid "Cancellation Reason"
+msgstr "キャンセル理由"
+
+#: app/src/WordPress/Admin/Menus/AdminMenuPageService.php:199
+msgid "Cancellations"
+msgstr "キャンセル"
+
+#: packages/blocks/Controllers/SubscriptionController.php:333
+msgid "Change Payment Method"
+msgstr "お支払い方法を変更"
+
+#: app/src/Controllers/Admin/CancellationInsights/CancellationInsightsListTable.php:51
+msgid "Comment"
+msgstr "コメント"
+
+#: app/src/Controllers/Admin/CancellationInsights/CancellationInsightsListTable.php:190
+msgid "Coupon Applied"
+msgstr "クーポンが適用されました"
+
+#: packages/blocks/Controllers/PaymentMethodController.php:206
+#: packages/blocks/Controllers/PaymentMethodController.php:236
+#: packages/blocks/Blocks/Payment/components/PayPal.js:51
+#: packages/blocks/Blocks/Payment/components/Stripe.js:37
+msgid "Credit Card"
+msgstr "クレジットカード"
+
+#: packages/blocks/Controllers/SubscriptionController.php:187
+#: packages/blocks/Controllers/SubscriptionController.php:319
+msgid "Current Plan"
+msgstr "現在のプラン"
+
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:104
+#: app/src/Controllers/Admin/AffiliationClicks/AffiliationClicksListTable.php:89
+#: app/src/Controllers/Admin/AffiliationPayouts/AffiliationPayoutsListTable.php:109
+#: app/src/Controllers/Admin/AffiliationReferrals/AffiliationReferralsListTable.php:116
+#: app/src/Controllers/Admin/AffiliationRequests/AffiliationRequestsListTable.php:96
+#: app/src/Controllers/Admin/Affiliations/AffiliationsListTable.php:99
+#: app/src/Controllers/Admin/Bumps/BumpsListTable.php:101
+#: app/src/Controllers/Admin/CancellationInsights/CancellationInsightsListTable.php:53
+#: app/src/Controllers/Admin/Coupons/CouponsListTable.php:79
+#: app/src/Controllers/Admin/Invoices/InvoicesListTable.php:64
+#: app/src/Controllers/Admin/Orders/OrdersListTable.php:119
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:153
+#: app/src/Controllers/Admin/Upsells/UpsellsListTable.php:95
+#: packages/admin/affiliations/modules/Clicks.js:63
+#: packages/admin/affiliations/modules/Payouts.js:72
+#: packages/admin/affiliations/modules/Referrals.js:70
+#: packages/admin/customers/modules/Balance/ViewTransactions.js:110
+#: packages/admin/customers/modules/Charges.js:66
+#: packages/admin/customers/modules/Orders.js:65
+#: packages/admin/invoices/modules/Charges.js:19
+#: packages/admin/invoices/modules/Refunds.js:17
+#: packages/admin/orders/modules/Charges.js:93
+#: packages/admin/orders/modules/Refunds.js:74
+#: packages/admin/settings/connection/IncomingWebhooks.js:142
+msgid "Date"
+msgstr "日付"
+
+#: app/src/Routing/PermalinkServiceProvider.php:29
+#: app/src/Routing/PermalinkServiceProvider.php:50
+#: app/src/Routing/PermalinkServiceProvider.php:71
+#: app/src/Routing/PermalinkServiceProvider.php:93
+#: templates/forms/default.php:6 packages/admin/products/utility.js:8
+#: packages/admin/util/templates.js:8
+#: packages/blocks/Blocks/Dashboard/CustomerPaymentMethods/edit.js:82
+msgid "Default"
+msgstr "デフォルト"
+
+#: app/src/Controllers/Admin/AffiliationReferrals/AffiliationReferralsListTable.php:121
+#: app/src/Controllers/Admin/ProductCollections/ProductCollectionsListTable.php:49
+#: packages/admin/affiliation-referrals/CreateAffiliationReferral.js:120
+#: packages/admin/affiliation-referrals/modules/Details.js:46
+#: packages/admin/affiliations/modules/Referrals.js:58
+#: packages/admin/product-collections/CreateProductCollection.js:121
+#: packages/admin/product-collections/modules/Details.js:32
+#: packages/admin/products/modules/Details.js:28
+#: packages/admin/settings/processors/CreateEditPaymentMethod.js:97
+#: packages/admin/settings/shipping/method/ShippingMethodForm.js:126
+#: packages/admin/settings/shipping/rate/ShippingRateForm.js:318
+#: packages/admin/settings/subscription-preservation/PreservationSettings.js:239
+#: packages/admin/settings/subscription-preservation/PreservationSettings.js:286
+#: packages/blocks/Blocks/Form/edit.js:479
+#: packages/blocks/Blocks/Heading/edit.js:33
+#: packages/blocks/Blocks/Heading/edit.js:56
+#: packages/blocks/Blocks/PriceChoice/edit.js:71
+msgid "Description"
+msgstr "説明"
+
+#: packages/blocks/Controllers/DownloadController.php:125
+#: packages/admin/components/MediaLibrary/Preview.js:213
+#: packages/admin/products/modules/SingleDownload.js:308
+#: packages/admin/store/add-entities.js:95
+msgid "Download"
+msgstr "ダウンロード"
+
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:418
+#: packages/admin/products/components/Status/index.js:74
+#: packages/admin/products/components/Status/index.js:95
+#: packages/admin/util.js:87
+msgid "Draft"
+msgstr "下書き"
+
+#: app/src/Controllers/Admin/Subscriptions/SubscriptionsListTable.php:393
+#: packages/admin/subscriptions/edit/EditSubscription.js:244
+msgid "Edit Subscription"
+msgstr "定期購読の編集"
+
+#: views/web/buy-template.php:94
+#: packages/blocks/Blocks/CartCoupon/deprecated.js:48
+#: packages/blocks/Blocks/Coupon/deprecated.js:25
+msgid "Enter coupon code"
+msgstr "クーポンコードの入力"
+
+#. translators: number of months.
+#: app/src/Controllers/Admin/Coupons/CouponsListTable.php:221
+#: app/src/Controllers/Admin/Subscriptions/SubscriptionsListTable.php:355
+msgid "For %d months"
+msgstr "%dヶ月間"
+
+#: app/src/Controllers/Admin/Coupons/CouponsListTable.php:217
+#: app/src/Controllers/Admin/Subscriptions/SubscriptionsListTable.php:351
+#: packages/admin/components/affiliates/AffiliateFooter.js:50
+#: packages/admin/coupons/modules/Types.js:33
+#: packages/admin/coupons/modules/Types.js:120
+#: packages/admin/coupons/Sidebar.js:38
+#: packages/admin/settings/abandoned/Coupon.js:58
+#: packages/admin/settings/abandoned/Coupon.js:137
+#: packages/admin/settings/subscription-preservation/Coupon.js:33
+#: packages/admin/settings/subscription-preservation/Coupon.js:111
+msgid "Forever"
+msgstr "永久に"
+
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:347
+#: packages/admin/checkouts/modules/SelectShipping.js:130
+msgid "Free"
+msgstr "無料"
+
+#: views/admin/cancellation-insights/cta-banner.php:106
+msgid "Get Subscription Saver"
+msgstr "定期購読セーバーを使用する"
+
+#: app/src/Rest/CustomerNotificationProtocolRestServiceProvider.php:105
+msgid "If set to true subscription dunning emails will be sent to customers."
+msgstr "有効化すると、定期購読の催促メールが顧客に送信されます。"
+
+#: app/src/Controllers/Admin/Orders/OrdersListTable.php:116
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:149
+#: app/src/Controllers/Admin/Subscriptions/SubscriptionsListTable.php:109
+#: packages/admin/products/modules/integrations/Integrations.js:76
+msgid "Integrations"
+msgstr "連携"
+
+#: app/src/Controllers/Rest/VerificationCodeController.php:85
+msgid "Invalid verification code"
+msgstr "無効な確認コード"
+
+#: views/admin/invoices/index.php:9
+msgid "Invoices are similar to orders, but are used for payments and plan changes on active subscriptions. In the future you will be able to create an invoice to send out."
+msgstr "請求書は注文に似ていますが、有効な定期購読の支払いとプランの変更に使用されます。将来的には、送信する請求書を作成できるようになります。"
+
+#: app/src/Controllers/Admin/Licenses/LicensesListTable.php:60
+msgid "Key"
+msgstr "キー"
+
+#: packages/blocks/Controllers/DownloadController.php:157
+msgid "License Keys"
+msgstr "ライセンスキー"
+
+#: app/src/Integrations/LifterLMS/LifterLMSService.php:46
+#: app/src/Integrations/LifterLMS/LifterLMSService.php:122
+msgid "LifterLMS Course"
+msgstr "LifterLMSコース"
+
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:344
+msgid "Name your own price"
+msgstr "料金に名前を付ける"
+
+#: packages/blocks/Controllers/SubscriptionController.php:563
+msgid "New Plan"
+msgstr "新しいプラン"
+
+#: app/src/Controllers/Admin/Coupons/CouponsListTable.php:202
+#: app/src/Controllers/Admin/Subscriptions/SubscriptionsListTable.php:336
+msgid "No discount."
+msgstr "割引なし。"
+
+#: packages/blocks/Controllers/OrderController.php:72
+msgid "Order History"
+msgstr "注文履歴"
+
+#: packages/blocks/Controllers/ChargeController.php:22
+#: packages/blocks/Controllers/ChargeController.php:32
+#: packages/blocks/Blocks/Dashboard/CustomerPaymentMethods/edit.js:43
+msgid "Payment History"
+msgstr "お支払い履歴"
+
+#: packages/blocks/Controllers/SubscriptionController.php:681
+#: packages/admin/store/add-entities.js:194
+#: packages/admin/subscriptions/edit/modules/PaymentMethod/index.js:46
+msgid "Payment Method"
+msgstr "お支払い方法"
+
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:103
+msgid "Placed By"
+msgstr "購入者"
+
+#: app/src/Controllers/Admin/CancellationInsights/CancellationInsightsListTable.php:52
+msgid "Plan Status"
+msgstr "プランのステータス"
+
+#: app/src/Integrations/ThriveAutomator/DataFields/PreviousProductIDDataField.php:26
+msgid "Previous Product ID"
+msgstr "以前の商品ID"
+
+#: packages/blocks/Controllers/SubscriptionController.php:356
+#: packages/blocks/Controllers/SubscriptionController.php:360
+#: packages/admin/onboarding/components/InitialSetup.js:106
+msgid "Privacy Policy"
+msgstr "プライバシーポリシー"
+
+#: app/src/Integrations/ThriveAutomator/DataFields/ProductIDDataField.php:29
+#: app/src/Integrations/ThriveAutomator/DataFields/ProductIDDataField.php:47
+#: app/src/Integrations/ThriveAutomator/DataFields/ProductIDDataField.php:83
+msgid "Product ID"
+msgstr "商品ID"
+
+#: app/src/Controllers/Admin/Products/ProductsController.php:163
+msgid "Product archived."
+msgstr "商品がアーカイブされました。"
+
+#: app/src/Integrations/ThriveAutomator/DataFields/ProductDataField.php:109
+#: app/src/Support/Errors/Translations/attributes.php:17
+#: app/src/Support/Errors/Translations/attributes.php:18
+#: packages/admin/affiliations/modules/affiliation-products/index.js:217
+#: packages/admin/bumps/modules/NewCondition.js:83
+#: packages/admin/checkouts/modules/Prices.js:132
+#: packages/admin/components/affiliates/commission/CommissionForm.js:62
+#: packages/admin/coupons/modules/NewRestriction.js:87
+#: packages/admin/customers/modules/Subscriptions.js:58
+#: packages/admin/invoices/modules/Subscriptions.js:13
+#: packages/admin/invoices/store/entities.js:78
+#: packages/admin/orders/modules/Subscriptions.js:49
+#: packages/admin/store/add-entities.js:222
+#: packages/admin/subscriptions/show/modules/PendingUpdate.js:56
+#: packages/admin/upsell-funnels/modules/NewCondition.js:86
+#: packages/blocks/Blocks/CheckoutForm/entities.js:12
+msgid "Product"
+msgstr "商品"
+
+#: app/src/Integrations/ThriveAutomator/Triggers/PurchaseCreatedTrigger.php:66
+msgid "Product or subscription is purchased"
+msgstr "商品または定期購読が購入されました"
+
+#: app/src/Integrations/ThriveAutomator/Triggers/PurchaseRevokedTrigger.php:66
+msgid "Product purchase is revoked or subscription cancels"
+msgstr "商品の購入が取り消された、または定期購読がキャンセルされた"
+
+#: app/src/Controllers/Admin/Products/ProductsController.php:163
+msgid "Product restored."
+msgstr "商品が復元されました。"
+
+#: app/src/Controllers/Admin/ProductCollections/ProductCollectionsListTable.php:48
+#: app/src/Controllers/Admin/Products/ProductsController.php:26
+#: app/src/WordPress/Admin/Menus/AdminMenuPageService.php:191
+#: views/admin/products/index.php:29
+#: packages/admin/bumps/modules/Conditions.js:73
+#: packages/admin/checkouts/modules/Prices.js:189
+#: packages/admin/coupons/modules/Restrictions.js:59
+#: packages/admin/product-collections/components/Products.js:28
+#: packages/admin/product-groups/modules/Products.js:45
+#: packages/admin/products/EditProduct.js:214
+#: packages/admin/settings/shipping/profile/Products.js:217
+#: packages/admin/upsell-funnels/modules/Conditions.js:132
+#: packages/blocks/Blocks/Form/components/SelectPrices.js:111
+#: packages/blocks/Blocks/ProductItemList/edit.js:358
+msgid "Products"
+msgstr "商品"
+
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:148
+#: packages/admin/affiliation-referrals/modules/ReferralItems.js:76
+#: packages/admin/checkouts/modules/Prices.js:135
+#: packages/admin/orders/modules/Fulfillment/CreateFulfillment.js:207
+#: packages/admin/orders/modules/ReturnRequest/CreateReturnRequest.js:180
+#: packages/admin/products/modules/Variations/Variants.js:123
+msgid "Quantity"
+msgstr "数量"
+
+#: views/web/buy-template.php:91 packages/blocks/Blocks/OrderBumps/edit.js:16
+msgid "Recommended"
+msgstr "推奨"
+
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:106
+msgid "Recovery Status"
+msgstr "リカバリー状況"
+
+#: app/src/Controllers/Admin/Subscriptions/SubscriptionsListTable.php:45
+#: views/admin/subscriptions/index.php:31
+msgid "Search Subscriptions"
+msgstr "定期購読を検索"
+
+#: templates/forms/sections.php:6
+msgid "Sections"
+msgstr "セクション"
+
+#: templates/forms/simple.php:6
+msgid "Simple"
+msgstr "シンプル"
+
+#: app/src/Controllers/Admin/Bumps/BumpsListTable.php:194
+#: app/src/Controllers/Admin/Orders/OrdersListTable.php:244
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:307
+#: app/src/Controllers/Admin/Upsells/UpsellsListTable.php:189
+#: packages/admin/invoices/store/entities.js:70
+#: packages/admin/products/modules/Prices/NewPrice/index.js:142
+#: packages/admin/products/modules/Prices/Price/Header.js:85
+#: packages/admin/store/add-entities.js:418
+#: packages/admin/store/add-entities.js:425
+#: packages/admin/subscriptions/edit/EditSubscription.js:231
+msgid "Subscription"
+msgstr "定期購読"
+
+#: app/src/Controllers/Admin/Settings/BaseSettings.php:51
+#: views/admin/cancellation-insights/index.php:5
+#: views/layouts/partials/admin-settings-sidebar.php:35
+msgid "Subscription Saver"
+msgstr "定期購読セーバー"
+
+#: app/src/Integrations/ThriveAutomator/Triggers/PurchaseUpdatedTrigger.php:68
+msgid "Subscription plan changed"
+msgstr "定期購読プランが変更されました"
+
+#: app/src/Controllers/Admin/Settings/BaseSettings.php:50
+#: app/src/Controllers/Admin/Subscriptions/SubscriptionsController.php:28
+#: app/src/WordPress/Admin/Menus/AdminMenuPageService.php:198
+#: views/admin/subscriptions/index.php:26
+#: views/layouts/partials/admin-settings-sidebar.php:30
+#: views/web/dashboard/orders/show.php:58
+#: packages/admin/components/data-tables/subscriptions-data-table/index.js:21
+#: packages/admin/customers/modules/Subscriptions.js:51
+#: packages/admin/settings/export/ExportSettings.js:43
+#: packages/admin/settings/subscription/SubscriptionSettings.js:64
+#: packages/admin/subscriptions/show/ShowSubscription.js:369
+msgid "Subscriptions"
+msgstr "定期購読"
+
+#: views/web/buy-template.php:107
+#: packages/admin/abandoned-checkouts/modules/LineItems/index.js:75
+#: packages/admin/checkouts/modules/Payment.js:90
+#: packages/admin/invoices/modules/LineItems.js:127
+#: packages/admin/orders/modules/LineItems/index.js:239
+#: packages/admin/subscriptions/edit/modules/Modals/UpdateRecentPrice.js:215
+#: packages/admin/subscriptions/show/modules/LineItems/index.js:82
+#: packages/blocks/Blocks/Subtotal/edit.js:19
+#: packages/blocks/Blocks/Subtotal/edit.js:53
+#: packages/blocks/Blocks/Subtotal/save.js:15
+#: packages/blocks/Blocks/Total/deprecated.js:136
+#: packages/blocks/Blocks/Total/edit.js:44
+#: packages/blocks/Blocks/Total/edit.js:76
+#: packages/blocks/Blocks/Total/save.js:27
+#: packages/blocks/Blocks/Totals/edit.js:53
+#: packages/blocks/Blocks/Upsell/UpsellTotals/edit.js:21
+msgid "Subtotal"
+msgstr "小計"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: app/src/BlockLibrary/BlockServiceProvider.php:119
+#: app/src/Integrations/AffiliateWP/AffiliateWPService.php:39
+#: app/src/Integrations/Beaver/BeaverFormModule.php:20
+#: app/src/Integrations/Beaver/BeaverFormModule.php:21
+#: app/src/Integrations/Elementor/ElementorServiceProvider.php:131
+#: app/src/Integrations/ThriveAutomator/ThriveAutomatorApp.php:25
+#: app/src/WordPress/Admin/Menus/AdminMenuPageService.php:170
+#: app/src/WordPress/Admin/Notices/AdminNoticesService.php:104
+#: app/src/WordPress/Admin/SSLCheck/AdminSSLCheckService.php:31
+#: app/src/WordPress/CompatibilityService.php:157
+#: app/src/WordPress/HealthService.php:32
+#: app/src/WordPress/HealthService.php:73
+#: app/src/WordPress/HealthService.php:86
+#: app/src/WordPress/HealthService.php:105
+#: app/src/WordPress/HealthService.php:108
+#: app/src/WordPress/HealthService.php:133
+#: app/src/WordPress/HealthService.php:162
+#: app/src/WordPress/HealthService.php:167
+#: app/src/WordPress/HealthService.php:171
+#: app/src/WordPress/HealthService.php:181
+#: app/src/WordPress/Templates/TemplatesServiceProvider.php:22
+#: app/src/WordPress/ThemeService.php:88 views/admin/user-profile.php:1
+#: views/error.php:2
+msgid "SureCart"
+msgstr "SureCart"
+
+#: app/src/Integrations/ThriveAutomator/DataObjects/ProductDataObject.php:35
+msgid "SureCart product object"
+msgstr "SureCart商品オブジェクト"
+
+#: packages/blocks/Controllers/PaymentMethodController.php:124
+msgid "Switch to live mode."
+msgstr "ライブモードに切り替える。"
+
+#: packages/blocks/Controllers/PaymentMethodController.php:117
+msgid "Switch to test mode."
+msgstr "テストモードに切り替える。"
+
+#: packages/blocks/Controllers/SubscriptionController.php:356
+#: packages/blocks/Controllers/SubscriptionController.php:364
+msgid "Terms"
+msgstr "規約"
+
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:223
+#: app/src/Controllers/Admin/Tables/ListTable.php:110
+#: app/src/WordPress/PostTypes/FormPostTypeService.php:339
+#: views/admin/user-profile.php:10 views/admin/user-profile.php:18
+#: packages/admin/dashboard/components/RecentOrders.js:184
+#: packages/blocks/Blocks/Form/components/Mode.js:12
+#: packages/blocks/Blocks/Form/components/Mode.js:32
+msgid "Test"
+msgstr "テスト"
+
+#: app/src/Install/InstallService.php:128
+msgctxt "Page title"
+msgid "Thank you!"
+msgstr "ありがとうございます！"
+
+#: views/admin/cancellation-insights/cta-banner.php:100
+msgid "The easiest thing you can do to increase subscription revenue."
+msgstr "定期購読の売り上げを上げられる、もっとも簡単な方法です。"
+
+#: app/src/Support/Errors/Translations/codes.php:12
+#: app/src/Support/Errors/Translations/codes.php:40
+msgid "The price is already being used in subscriptions or checkout sessions. Please archive the price and create another one."
+msgstr "価格は、定期購読またはチェックアウトセッションで既に使用されています。価格をアーカイブして、別の価格を作成してください。"
+
+#: app/src/Support/Errors/Translations/codes.php:22
+#: app/src/Support/Errors/Translations/codes.php:51
+msgid "This payment method cannot be used for subscriptions."
+msgstr "このお支払い方法は定期購読では使用できません。"
+
+#: app/src/Support/Errors/Translations/codes.php:77
+msgid "This price is currently being used in subscriptions or checkout sessions. Please archive the price and create another one."
+msgstr "この価格は現在、定期購読またはチェックアウトセッションで使用されています。価格をアーカイブして、別の価格を作成してください。"
+
+#: app/src/Integrations/ThriveAutomator/Triggers/PurchaseRevokedTrigger.php:75
+msgid "This trigger will be fired when a subscription cancels after failed payment or by customer request, or when the purchase is manually revoked by the merchant."
+msgstr "このトリガーは、支払いが失敗した後または顧客の要求によって定期購読がキャンセルされた場合、またはマーチャントによって購入が手動で取り消された場合に発生します。"
+
+#: app/src/Integrations/ThriveAutomator/Triggers/PurchaseUpdatedTrigger.php:77
+msgid "This trigger will be fired when a subscription plan is changed to something else."
+msgstr "このトリガーは、定期購読プランが別のものに変更されたときに発生します。"
+
+#: app/src/Integrations/ThriveAutomator/Triggers/PurchaseCreatedTrigger.php:75
+msgid "This trigger will be fired when someone first purchases a product."
+msgstr "このトリガーは、誰かが最初に商品を購入したときに起動されます。"
+
+#: app/src/Controllers/Admin/Licenses/LicensesListTable.php:173
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:511
+msgid "Toggle Product Archive"
+msgstr "商品アーカイブの切り替え"
+
+#: views/web/buy-template.php:118
+#: packages/blocks/Blocks/Total/deprecated.js:133
+#: packages/blocks/Blocks/Total/edit.js:64
+#: packages/blocks/Blocks/Total/save.js:24
+#: packages/blocks/Blocks/Totals/edit.js:70
+msgid "Total Due Today"
+msgstr "本日の合計支払金額"
+
+#: app/src/Controllers/Admin/Subscriptions/SubscriptionsListTable.php:62
+msgid "Trialing"
+msgstr "トライアル"
+
+#: templates/forms/two-column.php:6
+msgid "Two Column"
+msgstr "2カラム"
+
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:107
+#: app/src/Controllers/Admin/Invoices/InvoicesListTable.php:67
+#: app/src/Controllers/Admin/Orders/OrdersListTable.php:117
+#: packages/blocks/Blocks/CartSubtotal/Block.php:29
+#: views/web/buy-template.php:97 views/web/buy-template.php:117
+#: packages/admin/abandoned-checkouts/modules/LineItems/index.js:146
+#: packages/admin/checkouts/modules/Payment.js:153
+#: packages/admin/checkouts/modules/Prices.js:138
+#: packages/admin/customers/modules/Orders.js:58
+#: packages/admin/dashboard/components/overview/charts/ChartSummary.js:144
+#: packages/admin/orders/modules/LineItems/index.js:312
+#: packages/admin/subscriptions/edit/modules/Modals/UpdateRecentPrice.js:286
+#: packages/admin/subscriptions/edit/modules/Price.js:70
+#: packages/admin/subscriptions/show/modules/CurrentPlan.js:101
+#: packages/blocks/Blocks/ConditionalForm/translations.js:5
+#: packages/blocks/Blocks/Total/deprecated.js:129
+#: packages/blocks/Blocks/Total/edit.js:24
+#: packages/blocks/Blocks/Total/edit.js:71
+#: packages/blocks/Blocks/Total/edit.js:73
+#: packages/blocks/Blocks/Total/save.js:22
+#: packages/blocks/Blocks/Totals/edit.js:69
+#: packages/blocks/Blocks/Upsell/UpsellTotals/edit.js:7
+#: packages/blocks/Blocks/Upsell/UpsellTotals/edit.js:45
+msgid "Total"
+msgstr "合計"
+
+#: packages/blocks/Controllers/UserController.php:74
+msgid "Update Account Details"
+msgstr "アカウント情報の更新"
+
+#: packages/blocks/Controllers/CustomerController.php:123
+msgid "Update Billing Details"
+msgstr "請求情報を更新"
+
+#: packages/blocks/Controllers/UserController.php:95
+msgid "Update Password"
+msgstr "パスワードの更新"
+
+#: packages/blocks/Controllers/SubscriptionController.php:309
+#: packages/admin/subscriptions/edit/modules/PaymentMethod/EditPaymentMethod.js:88
+msgid "Update Payment Method"
+msgstr "支払い方法を更新する"
+
+#: packages/blocks/Blocks/Dashboard/CustomerSubscriptions/Block.php:59
+#: packages/blocks/Blocks/Dashboard/CustomerSubscriptions/Block.php:67
+#: packages/blocks/Controllers/SubscriptionController.php:215
+msgid "Update Plan"
+msgstr "プランを更新"
+
+#: app/src/Controllers/Admin/Bumps/BumpsListTable.php:228
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:380
+#: app/src/Controllers/Admin/Tables/ListTable.php:74
+#: app/src/Controllers/Admin/Upsells/UpsellsListTable.php:223
+#: packages/admin/settings/shipping/profile/ShippingProfile.js:114
+#: packages/admin/settings/tax-region/TaxRegionSettings.js:227
+msgid "Updated"
+msgstr "更新済"
+
+#: app/src/Controllers/Admin/AffiliationReferrals/AffiliationReferralsListTable.php:144
+#: app/src/Controllers/Admin/ProductCollections/ProductCollectionsListTable.php:125
+#: app/src/Controllers/Admin/ProductGroups/ProductGroupsListTable.php:196
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:491
+#: packages/admin/affiliation-referrals/modules/Payout.js:77
+#: packages/admin/components/data-tables/affiliates/ReferralsDataTable.js:109
+#: packages/admin/components/data-tables/licenses-data-table/license-item.js:74
+#: packages/admin/components/data-tables/OrdersDataTable.js:91
+#: packages/admin/components/data-tables/subscriptions-data-table/subscription-item.js:173
+#: packages/admin/products/modules/BuyLink.js:318
+#: packages/blocks/formats/ShowPrice.js:91
+msgid "View"
+msgstr "見る"
+
+#: app/src/Rest/PortalProtocolRestServiceProvider.php:97
+msgid "Whether or not customers can cancel subscriptions from the customer portal."
+msgstr "顧客がダッシュボードから定期購読をキャンセルできるかどうか。"
+
+#: app/src/Rest/PortalProtocolRestServiceProvider.php:107
+msgid "Whether or not customers can change subscription quantities from the customer portal."
+msgstr "顧客がダッシュボードから定期購読の数量を変更できるかどうか。"
+
+#: app/src/Rest/PortalProtocolRestServiceProvider.php:102
+msgid "Whether or not customers can make subscription changes from the customer portal."
+msgstr "顧客がダッシュボードから定期購読を変更できるかどうか。"
+
+#: packages/blocks/Controllers/PaymentMethodController.php:114
+msgid "You are not a live mode customer."
+msgstr "ライブモードの顧客ではありません。"
+
+#: packages/blocks/Controllers/PaymentMethodController.php:121
+msgid "You are not a test mode customer."
+msgstr "テストモードの顧客ではありません。"
+
+#: packages/blocks/Controllers/PaymentMethodController.php:128
+msgid "You are not currently a customer."
+msgstr "現在、顧客ではありません。"
+
+#: app/src/Support/Errors/Translations/codes.php:24
+#: app/src/Support/Errors/Translations/codes.php:53
+msgid "You cannot add a one-time product to a subscription."
+msgstr "1回限りの商品を定期購読に追加することはできません。"
+
+#: packages/blocks/Controllers/PaymentMethodController.php:147
+msgid "You cannot currently add a payment method. Please contact us for support."
+msgstr "現在、お支払い方法が追加できません。サポートにご連絡ください。"
+
+#: packages/blocks/Controllers/BaseController.php:124
+msgid "You do not have permission to do this."
+msgstr "これをする許可がありません。"

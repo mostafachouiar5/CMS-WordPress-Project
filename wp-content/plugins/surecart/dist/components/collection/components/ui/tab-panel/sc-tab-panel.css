@@ -1,0 +1,16 @@
+:host {
+  --padding: 0;
+  --spacing: var(--sc-spacing-large);
+  display: block;
+}
+
+::slotted(* ~ *) {
+  margin-top: var(--spacing);
+}
+
+.tab-panel {
+  border: solid 1px transparent;
+  padding: var(--padding);
+  font-family: var(--sc-font-sans);
+  font-size: var(--sc-font-size-medium);
+}

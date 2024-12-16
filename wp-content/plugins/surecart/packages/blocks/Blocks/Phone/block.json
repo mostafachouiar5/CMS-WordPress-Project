@@ -1,0 +1,29 @@
+{
+	"name": "surecart/phone",
+	"title": "Phone",
+	"description": "Display a phone number collection field.",
+	"category": "surecart",
+	"keywords": ["phone", "tel", "customer"],
+	"ancestor": ["surecart/form"],
+	"supports": {
+		"reusable": false,
+		"html": false
+	},
+	"attributes": {
+		"required": {
+			"type": "boolean",
+			"default": false
+		},
+		"label": {
+			"type": "string",
+			"default": "Phone"
+		},
+		"help": {
+			"type": "string",
+			"default": ""
+		},
+		"placeholder": {
+			"type": "string"
+		}
+	}
+}

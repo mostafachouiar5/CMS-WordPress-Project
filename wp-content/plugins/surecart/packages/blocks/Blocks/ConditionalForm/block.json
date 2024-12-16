@@ -1,0 +1,22 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "surecart/conditional-form",
+	"title": "Conditional",
+	"description": "Display an area of the form based on conditions.",
+	"category": "surecart",
+  "textdomain": "surecart",
+	"ancestor": ["surecart/form"],
+	"supports": {
+		"reusable": false,
+		"html": false,
+		"multiple": true,
+		"align": ["wide", "full"]
+	},
+	"attributes": {
+		"rule_groups": {
+			"type": "array",
+			"default": []
+		}
+	}
+}

@@ -1,0 +1,70 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "surecart/product-item-list",
+	"title": "Product List",
+	"description": "Display a list of products from your store.",
+	"category": "surecart",
+	"keywords": ["products", "product", "list", "store"],
+	"supports": {
+		"align": true,
+		"reusable": false,
+		"html": false,
+		"inserter": false,
+		"spacing": {
+			"blockGap": true,
+			"__experimentalDefaultControls": {
+				"blockGap": true
+			}
+		}
+	},
+	"attributes": {
+		"columns": {
+			"type": "number",
+			"default": 4
+		},
+		"limit": {
+			"type": "number",
+			"default": 15
+		},
+		"pagination_enabled": {
+			"type": "boolean",
+			"default": true
+		},
+		"ajax_pagination": {
+			"type": "boolean",
+			"default": true
+		},
+		"pagination_auto_scroll": {
+			"type": "boolean",
+			"default": true
+		},
+		"search_enabled": {
+			"type": "boolean",
+			"default": true
+		},
+		"type": {
+			"type": "string"
+		},
+		"sort_enabled": {
+			"type": "boolean",
+			"default": true
+		},
+		"collection_enabled": {
+			"type": "boolean",
+			"default": true
+		},
+		"pagination_alignment": {
+			"type": "string",
+			"default": "center"
+		},
+		"pagination_size": {
+			"type": "string",
+			"default": "14px"
+		},
+		"ids": {
+			"type": "array",
+			"default": []
+		}
+	}
+}

@@ -1,0 +1,50 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "surecart/product-variant-choices",
+	"title": "Product Variants",
+	"description": "Displays possible choices for product variants.",
+	"category": "surecart",
+	"ancestor": ["surecart/upsell"],
+	"keywords": ["variant", "product", "choice"],
+	"supports": {
+		"reusable": false,
+		"html": false,
+		"multiple": false,
+		"__experimentalBorder": {
+			"color": true,
+			"radius": true,
+			"width": true,
+			"__experimentalSkipSerialization": true,
+			"__experimentalDefaultControls": {
+				"color": true,
+				"radius": true,
+				"width": true
+			}
+		},
+		"color": {
+			"__experimentalSkipSerialization": true,
+			"gradients": false,
+			"link": false,
+			"background": true,
+			"text": true,
+			"__experimentalDefaultControls": {
+				"background": true,
+				"text": true,
+				"link": true
+			}
+		},
+		"typography": {
+			"__experimentalSkipSerialization": true,
+			"fontSize": true
+		},
+		"spacing": {
+			"__experimentalSkipSerialization": true,
+			"margin": true,
+			"padding": true
+		}
+	},
+	"selectors": {
+		"root": ".wp-block-surecart-product-variant-choices sc-pill-option button"
+	}
+}

@@ -1,0 +1,1 @@
+import{S as ScStackedList$1,d as defineCustomElement$1}from"./sc-stacked-list2.js";const ScStackedList=ScStackedList$1,defineCustomElement=defineCustomElement$1;export{ScStackedList,defineCustomElement};

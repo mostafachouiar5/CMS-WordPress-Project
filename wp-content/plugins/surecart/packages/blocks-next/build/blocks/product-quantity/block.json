@@ -1,0 +1,71 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "surecart/product-quantity",
+  "title": "Product Quantity",
+  "description": "Display the product quantity selector",
+  "version": "1.0.0",
+  "category": "surecart-product-page",
+  "icon": "media-interactive",
+  "ancestor": [
+    "surecart/product-page",
+    "surecart/product-template"
+  ],
+  "keywords": [
+    "quantity",
+    "form",
+    "product"
+  ],
+  "attributes": {
+    "label": {
+      "type": "string",
+      "default": "Quantity"
+    },
+    "id": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "interactivity": true,
+    "anchor": true,
+    "typography": {
+      "fontSize": true
+    },
+    "spacing": {
+      "padding": true,
+      "margin": true,
+      "__experimentalDefaultControls": {
+        "padding": true,
+        "margin": true
+      }
+    },
+    "color": {
+      "gradients": false,
+      "background": false,
+      "link": false,
+      "__experimentalDefaultControls": {
+        "background": true,
+        "text": true,
+        "link": true
+      }
+    },
+    "__experimentalBorder": {
+      "radius": true,
+      "__experimentalDefaultControls": {
+        "radius": true
+      }
+    }
+  },
+  "textdomain": "surecart",
+  "render": "file:./view.php",
+  "editorScript": "file:./index.js",
+  "editorStyle": [
+    "surecart-quantity-selector",
+    "surecart-input-group"
+  ],
+  "style": [
+    "surecart-quantity-selector",
+    "surecart-input-group",
+    "file:./style-index.css"
+  ]
+}

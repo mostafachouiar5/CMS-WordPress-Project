@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-order-password",(()=>{it("renders",(async()=>{const s=await newE2EPage();await s.setContent("<sc-order-password></sc-order-password>");const e=await s.find("sc-order-password");expect(e).toHaveClass("hydrated")}))}));

@@ -1,0 +1,40 @@
+{
+	"apiVersion": 2,
+	"name": "surecart/coupon",
+	"title": "Coupon",
+	"description": "Display a coupon form.",
+	"category": "surecart",
+	"keywords": ["coupon", "promo"],
+	"textdomain": "surecart",
+	"ancestor": ["surecart/form", "surecart/totals"],
+	"supports": {
+		"reusable": false,
+		"html": false,
+		"multiple": false,
+		"order-summary": true
+	},
+	"attributes": {
+		"lock": {
+			"remove": true
+		},
+		"text": {
+			"type": "string",
+			"default": "Add Coupon Code"
+		},
+		"button_text": {
+			"type": "string",
+			"default": "Apply"
+		},
+		"placeholder": {
+			"type": "string",
+			"default": "Enter coupon code"
+		},
+		"collapsed": {
+			"type": "boolean",
+			"default": true
+		},
+		"disabled": {
+			"type": "boolean"
+		}
+	}
+}

@@ -1,0 +1,70 @@
+{
+	"apiVersion": 2,
+	"name": "surecart/upsell-countdown-timer",
+	"title": "Countdown Timer",
+	"description": "Display a countdown timer for upsell, encouraging customers to take action before the offer expires.",
+	"category": "surecart-upsell-page",
+	"ancestor": ["surecart/upsell"],
+	"attributes": {
+		"textAlign": {
+			"type": "string",
+			"default": "center"
+		},
+		"offer_expire_text": {
+			"type": "string",
+			"default": "Offer Expires In"
+		},
+		"show_icon": {
+			"type": "boolean",
+			"default": true
+		},
+		"width": {
+			"type": "number",
+			"default": null
+		}
+	},
+	"keywords": ["description"],
+	"supports": {
+		"html": false,
+		"multiple": false,
+		"anchor": true,
+		"align": false,
+		"alignWide": false,
+		"spacing": {
+			"__experimentalSkipSerialization": true,
+			"padding": ["horizontal", "vertical"],
+			"margin": ["top", "bottom"]
+		},
+		"color": {
+			"__experimentalSkipSerialization": true,
+			"gradients": true,
+			"__experimentalDefaultControls": {
+				"background": true,
+				"text": true
+			}
+		},
+		"typography": {
+			"fontSize": true,
+			"__experimentalFontFamily": true,
+			"__experimentalFontWeight": true,
+			"__experimentalFontStyle": true,
+			"__experimentalTextTransform": true
+		},
+		"reusable": false,
+		"shadow": true,
+		"__experimentalBorder": {
+			"color": true,
+			"radius": true,
+			"style": true,
+			"width": true,
+			"__experimentalSkipSerialization": true,
+			"__experimentalDefaultControls": {
+				"color": true,
+				"radius": true,
+				"style": true,
+				"width": true
+			}
+		}
+	},
+	"style": ["file:./style.css", "surecart-themes-default"]
+}

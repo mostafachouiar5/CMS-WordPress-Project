@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-login-provider",(()=>{it("renders",(async()=>{const e=await newE2EPage();await e.setContent("<sc-login-provider></sc-login-provider>");const i=await e.find("sc-login-provider");expect(i).toHaveClass("hydrated")}))}));

@@ -1,0 +1,1 @@
+import{S as ScLineItem$1,d as defineCustomElement$1}from"./sc-line-item2.js";const ScLineItem=ScLineItem$1,defineCustomElement=defineCustomElement$1;export{ScLineItem,defineCustomElement};

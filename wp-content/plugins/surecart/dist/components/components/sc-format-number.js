@@ -1,0 +1,1 @@
+import{S as ScFormatNumber$1,d as defineCustomElement$1}from"./sc-format-number2.js";const ScFormatNumber=ScFormatNumber$1,defineCustomElement=defineCustomElement$1;export{ScFormatNumber,defineCustomElement};

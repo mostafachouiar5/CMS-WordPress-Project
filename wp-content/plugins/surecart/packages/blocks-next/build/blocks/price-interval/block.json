@@ -1,0 +1,50 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "surecart/price-interval",
+  "title": "Price Interval",
+  "description": "Displays the price interval.",
+  "version": "1.0.0",
+  "category": "surecart-product-page",
+  "icon": "money-alt",
+  "usesContext": [
+    "surecart/priceId",
+    "surecart/price"
+  ],
+  "ancestor": [
+    "surecart/product-price-choice-template"
+  ],
+  "supports": {
+    "interactivity": true,
+    "anchor": true,
+    "color": {
+      "gradients": true,
+      "text": true,
+      "background": true,
+      "__experimentalDefaultControls": {
+        "text": true,
+        "background": true
+      }
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "textAlign": true,
+      "__experimentalFontFamily": true,
+      "__experimentalFontWeight": true,
+      "__experimentalFontStyle": true,
+      "__experimentalTextTransform": true,
+      "__experimentalTextDecoration": true,
+      "__experimentalLetterSpacing": true,
+      "__experimentalDefaultControls": {
+        "fontSize": true,
+        "fontAppearance": true,
+        "textTransform": true,
+        "textAlign": true
+      }
+    }
+  },
+  "textdomain": "surecart",
+  "render": "file:./view.php",
+  "editorScript": "file:./index.js"
+}

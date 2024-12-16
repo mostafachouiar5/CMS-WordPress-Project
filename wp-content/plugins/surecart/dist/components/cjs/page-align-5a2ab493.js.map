@@ -1,0 +1,1 @@
+{"file":"page-align-5a2ab493.js","mappings":";;SAAgB,KAAK;IACnB,OAAO,QAAQ,CAAC,GAAG,KAAK,KAAK,CAAA;AAC/B;;;;","names":[],"sources":["src/functions/page-align.ts"],"sourcesContent":["export function isRtl():boolean{\n  return document.dir === 'rtl'\n}\n"],"version":3}

@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-tab-panel",(()=>{it("renders",(async()=>{const e=await newE2EPage();await e.setContent("<sc-tab-panel></sc-tab-panel>");const a=await e.find("sc-tab-panel");expect(a).toHaveClass("hydrated")}))}));

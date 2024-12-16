@@ -1,0 +1,19 @@
+{
+	"name": "surecart/tax-line-item",
+	"title": "Tax Line Item",
+	"description": "Displays the order tax. (if there is tax)",
+	"category": "surecart",
+	"ancestor": ["surecart/totals"],
+	"keywords": ["tax", "checkout", "total", "subtotal"],
+  "textdomain": "surecart",
+	"supports": {
+		"reusable": false,
+		"html": false
+	},
+	"attributes": {
+		"text": {
+			"type": "string",
+			"default": "Estimated Tax"
+		}
+	}
+}

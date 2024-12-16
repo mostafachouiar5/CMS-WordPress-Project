@@ -1,0 +1,58 @@
+{
+	"apiVersion": 2,
+	"name": "surecart/cart-coupon",
+	"title": "Cart Coupon",
+	"description": "Display a coupon form in the cart.",
+	"category": "surecart",
+	"keywords": ["coupon", "promo"],
+	"textdomain": "surecart",
+	"ancestor": ["surecart/cart"],
+	"supports": {
+		"reusable": false,
+		"html": false,
+		"multiple": false
+	},
+	"attributes": {
+		"lock": {
+			"remove": true
+		},
+		"text": {
+			"type": "string",
+			"default": "Add Coupon Code"
+		},
+		"button_text": {
+			"type": "string",
+			"default": "Apply"
+		},
+		"placeholder": {
+			"type": "string",
+			"default": "Enter coupon code"
+		},
+		"collapsed": {
+			"type": "boolean",
+			"default": true
+		},
+		"disabled": {
+			"type": "boolean"
+		},
+		"border": {
+			"type": "boolean",
+			"default": true
+		},
+		"padding": {
+			"type": "object",
+			"default": {
+				"top": "1.25em",
+				"left": "1.25em",
+				"bottom": "1.25em",
+				"right": "1.25em"
+			}
+		},
+		"backgroundColor": {
+			"type": "string"
+		},
+		"textColor": {
+			"type": "string"
+		}
+	}
+}

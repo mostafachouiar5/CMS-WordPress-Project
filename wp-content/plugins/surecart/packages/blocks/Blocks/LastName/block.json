@@ -1,0 +1,30 @@
+{
+	"name": "surecart/last-name",
+	"title": "Last Name",
+	"description": "Display a last name collection field.",
+	"category": "surecart",
+	"keywords": ["last-name", "name", "customer"],
+	"textdomain": "surecart",
+	"ancestor": ["surecart/form"],
+	"supports": {
+		"reusable": false,
+		"html": false
+	},
+	"attributes": {
+		"required": {
+			"type": "boolean",
+			"default": false
+		},
+		"label": {
+			"type": "string",
+			"default": "Last Name"
+		},
+		"help": {
+			"type": "string",
+			"default": ""
+		},
+		"placeholder": {
+			"type": "string"
+		}
+	}
+}

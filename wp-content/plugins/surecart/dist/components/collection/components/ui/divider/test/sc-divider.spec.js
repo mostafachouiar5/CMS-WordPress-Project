@@ -1,0 +1,1 @@
+import{ScDivider}from"../sc-divider";import{newSpecPage}from"@stencil/core/testing";describe("sc-divider",(()=>{it("renders",(async()=>{const e=await newSpecPage({components:[ScDivider],html:"<sc-divider></sc-divider>"});expect(e.root).toMatchSnapshot()}))}));

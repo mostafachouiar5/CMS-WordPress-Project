@@ -1,0 +1,84 @@
+.sc-countdown-timer {
+	display: flex;
+	justify-content: center;
+}
+.sc-countdown-timer.aligncenter {
+	text-align: center;
+}
+.sc-countdown-timer.alignright {
+	/*rtl:ignore*/
+	text-align: right;
+}
+:where(.sc-countdown-timer) {
+	box-shadow: none;
+	text-decoration: none;
+	border-radius: 9999px;
+	padding: calc(0.667em + 2px) calc(1.333em + 2px);
+}
+.sc-countdown-timer.has-custom-width {
+	max-width: none;
+	width: 100%;
+}
+.sc-countdown-timer__width-100 .sc-upsell-countdown-timer {
+	width: 100%;
+	flex-basis: 100%;
+}
+.sc-countdown-timer__width-25 .sc-upsell-countdown-timer{
+	width: 25% !important;
+}
+.sc-countdown-timer__width-50 .sc-upsell-countdown-timer{
+	width: 50% !important;
+}
+.sc-countdown-timer__width-75 .sc-upsell-countdown-timer{
+	width: 75% !important;
+}
+.sc-countdown-timer.is-style-squared {
+	border-radius: 0;
+}
+.sc-countdown-timer.no-border-radius {
+	border-radius: 0 !important;
+}
+.sc-countdown-timer.is-style-outline > .sc-countdown-timer,
+.sc-countdown-timer.is-style-outline {
+	border: 2px solid currentColor;
+	padding: 0.667em 1.333em;
+}
+.sc-countdown-timer.is-style-outline > .sc-countdown-timer:not(.has-text-color),
+.sc-countdown-timer.is-style-outline:not(.has-text-color) {
+	color: currentColor;
+}
+.sc-countdown-timer.is-style-outline > .sc-countdown-timer:not(.has-background),
+.sc-countdown-timer.is-style-outline:not(.has-background) {
+	background-color: transparent;
+	background-image: none;
+}
+.sc-countdown-timer:where(.has-border-color) {
+	border-width: initial;
+}
+.sc-countdown-timer:where([style*='border-top-color']) {
+	border-top-width: initial;
+}
+.sc-countdown-timer:where([style*='border-right-color']) {
+	border-right-width: initial;
+}
+.sc-countdown-timer:where([style*='border-bottom-color']) {
+	border-bottom-width: initial;
+}
+.sc-countdown-timer:where([style*='border-left-color']) {
+	border-left-width: initial;
+}
+.sc-countdown-timer:where([style*='border-style']) {
+	border-width: initial;
+}
+.sc-countdown-timer:where([style*='border-top-style']) {
+	border-top-width: initial;
+}
+.sc-countdown-timer:where([style*='border-right-style']) {
+	border-right-width: initial;
+}
+.sc-countdown-timer:where([style*='border-bottom-style']) {
+	border-bottom-width: initial;
+}
+.sc-countdown-timer:where([style*='border-left-style']) {
+	border-left-width: initial;
+}

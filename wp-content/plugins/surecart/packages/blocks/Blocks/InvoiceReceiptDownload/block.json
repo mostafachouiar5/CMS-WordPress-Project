@@ -1,0 +1,19 @@
+{
+	"name": "surecart/invoice-receipt-download",
+	"title": "Invoice Receipt Download",
+	"description": "Displays the download link for the invoice receipt.",
+	"category": "surecart",
+	"ancestor": ["surecart/invoice-details"],
+	"keywords": ["checkout", "engine", "invoice", "download", "receipt"],
+	"textdomain": "surecart",
+	"supports": {
+		"reusable": false,
+		"html": false
+	},
+	"attributes": {
+		"text": {
+			"type": "string",
+			"default": "Receipt / Invoice"
+		}
+	}
+}

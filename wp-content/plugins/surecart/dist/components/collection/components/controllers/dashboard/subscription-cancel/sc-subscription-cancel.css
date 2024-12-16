@@ -1,0 +1,14 @@
+:host {
+  display: block;
+  position: relative;
+}
+
+.subscription-cancel {
+  display: grid;
+  gap: 0.5em;
+}
+
+.subscription-cancel__terms {
+  color: var(--sc-color-gray-600);
+  font-size: var(--sc-font-size-small);
+}

@@ -1,0 +1,14 @@
+{
+	"apiVersion": 2,
+	"name": "surecart/dashboard-tabs",
+	"title": "Customer Dashboard Tabs",
+	"description": "Displays the users customer dashboard tabs.",
+	"category": "surecart-customer-dashboard",
+	"keywords": ["name", "customer", "dashboard"],
+	"textdomain": "surecart",
+	"parent": ["surecart/customer-dashboard"],
+	"supports": {
+		"reusable": false,
+		"html": false
+	}
+}

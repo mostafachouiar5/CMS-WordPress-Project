@@ -1,0 +1,12 @@
+:host {
+  display: inline-block;
+  --gap: var(--sc-spacing-small);
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+.button-group--separate {
+  gap: var(--gap);
+}

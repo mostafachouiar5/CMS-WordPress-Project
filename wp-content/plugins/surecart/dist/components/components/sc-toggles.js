@@ -1,0 +1,1 @@
+import{S as ScToggles$1,d as defineCustomElement$1}from"./sc-toggles2.js";const ScToggles=ScToggles$1,defineCustomElement=defineCustomElement$1;export{ScToggles,defineCustomElement};

@@ -1,0 +1,1 @@
+import{S as ScCheckoutPaystackPaymentProvider$1,d as defineCustomElement$1}from"./sc-checkout-paystack-payment-provider2.js";const ScCheckoutPaystackPaymentProvider=ScCheckoutPaystackPaymentProvider$1,defineCustomElement=defineCustomElement$1;export{ScCheckoutPaystackPaymentProvider,defineCustomElement};

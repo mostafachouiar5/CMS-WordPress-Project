@@ -1,0 +1,26 @@
+sc-checkout-product-price-variant-selector {
+  display: block;
+}
+
+.sc-checkout-product-price-variant-selector {
+  position: relative;
+}
+.sc-checkout-product-price-variant-selector > *:not(:last-child) {
+  display: block;
+  margin-bottom: var(--sc-form-row-spacing, 0.75em);
+}
+.sc-checkout-product-price-variant-selector__pills-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sc-spacing-x-small);
+}
+.sc-checkout-product-price-variant-selector__hidden-input {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  opacity: 0 !important;
+  padding: 0px !important;
+  margin: 0px !important;
+  pointer-events: none !important;
+  width: 0 !important;
+}

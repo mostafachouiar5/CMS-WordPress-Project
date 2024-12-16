@@ -1,0 +1,8 @@
+:host {
+  display: block;
+}
+
+.menu-divider {
+  border-top: solid 1px var(--sc-panel-border-color);
+  margin: var(--sc-spacing-x-small) 0;
+}

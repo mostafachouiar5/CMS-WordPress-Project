@@ -1,0 +1,1869 @@
+# Translation of SureCart in Italian
+# This file is distributed under the same license as the SureCart package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-03-06 04:17:13+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: it\n"
+"Project-Id-Version: SureCart\n"
+
+#: packages/blocks/Blocks/Totals/block.json
+msgctxt "block description"
+msgid "Display the session totals."
+msgstr "Mostra i totali della sessione."
+
+#: packages/blocks/Blocks/Totals/block.json
+msgctxt "block title"
+msgid "Totals"
+msgstr "Totali"
+
+#: packages/blocks/Blocks/Total/block.json
+msgctxt "block description"
+msgid "Displays the total line item."
+msgstr "Visualizza il totale per ogni elemento."
+
+#: packages/blocks/Blocks/Total/block.json
+msgctxt "block title"
+msgid "Total"
+msgstr "Totale"
+
+#: packages/blocks/Blocks/Textarea/block.json
+msgctxt "block keyword"
+msgid "textarea"
+msgstr "Area Di Testo"
+
+#: packages/blocks/Blocks/Textarea/block.json
+msgctxt "block description"
+msgid "Displays a form text textarea field. This is saved with the order as additional metadata."
+msgstr "Visualizza un campo di testo. Questo viene salvato con l'ordine come metadati aggiuntivi."
+
+#: packages/blocks/Blocks/Textarea/block.json
+msgctxt "block title"
+msgid "Textarea"
+msgstr "Area Di Testo"
+
+#: packages/blocks/Blocks/TaxLineItem/block.json
+msgctxt "block description"
+msgid "Displays the order tax. (if there is tax)"
+msgstr "Visualizza gli oneri fiscali dell'ordine. (se è presente l'imposta)"
+
+#: packages/blocks/Blocks/TaxLineItem/block.json
+msgctxt "block title"
+msgid "Tax Line Item"
+msgstr "Dettagli Tasse"
+
+#: packages/blocks/Blocks/TaxIdInput/block.json
+#: packages/blocks/Blocks/Totals/block.json
+msgctxt "block keyword"
+msgid "summary"
+msgstr "riepilogo"
+
+#: packages/blocks/Blocks/TaxIdInput/block.json
+#: packages/blocks/Blocks/Totals/block.json
+msgctxt "block keyword"
+msgid "totals"
+msgstr "totali"
+
+#: packages/blocks/Blocks/TaxIdInput/block.json
+msgctxt "block description"
+msgid "Display a VAT/GST field for VAT collection."
+msgstr "Visualizzare un campo IVA/GST per la riscossione dell'IVA."
+
+#: packages/blocks/Blocks/TaxIdInput/block.json
+msgctxt "block title"
+msgid "VAT or Tax ID Input"
+msgstr "Inserimento Partita IVA o Codice Fiscale"
+
+#: packages/blocks/Blocks/Switch/block.json
+msgctxt "block description"
+msgid "Display a toggle switch."
+msgstr "Visualizza un toggle switch"
+
+#: packages/blocks/Blocks/Switch/block.json
+msgctxt "block title"
+msgid "Switch"
+msgstr "Switch"
+
+#: packages/blocks/Blocks/Subtotal/block.json
+msgctxt "block description"
+msgid "Display a subtotal line item."
+msgstr "Visualizza una voce di sottototale."
+
+#: packages/blocks/Blocks/Subtotal/block.json
+msgctxt "block title"
+msgid "Subtotal Line Item"
+msgstr "Subtotale Voce"
+
+#: packages/blocks/Blocks/Submit/block.json
+msgctxt "block description"
+msgid "Display a submit button."
+msgstr "Visualizza un pulsante di invio."
+
+#: packages/blocks/Blocks/Submit/block.json
+msgctxt "block title"
+msgid "Submit Button"
+msgstr "Pulsante Invia"
+
+#: packages/blocks/Blocks/StoreLogo/block.json
+msgctxt "block keyword"
+msgid "store logo"
+msgstr "logo del negozio"
+
+#: packages/blocks/Blocks/StoreLogo/block.json
+msgctxt "block keyword"
+msgid "logo"
+msgstr "logo"
+
+#: packages/blocks/Blocks/StoreLogo/block.json
+msgctxt "block description"
+msgid "Display the store logo."
+msgstr "Mostra il logo del negozio"
+
+#: packages/blocks/Blocks/StoreLogo/block.json
+msgctxt "block title"
+msgid "Store Logo"
+msgstr "Logo Del Negozio"
+
+#: packages/blocks/Blocks/SessionDetail/block.json
+msgctxt "block keyword"
+msgid "meta"
+msgstr "meta"
+
+#: packages/blocks/Blocks/SessionDetail/block.json
+msgctxt "block description"
+msgid "Display information for a specific session."
+msgstr "Visualizza le informazioni per una sessione specifica."
+
+#: packages/blocks/Blocks/SessionDetail/block.json
+msgctxt "block title"
+msgid "Session Info"
+msgstr "Informazioni sulla sessione"
+
+#: packages/blocks/Blocks/RadioGroup/block.json
+msgctxt "block keyword"
+msgid "radio-group"
+msgstr "radio-group"
+
+#: packages/blocks/Blocks/RadioGroup/block.json
+msgctxt "block keyword"
+msgid "select"
+msgstr "seleziona"
+
+#: packages/blocks/Blocks/RadioGroup/block.json
+msgctxt "block description"
+msgid "Display a radio select input. This is saved with the order as additional metadata."
+msgstr "Visualizza un input di selezione radio. Questo viene salvato con l'ordine come metadati aggiuntivi."
+
+#: packages/blocks/Blocks/RadioGroup/block.json
+msgctxt "block title"
+msgid "Radio Select"
+msgstr "Selezione Radio"
+
+#: packages/blocks/Blocks/Radio/block.json
+#: packages/blocks/Blocks/RadioGroup/block.json
+msgctxt "block keyword"
+msgid "radio"
+msgstr "radio"
+
+#: packages/blocks/Blocks/Radio/block.json
+msgctxt "block description"
+msgid "Display a radio input"
+msgstr "Mostra un input radio"
+
+#: packages/blocks/Blocks/Radio/block.json
+msgctxt "block title"
+msgid "Radio"
+msgstr "Radio"
+
+#: packages/blocks/Blocks/ProductCollection/block.json
+#: packages/blocks/Blocks/ProductItemList/block.json
+#: packages/blocks/Blocks/StoreLogo/block.json
+msgctxt "block keyword"
+msgid "store"
+msgstr "negozio"
+
+#: packages/blocks/Blocks/Product/Media/block.json
+#: packages/blocks/Blocks/ProductCollectionImage/block.json
+#: packages/blocks/Blocks/ProductItemImage/block.json
+#: packages/blocks/Blocks/StoreLogo/block.json
+msgctxt "block keyword"
+msgid "image"
+msgstr "immagine"
+
+#: packages/blocks/Blocks/PriceSelector/block.json
+msgctxt "block description"
+msgid "Displays a selector for product prices."
+msgstr "Visualizza un selettore per i prezzi dei prodotti."
+
+#: packages/blocks/Blocks/PriceSelector/block.json
+msgctxt "block title"
+msgid "Price Selector"
+msgstr "Selettore Prezzo"
+
+#: packages/blocks/Blocks/PriceChoice/block.json
+#: packages/blocks/Blocks/PriceSelector/block.json
+#: packages/blocks/Blocks/Product/PriceChoices/block.json
+#: packages/blocks/Blocks/Product/VariantChoices/block.json
+#: packages/blocks/Blocks/VariantPriceSelector/block.json
+msgctxt "block keyword"
+msgid "choice"
+msgstr "scelta"
+
+#: packages/blocks/Blocks/PriceChoice/block.json
+#: packages/blocks/Blocks/PriceSelector/block.json
+#: packages/blocks/Blocks/Product/BuyButtons/block.json
+#: packages/blocks/Blocks/Product/CollectionBadges/block.json
+#: packages/blocks/Blocks/Product/Price/block.json
+#: packages/blocks/Blocks/Product/PriceChoices/block.json
+#: packages/blocks/Blocks/Product/Quantity/block.json
+#: packages/blocks/Blocks/Product/Title/block.json
+#: packages/blocks/Blocks/Product/VariantChoices/block.json
+#: packages/blocks/Blocks/ProductCollection/block.json
+#: packages/blocks/Blocks/ProductCollectionImage/block.json
+#: packages/blocks/Blocks/ProductCollectionTitle/block.json
+#: packages/blocks/Blocks/ProductItem/block.json
+#: packages/blocks/Blocks/ProductItemImage/block.json
+#: packages/blocks/Blocks/ProductItemList/block.json
+#: packages/blocks/Blocks/ProductItemPrice/block.json
+#: packages/blocks/Blocks/ProductItemTitle/block.json
+#: packages/blocks/Blocks/VariantPriceSelector/block.json
+msgctxt "block keyword"
+msgid "product"
+msgstr "prodotto"
+
+#: packages/blocks/Blocks/PriceChoice/block.json
+#: packages/blocks/Blocks/PriceSelector/block.json
+#: packages/blocks/Blocks/Product/Price/block.json
+#: packages/blocks/Blocks/Product/PriceChoices/block.json
+#: packages/blocks/Blocks/ProductItemPrice/block.json
+#: packages/blocks/Blocks/VariantPriceSelector/block.json
+msgctxt "block keyword"
+msgid "price"
+msgstr "prezzo"
+
+#: packages/blocks/Blocks/PriceChoice/block.json
+msgctxt "block description"
+msgid "Displays a price choice for a product"
+msgstr "Mostra una scelta di prezzo per un prodotto"
+
+#: packages/blocks/Blocks/PriceChoice/block.json
+msgctxt "block title"
+msgid "Price Choice"
+msgstr "Scelta del Prezzo"
+
+#: packages/blocks/Blocks/Phone/block.json
+msgctxt "block keyword"
+msgid "tel"
+msgstr "tel"
+
+#: packages/blocks/Blocks/Phone/block.json
+msgctxt "block keyword"
+msgid "phone"
+msgstr "telefono"
+
+#: packages/blocks/Blocks/Phone/block.json
+msgctxt "block description"
+msgid "Display a phone number collection field."
+msgstr "Visualizza un campo di raccolta numeri di telefono."
+
+#: packages/blocks/Blocks/Phone/block.json
+msgctxt "block title"
+msgid "Phone"
+msgstr "Telefono"
+
+#: packages/blocks/Blocks/Payment/block.json
+msgctxt "block keyword"
+msgid "stripe"
+msgstr "stripe"
+
+#: packages/blocks/Blocks/Payment/block.json
+msgctxt "block keyword"
+msgid "paypal"
+msgstr "paypal"
+
+#: packages/blocks/Blocks/Payment/block.json
+msgctxt "block keyword"
+msgid "credit"
+msgstr "credito"
+
+#: packages/blocks/Blocks/Payment/block.json
+msgctxt "block description"
+msgid "Display payment options"
+msgstr "Mostra opzioni di pagamento"
+
+#: packages/blocks/Blocks/Payment/block.json
+msgctxt "block title"
+msgid "Payment"
+msgstr "Pagamento"
+
+#: packages/blocks/Blocks/Password/block.json
+msgctxt "block keyword"
+msgid "password"
+msgstr "password"
+
+#: packages/blocks/Blocks/Password/block.json
+msgctxt "block description"
+msgid "Displays a password field to let a new user set a password."
+msgstr "Visualizza un campo password per consentire a un nuovo utente di impostare una password."
+
+#: packages/blocks/Blocks/Password/block.json
+msgctxt "block title"
+msgid "Password"
+msgstr "Password"
+
+#: packages/blocks/Blocks/OrderConfirmationLineItems/block.json
+msgctxt "block description"
+msgid "Display an order confirmation line items summary section."
+msgstr "Visualizza una sezione di riepilogo delle voci di conferma dell'ordine."
+
+#: packages/blocks/Blocks/OrderConfirmationLineItems/block.json
+msgctxt "block title"
+msgid "Order Confirmation Line Items"
+msgstr "Voci di conferma dell'ordine"
+
+#: packages/blocks/Blocks/OrderConfirmationCustomer/block.json
+msgctxt "block description"
+msgid "Display an order confirmation customer section."
+msgstr "Visualizzare una sezione cliente di conferma dell'ordine."
+
+#: packages/blocks/Blocks/OrderConfirmationCustomer/block.json
+msgctxt "block title"
+msgid "Order Confirmation Customer Details"
+msgstr "Conferma dell'ordine Dettagli del cliente"
+
+#: packages/blocks/Blocks/OrderBumps/block.json
+msgctxt "block description"
+msgid "Display your order bumps."
+msgstr "Mostra i tuoi order bump."
+
+#: packages/blocks/Blocks/OrderBumps/block.json
+msgctxt "block title"
+msgid "Order Bumps"
+msgstr "Order Bumps"
+
+#: packages/blocks/Blocks/NameYourPrice/block.json
+msgctxt "block description"
+msgid "Display a name your own price field."
+msgstr "Mostra un campo per inserire il prezzo che desideri."
+
+#: packages/blocks/Blocks/NameYourPrice/block.json
+msgctxt "block title"
+msgid "Name Your Own Price"
+msgstr "Il Prezzo È Libero"
+
+#: packages/blocks/Blocks/Name/block.json
+msgctxt "block description"
+msgid "Display a name collection field."
+msgstr "Visualizza un campo di raccolta nomi."
+
+#: packages/blocks/Blocks/Name/block.json
+msgctxt "block title"
+msgid "Full Name"
+msgstr "Nome Completo"
+
+#: packages/blocks/Blocks/LogoutButton/block.json
+msgctxt "block description"
+msgid "Display a logout button."
+msgstr "Mostra un bottone per il logout"
+
+#: packages/blocks/Blocks/LogoutButton/block.json
+msgctxt "block title"
+msgid "Logout Button"
+msgstr "Pulsante di Logout"
+
+#: packages/blocks/Blocks/LineItemShipping/block.json
+#: packages/blocks/Blocks/TaxLineItem/block.json
+#: packages/blocks/Blocks/Total/block.json
+msgctxt "block keyword"
+msgid "subtotal"
+msgstr "SubTotale"
+
+#: packages/blocks/Blocks/LineItems/block.json
+msgctxt "block keyword"
+msgid "line-items"
+msgstr "articoli in linea"
+
+#: packages/blocks/Blocks/LineItems/block.json
+#: packages/blocks/Blocks/LineItemShipping/block.json
+#: packages/blocks/Blocks/TaxLineItem/block.json
+#: packages/blocks/Blocks/Total/block.json
+msgctxt "block keyword"
+msgid "total"
+msgstr "totale"
+
+#: packages/blocks/Blocks/LineItems/block.json
+msgctxt "block description"
+msgid "Displays checkout line items."
+msgstr "Visualizza gli elementi della fila di pagamento."
+
+#: packages/blocks/Blocks/LineItems/block.json
+msgctxt "block title"
+msgid "Line Items"
+msgstr "Articoli"
+
+#: packages/blocks/Blocks/LastName/block.json
+msgctxt "block keyword"
+msgid "last-name"
+msgstr "cognome"
+
+#: packages/blocks/Blocks/LastName/block.json
+msgctxt "block description"
+msgid "Display a last name collection field."
+msgstr "Visualizza un campo di raccolta del cognome."
+
+#: packages/blocks/Blocks/LastName/block.json
+msgctxt "block title"
+msgid "Last Name"
+msgstr "Cognome"
+
+#: packages/blocks/Blocks/Input/block.json
+#: packages/blocks/Blocks/Textarea/block.json
+msgctxt "block keyword"
+msgid "field"
+msgstr "campo"
+
+#: packages/blocks/Blocks/Input/block.json
+#: packages/blocks/Blocks/Password/block.json
+#: packages/blocks/Blocks/Textarea/block.json
+msgctxt "block keyword"
+msgid "input"
+msgstr "input"
+
+#: packages/blocks/Blocks/Input/block.json
+msgctxt "block keyword"
+msgid "text"
+msgstr "testo"
+
+#: packages/blocks/Blocks/Input/block.json
+msgctxt "block description"
+msgid "Displays a form text input field. This is saved with the order as additional metadata."
+msgstr "Visualizza un campo di input di testo del modulo. Questo viene salvato con l'ordine come metadati aggiuntivi."
+
+#: packages/blocks/Blocks/Input/block.json
+msgctxt "block title"
+msgid "Text Field"
+msgstr "Campo di testo"
+
+#: packages/blocks/Blocks/Heading/block.json
+#: packages/blocks/Blocks/Product/Title/block.json
+#: packages/blocks/Blocks/ProductCollectionTitle/block.json
+#: packages/blocks/Blocks/ProductItemTitle/block.json
+#: packages/blocks/Blocks/Upsell/Title/block.json
+msgctxt "block keyword"
+msgid "title"
+msgstr "titolo"
+
+#: packages/blocks/Blocks/Heading/block.json
+#: packages/blocks/Blocks/Upsell/Title/block.json
+msgctxt "block keyword"
+msgid "heading"
+msgstr "intestazione"
+
+#: packages/blocks/Blocks/Heading/block.json
+msgctxt "block description"
+msgid "Displays a title/heading section"
+msgstr "Visualizza il titolo della sezione/intestazione"
+
+#: packages/blocks/Blocks/Heading/block.json
+msgctxt "block title"
+msgid "Title/Heading Section"
+msgstr "Titolo Sezione/Intestazione"
+
+#: packages/blocks/Blocks/Form/block.json
+msgctxt "block description"
+msgid "Displays a form."
+msgstr "Visualizza un modulo."
+
+#: packages/blocks/Blocks/Form/block.json
+msgctxt "block title"
+msgid "Form"
+msgstr "Form"
+
+#: packages/blocks/Blocks/FirstName/block.json
+msgctxt "block keyword"
+msgid "first-name"
+msgstr "nome"
+
+#: packages/blocks/Blocks/FirstName/block.json
+msgctxt "block description"
+msgid "Display a first name collection field."
+msgstr "Visualizza un campo di raccolta del nome."
+
+#: packages/blocks/Blocks/FirstName/block.json
+msgctxt "block title"
+msgid "First Name"
+msgstr "Nome"
+
+#: packages/blocks/Blocks/ExpressPayment/block.json
+msgctxt "block keyword"
+msgid "android"
+msgstr "android"
+
+#: packages/blocks/Blocks/ExpressPayment/block.json
+msgctxt "block keyword"
+msgid "google"
+msgstr "google"
+
+#: packages/blocks/Blocks/ExpressPayment/block.json
+msgctxt "block keyword"
+msgid "apple"
+msgstr "apple"
+
+#: packages/blocks/Blocks/ExpressPayment/block.json
+msgctxt "block description"
+msgid "Display express payment options (Google Pay, Apple Pay, etc.)"
+msgstr "Mostra opzioni di pagamento veloce (Google Pay, Apple Pay, ecc.)"
+
+#: packages/blocks/Blocks/ExpressPayment/block.json
+msgctxt "block title"
+msgid "Express Payment"
+msgstr "Pagamento Rapido"
+
+#: packages/blocks/Blocks/Email/block.json
+#: packages/blocks/Blocks/Form/block.json
+msgctxt "block keyword"
+msgid "mail"
+msgstr "mail"
+
+#: packages/blocks/Blocks/Email/block.json
+#: packages/blocks/Blocks/Form/block.json
+msgctxt "block keyword"
+msgid "email"
+msgstr "email"
+
+#: packages/blocks/Blocks/Email/block.json
+msgctxt "block description"
+msgid "Displays an email form field."
+msgstr "Visualizza un campo e-mail."
+
+#: packages/blocks/Blocks/Email/block.json
+msgctxt "block title"
+msgid "Email"
+msgstr "Email"
+
+#: packages/blocks/Blocks/DonationAmount/block.json
+#: packages/blocks/Blocks/ProductDonationAmount/block.json
+msgctxt "block description"
+msgid "Displays a donation amount for the donation form."
+msgstr "Visualizza un importo di donazione per il modulo di donazione."
+
+#: packages/blocks/Blocks/DonationAmount/block.json
+msgctxt "block title"
+msgid "Donation Amount"
+msgstr "Importo della donazione"
+
+#: packages/blocks/Blocks/Donation/block.json
+#: packages/blocks/Blocks/DonationAmount/block.json
+#: packages/blocks/Blocks/ProductDonation/block.json
+#: packages/blocks/Blocks/ProductDonationAmount/block.json
+#: packages/blocks/Blocks/ProductDonationAmounts/block.json
+#: packages/blocks/Blocks/ProductDonationCustomAmount/block.json
+#: packages/blocks/Blocks/ProductDonationPrices/block.json
+#: packages/blocks/Blocks/ProductDonationRecurringPrices/block.json
+msgctxt "block keyword"
+msgid "amount"
+msgstr "importo"
+
+#: packages/blocks/Blocks/Donation/block.json
+#: packages/blocks/Blocks/DonationAmount/block.json
+#: packages/blocks/Blocks/Input/block.json
+#: packages/blocks/Blocks/ProductDonation/block.json
+#: packages/blocks/Blocks/ProductDonationAmount/block.json
+#: packages/blocks/Blocks/ProductDonationAmounts/block.json
+#: packages/blocks/Blocks/ProductDonationCustomAmount/block.json
+#: packages/blocks/Blocks/ProductDonationPrices/block.json
+#: packages/blocks/Blocks/Textarea/block.json
+msgctxt "block keyword"
+msgid "custom"
+msgstr "personalizzato"
+
+#: packages/blocks/Blocks/Donation/block.json
+#: packages/blocks/Blocks/DonationAmount/block.json
+#: packages/blocks/Blocks/ProductDonation/block.json
+#: packages/blocks/Blocks/ProductDonationAmount/block.json
+#: packages/blocks/Blocks/ProductDonationAmounts/block.json
+#: packages/blocks/Blocks/ProductDonationCustomAmount/block.json
+#: packages/blocks/Blocks/ProductDonationPrices/block.json
+#: packages/blocks/Blocks/ProductDonationRecurringPrices/block.json
+msgctxt "block keyword"
+msgid "ad hoc"
+msgstr "ad hoc"
+
+#: packages/blocks/Blocks/Donation/block.json
+#: packages/blocks/Blocks/DonationAmount/block.json
+#: packages/blocks/Blocks/ProductDonation/block.json
+#: packages/blocks/Blocks/ProductDonationAmount/block.json
+#: packages/blocks/Blocks/ProductDonationAmounts/block.json
+#: packages/blocks/Blocks/ProductDonationCustomAmount/block.json
+#: packages/blocks/Blocks/ProductDonationPrices/block.json
+#: packages/blocks/Blocks/ProductDonationRecurringPrices/block.json
+msgctxt "block keyword"
+msgid "donation"
+msgstr "donazione"
+
+#: packages/blocks/Blocks/Donation/block.json
+#: packages/blocks/Blocks/ProductDonation/block.json
+msgctxt "block description"
+msgid "Displays a donation amount for the user to choose from."
+msgstr "Mostra un importo di donazione affinché l'utente possa scegliere."
+
+#: packages/blocks/Blocks/Donation/block.json
+msgctxt "block title"
+msgid "Donation"
+msgstr "Donazione"
+
+#: packages/blocks/Blocks/Divider/block.json
+msgctxt "block keyword"
+msgid "hr"
+msgstr "hr"
+
+#: packages/blocks/Blocks/Divider/block.json
+msgctxt "block keyword"
+msgid "divider"
+msgstr "divisore"
+
+#: packages/blocks/Blocks/Divider/block.json
+msgctxt "block description"
+msgid "Displays a divider."
+msgstr "Visualizza un divisore."
+
+#: packages/blocks/Blocks/Divider/block.json
+msgctxt "block title"
+msgid "Divider"
+msgstr "Divisore"
+
+#: packages/blocks/Blocks/Dashboard/WordPressAccount/block.json
+msgctxt "block keyword"
+msgid "user"
+msgstr "utente"
+
+#: packages/blocks/Blocks/Dashboard/WordPressAccount/block.json
+msgctxt "block keyword"
+msgid "account"
+msgstr "account"
+
+#: packages/blocks/Blocks/Dashboard/WordPressAccount/block.json
+msgctxt "block description"
+msgid "WordPress User Account Information"
+msgstr "Informazioni sull'account utente di WordPress"
+
+#: packages/blocks/Blocks/Dashboard/WordPressAccount/block.json
+msgctxt "block title"
+msgid "WordPress User Account"
+msgstr "Account utente WordPress"
+
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerShippingAddress/block.json
+msgctxt "block description"
+msgid "Displays the customers shipping addresses and lets them update details."
+msgstr "Mostra gli indirizzi di spedizione dei clienti e consente loro di aggiornare i dettagli."
+
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerShippingAddress/block.json
+msgctxt "block title"
+msgid "Customer Shipping and Tax Address"
+msgstr "Indirizzo di spedizione e tassazione del cliente"
+
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerInvoices/block.json
+msgctxt "block description"
+msgid "Displays the customers invoices."
+msgstr "Visualizza le fatture dei clienti."
+
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerInvoices/block.json
+msgctxt "block title"
+msgid "Customer Invoices"
+msgstr "Fatture Cliente"
+
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerCharges/block.json
+msgctxt "block description"
+msgid "Displays the customers charges."
+msgstr "Mostra le spese dei clienti."
+
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerCharges/block.json
+msgctxt "block title"
+msgid "Customer Charges"
+msgstr "Costi del Cliente"
+
+#: packages/blocks/Blocks/Dashboard/DashboardTabs/block.json
+msgctxt "block description"
+msgid "Displays the users customer dashboard tabs."
+msgstr "Visualizza le schede del pannello cliente dell'utente."
+
+#: packages/blocks/Blocks/Dashboard/DashboardTabs/block.json
+msgctxt "block title"
+msgid "Customer Dashboard Tabs"
+msgstr "Schede Dashboard "
+
+#: packages/blocks/Blocks/Dashboard/DashboardTab/block.json
+msgctxt "block title"
+msgid "Customer Dashboard Tab"
+msgstr "Scheda Dashboard "
+
+#: packages/blocks/Blocks/Dashboard/DashboardPages/block.json
+msgctxt "block description"
+msgid "Displays the users customer dashboard pages."
+msgstr "Visualizza le pagine Dashboard del cliente."
+
+#: packages/blocks/Blocks/Dashboard/DashboardPages/block.json
+msgctxt "block title"
+msgid "Customer Dashboard Pages"
+msgstr "Pagine Dashboard Cliente"
+
+#: packages/blocks/Blocks/Dashboard/DashboardPage/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardTab/block.json
+msgctxt "block description"
+msgid "Displays the users customer dashboard tab."
+msgstr "Visualizza la scheda della dashboard cliente dell'utente."
+
+#: packages/blocks/Blocks/Dashboard/DashboardPage/block.json
+msgctxt "block title"
+msgid "Customer Dashboard Page"
+msgstr "Pagina Dashboard Cliente"
+
+#: packages/blocks/Blocks/Dashboard/CustomerSubscriptions/block.json
+msgctxt "block description"
+msgid "Displays a customer's subscriptions."
+msgstr "Mostra gli abbonamenti di un cliente."
+
+#: packages/blocks/Blocks/Dashboard/CustomerSubscriptions/block.json
+msgctxt "block title"
+msgid "Customer Subscriptions"
+msgstr "Abbonamenti Cliente"
+
+#: packages/blocks/Blocks/Dashboard/CustomerPaymentMethods/block.json
+msgctxt "block description"
+msgid "Lets the customer update payment methods."
+msgstr "Permette al cliente di aggiornare i metodi di pagamento."
+
+#: packages/blocks/Blocks/Dashboard/CustomerPaymentMethods/block.json
+msgctxt "block title"
+msgid "Customer Payment Methods"
+msgstr "Metodi di Pagamento del Cliente"
+
+#: packages/blocks/Blocks/Dashboard/CustomerOrders/block.json
+msgctxt "block description"
+msgid "Displays the customers orders."
+msgstr "Mostra gli ordini dei clienti."
+
+#: packages/blocks/Blocks/Dashboard/CustomerOrders/block.json
+msgctxt "block title"
+msgid "Customer Orders"
+msgstr "Ordini dei clienti"
+
+#: packages/blocks/Blocks/Dashboard/CustomerDownloads/block.json
+#: packages/blocks/Blocks/Dashboard/OrderDownloads/block.json
+msgctxt "block keyword"
+msgid "download"
+msgstr "download"
+
+#: packages/blocks/Blocks/Dashboard/CustomerDownloads/block.json
+#: packages/blocks/Blocks/Dashboard/OrderDownloads/block.json
+msgctxt "block description"
+msgid "Displays the customer's downloads."
+msgstr "Mostra i download del cliente."
+
+#: packages/blocks/Blocks/Dashboard/CustomerDownloads/block.json
+#: packages/blocks/Blocks/Dashboard/OrderDownloads/block.json
+msgctxt "block title"
+msgid "Customer Downloads"
+msgstr "Contenuti Scaricabili Per I Clienti"
+
+#: packages/blocks/Blocks/Dashboard/CustomerDashboardArea/block.json
+msgctxt "block title"
+msgid "Customer Dashboard"
+msgstr "Pannello di Controllo Cliente"
+
+#: packages/blocks/Blocks/Dashboard/CustomerDashboard/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerDashboardArea/block.json
+msgctxt "block description"
+msgid "Displays the users customer dashboard."
+msgstr "Visualizza la dashboard del cliente."
+
+#: packages/blocks/Blocks/Dashboard/CustomerDashboard/block.json
+msgctxt "block title"
+msgid "Tabbed Customer Dashboard"
+msgstr "Dashboard Clienti con Schede"
+
+#: packages/blocks/Blocks/Dashboard/CustomerBillingDetails/block.json
+msgctxt "block description"
+msgid "Displays the customers billing details."
+msgstr "Mostra i dettagli di fatturazione del cliente."
+
+#: packages/blocks/Blocks/Dashboard/CustomerBillingDetails/block.json
+msgctxt "block title"
+msgid "Customer Billing Details"
+msgstr "Dettagli di Fatturazione del Cliente"
+
+#: packages/blocks/Blocks/CustomerDashboardButton/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerBillingDetails/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerDashboard/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerDashboardArea/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerDownloads/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerLicenses/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerOrders/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerPaymentMethods/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerSubscriptions/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardPage/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardPages/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardTab/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardTabs/block.json
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerCharges/block.json
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerInvoices/block.json
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerShippingAddress/block.json
+#: packages/blocks/Blocks/Dashboard/OrderDownloads/block.json
+#: packages/blocks/Blocks/Dashboard/WordPressAccount/block.json
+#: packages/blocks/Blocks/LogoutButton/block.json
+msgctxt "block keyword"
+msgid "dashboard"
+msgstr "dashboard"
+
+#: packages/blocks/Blocks/CustomerDashboardButton/block.json
+msgctxt "block description"
+msgid "Display a button to link the user to their customer dashboard."
+msgstr "Visualizza un pulsante per collegare l'utente alla propria dashboard cliente."
+
+#: packages/blocks/Blocks/CustomerDashboardButton/block.json
+msgctxt "block title"
+msgid "Customer Dashboard Button"
+msgstr "Pulsante Dashboard Cliente"
+
+#: packages/blocks/Blocks/Coupon/block.json
+msgctxt "block description"
+msgid "Display a coupon form."
+msgstr "Mostra un modulo per inserire un codice promozionale."
+
+#: packages/blocks/Blocks/Coupon/block.json
+msgctxt "block title"
+msgid "Coupon"
+msgstr "Codice Sconto"
+
+#: packages/blocks/Blocks/Confirmation/block.json
+#: packages/blocks/Blocks/OrderBumps/block.json
+#: packages/blocks/Blocks/OrderConfirmationCustomer/block.json
+#: packages/blocks/Blocks/OrderConfirmationLineItems/block.json
+msgctxt "block keyword"
+msgid "thank you"
+msgstr "grazie"
+
+#: packages/blocks/Blocks/Confirmation/block.json
+#: packages/blocks/Blocks/OrderConfirmationLineItems/block.json
+msgctxt "block keyword"
+msgid "thank"
+msgstr "grazie"
+
+#: packages/blocks/Blocks/Confirmation/block.json
+msgctxt "block description"
+msgid "Display an order confirmation section."
+msgstr "Visualizza una sezione di conferma dell'ordine."
+
+#: packages/blocks/Blocks/Confirmation/block.json
+msgctxt "block title"
+msgid "Order Confirmation"
+msgstr "Conferma Ordine"
+
+#: packages/blocks/Blocks/ConditionalForm/block.json
+msgctxt "block description"
+msgid "Display an area of the form based on conditions."
+msgstr "Visualizza un'area del form in base alle condizioni."
+
+#: packages/blocks/Blocks/ConditionalForm/block.json
+msgctxt "block title"
+msgid "Conditional"
+msgstr "Condizionale"
+
+#: packages/blocks/Blocks/Columns/block.json
+msgctxt "block description"
+msgid "Display content in multiple columns, with blocks added to each column."
+msgstr "Visualizza il contenuto in più colonne, con blocchi aggiunti a ciascuna colonna."
+
+#: packages/blocks/Blocks/Columns/block.json
+msgctxt "block title"
+msgid "SureCart Columns"
+msgstr "SureCart Colonne"
+
+#: packages/blocks/Blocks/Column/block.json
+msgctxt "block description"
+msgid "A single column within a columns block."
+msgstr "Una singola colonna all'interno di un blocco di colonne."
+
+#: packages/blocks/Blocks/Column/block.json
+msgctxt "block title"
+msgid "SureCart Column"
+msgstr "Surecart Colonna"
+
+#: packages/blocks/Blocks/CollectionPage/block.json
+#: packages/blocks/Blocks/Radio/block.json
+#: packages/blocks/Blocks/RadioGroup/block.json
+msgctxt "block keyword"
+msgid "surecart"
+msgstr "surecart"
+
+#: packages/blocks/Blocks/CheckoutForm/block.json
+#: packages/blocks/Blocks/Product/CollectionBadges/block.json
+#: packages/blocks/Blocks/Product/Quantity/block.json
+#: packages/blocks/Blocks/Product/Title/block.json
+msgctxt "block keyword"
+msgid "form"
+msgstr "form"
+
+#: packages/blocks/Blocks/CheckoutForm/block.json
+msgctxt "block description"
+msgid "Display a checkout form"
+msgstr "Mostra un modulo di pagamento"
+
+#: packages/blocks/Blocks/CheckoutForm/block.json
+msgctxt "block title"
+msgid "Checkout Form"
+msgstr "Modulo di Checkout"
+
+#: packages/blocks/Blocks/CheckoutErrors/block.json
+msgctxt "block keyword"
+msgid "notice"
+msgstr "avviso"
+
+#: packages/blocks/Blocks/CheckoutErrors/block.json
+msgctxt "block keyword"
+msgid "error"
+msgstr "Errore"
+
+#: packages/blocks/Blocks/CheckoutErrors/block.json
+msgctxt "block description"
+msgid "Display any checkout-related errors. By default the checkout form shows these at the top. Add this block to change the location."
+msgstr "Visualizza eventuali errori relativi al checkout. Per impostazione predefinita, il modulo di pagamento li mostra in alto. Aggiungi questo blocco per modificare la posizione."
+
+#: packages/blocks/Blocks/CheckoutErrors/block.json
+msgctxt "block title"
+msgid "Checkout Errors"
+msgstr "Errori Durante Il Pagamento"
+
+#: packages/blocks/Blocks/Checkbox/block.json
+#: packages/blocks/Blocks/CollapsibleRow/block.json
+msgctxt "block keyword"
+msgid "toggle"
+msgstr "toggle"
+
+#: packages/blocks/Blocks/Checkbox/block.json
+msgctxt "block keyword"
+msgid "checkbox"
+msgstr "checkbox"
+
+#: packages/blocks/Blocks/Checkbox/block.json
+msgctxt "block description"
+msgid "Display a checkbox input"
+msgstr "Visualizza un input casella checkbox"
+
+#: packages/blocks/Blocks/Checkbox/block.json
+msgctxt "block title"
+msgid "Checkbox"
+msgstr "Checkbox"
+
+#: packages/blocks/Blocks/CartSubtotal/block.json
+msgctxt "block description"
+msgid "Display the cart subtotal"
+msgstr "Mostra il totale parziale del carrello"
+
+#: packages/blocks/Blocks/CartSubtotal/block.json
+msgctxt "block title"
+msgid "Cart Subtotal"
+msgstr "Subtotale Carrello"
+
+#: packages/blocks/Blocks/CartSubmit/block.json
+msgctxt "block description"
+msgid "The cart submit button"
+msgstr "Il pulsante di invio del carrello"
+
+#: packages/blocks/Blocks/CartSubmit/block.json
+msgctxt "block title"
+msgid "Cart Submit Button"
+msgstr "Pulsante Invio Carrello"
+
+#: packages/blocks/Blocks/CartMessage/block.json
+msgctxt "block description"
+msgid "Display a custom message in the cart"
+msgstr "Visualizza un messaggio personalizzato nel carrello"
+
+#: packages/blocks/Blocks/CartMessage/block.json
+msgctxt "block title"
+msgid "Cart Message"
+msgstr "Messaggio del carrello"
+
+#: packages/blocks/Blocks/CartMenuButton/block.json
+msgctxt "block description"
+msgid "The cart menu icon that shows your cart quantity."
+msgstr "L'icona del menu del carrello che indica la quantità di articoli nel carrello."
+
+#: packages/blocks/Blocks/CartMenuButton/block.json
+msgctxt "block title"
+msgid "Cart Menu Icon"
+msgstr "Icona del menu del carrello"
+
+#: packages/blocks/Blocks/CartItems/block.json
+msgctxt "block title"
+msgid "Cart Items"
+msgstr "Articoli nel carrello"
+
+#: packages/blocks/Blocks/CartHeader/block.json
+msgctxt "block description"
+msgid "Display a cart header"
+msgstr "Visualizza un'intestazione del carrello"
+
+#: packages/blocks/Blocks/CartHeader/block.json
+msgctxt "block title"
+msgid "Cart Header"
+msgstr "Intestazione del Carrello"
+
+#: packages/blocks/Blocks/CartCoupon/block.json
+#: packages/blocks/Blocks/Coupon/block.json
+msgctxt "block keyword"
+msgid "promo"
+msgstr "promo"
+
+#: packages/blocks/Blocks/CartCoupon/block.json
+#: packages/blocks/Blocks/Coupon/block.json
+msgctxt "block keyword"
+msgid "coupon"
+msgstr "coupon"
+
+#: packages/blocks/Blocks/CartCoupon/block.json
+msgctxt "block description"
+msgid "Display a coupon form in the cart."
+msgstr "Mostra un modulo  coupon nel carrello."
+
+#: packages/blocks/Blocks/CartCoupon/block.json
+msgctxt "block title"
+msgid "Cart Coupon"
+msgstr "Codice Sconto Carrello"
+
+#: packages/blocks/Blocks/CartBumpLineItem/block.json
+msgctxt "block description"
+msgid "Display the cart bump line item"
+msgstr "Mostra l'articolo del carrello promozionale"
+
+#: packages/blocks/Blocks/CartBumpLineItem/block.json
+msgctxt "block title"
+msgid "Cart Bump Line Item"
+msgstr "Articolo aggiuntivo nel carrello"
+
+#: packages/blocks/Blocks/Cart/block.json
+#: packages/blocks/Blocks/CartItems/block.json
+msgctxt "block description"
+msgid "The cart"
+msgstr "il carrello"
+
+#: packages/blocks/Blocks/Cart/block.json
+msgctxt "block title"
+msgid "Cart"
+msgstr "Carrello"
+
+#: packages/blocks/Blocks/Card/block.json
+#: packages/blocks/Blocks/Confirmation/block.json
+#: packages/blocks/Blocks/OrderBumps/block.json
+#: packages/blocks/Blocks/OrderConfirmationCustomer/block.json
+#: packages/blocks/Blocks/OrderConfirmationLineItems/block.json
+msgctxt "block keyword"
+msgid "confirm"
+msgstr "conferma"
+
+#: packages/blocks/Blocks/Card/block.json
+msgctxt "block keyword"
+msgid "details"
+msgstr "dettagli"
+
+#: packages/blocks/Blocks/Card/block.json
+#: packages/blocks/Blocks/Payment/block.json
+msgctxt "block keyword"
+msgid "card"
+msgstr "carta"
+
+#: packages/blocks/Blocks/Card/block.json
+msgctxt "block description"
+msgid "Display a card block."
+msgstr "Visualizza un blocco card."
+
+#: packages/blocks/Blocks/Card/block.json
+msgctxt "block title"
+msgid "Card"
+msgstr "Carta"
+
+#: packages/blocks/Blocks/BuyButton/block.json
+msgctxt "block description"
+msgid "Display a button to immediately redirect to the checkout page with the product in the cart."
+msgstr "Visualizza un pulsante per reindirizzare immediatamente alla pagina di pagamento con il prodotto nel carrello."
+
+#: packages/blocks/Blocks/BuyButton/block.json
+msgctxt "block title"
+msgid "Buy Button"
+msgstr "Pulsante Acquista"
+
+#: packages/blocks/Blocks/Button/block.json
+#: packages/blocks/Blocks/Checkbox/block.json
+#: packages/blocks/Blocks/Total/block.json
+msgctxt "block keyword"
+msgid "engine"
+msgstr "engine"
+
+#: packages/blocks/Blocks/Button/block.json
+#: packages/blocks/Blocks/Submit/block.json
+#: packages/blocks/Blocks/Subtotal/block.json
+#: packages/blocks/Blocks/Switch/block.json
+#: packages/blocks/Blocks/Upsell/SubmitButton/block.json
+msgctxt "block keyword"
+msgid "submit"
+msgstr "invia"
+
+#: packages/blocks/Blocks/Button/block.json
+#: packages/blocks/Blocks/Product/BuyButtons/block.json
+#: packages/blocks/Blocks/Submit/block.json
+#: packages/blocks/Blocks/Subtotal/block.json
+#: packages/blocks/Blocks/Switch/block.json
+#: packages/blocks/Blocks/Upsell/NoThanksButton/block.json
+#: packages/blocks/Blocks/Upsell/SubmitButton/block.json
+msgctxt "block keyword"
+msgid "button"
+msgstr "bottone"
+
+#: packages/blocks/Blocks/Button/block.json
+msgctxt "block description"
+msgid "Display a checkout form button."
+msgstr "Mostra un pulsante per il modulo di pagamento."
+
+#: packages/blocks/Blocks/Button/block.json
+msgctxt "block title"
+msgid "Button"
+msgstr "Bottone"
+
+#: packages/blocks/Blocks/BumpLineItem/block.json
+#: packages/blocks/Blocks/ProductItemPrice/block.json
+msgctxt "block keyword"
+msgid "discount"
+msgstr "sconto"
+
+#: packages/blocks/Blocks/BumpLineItem/block.json
+msgctxt "block keyword"
+msgid "bump"
+msgstr "bump"
+
+#: packages/blocks/Blocks/BumpLineItem/block.json
+msgctxt "block keyword"
+msgid "line"
+msgstr "linea"
+
+#: packages/blocks/Blocks/BumpLineItem/block.json
+#: packages/blocks/Blocks/Button/block.json
+#: packages/blocks/Blocks/Checkbox/block.json
+#: packages/blocks/Blocks/CheckoutErrors/block.json
+#: packages/blocks/Blocks/CheckoutForm/block.json
+#: packages/blocks/Blocks/LineItemShipping/block.json
+#: packages/blocks/Blocks/PriceChoice/block.json
+#: packages/blocks/Blocks/PriceSelector/block.json
+#: packages/blocks/Blocks/ShippingChoices/block.json
+#: packages/blocks/Blocks/TaxLineItem/block.json
+#: packages/blocks/Blocks/Total/block.json
+#: packages/blocks/Blocks/VariantPriceSelector/block.json
+msgctxt "block keyword"
+msgid "checkout"
+msgstr "checkout"
+
+#: packages/blocks/Blocks/BumpLineItem/block.json
+msgctxt "block description"
+msgid "Displays the order bump discount."
+msgstr "Mostra lo sconto dell'ordine aggiuntivo."
+
+#: packages/blocks/Blocks/BumpLineItem/block.json
+msgctxt "block title"
+msgid "Bump Discount"
+msgstr "Bump Sconto"
+
+#: packages/blocks/Blocks/AddToCartButton/block.json
+#: packages/blocks/Blocks/BuyButton/block.json
+#: packages/blocks/Blocks/CustomerDashboardButton/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerBillingDetails/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerDashboard/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerDashboardArea/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerDownloads/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerLicenses/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerOrders/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerPaymentMethods/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerSubscriptions/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardPage/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardPages/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardTab/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardTabs/block.json
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerCharges/block.json
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerInvoices/block.json
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerShippingAddress/block.json
+#: packages/blocks/Blocks/Dashboard/OrderDownloads/block.json
+#: packages/blocks/Blocks/FirstName/block.json
+#: packages/blocks/Blocks/LastName/block.json
+#: packages/blocks/Blocks/LogoutButton/block.json
+#: packages/blocks/Blocks/Name/block.json
+#: packages/blocks/Blocks/NameYourPrice/block.json
+#: packages/blocks/Blocks/OrderBumps/block.json
+#: packages/blocks/Blocks/OrderConfirmationCustomer/block.json
+#: packages/blocks/Blocks/Phone/block.json
+#: packages/blocks/Blocks/SessionDetail/block.json
+msgctxt "block keyword"
+msgid "customer"
+msgstr "cliente"
+
+#: packages/blocks/Blocks/AddToCartButton/block.json
+#: packages/blocks/Blocks/BuyButton/block.json
+#: packages/blocks/Blocks/CustomerDashboardButton/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerBillingDetails/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerDashboard/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerDashboardArea/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerOrders/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerPaymentMethods/block.json
+#: packages/blocks/Blocks/Dashboard/CustomerSubscriptions/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardPage/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardPages/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardTab/block.json
+#: packages/blocks/Blocks/Dashboard/DashboardTabs/block.json
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerCharges/block.json
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerInvoices/block.json
+#: packages/blocks/Blocks/Dashboard/Deprecated/CustomerShippingAddress/block.json
+#: packages/blocks/Blocks/FirstName/block.json
+#: packages/blocks/Blocks/LastName/block.json
+#: packages/blocks/Blocks/LogoutButton/block.json
+#: packages/blocks/Blocks/Name/block.json
+#: packages/blocks/Blocks/NameYourPrice/block.json
+msgctxt "block keyword"
+msgid "name"
+msgstr "nome"
+
+#: packages/blocks/Blocks/AddToCartButton/block.json
+msgctxt "block description"
+msgid "Display a button to add a specific price to the cart."
+msgstr "Mostra un pulsante per aggiungere un prezzo specifico al carrello."
+
+#: packages/blocks/Blocks/AddToCartButton/block.json
+msgctxt "block title"
+msgid "Add To Cart Button"
+msgstr "Aggiungi al Carrello"
+
+#: packages/blocks/Blocks/Address/block.json
+#: packages/blocks/Blocks/TaxLineItem/block.json
+msgctxt "block keyword"
+msgid "tax"
+msgstr "tasse"
+
+#: packages/blocks/Blocks/Address/block.json
+#: packages/blocks/Blocks/LineItemShipping/block.json
+#: packages/blocks/Blocks/ShippingChoices/block.json
+msgctxt "block keyword"
+msgid "shipping"
+msgstr "spedizione"
+
+#: packages/blocks/Blocks/Address/block.json
+msgctxt "block keyword"
+msgid "address"
+msgstr "indirizzo"
+
+#: packages/blocks/Blocks/Address/block.json
+msgctxt "block description"
+msgid "Display an shipping address form. This is used for shipping and tax calculations."
+msgstr "Visualizza un modulo per inserire l'indirizzo di spedizione. Questo viene utilizzato per il calcolo delle spese di spedizione e delle tasse."
+
+#: app/src/Controllers/Admin/AffiliationRequests/AffiliationRequestsListTable.php:224
+#: app/src/Models/AffiliationRequest.php:119
+#: packages/admin/orders/modules/Refunds.js:46 packages/admin/util.js:90
+msgid "Pending"
+msgstr "In attesa di"
+
+#: packages/blocks/Controllers/LicenseController.php:134
+#: packages/admin/licenses/modules/Details/index.js:36
+#: packages/admin/store/add-entities.js:152
+msgid "License"
+msgstr "Licenza"
+
+#: packages/blocks/Controllers/CustomerController.php:59
+#: packages/admin/customers/modules/PaymentMethods/index.js:47
+msgid "Payment Methods"
+msgstr "Modalità di pagamento"
+
+#: app/src/Controllers/Admin/CancellationInsights/CancellationInsightsListTable.php:147
+#: app/src/Controllers/Admin/Customers/CustomersListTable.php:143
+#: app/src/Controllers/Admin/Licenses/LicensesListTable.php:134
+#: packages/admin/customers/EditCustomer.js:123
+msgid "Edit Customer"
+msgstr "Modifica cliente"
+
+#: app/src/Controllers/Admin/Upsells/UpsellsListTable.php:93
+#: packages/admin/affiliations/modules/affiliation-products/index.js:324
+#: packages/admin/affiliations/modules/Commission.js:153
+#: packages/admin/bumps/modules/Priority.js:9
+#: packages/admin/bumps/modules/Priority.js:11
+#: packages/admin/products/modules/Affiliation.js:148
+#: packages/admin/upsell-funnels/modules/Priority.js:9
+#: packages/admin/upsell-funnels/modules/Priority.js:11
+msgid "Priority"
+msgstr "Priorità"
+
+#: views/web/buy.php:43
+msgid "Not Published"
+msgstr "Non Pubblicato"
+
+#: views/web/buy-template.php:119
+#: packages/admin/invoices/modules/LineItems.js:187
+msgid "Total Due"
+msgstr "Totale dovuto"
+
+#: views/web/buy-template.php:118
+#: packages/blocks/Blocks/Total/deprecated.js:133
+#: packages/blocks/Blocks/Total/edit.js:64
+#: packages/blocks/Blocks/Total/save.js:24
+#: packages/blocks/Blocks/Totals/edit.js:70
+msgid "Total Due Today"
+msgstr "Totale Dovuto Oggi"
+
+#: views/web/buy-template.php:94
+#: packages/blocks/Blocks/CartCoupon/deprecated.js:48
+#: packages/blocks/Blocks/Coupon/deprecated.js:25
+msgid "Enter coupon code"
+msgstr "Inserisci il codice sconto"
+
+#: views/web/buy-template.php:94
+msgid "Coupon Code"
+msgstr "Codice Sconto"
+
+#: views/web/buy-template.php:91 packages/blocks/Blocks/OrderBumps/edit.js:16
+msgid "Recommended"
+msgstr "Consigliato"
+
+#: views/web/buy-template.php:85 views/web/buy-template.php:86
+msgid "Your name"
+msgstr "Il tuo nome"
+
+#: views/web/buy-template.php:83
+msgid "Your email address"
+msgstr "Il tuo indirizzo email"
+
+#: views/admin/cancellation-insights/index.php:24
+#: packages/admin/cancellation-insights/CancellationInsights.js:119
+msgid "Cancellation Attempts"
+msgstr "Tentativi di Annullamento"
+
+#: views/admin/cancellation-insights/cta-banner.php:106
+msgid "Get Subscription Saver"
+msgstr "Ottieni Subscription Saver"
+
+#: views/admin/cancellation-insights/cta-banner.php:103
+msgid "Automatically lower your subscription cancellation while making customers happy and saving more revenue with Subscription Saver."
+msgstr "Riduci le disdette degli abbonamenti in modo automatico, migliorando la soddisfazione dei clienti ed aumentando le entrate con Subscription Saver."
+
+#: views/admin/cancellation-insights/cta-banner.php:100
+msgid "The easiest thing you can do to increase subscription revenue."
+msgstr "La cosa più semplice da fare per aumentare i ricavi da abbonamento."
+
+#: templates/pages/template-surecart-dashboard.php:119
+#: views/layouts/partials/customer-dashboard/dashboard-navigation.php:53
+msgid "Log Out"
+msgstr "Log Out"
+
+#: templates/forms/two-column.php:6
+msgid "Two Column"
+msgstr "Due Colonne"
+
+#: templates/forms/simple.php:6
+msgid "Simple"
+msgstr "Semplice"
+
+#: templates/forms/sections.php:6
+msgid "Sections"
+msgstr "Sezioni"
+
+#: packages/blocks/Controllers/UserController.php:95
+msgid "Update Password"
+msgstr "Aggiorna La Password"
+
+#: packages/blocks/Controllers/UserController.php:74
+msgid "Update Account Details"
+msgstr "Aggiorna I Dati Dell'Account"
+
+#: packages/blocks/Controllers/UserController.php:32
+#: packages/blocks/Controllers/UserController.php:64
+msgid "Account Details"
+msgstr "Dettagli dell'account"
+
+#: packages/blocks/Controllers/SubscriptionController.php:681
+#: packages/admin/store/add-entities.js:194
+#: packages/admin/subscriptions/edit/modules/PaymentMethod/index.js:46
+msgid "Payment Method"
+msgstr "Metodo di Pagamento"
+
+#: packages/blocks/Controllers/SubscriptionController.php:563
+msgid "New Plan"
+msgstr "Nuovo Piano"
+
+#: packages/blocks/Controllers/SubscriptionController.php:547
+#: packages/blocks/Controllers/SubscriptionController.php:678
+#: packages/admin/hocs/withConfirm.js:51
+#: packages/admin/orders/modules/OrderCancelConfirmModal.js:56
+#: packages/admin/orders/modules/OrderStatusConfirmModal.js:64
+#: packages/admin/orders/modules/ReturnRequest/ReturnCancelConfirmModal.js:51
+#: packages/admin/products/modules/Image/ConfirmDeleteImage.js:39
+#: packages/admin/subscriptions/show/modules/modals/CancelSubscriptionModal.js:69
+#: packages/admin/subscriptions/show/modules/modals/CancelUpdateModal.js:44
+#: packages/admin/subscriptions/show/modules/modals/CompleteSubscriptionModal.js:41
+#: packages/admin/subscriptions/show/modules/modals/DontCancelModal.js:44
+#: packages/admin/subscriptions/show/modules/modals/ForceCancelModal.js:68
+#: packages/admin/subscriptions/show/modules/modals/PayOffSubscriptionModal.js:52
+#: packages/admin/subscriptions/show/modules/modals/RetryPaymentModal.js:75
+msgid "Confirm"
+msgstr "Confermare"
+
+#: packages/blocks/Controllers/SubscriptionController.php:414
+msgid "Enter An Amount"
+msgstr "Inserisci Un Importo"
+
+#: packages/blocks/Controllers/SubscriptionController.php:403
+msgid "Enter Amount"
+msgstr "Inserisci Importo"
+
+#: packages/blocks/Controllers/SubscriptionController.php:360
+#: packages/blocks/Controllers/SubscriptionController.php:364
+msgid "By updating or canceling your plan, you agree to the <a href=\"%1$1s\" target=\"_blank\">%2$2s</a>"
+msgstr "Aggiornando o annullando il tuo piano, accetti il <a href=\"%1$1s\" target=\"_blank\">%2$2s</a>"
+
+#: packages/blocks/Controllers/SubscriptionController.php:356
+#: packages/blocks/Controllers/SubscriptionController.php:360
+#: packages/admin/onboarding/components/InitialSetup.js:106
+msgid "Privacy Policy"
+msgstr "Politica sulla privacy"
+
+#: packages/blocks/Controllers/SubscriptionController.php:356
+#: packages/blocks/Controllers/SubscriptionController.php:364
+msgid "Terms"
+msgstr "Termini"
+
+#: packages/blocks/Controllers/SubscriptionController.php:356
+msgid "By updating or canceling your plan, you agree to the <a href=\"%1$1s\" target=\"_blank\">%2$2s</a> and <a href=\"%3$3s\" target=\"_blank\">%4$4s</a>"
+msgstr "Aggiornando o annullando il tuo piano, accetti il <a href=\"%1$1s\" target=\"_blank\">%2$2s</a> e <a href=\"%3$3s\" target=\"_blank\">%4$4s</a>"
+
+#: packages/blocks/Controllers/SubscriptionController.php:333
+msgid "Change Payment Method"
+msgstr "Cambia Metodo di Pagamento"
+
+#: packages/blocks/Controllers/SubscriptionController.php:309
+#: packages/admin/subscriptions/edit/modules/PaymentMethod/EditPaymentMethod.js:88
+msgid "Update Payment Method"
+msgstr "Aggiorna Metodo Di Pagamento"
+
+#: packages/blocks/Controllers/SubscriptionController.php:187
+#: packages/blocks/Controllers/SubscriptionController.php:319
+msgid "Current Plan"
+msgstr "Piano Corrente"
+
+#: packages/blocks/Controllers/PaymentMethodController.php:206
+#: packages/blocks/Controllers/PaymentMethodController.php:236
+#: packages/blocks/Blocks/Payment/components/PayPal.js:51
+#: packages/blocks/Blocks/Payment/components/Stripe.js:37
+msgid "Credit Card"
+msgstr "Carta Di Credito"
+
+#: packages/blocks/Controllers/PaymentMethodController.php:176
+#: packages/blocks/Controllers/PaymentMethodController.php:181
+#: packages/admin/checkouts/modules/Payment.js:270
+#: packages/admin/checkouts/modules/PaymentMethods.js:138
+msgid "Add Payment Method"
+msgstr "Aggiungi Metodo di Pagamento"
+
+#: packages/blocks/Controllers/PaymentMethodController.php:147
+msgid "You cannot currently add a payment method. Please contact us for support."
+msgstr "Non è possibile aggiungere un metodo di pagamento al momento. Si prega di contattarci per assistenza."
+
+#: packages/blocks/Controllers/PaymentMethodController.php:128
+msgid "You are not currently a customer."
+msgstr "Non sei attualmente un cliente."
+
+#: packages/blocks/Controllers/PaymentMethodController.php:124
+msgid "Switch to live mode."
+msgstr "Passa alla modalità live."
+
+#: packages/blocks/Controllers/PaymentMethodController.php:121
+msgid "You are not a test mode customer."
+msgstr "Non sei un cliente in modalità test."
+
+#: packages/blocks/Controllers/PaymentMethodController.php:117
+msgid "Switch to test mode."
+msgstr "Passa alla modalità test."
+
+#: packages/blocks/Controllers/PaymentMethodController.php:114
+msgid "You are not a live mode customer."
+msgstr "Non sei un cliente in modalità live."
+
+#: packages/blocks/Controllers/OrderController.php:72
+msgid "Order History"
+msgstr "Cronologia Ordini"
+
+#: packages/blocks/Controllers/DownloadController.php:157
+msgid "License Keys"
+msgstr "Chiavi di licenza"
+
+#: packages/blocks/Controllers/DownloadController.php:125
+#: packages/admin/components/MediaLibrary/Preview.js:213
+#: packages/admin/products/modules/SingleDownload.js:308
+#: packages/admin/store/add-entities.js:95
+msgid "Download"
+msgstr "Download"
+
+#: packages/blocks/Controllers/CustomerController.php:123
+msgid "Update Billing Details"
+msgstr "Aggiorna Dettagli Di Fatturazione"
+
+#: packages/blocks/Controllers/CustomerController.php:61
+#: packages/blocks/Controllers/CustomerController.php:109
+#: packages/pages/admin/Panel.js:162
+msgid "Billing Details"
+msgstr "Dettagli Fatturazione"
+
+#: packages/blocks/Controllers/ChargeController.php:22
+#: packages/blocks/Controllers/ChargeController.php:32
+#: packages/blocks/Blocks/Dashboard/CustomerPaymentMethods/edit.js:43
+msgid "Payment History"
+msgstr "Cronologia Pagamenti"
+
+#: packages/blocks/Controllers/BaseController.php:124
+msgid "You do not have permission to do this."
+msgstr "Non hai il permesso di farlo."
+
+#: packages/blocks/Blocks/Dashboard/CustomerSubscriptions/Block.php:59
+#: packages/blocks/Blocks/Dashboard/CustomerSubscriptions/Block.php:67
+#: packages/blocks/Controllers/SubscriptionController.php:215
+msgid "Update Plan"
+msgstr "Aggiorna Piano"
+
+#. translators: Visible only in the front end, this warning takes the place of
+#. a faulty block.
+#: packages/blocks/Blocks/CheckoutForm/Block.php:39
+msgid "[block rendering halted]"
+msgstr "[blocco di rendering interrotto]"
+
+#: packages/blocks/Blocks/CartCoupon/Block.php:28
+#: packages/blocks/Blocks/Coupon/Block.php:25 views/web/buy-template.php:94
+#: packages/admin/checkouts/modules/Payment.js:143
+#: packages/admin/dashboard/DatePicker.js:24
+#: packages/blocks/Blocks/CartCoupon/deprecated.js:51
+#: packages/blocks/Blocks/Coupon/deprecated.js:28
+#: packages/blocks/components/ColorPopup.js:83
+msgid "Apply"
+msgstr "Fare domanda a"
+
+#: packages/blocks/Blocks/AddToCartButton/Block.php:64
+#: packages/blocks/Blocks/BuyButton/Block.php:35
+#: packages/blocks/Blocks/Product/BuyButtons/edit.js:55
+msgid "Buy Now"
+msgstr "Acquista Ora"
+
+#: app/src/WordPress/Templates/TemplatesServiceProvider.php:23
+msgid "SureCart Customer Dashboard"
+msgstr "Dashboard Cliente Surecart"
+
+#: app/src/WordPress/Shortcodes/ShortcodesServiceProvider.php:207
+#: packages/blocks/Blocks/AddToCartButton/Block.php:97
+#: packages/blocks/Blocks/Product/BuyButtons/edit.js:46
+msgid "Add To Cart"
+msgstr "Aggiungi al carrello"
+
+#: app/src/WordPress/Shortcodes/ShortcodesServiceProvider.php:181
+#: views/web/buy-template.php:62
+#: packages/admin/products/modules/Prices/index.js:59
+#: packages/admin/subscriptions/edit/modules/Price.js:54
+#: packages/admin/subscriptions/show/modules/CurrentPlan.js:84
+msgid "Pricing"
+msgstr "Prezzi"
+
+#: app/src/WordPress/Pages/PageService.php:42
+#: app/src/WordPress/Pages/PageService.php:68
+msgid "Deleting This is Restricted"
+msgstr "La Cancellazione è Limitata"
+
+#: app/src/WordPress/Pages/PageService.php:39
+msgid "To prevent misconfiguration, you cannot delete the default checkout page. Please deactivate SureCart to delete this page."
+msgstr "Per evitare errori di configurazione, non è possibile eliminare la pagina di checkout predefinita. Si prega di disattivare SureCart per eliminare questa pagina."
+
+#: app/src/WordPress/Pages/PageService.php:39
+#: app/src/WordPress/Pages/PageService.php:65
+msgid "To prevent misconfiguration, you cannot delete the default checkout form. Please deactivate SureCart to delete this form."
+msgstr "Per prevenire errori di configurazione, non è possibile eliminare il modulo di checkout predefinito. Si prega di disattivare SureCart per eliminare questo modulo."
+
+#: app/src/WordPress/HealthService.php:45
+#: packages/admin/settings/account/AccountSettings.js:156
+msgid "Store URL"
+msgstr "URL del negozio"
+
+#: app/src/WordPress/Admin/Menus/AdminMenuPageService.php:199
+msgid "Cancellations"
+msgstr "Annullamenti"
+
+#: app/src/WordPress/Admin/Menus/AdminMenuPageService.php:199
+msgid "Cancellation Insights"
+msgstr "Statistiche Cancellazioni"
+
+#: app/src/Support/Errors/Translations/codes.php:22
+#: app/src/Support/Errors/Translations/codes.php:51
+msgid "This payment method cannot be used for subscriptions."
+msgstr "Questo metodo di pagamento non può essere utilizzato per gli abbonamenti."
+
+#: app/src/Support/Errors/Translations/codes.php:16
+#: app/src/Support/Errors/Translations/codes.php:44
+msgid "One of these products is no longer purchaseable."
+msgstr "Uno di questi prodotti non è più acquistabile."
+
+#: app/src/Routing/PermalinksSettingsService.php:34
+msgctxt "buy-page-slug"
+msgid "buy"
+msgstr "acquista"
+
+#: app/src/Routing/PermalinkSettingService.php:141
+msgid "Enter a custom base to use. A base must be set or WordPress will use default instead."
+msgstr "Inserisci una base personalizzata da utilizzare. È necessario impostare una base o WordPress utilizzerà quella predefinita al suo posto."
+
+#: app/src/Routing/PermalinkSettingService.php:137
+msgid "Custom base"
+msgstr "Base personalizzata"
+
+#: app/src/Routing/PermalinkServiceProvider.php:29
+#: app/src/Routing/PermalinkServiceProvider.php:50
+#: app/src/Routing/PermalinkServiceProvider.php:71
+#: app/src/Routing/PermalinkServiceProvider.php:93
+#: templates/forms/default.php:6 packages/admin/products/utility.js:8
+#: packages/admin/util/templates.js:8
+#: packages/blocks/Blocks/Dashboard/CustomerPaymentMethods/edit.js:82
+msgid "Default"
+msgstr "Default"
+
+#: app/src/Rest/ProductMediaRestServiceProvider.php:101
+msgid "A limit on the number of records returned"
+msgstr "Un limite al numero di record restituiti"
+
+#: app/src/Request/RequestService.php:323
+msgid "Invalid API token."
+msgstr "Token API non valido."
+
+#: app/src/Request/RequestService.php:234
+msgid "Please connect your site to SureCart."
+msgstr "Si prega di collegare il vostro sito a SureCart."
+
+#: app/src/Controllers/Web/DashboardController.php:151
+#: packages/blocks/Controllers/DownloadController.php:43
+#: packages/blocks/Controllers/DownloadController.php:62
+#: packages/blocks/Controllers/DownloadController.php:80
+#: packages/blocks/Controllers/DownloadController.php:122
+#: packages/blocks/Controllers/DownloadController.php:135
+#: packages/admin/products/modules/Downloads.js:91
+#: packages/pages/admin/Panel.js:140
+msgid "Downloads"
+msgstr "Downloads"
+
+#: app/src/Controllers/Web/DashboardController.php:139
+#: packages/blocks/Blocks/Dashboard/CustomerSubscriptions/Block.php:106
+#: packages/blocks/Controllers/SubscriptionController.php:93
+#: packages/blocks/Controllers/SubscriptionController.php:114
+#: packages/blocks/Controllers/SubscriptionController.php:174
+#: packages/blocks/Controllers/SubscriptionController.php:289
+#: packages/pages/admin/Panel.js:127
+msgid "Plans"
+msgstr "Piani"
+
+#: app/src/Controllers/Web/DashboardController.php:89
+#: packages/blocks/Controllers/CustomerController.php:54
+#: packages/blocks/Controllers/CustomerController.php:106
+#: packages/blocks/Controllers/PaymentMethodController.php:173
+msgid "Billing"
+msgstr "Fatturazione"
+
+#: app/src/Controllers/Web/DashboardController.php:77
+msgid "Account"
+msgstr "Account"
+
+#. translators: %1$1s is the store name, %2$2s is the opening anchor tag, %3$3s
+#. is the closing anchor tag.
+#: app/src/Controllers/Web/BuyPageController.php:197
+msgid "I agree to %1$1s's %2$2sPrivacy Policy%3$3s"
+msgstr "Acconsento alla %1$1s %2$2sPrivacy Policy%3$3s"
+
+#. translators: %1$1s is the store name, %2$2s is the opening anchor tag, %3$3s
+#. is the closing anchor tag.
+#: app/src/Controllers/Web/BuyPageController.php:187
+msgid "I agree to %1$1s's %2$2sTerms%3$3s"
+msgstr "Acconsento ai %1$1s %2$2sTermini%3$3s"
+
+#. translators: %1$1s is the store name, %2$2s is the opening anchor tag, %3$3s
+#. is the closing anchor tag, %4$4s is the opening anchor tag, %5$5s is the
+#. closing anchor tag.
+#: app/src/Controllers/Web/BuyPageController.php:175
+msgid "I agree to %1$1s's %2$2sTerms%3$3s and %4$4sPrivacy Policy%5$5s"
+msgstr "Acconsento ai %1$1s %2$2sTermini%3$3s e alla %4$4sPrivacy Policy%5$5s"
+
+#: app/src/Controllers/Admin/Licenses/LicensesListTable.php:151
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:459
+#: app/src/Controllers/Web/BuyPageController.php:52
+#: app/src/Controllers/Web/ProductPageController.php:82
+#: packages/admin/products/EditProduct.js:218
+#: packages/blocks/components/PriceInfo.js:103
+msgid "Edit Product"
+msgstr "Modifica prodotto"
+
+#: app/src/Controllers/Rest/CheckoutsController.php:417
+#: app/src/Controllers/Rest/CheckoutsController.php:434
+#: app/src/Middleware/CheckoutRedirectMiddleware.php:42
+msgid "This product is not available for purchase."
+msgstr "Questo prodotto non è disponibile per l'acquisto."
+
+#: app/src/Controllers/Rest/CheckoutsController.php:412
+msgid "This product is invalid."
+msgstr "Questo prodotto non è valido."
+
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:223
+#: app/src/Controllers/Admin/Tables/ListTable.php:110
+#: app/src/WordPress/PostTypes/FormPostTypeService.php:339
+#: views/admin/user-profile.php:10 views/admin/user-profile.php:18
+#: packages/admin/dashboard/components/RecentOrders.js:184
+#: packages/blocks/Blocks/Form/components/Mode.js:12
+#: packages/blocks/Blocks/Form/components/Mode.js:32
+msgid "Test"
+msgstr "Test"
+
+#: app/src/Controllers/Admin/Subscriptions/SubscriptionsListTable.php:63
+msgid "Past Due"
+msgstr "Scaduto"
+
+#: app/src/Controllers/Admin/Subscriptions/SubscriptionsListTable.php:62
+msgid "Trialing"
+msgstr "Prova"
+
+#: app/src/Controllers/Admin/Settings/BaseSettings.php:53
+#: views/layouts/partials/admin-settings-sidebar.php:52
+msgid "Payment Processors"
+msgstr "Metodi Di Pagamento"
+
+#: app/src/Controllers/Admin/Settings/BaseSettings.php:51
+#: views/admin/cancellation-insights/index.php:5
+#: views/layouts/partials/admin-settings-sidebar.php:35
+msgid "Subscription Saver"
+msgstr "Salvataggio Abbonamento"
+
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:418
+#: packages/admin/products/components/Status/index.js:74
+#: packages/admin/products/components/Status/index.js:95
+#: packages/admin/util.js:87
+msgid "Draft"
+msgstr "Bozza"
+
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:416
+#: packages/admin/products/components/Status/index.js:81
+#: packages/admin/products/components/Status/index.js:94
+#: packages/admin/products/modules/BuyLink.js:114
+msgid "Published"
+msgstr "Pubblicato"
+
+#. translators: %d is the number of other prices.
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:358
+msgid " and %d other price."
+msgid_plural " and %d other prices."
+msgstr[0] "e %d altro prezzo"
+msgstr[1] "e %d altri prezzi"
+
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:347
+#: packages/admin/checkouts/modules/SelectShipping.js:130
+msgid "Free"
+msgstr "Gratuito"
+
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:152
+#: packages/admin/products/modules/Image/ImageDisplay.js:43
+#: packages/admin/products/modules/Publishing.js:62
+msgid "Featured"
+msgstr "In Evidenza"
+
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:148
+#: packages/admin/affiliation-referrals/modules/ReferralItems.js:76
+#: packages/admin/checkouts/modules/Prices.js:135
+#: packages/admin/orders/modules/Fulfillment/CreateFulfillment.js:207
+#: packages/admin/orders/modules/ReturnRequest/CreateReturnRequest.js:180
+#: packages/admin/products/modules/Variations/Variants.js:123
+msgid "Quantity"
+msgstr "Quantità"
+
+#: app/src/Controllers/Admin/Products/ProductsController.php:123
+#: packages/admin/licenses/modules/Purchase.js:58
+msgid "View Product"
+msgstr "Visualizza prodotto"
+
+#: app/src/Controllers/Admin/AffiliationReferrals/AffiliationReferralsListTable.php:121
+#: app/src/Controllers/Admin/ProductCollections/ProductCollectionsListTable.php:49
+#: packages/admin/affiliation-referrals/CreateAffiliationReferral.js:120
+#: packages/admin/affiliation-referrals/modules/Details.js:46
+#: packages/admin/affiliations/modules/Referrals.js:58
+#: packages/admin/product-collections/CreateProductCollection.js:121
+#: packages/admin/product-collections/modules/Details.js:32
+#: packages/admin/products/modules/Details.js:28
+#: packages/admin/settings/processors/CreateEditPaymentMethod.js:97
+#: packages/admin/settings/shipping/method/ShippingMethodForm.js:126
+#: packages/admin/settings/shipping/rate/ShippingRateForm.js:318
+#: packages/admin/settings/subscription-preservation/PreservationSettings.js:239
+#: packages/admin/settings/subscription-preservation/PreservationSettings.js:286
+#: packages/blocks/Blocks/Form/edit.js:479
+#: packages/blocks/Blocks/Heading/edit.js:33
+#: packages/blocks/Blocks/Heading/edit.js:56
+#: packages/blocks/Blocks/PriceChoice/edit.js:71
+msgid "Description"
+msgstr "Descrizione"
+
+#: app/src/Controllers/Admin/CancellationInsights/CancellationInsightsListTable.php:190
+msgid "Coupon Applied"
+msgstr "Codice Sconto Applicato"
+
+#. translators: Subscription saver feature. This is displayed if the
+#. subscription has been "Saved" from cancellation.
+#: app/src/Controllers/Admin/CancellationInsights/CancellationInsightsListTable.php:188
+msgid "Saved"
+msgstr "Salvato"
+
+#: app/src/Controllers/Admin/CancellationInsights/CancellationInsightsListTable.php:123
+msgid "No cancellation acts."
+msgstr "Nessuna azione di cancellazione."
+
+#: app/src/Controllers/Admin/CancellationInsights/CancellationInsightsListTable.php:86
+msgid "All Cancellation Attempts"
+msgstr "Tutti i Tentativi di Cancellazione"
+
+#: app/src/Controllers/Admin/CancellationInsights/CancellationInsightsListTable.php:52
+msgid "Plan Status"
+msgstr "Stato del Piano"
+
+#: app/src/Controllers/Admin/CancellationInsights/CancellationInsightsListTable.php:51
+msgid "Comment"
+msgstr "Commento"
+
+#: app/src/Controllers/Admin/CancellationInsights/CancellationInsightsListTable.php:50
+#: packages/admin/store/add-entities.js:60
+msgid "Cancellation Reason"
+msgstr "Ragione dell'annullamento"
+
+#: app/src/Controllers/Admin/CancellationInsights/CancellationInsightsController.php:23
+msgid "Subscription Saver & Insights"
+msgstr "Statiche Abbonamenti Recuperati"
+
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:210
+#: packages/admin/abandoned-checkouts/modules/Details.js:21
+msgid "Recovered Before Email Was Sent"
+msgstr "Recuperato Prima che l'Email Fosse Inviata"
+
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:42
+#: app/src/Controllers/Admin/AffiliationClicks/AffiliationClicksListTable.php:287
+#: app/src/Controllers/Admin/AffiliationPayouts/AffiliationPayoutsListTable.php:316
+#: app/src/Controllers/Admin/AffiliationReferrals/AffiliationReferralsListTable.php:394
+#: app/src/Controllers/Admin/AffiliationRequests/AffiliationRequestsListTable.php:221
+#: app/src/Controllers/Admin/Affiliations/AffiliationsListTable.php:341
+#: app/src/Controllers/Admin/Bumps/BumpsListTable.php:54
+#: app/src/Controllers/Admin/Orders/OrdersListTable.php:72
+#: app/src/Controllers/Admin/ProductGroups/ProductGroupsListTable.php:63
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:103
+#: app/src/Controllers/Admin/Subscriptions/SubscriptionsListTable.php:60
+#: app/src/Controllers/Admin/Upsells/UpsellsListTable.php:54
+#: packages/admin/settings/connection/IncomingWebhooks.js:29
+msgid "All"
+msgstr "Tutti"

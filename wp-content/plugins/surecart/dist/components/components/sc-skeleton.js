@@ -1,0 +1,1 @@
+import{S as ScSkeleton$1,d as defineCustomElement$1}from"./sc-skeleton2.js";const ScSkeleton=ScSkeleton$1,defineCustomElement=defineCustomElement$1;export{ScSkeleton,defineCustomElement};

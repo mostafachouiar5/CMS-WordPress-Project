@@ -1,0 +1,26 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "surecart/order-bumps",
+	"title": "Order Bumps",
+	"description": "Display your order bumps.",
+	"category": "surecart",
+	"keywords": ["customer", "thank you", "confirm"],
+	"ancestor": ["surecart/form"],
+	"textdomain": "surecart",
+	"supports": {
+		"reusable": false,
+		"html": false,
+		"className": true
+	},
+	"attributes": {
+		"label": {
+			"type": "string",
+			"default": "Recommended"
+		},
+		"show_control": {
+			"type": "boolean",
+			"default": true
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"name": "surecart/customer-charges",
+	"title": "Customer Charges",
+	"description": "Displays the customers charges.",
+	"category": "surecart",
+	"keywords": ["name", "customer", "dashboard"],
+	"textdomain": "surecart",
+	"ancestor": ["surecart/dashboard-page", "surecart/dashboard-area"],
+	"supports": {
+		"reusable": false,
+		"html": false,
+		"inserter": false
+	},
+	"attributes": {
+		"per_page": {
+			"type": "number",
+			"default": "10"
+		}
+	}
+}

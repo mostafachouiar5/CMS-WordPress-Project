@@ -1,0 +1,16 @@
+:host {
+  display: block;
+}
+
+.payment-method {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--sc-spacing-x-small);
+}
+
+.payment-method-icon {
+  border-radius: var(--sc-cc-border-radius, 4px);
+  line-height: 0;
+  overflow: hidden;
+}

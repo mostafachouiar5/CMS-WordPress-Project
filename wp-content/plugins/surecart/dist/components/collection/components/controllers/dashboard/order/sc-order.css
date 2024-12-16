@@ -1,0 +1,9 @@
+:host {
+  display: block;
+}
+
+.order__row {
+  padding: var(--sc-spacing-large);
+  display: grid;
+  gap: var(--sc-spacing-small);
+}

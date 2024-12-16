@@ -1,0 +1,19 @@
+:host {
+  display: block;
+  line-height: 1;
+}
+
+.product-price {
+  padding-top: var(--sc-product-price-padding-top, 0);
+  padding-bottom: var(--sc-product-price-padding-bottom, 0);
+  padding-left: var(--sc-product-price-padding-left, 0);
+  padding-right: var(--sc-product-price-padding-right, 0);
+  margin-top: var(--sc-product-price-margin-top, 0);
+  margin-bottom: var(--sc-product-price-margin-bottom, 0);
+  margin-left: var(--sc-product-price-margin-left, 0);
+  margin-right: var(--sc-product-price-margin-right, 0);
+  text-align: var(--sc-product-price-align);
+  font-size: var(--sc-product-price-font-size);
+  font-weight: var(--sc-product-price-font-weight);
+  color: var(--sc-product-price-text-color);
+}

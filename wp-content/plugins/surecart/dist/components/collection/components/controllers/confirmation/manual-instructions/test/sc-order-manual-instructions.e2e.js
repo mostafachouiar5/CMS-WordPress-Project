@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-order-manual-instructions",(()=>{it("renders",(async()=>{const t=await newE2EPage();await t.setContent("<sc-order-manual-instructions></sc-order-manual-instructions>");const n=await t.find("sc-order-manual-instructions");expect(n).toHaveClass("hydrated")}))}));

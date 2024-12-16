@@ -1,0 +1,42 @@
+{
+	"name": "surecart/store-logo",
+	"title": "Store Logo",
+	"description": "Display the store logo.",
+	"category": "surecart",
+	"keywords": ["logo", "image", "store", "store logo"],
+	"textdomain": "surecart",
+	"supports": {
+		"html": false,
+		"spacing": {
+			"margin": true,
+			"padding": true
+		},
+		"__experimentalBorder": {
+			"width": true,
+			"color": true,
+			"__experimentalDefaultControls": {
+				"width": true,
+				"color": true
+			}
+		}
+	},
+	"attributes": {
+		"width": {
+			"type": "number"
+		},
+		"height": {
+			"type": "number"
+		},
+		"maxWidth": {
+			"type": "number",
+			"default": 180
+		},
+		"maxHeight": {
+			"type": "number"
+		},
+		"isLinkToHome": {
+			"type": "boolean",
+			"default": true
+		}
+	}
+}

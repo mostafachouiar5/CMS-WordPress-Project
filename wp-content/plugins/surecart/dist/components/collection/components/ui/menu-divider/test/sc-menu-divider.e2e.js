@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-menu-divider",(()=>{it("renders",(async()=>{const e=await newE2EPage();await e.setContent("<sc-menu-divider></sc-menu-divider>");const i=await e.find("sc-menu-divider");expect(i).toHaveClass("hydrated")}))}));

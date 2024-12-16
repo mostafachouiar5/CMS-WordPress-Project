@@ -1,0 +1,19 @@
+{
+	"name": "surecart/line-item-shipping",
+	"title": "Shipping Line Item",
+	"description": "Display the shipping amount",
+	"category": "surecart",
+	"ancestor": ["surecart/totals"],
+	"keywords": ["shipping", "checkout", "total", "subtotal"],
+	"textdomain": "surecart",
+	"supports": {
+		"reusable": false,
+		"html": false
+	},
+	"attributes": {
+		"label": {
+			"type": "string",
+			"default": "Shipping"
+		}
+	}
+}

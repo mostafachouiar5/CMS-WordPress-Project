@@ -1,0 +1,1 @@
+export function getMaxStockQuantity(l,o){return(null==l?void 0:l.purchase_limit)?null==l?void 0:l.purchase_limit:(null==l?void 0:l.stock_enabled)&&!(null==l?void 0:l.allow_out_of_stock_purchases)?o?null==o?void 0:o.available_stock:null==l?void 0:l.available_stock:null}

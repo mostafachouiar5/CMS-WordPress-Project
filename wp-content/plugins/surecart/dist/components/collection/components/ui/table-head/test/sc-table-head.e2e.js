@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-table-head",(()=>{it("renders",(async()=>{const e=await newE2EPage();await e.setContent("<sc-table-head></sc-table-head>");const a=await e.find("sc-table-head");expect(a).toHaveClass("hydrated")}))}));

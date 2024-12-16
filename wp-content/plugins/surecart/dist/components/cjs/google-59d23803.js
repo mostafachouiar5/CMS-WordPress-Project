@@ -1,0 +1,1 @@
+"use strict";const trackEvent=(w,n)=>{((null===window||void 0===window?void 0:window.dataLayer)||(null===window||void 0===window?void 0:window.gtag))&&n&&((null===window||void 0===window?void 0:window.gtag)?window.gtag("event",w,n):(window.dataLayer.push({ecommerce:null}),window.dataLayer.push({event:w,ecommerce:n})))};exports.trackEvent=trackEvent;

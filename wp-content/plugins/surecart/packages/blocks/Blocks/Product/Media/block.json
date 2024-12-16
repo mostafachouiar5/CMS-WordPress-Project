@@ -1,0 +1,33 @@
+{
+	"apiVersion": 2,
+	"name": "surecart/product-media-old",
+	"title": "Product Media",
+	"description": "A container to display the product media",
+	"category": "surecart",
+	"keywords": ["image", "media"],
+	"supports": {
+		"reusable": false,
+		"html": false
+	},
+	"attributes": {
+		"auto_height": {
+			"type": "boolean",
+			"default": true
+		},
+		"height": {
+			"type": "string",
+			"default": "310px"
+		},
+		"width": {
+			"type": "number"
+		},
+		"thumbnails_per_page": {
+			"type": "number",
+			"default": 5
+		},
+		"id": {
+			"type": "string"
+		}
+	},
+	"style": "file:./style.css"
+}

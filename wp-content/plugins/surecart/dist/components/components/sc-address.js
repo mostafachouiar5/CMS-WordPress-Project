@@ -1,0 +1,1 @@
+import{S as ScAddress$1,d as defineCustomElement$1}from"./sc-address2.js";const ScAddress=ScAddress$1,defineCustomElement=defineCustomElement$1;export{ScAddress,defineCustomElement};

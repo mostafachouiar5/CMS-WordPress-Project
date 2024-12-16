@@ -1,0 +1,42 @@
+{
+	"apiVersion": 3,
+	"name": "surecart/product-collection-image",
+	"title": "Product Collection Image",
+	"description": "Displays the product collection image.",
+	"category": "surecart",
+	"keywords": ["image", "collection", "product"],
+	"attributes": {
+		"aspectRatio": {
+			"type": "string"
+		},
+		"width": {
+			"type": "string"
+		},
+		"height": {
+			"type": "string"
+		},
+		"scale": {
+			"type": "string",
+			"default": "cover"
+		}
+	},
+	"supports": {
+		"reusable": false,
+		"html": false,
+		"multiple": false,
+		"align": ["left", "right", "center", "wide", "full"],
+		"filter": {
+			"duotone": true
+		},
+		"color": {
+			"__experimentalDuotone": "img, .wp-block-post-featured-image__placeholder, .components-placeholder__illustration, .components-placeholder::before",
+			"text": false,
+			"background": false
+		},
+		"spacing": {
+			"margin": true,
+			"padding": true
+		}
+	},
+	"style": "file:./style.css"
+}

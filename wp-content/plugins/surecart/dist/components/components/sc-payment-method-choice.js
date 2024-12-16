@@ -1,0 +1,1 @@
+import{S as ScPaymentMethodChoice$1,d as defineCustomElement$1}from"./sc-payment-method-choice2.js";const ScPaymentMethodChoice=ScPaymentMethodChoice$1,defineCustomElement=defineCustomElement$1;export{ScPaymentMethodChoice,defineCustomElement};

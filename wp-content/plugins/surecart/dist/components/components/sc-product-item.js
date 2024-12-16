@@ -1,0 +1,1 @@
+import{S as ScProductItem$1,d as defineCustomElement$1}from"./sc-product-item2.js";const ScProductItem=ScProductItem$1,defineCustomElement=defineCustomElement$1;export{ScProductItem,defineCustomElement};

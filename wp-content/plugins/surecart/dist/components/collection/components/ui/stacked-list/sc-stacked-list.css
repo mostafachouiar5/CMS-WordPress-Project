@@ -1,0 +1,8 @@
+:host {
+  display: block;
+  font-family: var(--sc-font-sans);
+}
+
+:slotted(*) {
+  margin: 0;
+}

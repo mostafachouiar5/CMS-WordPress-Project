@@ -1,0 +1,57 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "surecart/columns",
+	"title": "SureCart Columns",
+	"category": "surecart",
+	"description": "Display content in multiple columns, with blocks added to each column.",
+	"textdomain": "surecart",
+	"attributes": {
+		"verticalAlignment": {
+			"type": "string"
+		},
+		"isStackedOnMobile": {
+			"type": "boolean",
+			"default": true
+		},
+		"isFullHeight": {
+			"type": "boolean",
+			"default": false
+		},
+		"isReversedOnMobile": {
+			"type": "boolean",
+			"default": false
+		}
+	},
+	"supports": {
+		"anchor": true,
+		"align": ["wide", "full"],
+		"html": false,
+		"color": {
+			"gradients": true,
+			"link": true
+		},
+		"spacing": {
+			"blockGap": {
+				"__experimentalDefault": "2em",
+				"sides": ["horizontal", "vertical"]
+			},
+			"margin": ["top", "bottom"],
+			"padding": true,
+			"__experimentalDefaultControls": {
+				"padding": true
+			}
+		},
+		"__experimentalLayout": {
+			"allowSwitching": false,
+			"allowInheriting": false,
+			"allowEditing": false,
+			"default": {
+				"type": "flex",
+				"flexWrap": "nowrap"
+			}
+		}
+	},
+	"editorStyle": "file:./editor.css",
+	"style": "file:./style.css"
+}

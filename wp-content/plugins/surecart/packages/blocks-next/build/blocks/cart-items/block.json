@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json.schemastore.org/block.json",
+  "apiVersion": 3,
+  "name": "surecart/slide-out-cart-items",
+  "title": "Cart Items",
+  "description": "The cart items",
+  "category": "surecart-cart",
+  "version": "1.0.0",
+  "example": {},
+  "textdomain": "surecart",
+  "ancestor": [
+    "surecart/slide-out-cart"
+  ],
+  "attributes": {
+    "removable": {
+      "type": "boolean",
+      "default": true
+    },
+    "editable": {
+      "type": "boolean",
+      "default": true
+    },
+    "border": {
+      "type": "boolean",
+      "default": true
+    },
+    "padding": {
+      "type": "object",
+      "default": {
+        "top": "1.25em",
+        "left": "1.25em",
+        "bottom": "1.25em",
+        "right": "1.25em"
+      }
+    },
+    "backgroundColor": {
+      "type": "string"
+    },
+    "textColor": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "interactivity": true,
+    "html": false,
+    "multiple": false
+  },
+  "render": "file:./view.php",
+  "editorScript": "file:./index.js",
+  "style": [
+    "surecart-line-item",
+    "surecart-product-line-item",
+    "surecart-input-group",
+    "surecart-quantity-selector",
+    "file:./style-index.css"
+  ],
+  "viewScriptModule": [
+    "@surecart/cart"
+  ]
+}

@@ -1,0 +1,21 @@
+:host {
+  display: block;
+}
+
+.sc-product-donation-choices {
+  display: grid;
+  gap: 2em;
+  position: relative;
+  --columns: 4;
+}
+.sc-product-donation-choices__form {
+  display: grid;
+  gap: var(--sc-spacing-small);
+}
+
+.sc-donation-recurring-choices {
+  display: grid;
+  gap: var(--sc-spacing-small);
+  position: relative;
+  --columns: 2;
+}

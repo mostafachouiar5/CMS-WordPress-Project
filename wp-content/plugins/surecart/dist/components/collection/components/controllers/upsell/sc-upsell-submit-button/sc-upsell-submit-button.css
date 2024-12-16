@@ -1,0 +1,61 @@
+sc-upsell-submit-button {
+  position: relative;
+  display: block;
+}
+sc-upsell-submit-button .wp-block-button__link {
+  position: relative;
+  text-decoration: none;
+}
+sc-upsell-submit-button .wp-block-button__link span sc-icon {
+  padding-right: var(--sc-spacing-small);
+}
+sc-upsell-submit-button .wp-block-button__link [data-text], sc-upsell-submit-button .wp-block-button__link sc-spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+sc-upsell-submit-button .sc-block-button--sold-out,
+sc-upsell-submit-button .sc-block-button--unavailable {
+  display: none !important;
+}
+sc-upsell-submit-button.is-unavailable .sc-block-button__link {
+  display: none !important;
+}
+sc-upsell-submit-button.is-unavailable .sc-block-button--unavailable {
+  display: initial !important;
+}
+sc-upsell-submit-button.is-sold-out .sc-block-button__link {
+  display: none !important;
+}
+sc-upsell-submit-button.is-sold-out .sc-block-button--sold-out {
+  display: initial !important;
+}
+sc-upsell-submit-button sc-spinner::part(base) {
+  --indicator-color: currentColor;
+  --spinner-size: 12px;
+  position: absolute;
+  top: calc(50% - var(--spinner-size) + var(--spinner-size) / 4);
+  left: calc(50% - var(--spinner-size) + var(--spinner-size) / 4);
+}
+sc-upsell-submit-button [data-text],
+sc-upsell-submit-button [data-loader] {
+  transition: opacity var(--sc-transition-fast) ease-in-out, visibility var(--sc-transition-fast) ease-in-out;
+}
+sc-upsell-submit-button [data-loader] {
+  opacity: 0;
+  visibility: hidden;
+}
+sc-upsell-submit-button.is-disabled {
+  pointer-events: none;
+}
+sc-upsell-submit-button.is-busy [data-text] {
+  opacity: 0;
+  visibility: hidden;
+}
+sc-upsell-submit-button.is-busy [data-loader] {
+  opacity: 1;
+  visibility: visible;
+}
+sc-upsell-submit-button.is-out-of-stock [data-text] {
+  opacity: 0.6;
+}

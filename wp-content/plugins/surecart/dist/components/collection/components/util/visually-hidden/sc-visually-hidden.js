@@ -1,0 +1,1 @@
+import{h}from"@stencil/core";export class ScVisuallyHidden{render(){return h("slot",{key:"a4f36920febc4b63c38c2029f19a73dabf0e2908"})}static get is(){return"sc-visually-hidden"}static get encapsulation(){return"shadow"}static get originalStyleUrls(){return{$:["sc-visually-hidden.css"]}}static get styleUrls(){return{$:["sc-visually-hidden.css"]}}}

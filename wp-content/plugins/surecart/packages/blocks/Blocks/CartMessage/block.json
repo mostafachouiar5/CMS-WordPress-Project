@@ -1,0 +1,43 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "surecart/cart-message",
+	"title": "Cart Message",
+	"description": "Display a custom message in the cart",
+	"category": "surecart",
+  "textdomain": "surecart",
+	"supports": {
+		"reusable": false,
+		"html": false,
+		"typography": true
+	},
+	"ancestor": ["surecart/cart"],
+	"attributes": {
+		"text": {
+			"type": "string"
+		},
+		"align": {
+			"type": "string",
+			"default": "left"
+		},
+		"border": {
+			"type": "boolean",
+			"default": true
+		},
+		"padding": {
+			"type": "object",
+			"default": {
+				"top": "1.25em",
+				"left": "1.25em",
+				"bottom": "1.25em",
+				"right": "1.25em"
+			}
+		},
+		"backgroundColor": {
+			"type": "string"
+		},
+		"textColor": {
+			"type": "string"
+		}
+	}
+}

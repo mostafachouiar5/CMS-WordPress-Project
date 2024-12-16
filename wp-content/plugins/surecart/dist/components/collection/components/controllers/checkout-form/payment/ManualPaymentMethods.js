@@ -1,0 +1,3 @@
+import{h}from"@stencil/core";import{sprintf,__}from"@wordpress/i18n";export const ManualPaymentMethods=({methods:e})=>(e||[]).map((e=>h("sc-payment-method-choice",{"is-manual":!0,"processor-id":null==e?void 0:e.id},h("span",{slot:"summary"},null==e?void 0:e.name),h("sc-card",null,h("sc-payment-selected",{label:sprintf(
+// translators: Manual payment method.
+__("%s selected for check out.","surecart"),null==e?void 0:e.name)},h("div",{innerHTML:null==e?void 0:e.description}))))));

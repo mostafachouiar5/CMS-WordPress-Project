@@ -1,0 +1,76 @@
+{
+	"apiVersion": 2,
+	"name": "surecart/address",
+	"title": "Address",
+	"description": "Display an shipping address form. This is used for shipping and tax calculations.",
+	"category": "surecart",
+	"keywords": ["address", "shipping", "tax"],
+	"textdomain": "surecart",
+	"ancestor": ["surecart/form"],
+	"supports": {
+		"reusable": false,
+		"html": false,
+		"className": false
+	},
+	"attributes": {
+		"label": {
+			"type": "string",
+			"default": "Shipping Address"
+		},
+		"billing_label": {
+			"type": "string",
+			"default": "Billing Address"
+		},
+		"billing_toggle_label": {
+			"type": "string",
+			"default": "Billing address is same as shipping"
+		},
+		"required": {
+			"type": "boolean",
+			"default": true
+		},
+		"full": {
+			"type": "boolean",
+			"default": true
+		},
+		"show_name": {
+			"type": "boolean",
+			"default": false
+		},
+		"default_country": {
+			"type": "string"
+		},
+		"name_placeholder": {
+			"type": "string",
+			"default": "Name or Company Name"
+		},
+		"country_placeholder": {
+			"type": "string",
+			"default": "Country"
+		},
+		"city_placeholder": {
+			"type": "string",
+			"default": "City"
+		},
+		"line_1_placeholder": {
+			"type": "string",
+			"default": "Address"
+		},
+		"line_2_placeholder": {
+			"type": "string",
+			"default": "Address Line 2"
+		},
+		"postal_code_placeholder": {
+			"type": "string",
+			"default": "Postal Code/Zip"
+		},
+		"state_placeholder": {
+			"type": "string",
+			"default": "State/Province/Region"
+		},
+		"collect_billing": {
+			"type": "boolean",
+			"default": true
+		}
+	}
+}

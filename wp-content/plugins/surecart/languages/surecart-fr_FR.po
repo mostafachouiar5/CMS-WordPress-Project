@@ -1,0 +1,1034 @@
+# Translation of SureCart in French (France)
+# This file is distributed under the same license as the SureCart package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-02-13 22:10:42+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: fr\n"
+"Project-Id-Version: SureCart\n"
+
+#: packages/blocks/Blocks/Product/BuyButtons/block.json
+msgctxt "block title"
+msgid "Product Buy Buttons"
+msgstr "Boutons d'achat de produits"
+
+#. translators: Represents the title of a user's custom template in the Site
+#. Editor, where %s is the author's name, e.g. "Author: Jane Doe".
+#: app/src/WordPress/Templates/BlockTemplatesService.php:205
+msgid "Product: %s"
+msgstr "Produit: %s"
+
+#: packages/blocks/Blocks/Product/Media/block.json
+msgctxt "block description"
+msgid "A container to display the product media"
+msgstr "Un contenant pour présenter le support du produit"
+
+#: packages/blocks/Blocks/ProductDonationRecurringPrices/block.json
+msgctxt "block variation description"
+msgid "Add a button to add the product to the cart."
+msgstr "Ajouter un bouton pour ajouter le produit au panier."
+
+#: packages/blocks/Blocks/CartMenuButton/block.json
+msgctxt "block title"
+msgid "Cart Menu Icon"
+msgstr "Icône du menu du panier"
+
+#: packages/blocks/Blocks/CheckoutErrors/block.json
+msgctxt "block title"
+msgid "Checkout Errors"
+msgstr "Erreurs de Commande"
+
+#: packages/blocks/Blocks/CollapsibleRow/block.json
+msgctxt "block title"
+msgid "Collapsible Row"
+msgstr "Rangée pliante"
+
+#: packages/blocks/Blocks/ConditionalForm/block.json
+msgctxt "block title"
+msgid "Conditional"
+msgstr "Conditionnel"
+
+#: packages/blocks/Blocks/Card/block.json
+msgctxt "block description"
+msgid "Display a card block."
+msgstr "Afficher un bloc de cartes."
+
+#: packages/blocks/Blocks/CollapsibleRow/block.json
+msgctxt "block description"
+msgid "Display a collapsible row"
+msgstr "Afficher une ligne rétractable"
+
+#: packages/blocks/Blocks/ProductItemList/block.json
+msgctxt "block description"
+msgid "Display a list of products from your store."
+msgstr "Affichez une liste de produits de votre magasin."
+
+#: packages/blocks/Blocks/Phone/block.json
+msgctxt "block description"
+msgid "Display a phone number collection field."
+msgstr "Afficher un champ de collecte de numéros de téléphone."
+
+#: packages/blocks/Blocks/ConditionalForm/block.json
+msgctxt "block description"
+msgid "Display an area of the form based on conditions."
+msgstr "Afficher une zone du formulaire en fonction des conditions."
+
+#: packages/blocks/Blocks/CheckoutErrors/block.json
+msgctxt "block description"
+msgid "Display any checkout-related errors. By default the checkout form shows these at the top. Add this block to change the location."
+msgstr "Afficher les erreurs liées au processus de paiement. Habituellement, le formulaire de paiement les présente en haut. Insérez ce bloc pour changer l'emplacement."
+
+#: packages/blocks/Blocks/SessionDetail/block.json
+msgctxt "block description"
+msgid "Display information for a specific session."
+msgstr "Affiche les informations relatives à une session spécifique."
+
+#: packages/blocks/Blocks/Payment/block.json
+msgctxt "block description"
+msgid "Display payment options"
+msgstr "Afficher les options de paiement"
+
+#: packages/blocks/Blocks/Product/Description/block.json
+msgctxt "block description"
+msgid "Display the product description"
+msgstr "Afficher la description du produit"
+
+#: packages/blocks/Blocks/StoreLogo/block.json
+msgctxt "block description"
+msgid "Display the store logo."
+msgstr "Affichez le logo de la boutique"
+
+#: packages/blocks/Blocks/PriceChoice/block.json
+msgctxt "block description"
+msgid "Displays a price choice for a product"
+msgstr "Affiche un choix de prix pour un produit"
+
+#: packages/blocks/Blocks/ProductItemImage/block.json
+msgctxt "block description"
+msgid "Displays a product item image."
+msgstr "Affiche l'image d'un produit."
+
+#: packages/blocks/Blocks/PriceSelector/block.json
+msgctxt "block description"
+msgid "Displays a selector for product prices."
+msgstr "Affiche un sélecteur pour les prix des produits."
+
+#: packages/blocks/Blocks/ProductItem/block.json
+msgctxt "block description"
+msgid "Displays a single product item."
+msgstr "Affiche un seul produit."
+
+#: packages/blocks/Blocks/Product/PriceChoices/block.json
+msgctxt "block description"
+msgid "Displays possible choices for product prices."
+msgstr "Affiche les choix possibles pour les prix des produits."
+
+#: packages/blocks/Blocks/Product/BuyButtons/block.json
+msgctxt "block description"
+msgid "Displays product buy and add to cart buttons"
+msgstr "Affiche les boutons d'achat de produits et d'ajout au panier"
+
+#: packages/blocks/Blocks/Product/Quantity/block.json
+msgctxt "block description"
+msgid "Displays quantity selector for a product."
+msgstr "Affiche le sélecteur de quantité pour un produit."
+
+#: packages/blocks/Blocks/ProductItemPrice/block.json
+msgctxt "block description"
+msgid "Displays the price of the product with the scratched price."
+msgstr "Affiche le prix du produit dont le prix est rayé."
+
+#: packages/blocks/Blocks/Product/Price/block.json
+msgctxt "block description"
+msgid "Displays the product price or price range."
+msgstr "Affiche le prix du produit ou la fourchette de prix."
+
+#: packages/blocks/Blocks/Product/Title/block.json
+#: packages/blocks/Blocks/ProductItemTitle/block.json
+msgctxt "block description"
+msgid "Displays the product title."
+msgstr "Affiche le titre du produit."
+
+#: packages/blocks/Blocks/Payment/block.json
+msgctxt "block title"
+msgid "Payment"
+msgstr "Paiement"
+
+#: packages/blocks/Blocks/Phone/block.json
+msgctxt "block title"
+msgid "Phone"
+msgstr "Téléphone"
+
+#: packages/blocks/Blocks/PriceChoice/block.json
+msgctxt "block title"
+msgid "Price Choice"
+msgstr "Choix du prix"
+
+#: packages/blocks/Blocks/PriceSelector/block.json
+msgctxt "block title"
+msgid "Price Selector"
+msgstr "Sélecteur de prix"
+
+#: packages/blocks/Blocks/Product/Description/block.json
+msgctxt "block title"
+msgid "Product Description"
+msgstr "Description du produit"
+
+#: packages/blocks/Blocks/ProductItemImage/block.json
+msgctxt "block title"
+msgid "Product Image"
+msgstr "Image du produit"
+
+#: packages/blocks/Blocks/ProductItem/block.json
+msgctxt "block title"
+msgid "Product Item"
+msgstr "Article du produit"
+
+#: packages/blocks/Blocks/ProductItemPrice/block.json
+msgctxt "block title"
+msgid "Product Item Price"
+msgstr "Produit Article Prix"
+
+#: packages/blocks/Blocks/ProductItemList/block.json
+msgctxt "block title"
+msgid "Product List"
+msgstr "Liste des produits"
+
+#: packages/blocks/Blocks/Product/Media/block.json
+msgctxt "block title"
+msgid "Product Media"
+msgstr "Produit Média"
+
+#: packages/blocks/Blocks/Product/Price/block.json
+msgctxt "block title"
+msgid "Product Price"
+msgstr "Prix du produit"
+
+#: packages/blocks/Blocks/Product/PriceChoices/block.json
+msgctxt "block title"
+msgid "Product Price Choices"
+msgstr "Choix du prix des produits"
+
+#: packages/blocks/Blocks/Product/Quantity/block.json
+msgctxt "block title"
+msgid "Product Quantity"
+msgstr "Quantité de produits"
+
+#: packages/blocks/Blocks/Product/Title/block.json
+#: packages/blocks/Blocks/ProductItemTitle/block.json
+msgctxt "block title"
+msgid "Product Title"
+msgstr "Titre du produit"
+
+#: packages/blocks/Blocks/Radio/block.json
+msgctxt "block title"
+msgid "Radio"
+msgstr "Radio"
+
+#: views/admin/affiliation-requests/index.php:12
+#: views/admin/affiliations/index.php:11
+#: packages/blocks/Blocks/ProductCollection/edit.js:273
+#: packages/blocks/Blocks/ProductItemList/edit.js:320
+msgid "Search"
+msgstr "Recherche"
+
+#: packages/blocks/Blocks/StoreLogo/block.json
+msgctxt "block title"
+msgid "Store Logo"
+msgstr "Logo de la Boutique"
+
+#: packages/blocks/Blocks/Column/block.json
+msgctxt "block title"
+msgid "SureCart Column"
+msgstr "Colonne SureCart"
+
+#: packages/blocks/Blocks/Columns/block.json
+msgctxt "block title"
+msgid "SureCart Columns"
+msgstr "Colonnes SureCart"
+
+#: packages/blocks/Blocks/Dashboard/CustomerDashboard/block.json
+msgctxt "block title"
+msgid "Tabbed Customer Dashboard"
+msgstr "Tableau de bord client à onglets"
+
+#: packages/blocks/Blocks/CartMenuButton/block.json
+msgctxt "block description"
+msgid "The cart menu icon that shows your cart quantity."
+msgstr "L'icône du menu du panier qui affiche la quantité de votre panier."
+
+#: packages/blocks/Blocks/Total/block.json
+msgctxt "block title"
+msgid "Total"
+msgstr "Total"
+
+#: packages/blocks/Blocks/Product/BuyButtons/block.json
+msgctxt "block keyword"
+msgid "buy"
+msgstr "acheter"
+
+#: packages/blocks/Blocks/PriceChoice/block.json
+#: packages/blocks/Blocks/PriceSelector/block.json
+#: packages/blocks/Blocks/Product/PriceChoices/block.json
+#: packages/blocks/Blocks/Product/VariantChoices/block.json
+#: packages/blocks/Blocks/VariantPriceSelector/block.json
+msgctxt "block keyword"
+msgid "choice"
+msgstr "choix"
+
+#: packages/blocks/Blocks/CollapsibleRow/block.json
+msgctxt "block keyword"
+msgid "collapse"
+msgstr "effondrement"
+
+#: packages/blocks/Blocks/Payment/block.json
+msgctxt "block keyword"
+msgid "credit"
+msgstr "crédit"
+
+#: packages/blocks/Blocks/Product/Description/block.json
+#: packages/blocks/Blocks/ProductCollectionDescription/block.json
+#: packages/blocks/Blocks/Upsell/CountdownTimer/block.json
+msgctxt "block keyword"
+msgid "description"
+msgstr "description"
+
+#: packages/blocks/Blocks/CheckoutErrors/block.json
+msgctxt "block keyword"
+msgid "error"
+msgstr "erreur"
+
+#: packages/blocks/Blocks/Product/Media/block.json
+#: packages/blocks/Blocks/ProductCollectionImage/block.json
+#: packages/blocks/Blocks/ProductItemImage/block.json
+#: packages/blocks/Blocks/StoreLogo/block.json
+msgctxt "block keyword"
+msgid "image"
+msgstr "image"
+
+#: packages/blocks/Blocks/ProductItem/block.json
+msgctxt "block keyword"
+msgid "item"
+msgstr "article"
+
+#: packages/blocks/Blocks/ProductCollection/block.json
+#: packages/blocks/Blocks/ProductItemList/block.json
+#: packages/blocks/Blocks/ProductItemTitle/block.json
+msgctxt "block keyword"
+msgid "list"
+msgstr "liste"
+
+#: packages/blocks/Blocks/ProductItem/block.json
+msgctxt "block keyword"
+msgid "lite item"
+msgstr "article léger"
+
+#: packages/blocks/Blocks/StoreLogo/block.json
+msgctxt "block keyword"
+msgid "logo"
+msgstr "logo"
+
+#: packages/blocks/Blocks/Product/Media/block.json
+msgctxt "block keyword"
+msgid "media"
+msgstr "médias"
+
+#: packages/blocks/Blocks/CheckoutErrors/block.json
+msgctxt "block keyword"
+msgid "notice"
+msgstr "notice"
+
+#: packages/blocks/Blocks/Password/block.json
+msgctxt "block keyword"
+msgid "password"
+msgstr "mot de passe"
+
+#: packages/blocks/Blocks/Payment/block.json
+msgctxt "block keyword"
+msgid "paypal"
+msgstr "PayPal"
+
+#: packages/blocks/Blocks/Phone/block.json
+msgctxt "block keyword"
+msgid "phone"
+msgstr "téléphone"
+
+#: packages/blocks/Blocks/PriceChoice/block.json
+#: packages/blocks/Blocks/PriceSelector/block.json
+#: packages/blocks/Blocks/Product/Price/block.json
+#: packages/blocks/Blocks/Product/PriceChoices/block.json
+#: packages/blocks/Blocks/ProductItemPrice/block.json
+#: packages/blocks/Blocks/VariantPriceSelector/block.json
+msgctxt "block keyword"
+msgid "price"
+msgstr "prix"
+
+#: packages/blocks/Blocks/ProductCollection/block.json
+#: packages/blocks/Blocks/ProductItemList/block.json
+msgctxt "block keyword"
+msgid "products"
+msgstr "produits"
+
+#: packages/blocks/Blocks/Product/Quantity/block.json
+msgctxt "block keyword"
+msgid "quantity"
+msgstr "quantité"
+
+#: packages/blocks/Blocks/ProductCollection/block.json
+#: packages/blocks/Blocks/ProductItemList/block.json
+#: packages/blocks/Blocks/StoreLogo/block.json
+msgctxt "block keyword"
+msgid "store"
+msgstr "boutique"
+
+#: packages/blocks/Blocks/StoreLogo/block.json
+msgctxt "block keyword"
+msgid "store logo"
+msgstr "logo de la boutique"
+
+#: packages/blocks/Blocks/Payment/block.json
+msgctxt "block keyword"
+msgid "stripe"
+msgstr "Stripe"
+
+#: packages/blocks/Blocks/LineItemShipping/block.json
+#: packages/blocks/Blocks/TaxLineItem/block.json
+#: packages/blocks/Blocks/Total/block.json
+msgctxt "block keyword"
+msgid "subtotal"
+msgstr "sous-total"
+
+#: packages/blocks/Blocks/Phone/block.json
+msgctxt "block keyword"
+msgid "tel"
+msgstr "Tel"
+
+#: packages/blocks/Blocks/PriceChoice/block.json
+#: packages/blocks/Blocks/PriceSelector/block.json
+#: packages/blocks/Blocks/Product/BuyButtons/block.json
+#: packages/blocks/Blocks/Product/CollectionBadges/block.json
+#: packages/blocks/Blocks/Product/Price/block.json
+#: packages/blocks/Blocks/Product/PriceChoices/block.json
+#: packages/blocks/Blocks/Product/Quantity/block.json
+#: packages/blocks/Blocks/Product/Title/block.json
+#: packages/blocks/Blocks/Product/VariantChoices/block.json
+#: packages/blocks/Blocks/ProductCollection/block.json
+#: packages/blocks/Blocks/ProductCollectionImage/block.json
+#: packages/blocks/Blocks/ProductCollectionTitle/block.json
+#: packages/blocks/Blocks/ProductItem/block.json
+#: packages/blocks/Blocks/ProductItemImage/block.json
+#: packages/blocks/Blocks/ProductItemList/block.json
+#: packages/blocks/Blocks/ProductItemPrice/block.json
+#: packages/blocks/Blocks/ProductItemTitle/block.json
+#: packages/blocks/Blocks/VariantPriceSelector/block.json
+msgctxt "block keyword"
+msgid "product"
+msgstr "produit"
+
+#: packages/blocks/Blocks/ProductItemImage/block.json
+msgctxt "block keyword"
+msgid "thumbnail"
+msgstr "vignette"
+
+#: packages/blocks/Blocks/LineItems/block.json
+#: packages/blocks/Blocks/LineItemShipping/block.json
+#: packages/blocks/Blocks/TaxLineItem/block.json
+#: packages/blocks/Blocks/Total/block.json
+msgctxt "block keyword"
+msgid "total"
+msgstr "total"
+
+#. translators: %d is the number of other prices.
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:358
+msgid " and %d other price."
+msgid_plural " and %d other prices."
+msgstr[0] " et %d autre prix."
+msgstr[1] " et %d autres prix."
+
+#. translators: number of days.
+#: app/src/Controllers/Admin/Subscriptions/SubscriptionsListTable.php:266
+#: packages/admin/util/translations.js:14
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d jour"
+msgstr[1] "%d jours"
+
+#: app/src/Rest/ProductMediaRestServiceProvider.php:101
+msgid "A limit on the number of records returned"
+msgstr "Limitation du nombre d'enregistrements renvoyés"
+
+#: app/src/Controllers/Web/DashboardController.php:77
+msgid "Account"
+msgstr "Compte"
+
+#: app/src/WordPress/PostTypes/ProductPagePostTypeService.php:37
+msgctxt "SureCart Product"
+msgid "Add New"
+msgstr "Ajouter un nouveau"
+
+#: app/src/WordPress/PostTypes/ProductPagePostTypeService.php:38
+msgid "Add new SureCart Product"
+msgstr "Ajouter un nouveau produit SureCart"
+
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:42
+#: app/src/Controllers/Admin/AffiliationClicks/AffiliationClicksListTable.php:287
+#: app/src/Controllers/Admin/AffiliationPayouts/AffiliationPayoutsListTable.php:316
+#: app/src/Controllers/Admin/AffiliationReferrals/AffiliationReferralsListTable.php:394
+#: app/src/Controllers/Admin/AffiliationRequests/AffiliationRequestsListTable.php:221
+#: app/src/Controllers/Admin/Affiliations/AffiliationsListTable.php:341
+#: app/src/Controllers/Admin/Bumps/BumpsListTable.php:54
+#: app/src/Controllers/Admin/Orders/OrdersListTable.php:72
+#: app/src/Controllers/Admin/ProductGroups/ProductGroupsListTable.php:63
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:103
+#: app/src/Controllers/Admin/Subscriptions/SubscriptionsListTable.php:60
+#: app/src/Controllers/Admin/Upsells/UpsellsListTable.php:54
+#: packages/admin/settings/connection/IncomingWebhooks.js:29
+msgid "All"
+msgstr "Tous"
+
+#: app/src/Controllers/Admin/CancellationInsights/CancellationInsightsListTable.php:86
+msgid "All Cancellation Attempts"
+msgstr "Toutes les tentatives d'annulation"
+
+#: app/src/WordPress/PostTypes/ProductPagePostTypeService.php:42
+msgid "All SureCart Products"
+msgstr "Tous les produits SureCart"
+
+#: views/admin/cancellation-insights/cta-banner.php:103
+msgid "Automatically lower your subscription cancellation while making customers happy and saving more revenue with Subscription Saver."
+msgstr "Réduisez automatiquement le nombre d'annulations d'abonnements tout en rendant vos clients content et en augmentant votre chiffre d'affaires grâce à l'économiseur d'abonnement."
+
+#: templates/pages/template-surecart-dashboard.php:82
+msgid "Back Home"
+msgstr "Retour à l'accueil"
+
+#: app/src/Controllers/Web/DashboardController.php:89
+#: packages/blocks/Controllers/CustomerController.php:54
+#: packages/blocks/Controllers/CustomerController.php:106
+#: packages/blocks/Controllers/PaymentMethodController.php:173
+msgid "Billing"
+msgstr "Facturation"
+
+#: views/admin/cancellation-insights/index.php:24
+#: packages/admin/cancellation-insights/CancellationInsights.js:119
+msgid "Cancellation Attempts"
+msgstr "Tentatives d'annulation"
+
+#: app/src/WordPress/Admin/Menus/AdminMenuPageService.php:199
+msgid "Cancellation Insights"
+msgstr "Informations sur les annulations"
+
+#: app/src/Controllers/Admin/CancellationInsights/CancellationInsightsListTable.php:50
+#: packages/admin/store/add-entities.js:60
+msgid "Cancellation Reason"
+msgstr "Motif d'annulation"
+
+#: app/src/WordPress/Admin/Menus/AdminMenuPageService.php:199
+msgid "Cancellations"
+msgstr "Annulations"
+
+#: app/src/Cart/CartService.php:206
+#: app/src/WordPress/Admin/Menus/AdminMenuPageService.php:210
+#: templates/cart.php:6 templates/shop.php:6
+#: packages/admin/settings/brand/BrandSettings.js:216
+msgid "Cart"
+msgstr "Panier"
+
+#: app/src/BlockLibrary/BlockPatternsService.php:28
+#: app/src/BlockLibrary/FormModeSwitcherService.php:46
+#: app/src/Integrations/Beaver/BeaverFormModule.php:67
+#: app/src/Integrations/Elementor/ReusableFormWidget.php:42
+#: app/src/Integrations/Elementor/ReusableFormWidget.php:101
+msgid "Checkout Form"
+msgstr "Formulaire de commande"
+
+#: app/src/Controllers/Admin/CancellationInsights/CancellationInsightsListTable.php:51
+msgid "Comment"
+msgstr "Commenter"
+
+#: app/src/Controllers/Admin/CancellationInsights/CancellationInsightsListTable.php:190
+msgid "Coupon Applied"
+msgstr "Coupon appliqué"
+
+#: views/web/buy-template.php:94
+msgid "Coupon Code"
+msgstr "Code du coupon"
+
+#: app/src/Rest/CustomerRestServiceProvider.php:78
+msgid "Create the WordPress user."
+msgstr "Créer l'utilisateur WordPress."
+
+#: app/src/Routing/PermalinkSettingService.php:137
+msgid "Custom base"
+msgstr "Base personnalisée"
+
+#: app/src/WordPress/Pages/PageService.php:42
+#: app/src/WordPress/Pages/PageService.php:68
+msgid "Deleting This is Restricted"
+msgstr "La suppression est restreinte"
+
+#: app/src/Rest/CustomerRestServiceProvider.php:90
+msgid "Dry run the sync."
+msgstr "Effectuer un essai de synchronisation."
+
+#: app/src/WordPress/PostTypes/ProductPagePostTypeService.php:40
+msgid "Edit SureCart Product"
+msgstr "Modifier le produit SureCart"
+
+#: app/src/Routing/PermalinkSettingService.php:141
+msgid "Enter a custom base to use. A base must be set or WordPress will use default instead."
+msgstr "Entrez une base personnalisée à utiliser. Une base doit être définie, sinon WordPress utilisera la base par défaut."
+
+#: views/web/buy-template.php:94
+#: packages/blocks/Blocks/CartCoupon/deprecated.js:48
+#: packages/blocks/Blocks/Coupon/deprecated.js:25
+msgid "Enter coupon code"
+msgstr "Entrer le code de réduction"
+
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:152
+#: packages/admin/products/modules/Image/ImageDisplay.js:43
+#: packages/admin/products/modules/Publishing.js:62
+msgid "Featured"
+msgstr "En vedette"
+
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:347
+#: packages/admin/checkouts/modules/SelectShipping.js:130
+msgid "Free"
+msgstr "Gratuit"
+
+#: views/admin/cancellation-insights/cta-banner.php:106
+msgid "Get Subscription Saver"
+msgstr "Obtenez un économiseur d'abonnement"
+
+#. translators: %1$1s is the store name, %2$2s is the opening anchor tag, %3$3s
+#. is the closing anchor tag.
+#: app/src/Controllers/Web/BuyPageController.php:197
+msgid "I agree to %1$1s's %2$2sPrivacy Policy%3$3s"
+msgstr "J'accepte la %2$2sPolitique de confidentialité%3$3s de %1$1s"
+
+#. translators: %1$1s is the store name, %2$2s is the opening anchor tag, %3$3s
+#. is the closing anchor tag.
+#: app/src/Controllers/Web/BuyPageController.php:187
+msgid "I agree to %1$1s's %2$2sTerms%3$3s"
+msgstr "Je suis d'accord avec les %2$2sTermes de %1$1s%3$3s"
+
+#. translators: %1$1s is the store name, %2$2s is the opening anchor tag, %3$3s
+#. is the closing anchor tag, %4$4s is the opening anchor tag, %5$5s is the
+#. closing anchor tag.
+#: app/src/Controllers/Web/BuyPageController.php:175
+msgid "I agree to %1$1s's %2$2sTerms%3$3s and %4$4sPrivacy Policy%5$5s"
+msgstr "J'accepte les termes de %1$1s%2$2s%3$3s et la politique de confidentialité de %4$4s%5$5s"
+
+#. translators: %s: Home URL
+#: app/src/Routing/PermalinkServiceProvider.php:46
+msgid "If you like, you may enter custom structures for your instant checkout URLs here. For example, using <code>buy</code> would make your product buy links like <code>%sbuy/sample-product/</code>."
+msgstr "Si vous le souhaitez, vous pouvez saisir ici des structures personnalisées pour vos URL de paiement instantané. Par exemple, si vous utilisez <code>buy</code>, vos liens d'achat de produits ressembleront à <code>%sbuy/sample-product/</code>."
+
+#. translators: %s: Home URL
+#: app/src/Routing/PermalinkServiceProvider.php:25
+msgid "If you like, you may enter custom structures for your product page URLs here. For example, using <code>products</code> would make your product buy links like <code>%sproducts/sample-product/</code>."
+msgstr "Si vous le souhaitez, vous pouvez saisir ici des structures personnalisées pour les URL de vos pages de produits. Par exemple, si vous utilisez <code>produits</code>, vos liens d'achat de produits ressembleront à <code>%sproduits/sample-produit/</code>"
+
+#: app/src/Request/RequestService.php:323
+msgid "Invalid API token."
+msgstr "Jeton d'API non valide."
+
+#: app/src/Controllers/Admin/ProductGroups/ProductGroupsListTable.php:184
+#: app/src/WordPress/PostTypes/FormPostTypeService.php:343
+#: packages/blocks/Blocks/Form/components/Mode.js:19
+#: packages/blocks/Blocks/Form/components/Mode.js:38
+msgid "Live"
+msgstr "En ligne"
+
+#: templates/pages/template-surecart-dashboard.php:119
+#: views/layouts/partials/customer-dashboard/dashboard-navigation.php:53
+msgid "Log Out"
+msgstr "Se déconnecter"
+
+#: app/src/WordPress/PostTypes/ProductPagePostTypeService.php:39
+msgid "New SureCart Product"
+msgstr "Nouveau produit SureCart"
+
+#: app/src/Controllers/Admin/CancellationInsights/CancellationInsightsListTable.php:123
+msgid "No cancellation acts."
+msgstr "Aucun acte d'annulation."
+
+#: app/src/Models/Customer.php:167
+msgid "No customer ID or email provided."
+msgstr "Aucun numéro de client ou e-mail n'a été fourni."
+
+#: app/src/Support/Blocks/TemplateUtilityService.php:224
+msgid "No theme is defined for this template."
+msgstr "Aucun thème n'est défini pour ce modèle."
+
+#: views/web/buy.php:43
+msgid "Not Published"
+msgstr "Non publié"
+
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:45
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:189
+msgid "Not Scheduled"
+msgstr "Non Programmé"
+
+#: app/src/Support/Errors/Translations/codes.php:16
+#: app/src/Support/Errors/Translations/codes.php:44
+msgid "One of these products is no longer purchaseable."
+msgstr "L'un de ces produits ne peut plus être acheté."
+
+#: app/src/Controllers/Admin/Subscriptions/SubscriptionsListTable.php:63
+msgid "Past Due"
+msgstr "En souffrance"
+
+#: app/src/Controllers/Admin/Settings/BaseSettings.php:53
+#: views/layouts/partials/admin-settings-sidebar.php:52
+msgid "Payment Processors"
+msgstr "Processeurs de paiement"
+
+#: app/src/Controllers/Admin/CancellationInsights/CancellationInsightsListTable.php:52
+msgid "Plan Status"
+msgstr "Statut du forfait"
+
+#: app/src/Controllers/Web/DashboardController.php:139
+#: packages/blocks/Blocks/Dashboard/CustomerSubscriptions/Block.php:106
+#: packages/blocks/Controllers/SubscriptionController.php:93
+#: packages/blocks/Controllers/SubscriptionController.php:114
+#: packages/blocks/Controllers/SubscriptionController.php:174
+#: packages/blocks/Controllers/SubscriptionController.php:289
+#: packages/pages/admin/Panel.js:127
+msgid "Plans"
+msgstr "Abonnements"
+
+#: app/src/Request/RequestService.php:234
+msgid "Please connect your site to SureCart."
+msgstr "Veuillez connecter votre site à SureCart."
+
+#: app/src/Controllers/Admin/ProductCollections/ProductCollectionsListTable.php:48
+#: app/src/Controllers/Admin/Products/ProductsController.php:26
+#: app/src/WordPress/Admin/Menus/AdminMenuPageService.php:191
+#: views/admin/products/index.php:29
+#: packages/admin/bumps/modules/Conditions.js:73
+#: packages/admin/checkouts/modules/Prices.js:189
+#: packages/admin/coupons/modules/Restrictions.js:59
+#: packages/admin/product-collections/components/Products.js:28
+#: packages/admin/product-groups/modules/Products.js:45
+#: packages/admin/products/EditProduct.js:214
+#: packages/admin/settings/shipping/profile/Products.js:217
+#: packages/admin/upsell-funnels/modules/Conditions.js:132
+#: packages/blocks/Blocks/Form/components/SelectPrices.js:111
+#: packages/blocks/Blocks/ProductItemList/edit.js:358
+msgid "Products"
+msgstr "Produits"
+
+#: app/src/Controllers/Admin/Products/ProductsListTable.php:416
+#: packages/admin/products/components/Status/index.js:81
+#: packages/admin/products/components/Status/index.js:94
+#: packages/admin/products/modules/BuyLink.js:114
+msgid "Published"
+msgstr "Publié"
+
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:210
+#: packages/admin/abandoned-checkouts/modules/Details.js:21
+msgid "Recovered Before Email Was Sent"
+msgstr "Récupéré avant l'envoi de l'e-mail"
+
+#: app/src/Rest/CustomerRestServiceProvider.php:84
+msgid "Run any purchase syncing actions."
+msgstr "Exécutez toutes les actions de synchronisation des achats."
+
+#. translators: Subscription saver feature. This is displayed if the
+#. subscription has been "Saved" from cancellation.
+#: app/src/Controllers/Admin/CancellationInsights/CancellationInsightsListTable.php:188
+msgid "Saved"
+msgstr "Sauvegardé"
+
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:43
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:187
+#: packages/admin/subscriptions/show/modules/PendingUpdate.js:70
+#: packages/admin/subscriptions/show/modules/PendingUpdate.js:110
+msgid "Scheduled"
+msgstr "Programmé"
+
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:88
+msgid "Search Abanonded Orders"
+msgstr "Rechercher des commandes abandonnées"
+
+#: app/src/WordPress/PostTypes/ProductPagePostTypeService.php:43
+msgid "Search SureCart Products"
+msgstr "Rechercher des produits SureCart"
+
+#: app/src/Routing/PermalinkServiceProvider.php:33
+#: app/src/WordPress/Admin/Menus/AdminMenuPageService.php:208
+msgid "Shop"
+msgstr "Boutique"
+
+#: app/src/WordPress/Pages/PageSeeder.php:91
+msgctxt "Shop page title"
+msgid "Shop"
+msgstr "Boutique"
+
+#: app/src/WordPress/Pages/PageService.php:132
+#: packages/admin/settings/advanced/AdvancedSettings.js:327
+msgid "Shop Page"
+msgstr "Page de la boutique"
+
+#: app/src/Controllers/Admin/Settings/BaseSettings.php:51
+#: views/admin/cancellation-insights/index.php:5
+#: views/layouts/partials/admin-settings-sidebar.php:35
+msgid "Subscription Saver"
+msgstr "Économiseur d'abonnement"
+
+#: app/src/Controllers/Admin/CancellationInsights/CancellationInsightsController.php:23
+msgid "Subscription Saver & Insights"
+msgstr "Économiseur d'abonnement et aperçus"
+
+#: views/web/buy-template.php:107
+#: packages/admin/abandoned-checkouts/modules/LineItems/index.js:75
+#: packages/admin/checkouts/modules/Payment.js:90
+#: packages/admin/invoices/modules/LineItems.js:127
+#: packages/admin/orders/modules/LineItems/index.js:239
+#: packages/admin/subscriptions/edit/modules/Modals/UpdateRecentPrice.js:215
+#: packages/admin/subscriptions/show/modules/LineItems/index.js:82
+#: packages/blocks/Blocks/Subtotal/edit.js:19
+#: packages/blocks/Blocks/Subtotal/edit.js:53
+#: packages/blocks/Blocks/Subtotal/save.js:15
+#: packages/blocks/Blocks/Total/deprecated.js:136
+#: packages/blocks/Blocks/Total/edit.js:44
+#: packages/blocks/Blocks/Total/edit.js:76
+#: packages/blocks/Blocks/Total/save.js:27
+#: packages/blocks/Blocks/Totals/edit.js:53
+#: packages/blocks/Blocks/Upsell/UpsellTotals/edit.js:21
+msgid "Subtotal"
+msgstr "Sous-total"
+
+#: app/src/WordPress/Templates/TemplatesServiceProvider.php:23
+msgid "SureCart Customer Dashboard"
+msgstr "Tableau de bord du client SureCart"
+
+#: app/src/Routing/PermalinkServiceProvider.php:44
+msgid "SureCart Instant Checkout Permalinks"
+msgstr "Permaliens pour la caisse instantanée de SureCart"
+
+#: app/src/WordPress/Templates/TemplatesServiceProvider.php:33
+#: app/src/WordPress/Templates/TemplatesServiceProvider.php:43
+#: app/src/WordPress/Templates/TemplatesServiceProvider.php:52
+msgid "SureCart Layout"
+msgstr "Mise en page de SureCart"
+
+#: app/src/Routing/PermalinkServiceProvider.php:23
+msgid "SureCart Product Permalinks"
+msgstr "Permaliens des produits SureCart"
+
+#: app/src/WordPress/PostTypes/ProductPagePostTypeService.php:50
+msgid "SureCart Product published privately."
+msgstr "Produit SureCart publié en privé."
+
+#: app/src/WordPress/PostTypes/ProductPagePostTypeService.php:49
+msgid "SureCart Product published."
+msgstr "Produit SureCart publié."
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: app/src/BlockLibrary/BlockServiceProvider.php:119
+#: app/src/Integrations/AffiliateWP/AffiliateWPService.php:39
+#: app/src/Integrations/Beaver/BeaverFormModule.php:20
+#: app/src/Integrations/Beaver/BeaverFormModule.php:21
+#: app/src/Integrations/Elementor/ElementorServiceProvider.php:131
+#: app/src/Integrations/ThriveAutomator/ThriveAutomatorApp.php:25
+#: app/src/WordPress/Admin/Menus/AdminMenuPageService.php:170
+#: app/src/WordPress/Admin/Notices/AdminNoticesService.php:104
+#: app/src/WordPress/Admin/SSLCheck/AdminSSLCheckService.php:31
+#: app/src/WordPress/CompatibilityService.php:157
+#: app/src/WordPress/HealthService.php:32
+#: app/src/WordPress/HealthService.php:73
+#: app/src/WordPress/HealthService.php:86
+#: app/src/WordPress/HealthService.php:105
+#: app/src/WordPress/HealthService.php:108
+#: app/src/WordPress/HealthService.php:133
+#: app/src/WordPress/HealthService.php:162
+#: app/src/WordPress/HealthService.php:167
+#: app/src/WordPress/HealthService.php:171
+#: app/src/WordPress/HealthService.php:181
+#: app/src/WordPress/Templates/TemplatesServiceProvider.php:22
+#: app/src/WordPress/ThemeService.php:88 views/admin/user-profile.php:1
+#: views/error.php:2
+msgid "SureCart"
+msgstr "SureCart"
+
+#: app/src/WordPress/PostTypes/ProductPagePostTypeService.php:51
+msgid "SureCart Product reverted to draft."
+msgstr "Le produit SureCart est revenu à l'état de projet."
+
+#: app/src/WordPress/PostTypes/ProductPagePostTypeService.php:52
+msgid "SureCart Product scheduled."
+msgstr "Produit SureCart programmé."
+
+#: app/src/WordPress/PostTypes/ProductPagePostTypeService.php:53
+msgid "SureCart Product updated."
+msgstr "Produit SureCart mis à jour."
+
+#: app/src/WordPress/PostTypes/ProductPagePostTypeService.php:35
+msgctxt "post type general name"
+msgid "SureCart Products"
+msgstr "Produits SureCart"
+
+#: app/src/WordPress/PostTypes/ProductPagePostTypeService.php:48
+msgid "SureCart Products list"
+msgstr "Liste des produits SureCart"
+
+#: app/src/WordPress/PostTypes/ProductPagePostTypeService.php:47
+msgid "SureCart Products list navigation"
+msgstr "Navigation dans la liste des produits SureCart"
+
+#: app/src/Background/CustomerSyncService.php:47
+msgid "SureCart customer sync in progress"
+msgstr "Synchronisation des clients SureCart en cours"
+
+#: app/src/Background/CustomerSyncService.php:48
+msgid "SureCart is syncing customers in the background. The process may take a little while, so please be patient."
+msgstr "SureCart synchronise les clients en arrière-plan. Le processus peut prendre un certain temps, veuillez donc être patient."
+
+#: packages/blocks/Controllers/PaymentMethodController.php:124
+msgid "Switch to live mode."
+msgstr "Passez en mode direct."
+
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:223
+#: app/src/Controllers/Admin/Tables/ListTable.php:110
+#: app/src/WordPress/PostTypes/FormPostTypeService.php:339
+#: views/admin/user-profile.php:10 views/admin/user-profile.php:18
+#: packages/admin/dashboard/components/RecentOrders.js:184
+#: packages/blocks/Blocks/Form/components/Mode.js:12
+#: packages/blocks/Blocks/Form/components/Mode.js:32
+msgid "Test"
+msgstr "Test"
+
+#: views/admin/cancellation-insights/cta-banner.php:100
+msgid "The easiest thing you can do to increase subscription revenue."
+msgstr "La chose la plus simple que vous puissiez faire pour augmenter les revenus des abonnements."
+
+#: app/src/Support/Errors/Translations/codes.php:23
+#: app/src/Support/Errors/Translations/codes.php:52
+msgid "The payment method is not valid (chargeable fingerprint blank). Please double-check it and try again."
+msgstr "Le moyen de paiement n'est pas valide (empreinte de facturation vide). Veuillez le vérifier à nouveau et réessayer."
+
+#: app/src/Controllers/Rest/CheckEmailController.php:22
+#: app/src/Controllers/Rest/VerificationCodeController.php:66
+msgid "There is no account with that username or email address."
+msgstr "Il n'y a pas de compte avec ce nom d'utilisateur ou adresse e-mail."
+
+#: app/src/Support/Errors/Translations/codes.php:126
+msgid "This payment method cannot be deleted because there are no other valid or reusable saved payment methods available."
+msgstr "Ce moyen de paiement ne peut pas être supprimé car il n'y a pas d'autres moyens de paiement enregistrés valides ou réutilisables disponibles."
+
+#: app/src/Support/Errors/Translations/codes.php:22
+#: app/src/Support/Errors/Translations/codes.php:51
+msgid "This payment method cannot be used for subscriptions."
+msgstr "Ce mode de paiement ne peut pas être utilisé pour les abonnements."
+
+#: app/src/Support/Errors/Translations/codes.php:124
+#: app/src/Support/Errors/Translations/codes.php:125
+msgid "This payment method is not valid or reusable."
+msgstr "Ce mode de paiement n'est pas valide ou réutilisable."
+
+#: app/src/Controllers/Rest/CheckoutsController.php:412
+msgid "This product is invalid."
+msgstr "Ce produit n'est pas valide."
+
+#: app/src/Controllers/Rest/CheckoutsController.php:417
+#: app/src/Controllers/Rest/CheckoutsController.php:434
+#: app/src/Middleware/CheckoutRedirectMiddleware.php:42
+msgid "This product is not available for purchase."
+msgstr "Ce produit n'est pas disponible à l'achat."
+
+#: app/src/WordPress/Pages/PageService.php:39
+#: app/src/WordPress/Pages/PageService.php:65
+msgid "To prevent misconfiguration, you cannot delete the default checkout form. Please deactivate SureCart to delete this form."
+msgstr "Pour éviter les erreurs de configuration, vous ne pouvez pas supprimer le formulaire de paiement par défaut. Veuillez désactiver SureCart pour supprimer ce formulaire."
+
+#: app/src/WordPress/Pages/PageService.php:39
+msgid "To prevent misconfiguration, you cannot delete the default checkout page. Please deactivate SureCart to delete this page."
+msgstr "Pour éviter les erreurs de configuration, vous ne pouvez pas supprimer la page de paiement par défaut. Veuillez désactiver SureCart pour supprimer cette page."
+
+#: app/src/Controllers/Admin/Abandoned/AbandonedCheckoutListTable.php:107
+#: app/src/Controllers/Admin/Invoices/InvoicesListTable.php:67
+#: app/src/Controllers/Admin/Orders/OrdersListTable.php:117
+#: packages/blocks/Blocks/CartSubtotal/Block.php:29
+#: views/web/buy-template.php:97 views/web/buy-template.php:117
+#: packages/admin/abandoned-checkouts/modules/LineItems/index.js:146
+#: packages/admin/checkouts/modules/Payment.js:153
+#: packages/admin/checkouts/modules/Prices.js:138
+#: packages/admin/customers/modules/Orders.js:58
+#: packages/admin/dashboard/components/overview/charts/ChartSummary.js:144
+#: packages/admin/orders/modules/LineItems/index.js:312
+#: packages/admin/subscriptions/edit/modules/Modals/UpdateRecentPrice.js:286
+#: packages/admin/subscriptions/edit/modules/Price.js:70
+#: packages/admin/subscriptions/show/modules/CurrentPlan.js:101
+#: packages/blocks/Blocks/ConditionalForm/translations.js:5
+#: packages/blocks/Blocks/Total/deprecated.js:129
+#: packages/blocks/Blocks/Total/edit.js:24
+#: packages/blocks/Blocks/Total/edit.js:71
+#: packages/blocks/Blocks/Total/edit.js:73
+#: packages/blocks/Blocks/Total/save.js:22
+#: packages/blocks/Blocks/Totals/edit.js:69
+#: packages/blocks/Blocks/Upsell/UpsellTotals/edit.js:7
+#: packages/blocks/Blocks/Upsell/UpsellTotals/edit.js:45
+msgid "Total"
+msgstr "Total"
+
+#: app/src/Controllers/Admin/Subscriptions/SubscriptionsListTable.php:62
+msgid "Trialing"
+msgstr "Essai"
+
+#: packages/blocks/Blocks/Product/BuyButton/Block.php:124
+#: packages/blocks/Blocks/Product/BuyButton/Block.php:144
+#: packages/blocks/Blocks/Upsell/SubmitButton/Block.php:125
+#: packages/blocks/Blocks/Upsell/SubmitButton/Block.php:149
+#: packages/admin/products/components/Availability/index.js:85
+msgid "Unavailable For Purchase"
+msgstr "Non disponible à l'achat"
+
+#: app/src/WordPress/PostTypes/ProductPagePostTypeService.php:41
+msgid "View SureCart Product"
+msgstr "Voir le produit SureCart"
+
+#: views/admin/onboarding/install.php:48
+msgid "Welcome to SureCart!"
+msgstr "Bienvenue sur SureCart !"
+
+#: packages/blocks/Controllers/PaymentMethodController.php:128
+msgid "You are not currently a customer."
+msgstr "Vous n'êtes actuellement pas un client."
+
+#: views/web/buy-template.php:83
+msgid "Your email address"
+msgstr "Votre nom"
+
+#: views/web/buy-template.php:85 views/web/buy-template.php:86
+msgid "Your name"
+msgstr "Votre nom"
+
+#: app/src/Routing/PermalinksSettingsService.php:34
+msgctxt "buy-page-slug"
+msgid "buy"
+msgstr "acheter"
+
+#. translators: number of days.
+#: app/src/Controllers/Admin/Subscriptions/SubscriptionsListTable.php:266
+#: packages/admin/util/translations.js:15
+msgid "day"
+msgid_plural "%d days"
+msgstr[0] "jour"
+msgstr[1] "%d jours"
+
+#: app/src/Routing/PermalinksSettingsService.php:35
+msgctxt "product-page-slug"
+msgid "products"
+msgstr "produits"
+
+#: app/src/WordPress/Pages/PageSeeder.php:90
+msgctxt "Shop page slug"
+msgid "shop"
+msgstr "boutique"

@@ -1,0 +1,20 @@
+{
+	"name": "surecart/customer-shipping-address",
+	"title": "Customer Shipping and Tax Address",
+	"description": "Displays the customers shipping addresses and lets them update details.",
+	"category": "surecart",
+	"keywords": ["name", "customer", "dashboard"],
+	"textdomain": "surecart",
+	"ancestor": ["surecart/dashbaord-page", "surecart/dashboard-area"],
+	"supports": {
+		"reusable": false,
+		"html": false,
+		"inserter": false
+	},
+	"attributes": {
+		"label": {
+			"type": "string",
+			"default": "Address"
+		}
+	}
+}

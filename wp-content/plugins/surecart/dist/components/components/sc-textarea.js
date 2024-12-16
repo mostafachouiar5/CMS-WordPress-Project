@@ -1,0 +1,1 @@
+import{S as ScTextarea$1,d as defineCustomElement$1}from"./sc-textarea2.js";const ScTextarea=ScTextarea$1,defineCustomElement=defineCustomElement$1;export{ScTextarea,defineCustomElement};

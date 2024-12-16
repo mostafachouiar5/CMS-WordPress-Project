@@ -1,0 +1,13 @@
+sc-toggle.sc-collapsible-row {
+  --sc-toggle-header-padding: var(--sc-toggle-padding) 0;
+  --sc-toggle-content-padding: 0;
+  --sc-toggle-background-color: transparent;
+  width: 100%;
+  border-top: solid var(--sc-input-border-width) var(--sc-input-border-color);
+}
+.wp-block-surecart-collapsible-row {
+  margin-bottom: 0 !important;
+}
+sc-toggle.sc-collapsible-row::part(body) {
+  border-top: 0;
+}

@@ -1,0 +1,1 @@
+!function(){"use strict";var e=window.wp.blocks,r=window.wp.i18n,t=window.wp.blockEditor,c=JSON.parse('{"UU":"surecart/product-selected-price-interval"}');(0,e.registerBlockType)(c.UU,{edit:()=>{const e=(0,t.useBlockProps)();return React.createElement("span",e,(0,r.__)("/ mo","surecart"))}})}();

@@ -1,0 +1,1 @@
+import{S as ScSpinner$1,d as defineCustomElement$1}from"./sc-spinner2.js";const ScSpinner=ScSpinner$1,defineCustomElement=defineCustomElement$1;export{ScSpinner,defineCustomElement};

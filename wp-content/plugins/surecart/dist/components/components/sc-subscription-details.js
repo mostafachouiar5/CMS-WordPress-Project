@@ -1,0 +1,1 @@
+import{S as ScSubscriptionDetails$1,d as defineCustomElement$1}from"./sc-subscription-details2.js";const ScSubscriptionDetails=ScSubscriptionDetails$1,defineCustomElement=defineCustomElement$1;export{ScSubscriptionDetails,defineCustomElement};

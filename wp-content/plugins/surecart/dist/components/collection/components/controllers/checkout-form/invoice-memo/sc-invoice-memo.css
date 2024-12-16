@@ -1,0 +1,15 @@
+:host {
+  display: block;
+}
+
+.invoice-memo {
+  font-size: var(--sc-font-size-small);
+  line-height: var(--sc-line-height-dense);
+  color: var(--sc-input-label-color);
+  display: grid;
+  gap: 5px;
+}
+.invoice-memo__content {
+  text-align: left;
+  color: var(--sc-input-help-text-color);
+}

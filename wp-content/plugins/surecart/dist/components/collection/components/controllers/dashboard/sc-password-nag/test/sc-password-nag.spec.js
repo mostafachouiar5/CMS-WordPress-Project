@@ -1,0 +1,1 @@
+import{newSpecPage}from"@stencil/core/testing";import{ScPasswordNag}from"../sc-password-nag";describe("sc-password-nag",(()=>{it("renders",(async()=>{const s=await newSpecPage({components:[ScPasswordNag],html:"<sc-password-nag></sc-password-nag>"});expect(s.root).toMatchSnapshot()}))}));

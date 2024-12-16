@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-product-selected-price",(()=>{it("renders",(async()=>{const e=await newE2EPage();await e.setContent("<sc-product-selected-price></sc-product-selected-price>");const t=await e.find("sc-product-selected-price");expect(t).toHaveClass("hydrated")}))}));

@@ -1,0 +1,150 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "surecart/product-buy-button",
+  "title": "Product Buy Button",
+  "description": "Display the product buy button.",
+  "version": "1.0.0",
+  "category": "surecart-product-page",
+  "icon": "media-interactive",
+  "example": {},
+  "ancestor": [
+    "surecart/product-buy-buttons",
+    "surecart/product-template"
+  ],
+  "usesContext": [
+    "surecart/product",
+    "postId"
+  ],
+  "attributes": {
+    "add_to_cart": {
+      "type": "boolean",
+      "default": false
+    },
+    "text": {
+      "type": "string"
+    },
+    "out_of_stock_text": {
+      "type": "string",
+      "default": "Sold Out"
+    },
+    "unavailable_text": {
+      "type": "string",
+      "default": "Unavailable"
+    },
+    "width": {
+      "type": "number",
+      "default": 100
+    }
+  },
+  "supports": {
+    "interactivity": true,
+    "anchor": true,
+    "spacing": {
+      "__experimentalSkipSerialization": true,
+      "padding": [
+        "horizontal",
+        "vertical"
+      ],
+      "margin": [
+        "top",
+        "bottom"
+      ]
+    },
+    "color": {
+      "__experimentalSkipSerialization": true,
+      "gradients": true,
+      "__experimentalDefaultControls": {
+        "background": true,
+        "text": true
+      }
+    },
+    "__experimentalSelector": ".wp-block-button .wp-block-button__link",
+    "typography": {
+      "fontSize": true,
+      "__experimentalFontFamily": true,
+      "__experimentalFontWeight": true,
+      "__experimentalFontStyle": true,
+      "__experimentalTextTransform": true
+    },
+    "reusable": false,
+    "__experimentalBorder": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true,
+      "__experimentalSkipSerialization": true,
+      "__experimentalDefaultControls": {
+        "color": true,
+        "radius": true,
+        "style": true,
+        "width": true
+      }
+    }
+  },
+  "variations": [
+    {
+      "name": "cart",
+      "title": "Add To Cart Button",
+      "icon": "cart",
+      "description": "Add a button to add the product to the cart.",
+      "attributes": {
+        "add_to_cart": true,
+        "text": "Add To Cart"
+      },
+      "isDefault": true,
+      "isActive": [
+        "add_to_cart"
+      ],
+      "scope": [
+        "inserter",
+        "block",
+        "transform"
+      ]
+    },
+    {
+      "name": "buy",
+      "title": "Buy Now Button",
+      "icon": "store",
+      "description": "Add a button to buy the product.",
+      "attributes": {
+        "add_to_cart": false,
+        "text": "Buy Now"
+      },
+      "isActive": [
+        "add_to_cart"
+      ],
+      "scope": [
+        "inserter",
+        "block",
+        "transform"
+      ]
+    }
+  ],
+  "styles": [
+    {
+      "name": "fill",
+      "label": "Fill",
+      "isDefault": true
+    },
+    {
+      "name": "outline",
+      "label": "Outline"
+    }
+  ],
+  "textdomain": "surecart",
+  "render": "file:./view.php",
+  "editorScript": "file:./index.js",
+  "editorStyle": [
+    "surecart-wp-button"
+  ],
+  "style": [
+    "surecart-wp-button",
+    "surecart-spinner",
+    "file:./style-index.css"
+  ],
+  "viewScriptModule": [
+    "@surecart/checkout",
+    "@surecart/cart"
+  ]
+}

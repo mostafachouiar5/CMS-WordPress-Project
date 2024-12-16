@@ -1,0 +1,23 @@
+{
+	"apiVersion": 2,
+	"name": "surecart/heading",
+	"title": "Title/Heading Section",
+	"description": "Displays a title/heading section",
+	"category": "surecart",
+	"keywords": ["heading", "title"],
+  "textdomain": "surecart",
+	"ancestor": ["surecart/form", "surecart/card", "surecart/dashboard-page"],
+	"supports": {
+		"reusable": false,
+		"html": false,
+		"order-summary": true
+	},
+	"attributes": {
+		"title": {
+			"type": "string"
+		},
+		"description": {
+			"type": "string"
+		}
+	}
+}

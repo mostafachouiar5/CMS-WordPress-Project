@@ -1,0 +1,1 @@
+!function(){"use strict";var t=window.wp.blocks,e=window.wp.blockEditor,r=window.wp.i18n,i=JSON.parse('{"UU":"surecart/price-trial"}');(0,t.registerBlockType)(i.UU,{edit:t=>{let{context:i}=t;const c=(0,e.useBlockProps)(),{trial_text:n}=i["surecart/price"];return React.createElement("div",c,n||(0,r.__)("Starting in 15 days","surecart"))}})}();

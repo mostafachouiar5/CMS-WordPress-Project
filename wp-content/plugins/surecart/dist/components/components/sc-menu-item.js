@@ -1,0 +1,1 @@
+import{S as ScMenuItem$1,d as defineCustomElement$1}from"./sc-menu-item2.js";const ScMenuItem=ScMenuItem$1,defineCustomElement=defineCustomElement$1;export{ScMenuItem,defineCustomElement};

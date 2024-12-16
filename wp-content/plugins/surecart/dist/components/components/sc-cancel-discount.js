@@ -1,0 +1,1 @@
+import{S as ScCancelDiscount$1,d as defineCustomElement$1}from"./sc-cancel-discount2.js";const ScCancelDiscount=ScCancelDiscount$1,defineCustomElement=defineCustomElement$1;export{ScCancelDiscount,defineCustomElement};

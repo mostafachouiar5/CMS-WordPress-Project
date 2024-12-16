@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("checkout-unsaved-changes-warning",(()=>{it("renders",(async()=>{const e=await newE2EPage();await e.setContent("<sc-checkout-unsaved-changes-warning></sc-checkout-unsaved-changes-warning>");const n=await e.find("sc-checkout-unsaved-changes-warning");expect(n).toHaveClass("hydrated")}))}));

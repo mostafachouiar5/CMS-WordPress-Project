@@ -1,0 +1,9 @@
+:host {
+  display: block;
+  position: relative;
+}
+
+.subscription-payment {
+  display: grid;
+  gap: 0.5em;
+}

@@ -1,0 +1,2 @@
+import{r as s}from"./p-e97fde0a.js";import{t}from"./p-6ec14893.js";import"./p-3f6362a4.js";const r=class{constructor(t){s(this,t);this.value=0;this.interval="";this.every="/";this.fallback=""}render(){return t(this.value,this.interval,` ${this.every}`,this.fallback)}};export{r as sc_format_interval};
+//# sourceMappingURL=p-6b1500e2.entry.js.map

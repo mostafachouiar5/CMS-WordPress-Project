@@ -1,0 +1,15 @@
+{
+	"apiVersion": 2,
+	"name": "surecart/checkout-errors",
+	"title": "Checkout Errors",
+	"description": "Display any checkout-related errors. By default the checkout form shows these at the top. Add this block to change the location.",
+	"category": "surecart",
+	"keywords": ["error", "notice", "checkout"],
+  "textdomain": "surecart",
+	"ancestor": ["surecart/form"],
+	"supports": {
+		"reusable": false,
+		"html": false,
+		"className": false
+	}
+}

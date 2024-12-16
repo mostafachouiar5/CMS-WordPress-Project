@@ -1,0 +1,1 @@
+import{newSpecPage}from"@stencil/core/testing";import{ScEmpty}from"../sc-empty";describe("sc-empty",(()=>{it("renders",(async()=>{const t=await newSpecPage({components:[ScEmpty],html:"<sc-empty></sc-empty>"});expect(t.root).toMatchSnapshot()}))}));

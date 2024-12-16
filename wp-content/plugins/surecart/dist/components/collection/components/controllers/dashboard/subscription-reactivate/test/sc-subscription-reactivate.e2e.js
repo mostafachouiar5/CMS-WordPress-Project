@@ -1,0 +1,1 @@
+import{newE2EPage}from"@stencil/core/testing";describe("sc-subscription-reactivate",(()=>{it("renders",(async()=>{const t=await newE2EPage();await t.setContent("<sc-subscription-reactivate></sc-subscription-reactivate>");const e=await t.find("sc-subscription-reactivate");expect(e).toHaveClass("hydrated")}))}));

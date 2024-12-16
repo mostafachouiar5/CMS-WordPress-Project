@@ -1,0 +1,35 @@
+:host {
+  display: block;
+}
+
+::slotted([slot=icon]) {
+  display: block;
+  font-size: 24px;
+}
+
+.payment-selected {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sc-spacing-x-small);
+}
+.payment-selected__label {
+  color: var(--sc-input-label-color);
+  line-height: var(--sc-line-height-dense);
+  font-size: var(--sc-font-size-medium);
+}
+.payment-selected__instructions {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1em;
+}
+.payment-selected__instructions svg {
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+}
+.payment-selected__instructions-text {
+  color: var(--sc-input-label-color);
+  font-size: var(--sc-font-size-small);
+  line-height: var(--sc-line-height-dense);
+}

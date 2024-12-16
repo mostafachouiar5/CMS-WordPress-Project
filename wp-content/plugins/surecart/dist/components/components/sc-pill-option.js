@@ -1,0 +1,1 @@
+import{S as ScPillOption$1,d as defineCustomElement$1}from"./sc-pill-option2.js";const ScPillOption=ScPillOption$1,defineCustomElement=defineCustomElement$1;export{ScPillOption,defineCustomElement};

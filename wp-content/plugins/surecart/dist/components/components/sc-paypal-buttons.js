@@ -1,0 +1,1 @@
+import{S as ScPaypalButtons$1,d as defineCustomElement$1}from"./paypal-buttons.js";const ScPaypalButtons=ScPaypalButtons$1,defineCustomElement=defineCustomElement$1;export{ScPaypalButtons,defineCustomElement};
